@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "amount": 250,
+      "fluid": "farmingtales:warped_grape_juice"
+    }
+  ],
+  "results": [
+    {
+      "item": "nethervinery:warped_grapejuice"
+    }
+  ]
+}

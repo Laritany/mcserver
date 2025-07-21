@@ -1,0 +1,291 @@
+{
+  "profession": "chefsdelight:delightchef",
+  "removeOtherTrades": true,
+  "maxTrades": 50,
+  "trades": [
+    {
+      "offer": {"itemKey": "farmingtales:house_mianbaoxiaodian","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 5000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farmingtales:house_dangaodian","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 4000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "bakery:small_cooking_pot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "bakery:rolling_pin","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 6,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "bakery:bread_knife","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:cooking_hat","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:chefs_jacket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:chefs_pants","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:chefs_boots","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "bakery:jar","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "bakery:cake_dough","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 23,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "bakery:street_sign","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 10,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vintagedelight:white_chefs_hat","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vintagedelight:mason_jar","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 8,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:painting","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:kernels","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:oat_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler13"
+    },
+    {
+      "offer": {"itemKey": "kubejs:wheat_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:barley_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "farm_and_charm:crafting_bowl","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 15,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+
+
+
+
+    {
+      "offer": {"itemKey": "natures_spirit:olives","amount": 12,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 78,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:passion_fruit","amount": 12,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 65,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:orange","amount": 12,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 74,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:dragon_fruit","amount": 10,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 65,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:blood_orange","amount": 10,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 79,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:yucca_fruit","amount": 12,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 62,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:currant","amount": 12,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 85,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:aloe_leaves","amount": 12,"priceModifier": 0},
+      "request": {"itemKey": "kubejs:coin","amount": 99,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "brewinandchewin:coaster","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 29,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "another_furniture:service_bell","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 13,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:blackboard_menu","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 6,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:poster","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "bakery:street_sign","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 15,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+
+    {
+      "offer": {"itemKey": "bakery:wall_display","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 33,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "bakery:cupcake_display","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 36,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "bakery:tray","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 29,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "bakery:breadbox","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "bakery:cake_stand","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 42,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "bakery:cupcake_display","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 23,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "autumnity:sap_bottle","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 45,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "another_furniture:service_bell","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 13,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    }
+  ]
+}

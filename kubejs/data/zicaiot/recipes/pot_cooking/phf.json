@@ -1,0 +1,18 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {"item": "minecraft:pufferfish"},
+    {"item": "minecraft:poisonous_potato"},
+    {"item": "farm_and_charm:rotten_tomato"},
+    {"item": "minecraft:rotten_flesh"},
+    {"item": "meadow:alpine_salt"},
+    {"item": "minecraft:sugar"}
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "kubejs:phf",
+    "count": 1
+  }
+}

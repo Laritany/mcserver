@@ -1,0 +1,17 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "tag": "meadow:cheese"
+    }
+  ],
+  "item": "meadow:cheese_tart",
+  "count": 4,
+  "experience": 0.35
+}

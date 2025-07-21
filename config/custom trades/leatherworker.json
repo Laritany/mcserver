@@ -1,0 +1,91 @@
+{
+  "profession": "minecraft:leatherworker",
+  "removeOtherTrades": true,
+  "maxTrades": 20,
+  "trades": [
+    {
+      "offer": {"itemKey": "quark:seed_pouch","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":30,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "nethervinery:warped_nether_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "nethervinery:crimson_nether_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "createdieselgenerators:track_layers_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "minecraft:saddle","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":27,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:rams_horns_chestplate","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":150,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:dreams_mask_chestplate","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":150,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "travelersbackpack:standard","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":180,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "minecraft:item_frame","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "minecraft:glow_item_frame","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":25,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "leath"
+    },
+    {
+      "offer": {"itemKey": "minecraft:leather","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 10,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food14"
+    },
+    {
+      "offer": {"itemKey": "minecraft:rabbit_hide","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 6,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food14"
+    }
+  ]
+}

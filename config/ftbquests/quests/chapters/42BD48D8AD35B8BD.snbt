@@ -1,0 +1,436 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "42BD48D8AD35B8BD"
+	group: ""
+	icon: "minecraft:villager_spawn_egg"
+	id: "42BD48D8AD35B8BD"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:textures/gui/ftb/bj.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/villager_spawn_egg"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: -6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			disable_toast: true
+			id: "1131C04F9EB5DF95"
+			rewards: [{
+				auto: "no_toast"
+				id: "06E6C0D2617E9D58"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "石匠"
+			tasks: [{
+				id: "11693CCF8EAA9093"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5C985AF35D5F60EF"
+			rewards: [{
+				auto: "no_toast"
+				id: "78D114C6BF7C5DAA"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "屠夫"
+			tasks: [{
+				id: "3A10E3DB5D0248B1"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "28D49B8851846DB9"
+			rewards: [{
+				auto: "no_toast"
+				id: "61270BAC0F745724"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "制图师"
+			tasks: [{
+				id: "6226EBD6D055BCF0"
+				item: "minecraft:cartography_table"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7C93720DCD354316"
+			rewards: [{
+				auto: "no_toast"
+				id: "44B4B0C48125BA61"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "牧师"
+			tasks: [{
+				id: "553C260C0D8CD793"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0C9BEDFECDD4D117"
+			rewards: [{
+				auto: "no_toast"
+				id: "453BD57F9ADE746D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "农夫"
+			tasks: [{
+				id: "71893777B5F96E08"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3773F93316417CC7"
+			rewards: [{
+				auto: "no_toast"
+				id: "39E2FD6C0410438D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "渔夫"
+			tasks: [{
+				id: "4F52DFB9D7F50084"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "12F42E3ECF717582"
+			rewards: [{
+				auto: "no_toast"
+				id: "411A8804DCDE3849"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "制箭师"
+			tasks: [{
+				id: "43BEBCA23ABF497B"
+				item: "minecraft:fletching_table"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "17D3BD1F8E5234B0"
+			rewards: [{
+				auto: "no_toast"
+				id: "2384D287ED5BA644"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "皮匠"
+			tasks: [{
+				id: "0CE91C984E1E24A3"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "49763F944E0B4699"
+			rewards: [{
+				auto: "no_toast"
+				id: "4510E69A84D7B4E3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "图书管理员"
+			tasks: [{
+				id: "7352F1451485337C"
+				item: "minecraft:lectern"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "499B257BBD06EC12"
+			rewards: [{
+				auto: "no_toast"
+				id: "276C086C44435FD1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "牧羊人"
+			tasks: [{
+				id: "6EC4F7237EF7456A"
+				item: "minecraft:loom"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "755B2A866CBFF009"
+			rewards: [{
+				auto: "no_toast"
+				id: "7DC519A567A5BF46"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "铁匠"
+			tasks: [{
+				id: "7FDF5DAA9D99CEAF"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "05FB13CCF28D0B02"
+			rewards: [{
+				auto: "no_toast"
+				id: "2199846C5F6D1032"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "制剑师"
+			tasks: [{
+				id: "6780B298430FCF15"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0F27905C7E961CD5"
+			rewards: [{
+				auto: "no_toast"
+				id: "46701FD6AA19DE10"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "采集员"
+			tasks: [{
+				id: "2999CA93AD7EFDBC"
+				item: "biomeswevegone:foragers_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3A613C77C472CEF6"
+			rewards: [{
+				auto: "no_toast"
+				id: "2E9074C198941098"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "奶酪制造商"
+			tasks: [{
+				id: "78B059C3EB58BBF3"
+				item: "meadow:cheese_rack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "38813F44A18DAFF3"
+			rewards: [{
+				auto: "no_toast"
+				id: "555A9329C3C4DBCD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "隐士"
+			tasks: [{
+				id: "5291BAC714BABA17"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "19B1D570276D7D19"
+			rewards: [{
+				auto: "no_toast"
+				id: "4E3530E9E67AA516"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "酿酒师"
+			tasks: [{
+				id: "32658850D82635F4"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5E5734B5EFE1639F"
+			rewards: [{
+				auto: "no_toast"
+				id: "59311089DED7919A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "盔甲匠"
+			tasks: [{
+				id: "62722BCDA3E889E6"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "615D52EB6ACFF649"
+			rewards: [{
+				auto: "no_toast"
+				id: "57DE9B100C19DADF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "沙滩商人"
+			tasks: [{
+				id: "5411FF7E5F946CB1"
+				item: "beachparty:palm_bar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5F5B7A80E4B94993"
+			rewards: [{
+				auto: "no_toast"
+				id: "0C3C620D1DB90E40"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3481074C4C1F9069"
+				item: "biomeswevegone:foragers_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7FB8BB6386EA7D1A"
+			rewards: [{
+				auto: "no_toast"
+				id: "09A0FC7F54E29A9F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "23A9F95F3100ADE6"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "面点师"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "665BF8584C8B81C6"
+			rewards: [{
+				auto: "no_toast"
+				id: "64B281271565CA43"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "17CE2C6ED9C9D97E"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "厨师"
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: "村民职业"
+}

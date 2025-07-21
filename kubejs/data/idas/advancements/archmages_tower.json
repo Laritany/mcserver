@@ -1,0 +1,44 @@
+{
+  "parent": "idas:idas_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_block"
+    },
+    "title": {
+      "translate": "大法师之塔"
+    },
+    "description": {
+      "translate": "你能征服这座充满诡谲的魔法塔吗？"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "in_archmages_tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "idas:ars_nouveau/archmages_tower"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_archmages_tower"
+    ]
+  ]
+}

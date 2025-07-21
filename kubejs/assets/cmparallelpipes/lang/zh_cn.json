@@ -1,0 +1,8 @@
+{
+"block.cmparallelpipes.locked_fluid_pipe": "锁定流体管道",
+"item.cmparallelpipes.pipe_locker": "管道锁定器",
+"cmparallelpipes.ponder.locked_pipe.header": "锁定流体管道",
+"cmparallelpipes.ponder.locked_pipe.text_1": "流体管道将始终与其他流体管道连接",
+"cmparallelpipes.ponder.locked_pipe.text_2": "任何脚手架方块均可用于锁定管道连接状态，原理类似包裹管道",
+"cmparallelpipes.ponder.locked_pipe.text_3": "可使用扳手重新解锁流体管道"
+}

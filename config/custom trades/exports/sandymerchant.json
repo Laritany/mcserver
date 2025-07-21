@@ -1,0 +1,438 @@
+{
+  "profession": "beachparty:sandymerchant",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "beachparty:palm_sprout",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:coconut_open",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:palm_torch_item",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 17,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:palm_leaves",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:thatch",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 9,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:palm_planks",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 22,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:sandwaves",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 4,
+      "priceMultiplier": 0.35,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:pool_noodle",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 27,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.75,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:palm_floorboard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 22,
+      "priceMultiplier": 0.35,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:beach_parasol",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.45,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:beach_towel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.15,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:overgrown_disc",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 36,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.5,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:sand_bucket_filled",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 11,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.75,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:radio",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 44,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.75,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:beach_ball",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 51,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.4,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:beach_goal",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 37,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 1,
+      "priceMultiplier": 0.3,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:coconut_cocktail",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 1,
+      "priceMultiplier": 0.45,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:mini_fridge",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:trunks",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 41,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:bikini",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 56,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:rubber_ring_blue",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 61,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:rubber_ring_pink",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 58,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:message_in_a_bottle",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 22,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:floaty_boat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 39,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "beachparty:beach_hat",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 45,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 1,
+      "priceMultiplier": 0.25,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

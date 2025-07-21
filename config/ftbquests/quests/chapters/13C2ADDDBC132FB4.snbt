@@ -1,0 +1,840 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "13C2ADDDBC132FB4"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:player_head"
+		tag: {
+			SkullOwner: {
+				Id: [I;
+					-1709117467
+					580472379
+					-2118850039
+					-2140227508
+				]
+				Name: "SU_MMAMA"
+				Properties: {
+					textures: [{
+						Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjM1ODI5OTcwNywKICAicHJvZmlsZUlkIiA6ICI5YTIwZWZlNTIyOTk0ZTNiODFiNGVhMDk4MDZlYjg0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTVV9NTUFNQSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NDlmYmJiMGIwM2Q1Yjg4ZjU0Nzc1MGMyNjZlNjdlNjRkNGI0ZDI3NzUwN2JkNWU1NGJmODRjMWQyOWQzMzM2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+					}]
+				}
+			}
+		}
+	}
+	id: "13C2ADDDBC132FB4"
+	images: [{
+		height: 6.8d
+		image: "minecraft:textures/gui/ftb/book2.png"
+		rotation: 0.0d
+		width: 13.65d
+		x: -25.7d
+		y: -20.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6- X键 &7/翻滚 "
+				"&6- V键 &7/打开箭袋"
+				"&6- C键 &7/趴下"
+				"&6- Z键 &7/坐下"
+				"&6- T键 &7/聊天"
+				"&6- Enter&7 /输入指令"
+				""
+				""
+				"&e按[Y]关闭小地图洞穴模式提高游戏帧数"
+			]
+			id: "71860DD1AE00F6D3"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0D5AC7966E8F90F6"
+					item: {
+						Count: 1
+						id: "ftbquests:book"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"§6农场笔记\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "27D951AA21EC90B5"
+					item: {
+						Count: 1
+						id: "sellingbin:selling_bin"
+						tag: {
+							material: "wood"
+							mode: "player_bound"
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "2E681AAEF005787A"
+					item: "farmingtales:house_zc"
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "577C970C13918D0D"
+					item: "sereneseasons:calendar"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "4FFA3A6C3E87AEEC"
+					item: "supplementaries:safe"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "4899E98C6DB39DC5"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "364CF0EE44B739F6"
+					item: "supplementaries:key"
+					team_reward: false
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "&6查看键位"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4D90DA867C89751E"
+				type: "dimension"
+			}]
+			title: "基础按键"
+			x: -30.0d
+			y: -21.5d
+		}
+		{
+			description: [
+				"&6alt+鼠标右键&7 可抱起生物 也可以抱起部分方块[箱子]"
+				""
+				"如果抱起的生物或方块比较重，则会影响你的行走速度"
+				""
+				"你还可以将抱起的生物右键放置在其他生物上[叠叠乐]"
+				"{image:minecraft:textures/gui/ftb/bq.png width:100 height:100 align:center}"
+				"{image:minecraft:textures/gui/ftb/bq2.png width:100 height:100 align:center}"
+			]
+			disable_toast: true
+			icon: "minecraft:chicken_spawn_egg"
+			id: "4ED1148E6CF70D71"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2244EF22B1F03013"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 10
+					id: "65164EBE869C7724"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "0A5DCBA1A5C9C1B8"
+					item: "astikorcarts:supply_cart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "192AC11816C9E5DB"
+				type: "checkmark"
+			}]
+			title: "抱起生物的方法"
+			x: -27.0d
+			y: -20.5d
+		}
+		{
+			description: [
+				"&6- F3+F4&7 /切换游戏模式"
+				"&6- F3+F5&7 /切换时间"
+				"&6- F3+F6&7 /切换天气"
+				"&6- F3+F7&7 /切换难度"
+			]
+			disable_toast: true
+			icon: "furniture:oak_grandfather_clock"
+			id: "33A7D7EEDF4AA496"
+			rewards: [{
+				auto: "no_toast"
+				id: "79E72A6BE1766C45"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "472E131F29F6B843"
+				type: "checkmark"
+			}]
+			title: "快捷菜单"
+			x: -30.0d
+			y: -20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "travelersbackpack:standard"
+				tag: {
+					StarterUpgrades: {
+						Items: [{
+							Count: 1b
+							id: "travelersbackpack:tanks_upgrade"
+						}]
+					}
+				}
+			}
+			id: "00FA93C69FD3A234"
+			rewards: [{
+				auto: "no_toast"
+				id: "7E100DA18CD85AC5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "B键打开背包"
+			tasks: [{
+				id: "14A9A8F44C2BD1E8"
+				type: "checkmark"
+			}]
+			title: "背包快捷键"
+			x: -29.0d
+			y: -20.5d
+		}
+		{
+			description: [
+				"&6- ~键 &7/连锁"
+				""
+				"按住~键 挖矿可以进行连锁采集"
+				""
+				"按住~键 + shift键 再使用滚轮可调节连锁模式"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "589602CE50A2D7C8"
+			rewards: [{
+				auto: "no_toast"
+				id: "33B29503DAA5DB22"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1FB4E9A8AE7C22D0"
+				type: "checkmark"
+			}]
+			title: "连锁"
+			x: -28.0d
+			y: -21.5d
+		}
+		{
+			description: [
+				"&6- 背包中选中物品按R键 &7/查看配方"
+				"&6- 背包中选中物品按U键&7 /查看用途"
+				"&6- ctrl+o&7 /打开或关闭JEI管理器"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "567C89DA8F5A3F15"
+			rewards: [{
+				auto: "no_toast"
+				id: "36FAEA5457D579F4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1A6F4C0DD82F9E8C"
+				type: "checkmark"
+			}]
+			title: " 查看物品的用处"
+			x: -28.0d
+			y: -20.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "sellingbin:selling_bin"
+				tag: {
+					material: "wood"
+					mode: "player_bound"
+				}
+			}
+			id: "0AADAA52E876E00C"
+			rewards: [{
+				count: 10
+				id: "0057A96B1B3BC0BE"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			subtitle: "将带有价格的物品放入这个箱子里，等待倒计时结束就能拿到钱了！"
+			tasks: [{
+				id: "7519AC20C2B6CE9B"
+				type: "checkmark"
+			}]
+			title: "出货箱"
+			x: -29.0d
+			y: -21.5d
+		}
+		{
+			description: [
+				"非正版玩家请关闭 Fresh Moves 材质包"
+				""
+				"否则会出现黑眼圈！"
+				""
+				"{image:minecraft:textures/gui/ftb/fas.png width:500 height:90 align:center fit:true}"
+				""
+				"{image:minecraft:textures/gui/ftb/fes.png width:90 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/emote/facepalm.png"
+				}
+			}
+			id: "51655C3C4D2F807A"
+			subtitle: "皮肤黑眼圈问题！"
+			tasks: [{
+				id: "6918C9FB4CD18FF7"
+				title: "提示"
+				type: "checkmark"
+			}]
+			x: -24.5d
+			y: -21.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "create:schematic"
+				tag: {
+					Anchor: {
+						X: 0
+						Y: 0
+						Z: 0
+					}
+					Bounds: [
+						6
+						5
+						6
+					]
+					Deployed: 0b
+					File: "半自动酿酒机.nbt"
+					Mirror: "NONE"
+					Owner: "SU_MMAMA"
+					Rotation: "NONE"
+				}
+			}
+			id: "66489C18CE4D67F4"
+			rewards: [
+				{
+					id: "593E3B18649D1F26"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								2
+								4
+								3
+							]
+							Deployed: 0b
+							File: "沼气发动机.nbt"
+							Mirror: "NONE"
+							Owner: "SU_MMAMA"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5B7CB02DE960DE84"
+					item: "kubejs:poop"
+					type: "item"
+				}
+			]
+			subtitle: "更好的动力源！"
+			tasks: [{
+				id: "200A61CB3A2AA469"
+				type: "checkmark"
+			}]
+			title: "机械动力/沼气发动机"
+			x: -27.0d
+			y: -19.5d
+		}
+		{
+			description: ["&6- O键 &7/光影选择"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "amendments:block/music_discs/music_disc_11"
+				}
+			}
+			id: "64C690ECC6494441"
+			subtitle: "帧数不高？试试换个光影！"
+			tasks: [{
+				id: "01934714DE0475CA"
+				title: "光影选择！"
+				type: "checkmark"
+			}]
+			title: "光影"
+			x: -27.0d
+			y: -21.5d
+		}
+		{
+			description: [
+				""
+				"{image:minecraft:textures/gui/ftb/skill.png width:100 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "justleveling:textures/skill/intelligence/locked_0.png"
+				}
+			}
+			id: "33C593C8CAE17C82"
+			subtitle: "可以使用经验值来提升自己的属性"
+			tasks: [{
+				id: "3D43365974132F54"
+				title: "技能"
+				type: "checkmark"
+			}]
+			x: -30.0d
+			y: -19.5d
+		}
+		{
+			description: ["-造车需要沉浸式飞机的机身和引擎"]
+			icon: "automobility:crowbar"
+			id: "1CC249F52D54FF90"
+			rewards: [{
+				auto: "enabled"
+				id: "7E8125798444433B"
+				item: {
+					Count: 1
+					id: "minecraft:shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "immersive_aircraft:engine"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "immersive_aircraft:hull"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "automobility:front_attachment"
+									tag: {
+										attachment: "automobility:crop_harvester"
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "automobility:automobile_assembler"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "automobility:auto_mechanic_table"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "造辆车来帮助你收菜吧！"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "5BFA7D30DD974DAF"
+				item: { Count: 100, id: "kubejs:coin" }
+				type: "item"
+			}]
+			title: "飞车奇匠"
+			x: -29.0d
+			y: -19.5d
+		}
+		{
+			icon: "immersive_aircraft:quadrocopter"
+			id: "0358A11DA4F450C5"
+			rewards: [{
+				auto: "enabled"
+				id: "74C1DCAD6B000756"
+				item: "immersive_aircraft:quadrocopter"
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "想要造建筑更舒适一些吗？试试这个！"
+			tasks: [{
+				id: "7FE72ADA84377330"
+				type: "checkmark"
+			}]
+			title: "飞机！"
+			x: -28.0d
+			y: -19.5d
+		}
+		{
+			icon: "wildernature:bounty_board"
+			id: "0C9A9B063CD1BE01"
+			rewards: [{
+				id: "6D20E19017E91D97"
+				item: "wildernature:bounty_board"
+				type: "item"
+			}]
+			subtitle: "完成赏金板的任务可获得独特战利品"
+			tasks: [{
+				id: "2CEFA2F643ADE8B5"
+				type: "checkmark"
+			}]
+			title: "赏金任务"
+			x: -30.0d
+			y: -18.5d
+		}
+		{
+			description: ["试试使用原木和铜锭来制作一些盔甲和武器"]
+			icon: {
+				Count: 1
+				id: "kubejs:wood_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C65714E7C435D23"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "43CF171ED73AAD35"
+					item: {
+						Count: 1
+						id: "kubejs:wood_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "5ED1C679B2126907"
+					item: {
+						Count: 1
+						id: "kubejs:mubang"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "436BE0CA67CC6EE6"
+					item: {
+						Count: 1
+						id: "kubejs:copper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "需要一些前期能快速获得的盔甲吗？"
+			tasks: [{
+				id: "2778E9F9D76D4015"
+				type: "checkmark"
+			}]
+			title: "盔甲扩展"
+			x: -29.0d
+			y: -18.5d
+		}
+		{
+			icon: "minecraft:villager_spawn_egg"
+			id: "07EDD82641D02620"
+			rewards: [{
+				count: 80
+				id: "126F5CF25BA6CB7B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			subtitle: "与村民交易的货币变成了金币"
+			tasks: [{
+				id: "38444F402AE78662"
+				type: "checkmark"
+			}]
+			title: "村民交易"
+			x: -28.0d
+			y: -18.5d
+		}
+		{
+			description: [
+				"通过吃不同的食物增加血量上限"
+				"通过技能也获得血量上限"
+				""
+				"通过食物的营养可以获得临时血量上限"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/attribute/attack_damage.png"
+				}
+			}
+			id: "23158D394B699E1C"
+			rewards: [{
+				id: "323EE524D172AE32"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			subtitle: "血量太低了吗？"
+			tasks: [{
+				id: "2AD49702CAA755AB"
+				type: "checkmark"
+			}]
+			title: "血量"
+			x: -27.0d
+			y: -18.5d
+		}
+		{
+			description: ["暂时还没有"]
+			id: "59A261513BFCE39F"
+			rewards: [{
+				id: "63EFD86C1C7A3C7E"
+				item: "autumnity:turkey_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21B5D10D6D768E7E"
+				type: "checkmark"
+			}]
+			title: "其他内容介绍..."
+			x: -22.5d
+			y: -20.5d
+		}
+		{
+			description: ["把金币扔到地上刷新一下tag标签就能合并了"]
+			icon: "kubejs:coin"
+			id: "557A55F0FDA77102"
+			rewards: [{
+				id: "6C32851907724AAD"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "村民交易的金币和出货箱出售的金币无法堆叠该怎么办？"
+			tasks: [{
+				id: "2730579FAD4E93DE"
+				type: "checkmark"
+			}]
+			title: "金币堆叠"
+			x: -23.5d
+			y: -21.5d
+		}
+		{
+			description: [
+				"二群：665313861"
+				"三群：463544787"
+				"四群：654516653"
+				""
+				""
+				"感觉生物太强了可以选择关闭 模组"
+				""
+				"&6Mob AI Tweaks"
+				"&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "vintagedelight:textures/mob_effect/regulated.png"
+				}
+			}
+			id: "40DC78C8BC75CB1A"
+			subtitle: "如果遇到Bug可以加入Q群反馈"
+			tasks: [{
+				id: "5266242D20062D6B"
+				type: "checkmark"
+			}]
+			title: "Bug反馈"
+			x: -22.5d
+			y: -21.5d
+		}
+		{
+			description: [
+				"关闭以下模组"
+				""
+				"&6粒子美化 | Subtle Effects"
+				""
+				"&6动态环境/动态环绕  |  Dynamic surroundings"
+				""
+				"&r"
+				"还是卡？"
+				""
+				"降低渲染距离"
+				"再按 &6O键&r 关闭光影"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "wildernature:item/diamond_ammunition"
+				}
+			}
+			id: "3BBD330EED452812"
+			subtitle: "如何提帧？"
+			tasks: [{
+				id: "578029154FD93999"
+				type: "checkmark"
+			}]
+			title: "暂无"
+			x: -21.5d
+			y: -21.5d
+		}
+		{
+			description: [
+				"拿着升级套件右键箱子升级你的箱子！"
+				"仅限原版箱子"
+			]
+			icon: "ironchests:copper_chest_upgrade"
+			id: "4C8CF25EAEDCC5A6"
+			rewards: [
+				{
+					id: "64740A925C396353"
+					item: "ironchests:copper_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "3B1F676B05F5153F"
+					item: "ironchests:iron_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "7DF35C0FC55C29BB"
+					item: "ironchests:gold_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "4C2DB1966B32964F"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			subtitle: "使用升级套件来升级你的箱子"
+			tasks: [{
+				id: "100397A5FE97851F"
+				type: "checkmark"
+			}]
+			title: "更多储物空间"
+			x: -24.5d
+			y: -20.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/mob_effect/flammable.png"
+				}
+			}
+			id: "4B1CA46D6ADE2DD3"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule crazyMobs true"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/mob_effect/flammable.png"
+					}
+				}
+				id: "4BFCDEEE9C36F62D"
+				team_reward: false
+				title: "狂乱！"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "需要管理员权限"
+			tasks: [{
+				id: "2B49E30FBD1BF256"
+				optional_task: true
+				title: "开启生物强化"
+				type: "checkmark"
+			}]
+			x: -20.75d
+			y: -17.9d
+		}
+		{
+			description: ["使用捕捞网右键将它们打捞起来！"]
+			icon: "lilis_lucky_lures:fishing_net"
+			id: "013F5D60CAC293C0"
+			rewards: [{
+				id: "37937A53822C5988"
+				item: "lilis_lucky_lures:fishing_net"
+				type: "item"
+			}]
+			subtitle: "在河流或海洋中你会遇到部分漂浮的箱子"
+			tasks: [{
+				id: "47583586A13DFD27"
+				type: "checkmark"
+			}]
+			title: "捕鱼网"
+			x: -23.5d
+			y: -20.5d
+		}
+	]
+	title: "农场物语[键位]"
+}

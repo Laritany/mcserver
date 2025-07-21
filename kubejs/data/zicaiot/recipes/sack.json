@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    "C C",
+    "CCC"
+  ],
+  "key": {
+    "B": {"item": "farmersdelight:rope"},
+    "C": {"item": "farmersdelight:canvas"}
+  },
+  "result": {
+    "item": "supplementaries:sack",
+    "count":1
+  }
+}

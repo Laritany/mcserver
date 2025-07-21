@@ -1,0 +1,204 @@
+{
+  "profession": "minecraft:weaponsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 50,
+  "trades": [
+    {
+      "offer": {"itemKey": "farmingtales:house_zahuoshangdian","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 23000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "supplementaries:wrench","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "supplementaries:slingshot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 30,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:shears","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 15,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "quark:trowel","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:name_tag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 30,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:flint_and_steel","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 12,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {
+        "itemKey": "farmingtales:blind_box_trim_templates",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 200,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 160,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_coin_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:zsj_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 40,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 160,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "kubejs:zsj_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:obsidian_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 160,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "kubejs:obsidian_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "kubejs:ne_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 5000,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 160,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "kubejs:ne_ingot"
+    },
+//锻造模板
+    {
+      "offer": {"itemKey": "minecraft:netherite_upgrade_smithing_template","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "minecraft:netherite_ingot","amount": 1,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 160,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "dz1"
+    },
+//锻造模板
+    {
+      "offer": {"itemKey": "cataclysm:ignitium_upgrade_smithing_template","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "minecraft:blaze_powder","amount": 1,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 160,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "dz2"
+    },
+//锻造模板
+    {
+      "offer": {"itemKey": "farmingtales:ne_upgrade_smithing_template","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 2000,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "kubejs:ne_ingot","amount": 1,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 160,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "dz3"
+    },
+//锻造模板
+    {
+      "offer": {"itemKey": "minecraft:armor_stand","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 25,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 160,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "dz5"
+    },
+//耐久3
+   {
+      "offer": {"itemKey": "minecraft:enchanted_book","amount": 1,"enchantments": [
+      {"enchantmentKey": "minecraft:unbreaking",
+      "enchantmentLevel": 3}]},
+
+      "request": {"itemKey": "kubejs:coin","amount": 2000,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 160,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "dz10"
+   },
+//耐久4
+   {
+      "offer": {"itemKey": "minecraft:enchanted_book","amount": 1,"enchantments": [
+      {"enchantmentKey": "minecraft:unbreaking",
+      "enchantmentLevel": 4}]},
+
+      "request": {"itemKey": "kubejs:coin","amount": 8000,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 160,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "dz11"
+   },
+//耐久5
+   {
+      "offer": {"itemKey": "minecraft:enchanted_book","amount": 1,"enchantments": [
+      {"enchantmentKey": "minecraft:unbreaking",
+      "enchantmentLevel": 5}]},
+
+      "request": {"itemKey": "kubejs:coin","amount": 12000,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 160,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "dz12"
+   }
+
+
+
+
+
+
+  ]
+}

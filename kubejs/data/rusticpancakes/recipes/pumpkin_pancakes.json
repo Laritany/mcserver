@@ -1,0 +1,31 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "rusticpancakes:pumpkin_pancakes",
+    "count": 1
+  },
+  "requiresLearning": false
+}

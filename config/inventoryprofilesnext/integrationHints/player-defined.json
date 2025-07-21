@@ -1,0 +1,25 @@
+{
+    "net.minecraft.class_481": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -10,
+                "top": 317
+            },
+            "SETTINGS": {
+                "top": 302
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 44
+            },
+            "SETTINGS": {
+                "horizontalOffset": 6,
+                "top": 29
+            }
+        }
+    }
+}

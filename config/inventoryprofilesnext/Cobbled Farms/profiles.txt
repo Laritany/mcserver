@@ -1,0 +1,24 @@
+
+
+
+
+profile Saved activate HOT9
+	HOT1
+		"minecraft:written_book"
+	HOT2
+		"dailyshop:daily_shop"
+	HOT3
+		"sellingbin:selling_bin"
+	HOT4
+		"minecraft:stone_hoe"
+	HOT5
+		"farm_and_charm:fertilizer"
+	HOT6
+		"constructionwand:stone_wand"
+	HOT7
+		"etcetera:cotton_seeds"
+	HOT8
+		"farm_and_charm:tomato"
+	HOT9
+		"minecraft:bone_meal"
+

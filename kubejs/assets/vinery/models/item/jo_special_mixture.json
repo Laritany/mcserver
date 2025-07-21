@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "vinery:item/jo_special_mixture_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "vinery:item/jo_special_mixture_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "vinery:item/jo_special_mixture_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "vinery:item/jo_special_mixture_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "vinery:item/jo_special_mixture_gui"
+    },
+    "gui": {
+      "parent": "vinery:item/jo_special_mixture_gui"
+    },
+    "ground": {
+      "parent": "vinery:item/jo_special_mixture_gui"
+    }
+  }
+}

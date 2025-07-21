@@ -1,0 +1,9 @@
+{
+  "feature": "sob:patch_wild_asparagus",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 0
+    }
+  ]
+}

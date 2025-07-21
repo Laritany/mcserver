@@ -1,0 +1,378 @@
+{
+	// Titles list
+	titleList: [
+		{
+			title_id: "rookie",
+			conditions: [],
+			default: true,
+			hide_requirements: false
+		},
+		{
+			title_id: "fighter",
+			conditions: [
+				"aptitude/Strength/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "fighter_great",
+			conditions: [
+				"aptitude/Strength/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "warrior",
+			conditions: [
+				"aptitude/Constitution/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "warrior_great",
+			conditions: [
+				"aptitude/Constitution/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "ranger",
+			conditions: [
+				"aptitude/Dexterity/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "ranger_great",
+			conditions: [
+				"aptitude/Dexterity/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "tank",
+			conditions: [
+				"aptitude/Defense/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "tank_great",
+			conditions: [
+				"aptitude/Defense/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "alchemist",
+			conditions: [
+				"aptitude/Intelligence/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "alchemist_great",
+			conditions: [
+				"aptitude/Intelligence/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "miner",
+			conditions: [
+				"aptitude/Building/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "miner_great",
+			conditions: [
+				"aptitude/Building/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "magician",
+			conditions: [
+				"aptitude/Magic/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "magician_great",
+			conditions: [
+				"aptitude/Magic/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "lucky_one",
+			conditions: [
+				"aptitude/Luck/greater_or_equal/16"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "lucky_one_great",
+			conditions: [
+				"aptitude/Luck/greater_or_equal/32"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "dragon_slayer",
+			conditions: [
+				"EntityKilled/ender_dragon/greater_or_equal/10"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "player_killer",
+			conditions: [
+				"EntityKilled/player/greater_or_equal/100"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "mob_killer",
+			conditions: [
+				"stat/mob_kills/greater_or_equal/100"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "mob_killer_great",
+			conditions: [
+				"stat/mob_kills/greater_or_equal/1000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "mob_killer_master",
+			conditions: [
+				"stat/mob_kills/greater_or_equal/10000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "hero",
+			conditions: [
+				"stat/raid_win/greater_or_equal/100"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "villain",
+			conditions: [
+				"EntityKilled/villager/greater_or_equal/100"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "fisherman",
+			conditions: [
+				"stat/fish_caught/greater_or_equal/100"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "fisherman_great",
+			conditions: [
+				"stat/fish_caught/greater_or_equal/1000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "fisherman_master",
+			conditions: [
+				"stat/fish_caught/greater_or_equal/10000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "enchanter",
+			conditions: [
+				"stat/enchant_item/greater_or_equal/10"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "enchanter_great",
+			conditions: [
+				"stat/enchant_item/greater_or_equal/100"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "enchanter_master",
+			conditions: [
+				"stat/enchant_item/greater_or_equal/1000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "survivor",
+			conditions: [
+				"stat/time_since_death/greater_or_equal/2400000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "businessman",
+			conditions: [
+				"stat/traded_with_villager/greater_or_equal/100"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "driver_boat",
+			conditions: [
+				"stat/boat_one_cm/greater_or_equal/1000000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "driver_cart",
+			conditions: [
+				"stat/minecart_one_cm/greater_or_equal/1000000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "rider_horse",
+			conditions: [
+				"stat/horse_one_cm/greater_or_equal/1000000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "rider_pig",
+			conditions: [
+				"stat/pig_one_cm/greater_or_equal/1000000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "rider_strider",
+			conditions: [
+				"stat/strider_one_cm/greater_or_equal/1000000"
+			],
+			default: false,
+			hide_requirements: false
+		},
+		{
+			title_id: "traveler_nether",
+			conditions: [
+				"special/dimension/equals/minecraft:the_nether"
+			],
+			default: false,
+			hide_requirements: true
+		},
+		{
+			title_id: "traveler_end",
+			conditions: [
+				"special/dimension/equals/minecraft:the_end"
+			],
+			default: false,
+			hide_requirements: true
+		},
+		{
+			title_id: "baiwanfuweng", //百万富翁
+			conditions: [
+				"BlockMined/minecraft:bedrock/greater_or_equal/1000",
+			],
+			default: false
+		},
+		{
+			title_id: "qianwanfuweng", //千万富翁
+			conditions: [
+				"BlockMined/minecraft:bedrock/greater_or_equal/1000",
+			],
+			default: false
+		},
+		{
+			title_id: "mowziezfz", // Mowzie's征服者
+			conditions: [
+				"BlockMined/minecraft:bedrock/greater_or_equal/1000",
+			],
+			default: false
+		},
+		{
+			title_id: "zaibianzfz", // 灾变征服者
+			conditions: [
+				"BlockMined/minecraft:bedrock/greater_or_equal/1000",
+			],
+			default: false
+		},
+		{
+			title_id: "chuanqizfz", // 传奇征服者
+			conditions: [
+				"BlockMined/minecraft:bedrock/greater_or_equal/1000",
+			],
+			default: false
+		},
+		{
+			title_id: "ji", //坤坤毁灭者
+			conditions: [
+				"BlockMined/minecraft:bedrock/greater_or_equal/1000",
+			],
+			default: false
+		},
+		{
+			title_id: "diaoyu", //钓鱼大师
+			conditions: [
+				"BlockMined/minecraft:bedrock/greater_or_equal/1000",
+			],
+			default: false
+		},
+		{title_id: "hlb",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//厨师
+		{title_id: "tjcs",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//特级厨师
+		{title_id: "sc",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//私厨
+		{title_id: "tj",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//调酒师
+		{title_id: "break",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//曼巴
+		{title_id: "tea",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//茶
+		{title_id: "meadow",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//牧场主
+		{title_id: "cand",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//厨师长
+		{title_id: "beach",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//沙滩酒保
+		{title_id: "farm1",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//农夫
+		{title_id: "farm2",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//农场主
+		{title_id: "beer1",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//啤酒仙人
+		{title_id: "vinery1",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false},//酒庄人力榨汁机
+		{title_id: "vinery2",conditions: ["BlockMined/minecraft:bedrock/greater_or_equal/1000",],default: false}//葡萄酒庄主
+	]
+}

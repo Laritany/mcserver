@@ -1,0 +1,11 @@
+
+["food effects tooltip"]
+	#Show suspicious stew food effects tooltips
+	showSuspiciousStewTooltips = false
+	#Use Lists as Whitelists instead.
+	whitelistInstead = false
+	#Blacklisted Item.
+	blacklistItems = ["modid:testitem"]
+	#Blacklisted Mod IDs.
+	blacklistModsIDs = ["vinery", "farm_and_charm", "cornexpansion", "bakery", "brewery", "herbalbrews", "beachparty", "nethervinery", "candlelight", "farmersdelight", "largemeals", "vintagedelight", "brewinandchewin", "sob", "rusticpancakes", "rusticpancakes", "kaleidoscope_cookery"]
+

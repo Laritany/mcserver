@@ -1,0 +1,19 @@
+{
+"itemGroup.dew_drop_farmland_growth": "露珠农田 - 生长版",
+"block.dew_drop_farmland_growth.weak_fertilized_farmland": "弱肥农田",
+"block.dew_drop_farmland_growth.strong_fertilized_farmland": "强肥农田",
+"block.dew_drop_farmland_growth.hyper_fertilized_farmland": "超强肥农田",
+"block.dew_drop_farmland_growth.hydrating_farmland": "保湿农田",
+"block.dew_drop_farmland_growth.low_quality_fertilized_farmland": "低品质肥农田",
+"block.dew_drop_farmland_growth.high_quality_fertilized_farmland": "高品质肥农田",
+"block.dew_drop_farmland_growth.pristine_quality_fertilized_farmland": "纯净品质肥农田",
+"block.dew_drop_farmland_growth.bountiful_fertilized_farmland": "丰饶肥农田",
+"item.dew_drop_farmland_growth.weak_fertilizer": "弱效肥料",
+"item.dew_drop_farmland_growth.strong_fertilizer": "强效肥料",
+"item.dew_drop_farmland_growth.hyper_fertilizer": "超强效肥料",
+"item.dew_drop_farmland_growth.hydrating_fertilizer": "保湿肥料",
+"item.dew_drop_farmland_growth.bountiful_fertilizer": "丰饶肥料",
+"item.dew_drop_farmland_growth.low_quality_fertilizer": "低品质肥料",
+"item.dew_drop_farmland_growth.high_quality_fertilizer": "高品质肥料",
+"item.dew_drop_farmland_growth.pristine_quality_fertilizer": "纯净品质肥料"
+}

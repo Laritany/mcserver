@@ -1,0 +1,210 @@
+{
+  "profession": "meadow:hermit",
+  "removeOtherTrades": true,
+  "maxTrades": 30,
+  "trades": [
+    {
+      "offer": {"itemKey": "minecraft:iron_nugget","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:gold_nugget","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:copper_nugget","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 7,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:zinc_nugget","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 34,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:rose_quartz","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:blaze_cake","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:creative_blaze_cake","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 100000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 1,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:super_glue","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 8,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:experience_nugget","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:horseman_helmet","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 278,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:horseman_chestplate","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 458,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:horseman_leggings","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 374,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:horseman_boots","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 300,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+{"offer": {"itemKey": "create:andesite_casing","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 96,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "create:copper_casing","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 153,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "create:brass_casing","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 206,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "autumnity:maple_sapling","amount": 7,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 58,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "incubation:twig_nest","amount": 7,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 95,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "incubation:hay_nest","amount": 7,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 90,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "autumnity:turkey_spawn_egg","amount": 1,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "farmingtales:car_key","amount": 1,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 20000,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 1,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+
+
+
+
+    {
+      "offer": {"itemKey": "ambientadditions:crate","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "sob:pitcher_tuber","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 60,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "waystones:warp_stone","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 60,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+
+    {
+      "offer": {"itemKey": "ambientadditions:mole_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 65,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:pinocchio_anole_pot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 34,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:leaf_frog_bowl","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 32,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:stag_beetle_bottle","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 31,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "wooden_elytra:wooden_elytra","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 500,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:pancake_slug_pot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 32,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    }
+  ]
+}

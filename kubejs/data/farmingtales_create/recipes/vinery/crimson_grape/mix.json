@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {"item": "nethervinery:crimson_grape"},
+    {"item": "nethervinery:crimson_grape"},
+    {"item": "nethervinery:crimson_grape"}
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "farmingtales:crimson_grape_juice"
+    }
+  ]
+}

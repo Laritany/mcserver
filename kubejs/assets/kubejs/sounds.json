@@ -1,0 +1,10 @@
+{
+    "music.you_gotta_move":{
+        "sounds":[
+            {
+            "name":"kubejs:you_gotta_move",
+            "stream":true
+        }
+    ]
+    }
+}

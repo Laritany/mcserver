@@ -1,0 +1,18 @@
+[
+    {
+        "when": "onjoin",
+        "mob": [
+            "spawn:snail",
+            "ambientadditions:giant_land_snail",
+            "ambientadditions:ring_tailed_lemur",
+            "ambientadditions:siamang_gibbon",
+            "ambientadditions:longhorn_cowfish",
+            "ambientadditions:harlequin_shrimp",
+            "ambientadditions:yeti_crab",
+            "ambientadditions:napoleon_wrasse",
+            "ambientadditions:blue_spotted_stingray",
+            "ambientadditions:chocolate_chip_starfish"
+        ],
+        "result": "deny"
+    }
+]

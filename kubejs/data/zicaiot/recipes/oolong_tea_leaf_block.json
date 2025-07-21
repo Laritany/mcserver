@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {"item": "herbalbrews:dried_oolong_tea"}
+  },
+  "result": {
+    "item": "herbalbrews:oolong_tea_leaf_block",
+    "count":1
+  }
+}

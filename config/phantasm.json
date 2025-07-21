@@ -1,0 +1,86 @@
+{
+  "TECHNICAL": {
+    "VERSION_DO_NOT_EDIT": 1.5,
+    "FORCE_RESET": false
+  },
+
+  // 此配置文件使用自定义解析器，因此这里可以添加注释（在其他.json文件中注释无效）// 若需添加注释，只需像这样在行首添加//（注释的主要作用是解释各项配置的功能）
+
+  // 分类：世界生成
+  "world_gen": {
+    "biomes": {
+      // 用于兼容修改末地生成的数据包（如Nullscape或Endercon）// 可选值包括：// "default"（默认）：Phantasm会用自定义生物群系替换等量的末地高地，模拟其噪声值// 理论上与任何数据包兼容，但生成效果可能不够美观// "nullscape"：优化噪声值以与Nullscape最佳适配// "endercon"：优化噪声值以与Endercon最佳适配// "automatic"（自动）：与默认模式相同，但会根据已加载的模组自动适配为"nullscape"或"endercon"模式// 若使用数据包版本，请手动设置此值
+      "datapack_compatibility": "automatic",
+      // 是否覆盖末地生物群系源，确保主岛生物群系始终生成于中心位置
+      "force_main_island": true,
+
+      // 梦之巢穴
+      "dreaming_den": {
+        "generate": true,
+        // 生成权重（数值越高生成概率越高）
+        "generation_weight": 1.5
+      },
+
+      // 酸蚀深渊
+      "acidburnt_abysses": {
+        "generate": true,
+        // Fabric的生物群系API优先处理先添加的生物群系，此较高权重仅用于平衡这一机制
+        "generation_weight": 2.5
+      }
+    },
+    // 末地天空是否生成流星
+    "do_fallen_stars": true,
+    // 岛屿侧面是否生成紫珀原石条纹
+    "do_raw_purpur": true,
+    // 紫珀原石条纹生成的y轴偏移量
+    "raw_purpur_offset": 0,
+
+    "end_spires": {
+      // 是否用哭泣的黑曜石美化主岛的黑曜石尖塔
+      "beautify": true,
+      // 主岛黑曜石尖塔的末影水晶周围是否永不生成铁栅栏
+      "no_crystal_cages": false,
+      // 尖塔额外高度（主要用于数据包提升主岛高度的情况）
+      "extra_height": 0
+    }
+  },
+
+  // 分类：游戏玩法
+  "gameplay": {
+    // 末地传送门是否传送至外围岛屿而非末影龙所在岛屿
+    "outer_end_in_gameloop": false,
+
+    "dragon": {
+      // 末影龙的火球是否在命中时产生火焰爆炸效果
+      "explosive_fireballs": true,
+      // 战斗中注视末影人时是否不会使其进入敌对状态
+      "no_pesky_endermen": false
+    },
+
+    "behemoth": {
+      // 靠近贝希摩斯（巨兽）时触发敌对状态的距离（方块单位）
+      "aggro_range": 6,
+      // 潜行状态下靠近贝希摩斯时触发敌对状态的距离（方块单位）
+      "aggro_range_sneaking": 0
+    }
+  },
+
+  // 分类：装备
+  "equipment": {
+    // 启用鞘翅助推所需的进度（留空""则禁用进度要求）
+    "elytra_boost_advancement": "minecraft:end/kill_dragon",
+    // 晶化工具的经验加成比例
+    "crystal_xp_boost": 3,
+
+    // 食用紫颂果沙拉是否会在末地内外传送
+    "chorus_fruit_salad_teleportation": true,
+    // 紫颂果沙拉的最大堆叠数量
+    "chorus_fruit_salad_stack_size": 1,
+
+    // 破碎吊坠的最大使用次数
+    "shattered_pendant_durability": 6,
+
+    // 弩箭（合唱箭）和低音炮方块的作用范围（方块单位）
+    "subwoofer_range": 6
+  }
+}

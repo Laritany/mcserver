@@ -1,0 +1,968 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "528A9604E92ADE0E"
+	group: "69AF6EA27123D833"
+	icon: "kaleidoscope_cookery:enamel_basin"
+	id: "528A9604E92ADE0E"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6DFD005E4FA05962"]
+			id: "5B5BA780B6F4C133"
+			rewards: [{
+				auto: "enabled"
+				id: "68697E18A0827DFB"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "18F9122DF9307973"
+				item: "sob:exquisite_mushroom_soup"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DFD005E4FA05962"]
+			id: "1FDDBA96943574B3"
+			rewards: [{
+				auto: "enabled"
+				id: "662722FA80B0CE2F"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "19C609A03961B1FB"
+				item: "sob:poutine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6DFD005E4FA05962"]
+			id: "123950001BA9F838"
+			rewards: [{
+				auto: "enabled"
+				id: "7A9433BB77A966E2"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2E39EB97906F52EA"
+				item: "sob:gravy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DFD005E4FA05962"]
+			id: "5C6C59FC0286365A"
+			rewards: [{
+				auto: "enabled"
+				id: "655E001403EEC0F4"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "1838857BBC84F83D"
+				item: "sob:ink_soup"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6DFD005E4FA05962"]
+			id: "027312ABC47D6EE3"
+			rewards: [{
+				auto: "enabled"
+				id: "3E165450F336F017"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "722643E009442E24"
+				item: "sob:asparagus_soup"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "70A11441762BD17D"
+			rewards: [{
+				auto: "enabled"
+				id: "0C6334E36B1D80B9"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "765401FD79DAD91C"
+				item: "kaleidoscope_cookery:slime_ball_meal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "53B39205FC7EDF00"
+			rewards: [{
+				auto: "enabled"
+				id: "23C1145CC4196A9B"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "39201EA71AC5C0DE"
+				item: "kaleidoscope_cookery:crystal_lamb_chop"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "09F65646760A110E"
+			rewards: [{
+				auto: "enabled"
+				id: "6EEDEEB11064F35F"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "集齐整套可在水中行走更快"
+			tasks: [{
+				id: "59B6D3EDA28AF607"
+				item: {
+					Count: 1
+					id: "kaleidoscope_cookery:farmer_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "01876F4FB1E996CF"
+			rewards: [{
+				auto: "enabled"
+				id: "0A684DD95ED7F8B4"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6D730C5EDD187A73"
+				item: "kaleidoscope_cookery:cold_style_sashimi"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "3E04C94EEA40429C"
+			rewards: [{
+				auto: "enabled"
+				id: "2AF0BAB5D4D68D45"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "0A65BD4C7FC8E23E"
+				item: "kaleidoscope_cookery:nether_style_sashimi"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "6DFD005E4FA05962"
+			rewards: [{
+				auto: "enabled"
+				id: "7303B28BDA1F5BD9"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "可烹饪部分菜肴！放入食材并盖上锅盖。"
+			tasks: [
+				{
+					id: "5786477E1D701C7F"
+					item: "kaleidoscope_cookery:stockpot"
+					type: "item"
+				}
+				{
+					id: "27E4581BE6A0120F"
+					item: {
+						Count: 1
+						id: "kaleidoscope_cookery:stockpot_lid"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "1E3B503D63A64DFA"
+			rewards: [{
+				auto: "enabled"
+				id: "4B16D2F3382D4E70"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "65652A058790EB86"
+				item: "kaleidoscope_cookery:spicy_chicken"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "78B3EB0E7AD77C3A"
+			rewards: [{
+				auto: "enabled"
+				id: "458AC72BF952D9BD"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "3D8EDFFB20E97196"
+				item: "kaleidoscope_cookery:yakitori"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "0632CB76246B1F30"
+			rewards: [{
+				auto: "enabled"
+				id: "5E226BB8E531FAE3"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "0A0908913D8F8D9D"
+				item: "kaleidoscope_cookery:pan_seared_knight_steak"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "59E78E11B31936D6"
+			rewards: [{
+				auto: "enabled"
+				id: "40F6A864DCAC9D74"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "30C647988CC41709"
+				item: "kaleidoscope_cookery:braised_fish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "436D7165A0202D77"
+			rewards: [{
+				auto: "enabled"
+				id: "0F9780B592A0F967"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "72A4586218F51388"
+				item: "kaleidoscope_cookery:chorus_fried_egg"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "699F4F5AF7B9F28D"
+			rewards: [{
+				auto: "enabled"
+				id: "59F6115E95903576"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "59BB5D837DB93BD7"
+				item: "kaleidoscope_cookery:fondant_spider_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "594DDA341805BC75"
+			rewards: [{
+				auto: "enabled"
+				id: "173FD1F8650A54FD"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "556C9080B60E5B0A"
+				item: "kaleidoscope_cookery:dongpo_pork"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "7892FF325FF2D763"
+			rewards: [{
+				auto: "enabled"
+				id: "6D0A7C72086D3974"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "330BD3205513DCB4"
+				item: "kaleidoscope_cookery:fondant_pie"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "6480DB269139BE0D"
+			rewards: [{
+				auto: "enabled"
+				id: "5167FF91FC137A5B"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6B3424E071A7C25C"
+				item: "kaleidoscope_cookery:golden_salad"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "2D9991FEE1FDAFE8"
+			rewards: [{
+				auto: "enabled"
+				id: "29B2D7EC25B158B8"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "44C70946EEE07EA5"
+				item: "kaleidoscope_cookery:stargazy_pie"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "412220293E0DB41F"
+			rewards: [{
+				auto: "enabled"
+				id: "3270F3F9916E1B84"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "7D61998E15935925"
+				item: "kaleidoscope_cookery:sweet_and_sour_ender_pearls"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "65806D44F329B28C"
+			rewards: [{
+				auto: "enabled"
+				id: "6310D5E3823D20C9"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "544DF6B481196335"
+				item: "kaleidoscope_cookery:tundra_style_sashimi"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "3C5C71B29325C84E"
+			rewards: [{
+				auto: "enabled"
+				id: "5D6559A46AF9FA4D"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "39A88B8AF3EA5213"
+				item: "kaleidoscope_cookery:desert_style_sashimi"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "473C7A81EEA42B15"
+			rewards: [{
+				auto: "enabled"
+				id: "4A1C01ED907BE401"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "441F58ECE1586E0E"
+				item: "kaleidoscope_cookery:end_style_sashimi"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "0110A5BB808D24AF"
+			rewards: [{
+				auto: "enabled"
+				id: "61BD2857D78CF5E7"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6AF800199454BFD3"
+				item: "kaleidoscope_cookery:blaze_lamb_chop"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CC6052D39F8DA29"]
+			id: "177F7162CCEDFBAF"
+			rewards: [{
+				auto: "enabled"
+				id: "7900D3DFADD98D45"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6DF508F3FF2A1476"
+				item: "kaleidoscope_cookery:frost_lamb_chop"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F143DC36908480A"]
+			id: "50EED2047A2C03BD"
+			rewards: [{
+				auto: "enabled"
+				id: "0262080B20D27D4F"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4AD7283CD23B6081"
+				item: "kaleidoscope_cookery:sashimi"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "5F143DC36908480A"
+			rewards: [{
+				auto: "enabled"
+				id: "55D0224D9343CA31"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "557728E3F1AA3527"
+				item: "kaleidoscope_cookery:chopping_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "3E6EA831BD90D8E0"
+			rewards: [{
+				auto: "enabled"
+				id: "0C00C9CAEDE61BF8"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4D8AB108735505B8"
+				item: {
+					Count: 1
+					id: "kaleidoscope_cookery:iron_kitchen_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "6CC6052D39F8DA29"
+			rewards: [{
+				auto: "enabled"
+				id: "322DAED95BD6C224"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "可以炒制部分菜肴，使用厨铲右键翻炒[需要热源]"
+			tasks: [{
+				id: "133586C0B75F17B3"
+				item: "kaleidoscope_cookery:pot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "5164A120D34619EE"
+			rewards: [{
+				auto: "enabled"
+				id: "65F3BF85D094A45D"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "使用厨铲右键翻炒炒锅中的食材！"
+			tasks: [{
+				id: "4C3877158853261E"
+				item: {
+					Count: 1
+					id: "kaleidoscope_cookery:kitchen_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			id: "3DECBD27DC826D7B"
+			rewards: [{
+				auto: "enabled"
+				id: "104968E3EA206A83"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2E3684258866A8B7"
+				item: "kaleidoscope_cookery:cook_stool_oak"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			id: "3CC840B8AEB58826"
+			rewards: [{
+				auto: "enabled"
+				id: "69405D2A7F21AC02"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "拿着地毯右键可进行装饰"
+			tasks: [{
+				id: "6919A8639A01AC0F"
+				item: "kaleidoscope_cookery:chair_jungle"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			id: "2B2C126C19AA4BF1"
+			rewards: [{
+				auto: "enabled"
+				id: "01A6731370EE8287"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "拿着地毯右键可进行装饰"
+			tasks: [{
+				id: "339FCF2D48DCB2AB"
+				item: "kaleidoscope_cookery:table_oak"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "5D7AADB851FDC92C"
+			rewards: [{
+				auto: "enabled"
+				id: "200ED79CA714B498"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "可一些物品"
+			tasks: [{
+				id: "200B07EF1140408F"
+				item: "kaleidoscope_cookery:fruit_basket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "4043DF58BB6F62BD"
+			rewards: [{
+				auto: "enabled"
+				id: "044AB73431EEFBE6"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "一盆油脂！用厨铲右键可获得一坨油脂"
+			tasks: [{
+				id: "5DF2CD864ADCE32A"
+				item: "kaleidoscope_cookery:enamel_basin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			description: [""]
+			id: "4E06395C4E62E4EF"
+			rewards: [{
+				auto: "enabled"
+				id: "1947E9C386408EC2"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "炒菜需要用到的油脂[用菜刀杀猪获取]"
+			tasks: [{
+				id: "70944F23DC3BA2A0"
+				item: "kaleidoscope_cookery:oil"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			id: "1B5A12AC5C3E4F75"
+			rewards: [{
+				auto: "enabled"
+				id: "4A512BE1BB32343F"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "炒菜需要用到的油脂[使用牛奶搅拌制作]"
+			tasks: [{
+				id: "1B218CFCBBBDF594"
+				item: "farm_and_charm:butter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			id: "7FAC4F812494EF88"
+			rewards: [{
+				auto: "enabled"
+				id: "4FC022465EBEA69C"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "可将部分厨具放入其中"
+			tasks: [{
+				id: "2C130891C73BAAEB"
+				item: "kaleidoscope_cookery:kitchenware_racks"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			id: "5F4391FCA8B7EB4D"
+			rewards: [{
+				auto: "enabled"
+				id: "3E43B924D45DA139"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "61FC4E6CB3375CBC"
+				item: "kaleidoscope_cookery:scarecrow"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			id: "07EEC771783F22B0"
+			rewards: [{
+				auto: "enabled"
+				id: "79C5803A9C25591F"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "使用红石激活！将生肉挂在上面烤"
+			tasks: [{
+				id: "23B8A5F4677D6621"
+				item: "kaleidoscope_cookery:shawarma_spit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			id: "3C1B83FBB654ABD9"
+			rewards: [{
+				auto: "enabled"
+				id: "2E293C0946098943"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "戴上草帽破坏草可获得额外种子！"
+			tasks: [
+				{
+					id: "21084CAF42F2DB98"
+					item: {
+						Count: 1
+						id: "kaleidoscope_cookery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA7AFA4E1F1AC43"
+					item: {
+						Count: 1
+						id: "kaleidoscope_cookery:straw_hat_flower"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "70F5E4C66881BEF8"
+			rewards: [{
+				auto: "enabled"
+				id: "45216DA8CDFEC755"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "集齐整套可在水中行走更快"
+			tasks: [{
+				id: "10A68BEDA4A5C6E3"
+				item: {
+					Count: 1
+					id: "kaleidoscope_cookery:farmer_chest_plate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "0ED84EA9380DA81D"
+			rewards: [{
+				auto: "enabled"
+				id: "19C6FE0F5EE5E9A6"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "集齐整套可在水中行走更快"
+			tasks: [{
+				id: "78B37C62790198D9"
+				item: {
+					Count: 1
+					id: "kaleidoscope_cookery:farmer_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F143DC36908480A"]
+			id: "207F52D6AF90792F"
+			rewards: [{
+				auto: "enabled"
+				id: "416066B8220DD5B4"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "39F0EC9C7F4D090B"
+				item: "farm_and_charm:minced_beef"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F143DC36908480A"]
+			id: "068A026073042D97"
+			rewards: [{
+				auto: "enabled"
+				id: "0D660B8AA3CA31A7"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "552E95F3E796459E"
+				item: "farm_and_charm:lamb_ham"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5F143DC36908480A"]
+			id: "14DD5E0AAF21FB63"
+			rewards: [{
+				auto: "enabled"
+				id: "484B20E7562D829B"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6E1715E38D403969"
+				item: "farm_and_charm:bacon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "3772BF3073339233"
+			rewards: [{
+				auto: "enabled"
+				id: "2229B3AEFB67C28D"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "热源！可使用打火石点燃"
+			tasks: [{
+				id: "4B904118B6385786"
+				item: "kaleidoscope_cookery:stove"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E06395C4E62E4EF"]
+			id: "0548B00A0316A555"
+			tasks: [{
+				id: "504D65DCADB4DD04"
+				item: "kaleidoscope_cookery:oil_block"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+	]
+	title: "森罗物语"
+}

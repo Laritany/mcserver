@@ -1,0 +1,190 @@
+ServerEvents.tags("item",event=>{
+    //删除tag
+    event.remove("c:flour",['cornexpansion:corn_flour']);
+    event.remove("forge:flour",['cornexpansion:corn_flour']);
+    event.removeAllTagsFrom("kitchenkarrot:milk")
+    event.removeAllTagsFrom("meadow:roasted_ham")
+    event.removeAllTagsFrom("farmersdelight:onion")
+    event.removeAllTagsFrom("farmersdelight:tomato")
+    event.removeAllTagsFrom("farmersdelight:tomato_seeds")
+    event.removeAllTagsFrom("farmersdelight:rotten_tomato")
+    event.removeAllTagsFrom("farmersdelight:fried_egg")
+    event.removeAllTagsFrom("farmersdelight:wild_onions")
+    event.removeAllTagsFrom("farmersdelight:wild_tomatoes")
+    event.removeAllTagsFrom("vintagedelight:oat_seeds")
+    event.removeAllTagsFrom("vintagedelight:oat_seeds")
+    event.removeAllTagsFrom("vintagedelight:wild_oats")
+    event.removeAllTagsFrom("farmersdelight:bacon")
+    event.removeAllTagsFrom("farmersdelight:carrot_crate")
+    event.removeAllTagsFrom("farmersdelight:potato_crate")
+    event.removeAllTagsFrom("farmersdelight:beetroot_crate")
+    event.removeAllTagsFrom("farmersdelight:tomato_crate")
+    event.removeAllTagsFrom("farmersdelight:onion_crate")
+    event.removeAllTagsFrom("vintagedelight:oat_bale")
+    event.removeAllTagsFrom("create:wheat_flour")
+    event.removeAllTagsFrom("create:dough")
+    event.removeAllTagsFrom("farmersdelight:wheat_dough")
+    event.removeAllTagsFrom("farmersdelight:raw_pasta")
+//紫水晶
+    event.add("minecraft:swords",['kubejs:zsj_sword']);
+    event.add("minecraft:axes",['kubejs:zsj_axe']);
+    event.add("c:pickaxes",['kubejs:zsj_pickaxe']);
+    event.add("minecraft:shovels",['kubejs:zsj_shovel']);
+    event.add("minecraft:hoes",['kubejs:zsj_hoe']);
+    event.add("minecraft:trimmable_armor",['kubejs:zsj_helmet']);
+    event.add("minecraft:trimmable_armor",['kubejs:zsj_chestplate']);
+    event.add("minecraft:trimmable_armor",['kubejs:zsj_boots']);
+    event.add("minecraft:trimmable_armor",['kubejs:zsj_leggings']);
+    event.add("bookshelf:chestplates",['kubejs:zsj_chestplate']);
+    event.add("bookshelf:armor",['kubejs:zsj_helmet']);
+    event.add("bookshelf:boots",['kubejs:zsj_boots']);
+    event.add("bookshelf:leggings",['kubejs:zsj_leggings']);
+//镶钻下界合金
+    event.add("minecraft:swords",['kubejs:ne_sword']);
+    event.add("minecraft:axes",['kubejs:ne_axe']);
+    event.add("c:pickaxes",['kubejs:ne_pickaxe']);
+    event.add("minecraft:shovels",['kubejs:ne_shovel']);
+    event.add("minecraft:hoes",['kubejs:ne_hoe']);
+    event.add("minecraft:trimmable_armor",['kubejs:ne_helmet']);
+    event.add("minecraft:trimmable_armor",['kubejs:ne_chestplate']);
+    event.add("minecraft:trimmable_armor",['kubejs:ne_boots']);
+    event.add("minecraft:trimmable_armor",['kubejs:ne_leggings']);
+    event.add("bookshelf:chestplates",['kubejs:ne_chestplate']);
+    event.add("bookshelf:armor",['kubejs:ne_helmet']);
+    event.add("bookshelf:boots",['kubejs:ne_boots']);
+    event.add("bookshelf:leggings",['kubejs:ne_leggings']);
+//铜制
+    event.add("minecraft:swords",['kubejs:copper_sword']);
+    event.add("minecraft:axes",['kubejs:copper_axe']);
+    event.add("c:pickaxes",['kubejs:copper_pickaxe']);
+    event.add("minecraft:shovels",['kubejs:copper_shovel']);
+    event.add("minecraft:hoes",['kubejs:copper_hoe']);
+    event.add("minecraft:trimmable_armor",['kubejs:copper_helmet']);
+    event.add("minecraft:trimmable_armor",['kubejs:copper_chestplate']);
+    event.add("minecraft:trimmable_armor",['kubejs:copper_boots']);
+    event.add("minecraft:trimmable_armor",['kubejs:copper_leggings']);
+    event.add("bookshelf:chestplates",['kubejs:copper_chestplate']);
+    event.add("bookshelf:armor",['kubejs:copper_helmet']);
+    event.add("bookshelf:boots",['kubejs:copper_boots']);
+    event.add("bookshelf:leggings",['kubejs:copper_leggings']);
+//黑曜石
+    event.add("minecraft:swords",['kubejs:obsidian_sword']);
+    event.add("minecraft:axes",['kubejs:obsidian_axe']);
+    event.add("c:pickaxes",['kubejs:obsidian_pickaxe']);
+    event.add("minecraft:shovels",['kubejs:obsidian_shovel']);
+    event.add("minecraft:hoes",['kubejs:obsidian_hoe']);
+    event.add("minecraft:trimmable_armor",['kubejs:obsidian_helmet']);
+    event.add("minecraft:trimmable_armor",['kubejs:obsidian_chestplate']);
+    event.add("minecraft:trimmable_armor",['kubejs:obsidian_boots']);
+    event.add("minecraft:trimmable_armor",['kubejs:obsidian_leggings']);
+    event.add("bookshelf:chestplates",['kubejs:obsidian_chestplate']);
+    event.add("bookshelf:armor",['kubejs:obsidian_helmet']);
+    event.add("bookshelf:boots",['kubejs:obsidian_boots']);
+    event.add("bookshelf:leggings",['kubejs:obsidian_leggings']);
+//
+    event.add("minecraft:axes",['kubejs:mubang']);
+    event.add("kubejs:yz",['natures_spirit:coconut_half']);
+    event.add("kubejs:yz",['natures_spirit:young_coconut_half']);
+    event.add("kubejs:yz",['beachparty:coconut_open']);
+    event.add("kubejs:apple",['biomeswevegone:green_apple']);
+    event.add("kubejs:apple",['minecraft:apple']);
+    event.add("c:foods/raw_meat",['meadow:raw_buffalo_meat']);
+    event.add("c:foods/raw_meat",['wildernature:bison_meat']);
+    event.add("c:foods/raw_meat",['wildernature:venison']);
+    event.add("c:foods/raw_meat",['wildernature:turkey_meat']);
+    event.add("c:foods/raw_meat",['wildernature:pelican_meat']);
+    event.add("c:foods/raw_meat",['wildernature:cassowary_meat']);
+    event.add("c:foods/cooked_meat",['wildernature:cooked_cassowary_meat']);
+    event.add("c:foods/cooked_meat",['wildernature:cooked_bison_meat']);
+    event.add("c:foods/cooked_meat",['wildernature:cooked_venison']);
+    event.add("c:foods/cooked_meat",['meadow:cooked_buffalo_meat']);
+    event.add("c:foods/cooked_meat",['wildernature:cooked_turkey_meat']);
+    event.add("c:foods/cooked_meat",['wildernature:cooked_pelican_meat']);
+    //
+    event.add("kubejs:money",['kubejs:money']);
+    event.add("kubejs:money",['kubejs:coin']);
+    event.add("ft:kt",['farmingtales:kd']);
+    //剑
+    event.add("minecraft:swords",['cataclysm:khopesh']);
+    event.add("minecraft:swords",['farmingtales:kd']);
+    event.add("minecraft:swords",['cataclysm:black_steel_sword']);
+    event.add("minecraft:axes",['cataclysm:black_steel_axe']);
+    event.add("minecraft:hoes",['cataclysm:black_steel_hoe']);
+    event.add("minecraft:axes",['kubejs:you_gotta_move']);
+    event.add("minecraft:swords",['cataclysm:khopesh']);
+    event.add("minecraft:swords",["rajswordmod:deflect_sword"])
+    event.add("minecraft:swords",["rajswordmod:sentinel_sword"])
+    event.add("minecraft:swords",["rajswordmod:knockback_sword"])
+    event.add("minecraft:swords",["rajswordmod:holy_sword"])
+    event.add("minecraft:swords",["rajswordmod:gaia_sword"])
+    event.add("minecraft:swords",["rajswordmod:blood_sword"])
+    event.add("minecraft:swords",["rajswordmod:anti_armor_sword"])
+    event.add("minecraft:swords",["rajswordmod:shadow_clone_sword"])
+
+//旗帜图案
+event.add("kubejs:banner",['minecraft:flower_banner_pattern']);
+event.add("kubejs:banner",['minecraft:creeper_banner_pattern']);
+event.add("kubejs:banner",['minecraft:skull_banner_pattern']);
+event.add("kubejs:banner",['minecraft:mojang_banner_pattern']);
+event.add("kubejs:banner",['minecraft:globe_banner_pattern']);
+event.add("kubejs:banner",['minecraft:piglin_banner_pattern']);
+event.add("kubejs:banner",['supplementaries:dragon_banner_pattern']);
+event.add("kubejs:banner",['autumnity:maple_leaf_banner_pattern']);
+event.add("kubejs:banner",['autumnity:swirl_banner_pattern']);
+
+//鱼
+event.add("kubejs:fish",["gofish:ender_eel"]);
+event.add("kubejs:fish",["gofish:icicle_fish"]);
+event.add("kubejs:fish",["gofish:blizzard_bass"]);
+event.add("kubejs:fish",["gofish:lilyfish"]);
+event.add("kubejs:fish",["gofish:matrix_fish"]);
+event.add("kubejs:fish",["gofish:seaweed_eel"]);
+event.add("kubejs:fish",["gofish:slimefish"]);
+event.add("kubejs:fish",["gofish:snowball_fish"]);
+event.add("kubejs:fish",["gofish:carrot_carp"]);
+event.add("kubejs:fish",["gofish:terrafish"]);
+event.add("kubejs:fish",["gofish:oakfish"]);
+event.add("kubejs:fish",["gofish:blackstone_trout"]);
+event.add("kubejs:fish",["gofish:gilded_blackstone_carp"]);
+event.add("kubejs:fish",["gofish:smokey_salmon"]);
+event.add("kubejs:fish",["gofish:soul_salmon"]);
+event.add("kubejs:fish",["gofish:magma_cod"]);
+event.add("kubejs:fish",["gofish:lunarfish"]);
+event.add("kubejs:fish",["gofish:galaxy_starfish"]);
+event.add("kubejs:fish",["gofish:starry_salmon"]);
+event.add("kubejs:fish",["gofish:nebula_swordfish"]);
+event.add("kubejs:fish",["gofish:rainy_bass"]);
+event.add("kubejs:fish",["gofish:cloudy_crab"]);
+event.add("kubejs:fish",["gofish:thundering_bass"]);
+event.add("kubejs:fish",["gofish:basalt_bass"]);
+event.add("kubejs:fish",["gofish:obsidian_halibut"]);
+event.add("kubejs:fish",["gofish:endfish"]);
+event.add("kubejs:fish",["gofish:chorus_cod"]);
+event.add("kubejs:fish",["gofish:dragonfish"]);
+event.add("kubejs:fish",["gofish:omega_floater"]);
+event.add("kubejs:fish",["gofish:portal_puffer"]);
+
+
+
+event.add("kubejs:wsj",["brewery:whiskey_jojannik"]);
+event.add("kubejs:wsj",["brewery:whiskey_lilitusinglemalt"]);
+event.add("kubejs:wsj",["brewery:whiskey_cristelwalker"]);
+event.add("kubejs:wsj",["brewery:whiskey_maggoallan"]);
+event.add("kubejs:wsj",["brewery:whiskey_carrasconlabel"]);
+event.add("kubejs:wsj",["brewery:whiskey_ak"]);
+event.add("kubejs:wsj",["brewery:whiskey_highland_hearth"]);
+event.add("kubejs:wsj",["brewery:whiskey_smokey_reverie"]);
+event.add("kubejs:wsj",["brewery:whiskey_jamesons_malt"]);
+
+//
+event.add("kjs:water",['minecraft:water_bucket',]);
+event.add("kaleidoscope_cookery:oil",['farm_and_charm:butter',]);
+event.add("forge:tools/knives",['kaleidoscope_cookery:iron_kitchen_knife',]);
+event.add("bakery:knives",['kaleidoscope_cookery:iron_kitchen_knife',]);
+event.add("forge:tools/knives",['kaleidoscope_cookery:gold_kitchen_knife',]);
+event.add("bakery:knives",['kaleidoscope_cookery:gold_kitchen_knife',]);
+event.add("forge:tools/knives",['kaleidoscope_cookery:diamond_kitchen_knife',]);
+event.add("bakery:knives",['kaleidoscope_cookery:diamond_kitchen_knife',]);
+event.add("forge:tools/knives",["kaleidoscope_cookery:netherite_kitchen_knife",]);
+event.add("bakery:knives",["kaleidoscope_cookery:netherite_kitchen_knife",]);
+})

@@ -1,0 +1,12 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {"item": "minecraft:apple"},
+    {"item": "minecraft:apple"},
+    {"item": "minecraft:apple"}
+  ],
+  "results": [
+    {"amount": 250,"fluid": "farmingtales:apple_juice"},
+    {"item": "vinery:apple_mash"}
+  ]
+}

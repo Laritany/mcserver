@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "   "
+  ],
+  "key": {
+    "C": {"tag": "minecraft:logs"}
+  },
+  "result": {
+    "item": "kubejs:wood_helmet",
+    "count":1
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "vinery:item/bolvar_wine_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "vinery:item/bolvar_wine_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "vinery:item/bolvar_wine_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "vinery:item/bolvar_wine_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "vinery:item/bolvar_wine_gui"
+    },
+    "gui": {
+      "parent": "vinery:item/bolvar_wine_gui"
+    },
+    "ground": {
+      "parent": "vinery:item/bolvar_wine_gui"
+    }
+  }
+}

@@ -1,0 +1,1160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "576C72651A2A938F"
+	group: "69AF6EA27123D833"
+	icon: "brewery:beer_wheat"
+	id: "576C72651A2A938F"
+	images: [{
+		click: "https://www.bilibili.com/video/BV1AtnoeCE9n"
+		height: 3.0d
+		hover: ["不会制作？点击查看制酒教程"]
+		image: "brewery:item/beer_barley"
+		rotation: 0.0d
+		width: 3.0d
+		x: -8.0d
+		y: 1.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AB4E37ACB0736AB"
+			rewards: [{
+				auto: "enabled"
+				id: "0E7304D675031EED"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6不仅可以装酒，还可以用来种花。好东西呀！"
+			tasks: [{
+				id: "59666D64B2E859EB"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"拿着谷物右键可将谷物放进去进行烘干"
+				"如果正面出口是敞开的，烘干完成的谷物就会跑出来。"
+				"如果正面出口是关闭的，则会储存起来。"
+				""
+				"可以将多个筒仓放置在一起来增加它的容量"
+				"可组成 &62×2&r 或 &63×3&r 的方形结构"
+				"最高可达 &69&r 格高。"
+			]
+			id: "34EA535E38C2AADD"
+			rewards: [{
+				auto: "enabled"
+				id: "113A8CC013D2BB0F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6用于干燥谷物&r"
+			tasks: [{
+				id: "49CF10C0C883BE9B"
+				item: "farm_and_charm:silo_wood"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34EA535E38C2AADD"]
+			id: "7B5199EF2AB77565"
+			rewards: [{
+				auto: "enabled"
+				id: "557C026DADC4FBCF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6对比木质筒仓它的烘干速度快一些"
+			tasks: [{
+				id: "2E2116C873206584"
+				item: "farm_and_charm:silo_copper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34EA535E38C2AADD"]
+			id: "48D0F9F01A22E722"
+			rewards: [{
+				auto: "enabled"
+				id: "1C26C9404049C82B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5E478BF13337118A"
+				item: "brewery:dried_wheat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34EA535E38C2AADD"]
+			id: "6301B95AEA603A87"
+			rewards: [{
+				auto: "enabled"
+				id: "306A615FC0AF2606"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C3AB20217D4EEAD"
+				item: "brewery:dried_corn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"可以在针叶林生物群系和所有子变体中找到。"
+				"也可以在村庄和/或林地宅邸中找到。"
+			]
+			id: "7335CF5E61B9F950"
+			rewards: [{
+				auto: "enabled"
+				id: "483A7CF4E9028DB0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6制作啤酒必备"
+			tasks: [{
+				id: "7BB2EA9D4ED86305"
+				item: "brewery:hops"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34EA535E38C2AADD"]
+			id: "67BF1E1EC1EC2765"
+			rewards: [{
+				auto: "enabled"
+				id: "6C370C1E788C7925"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2D6C9B39B55413BC"
+				item: "brewery:dried_barley"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34EA535E38C2AADD"]
+			id: "50AFAA70326BAA8F"
+			rewards: [{
+				auto: "enabled"
+				id: "4AF4DACF775E7DFF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0AC6324F4A74F695"
+				item: "brewery:dried_oat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"酿造站需要&62x2x2&r的空间来放置"
+				""
+				"酿造站通过直接交互进行操作。"
+				"它由 &6水箱 熔炉 定时器 蒸汽哨&r 组成"
+				"- 水箱是放置所有食材的地方"
+				"- 熔炉是火源，需要煤。"
+				"- 蒸汽哨和定时器负责啤酒小游戏"
+				""
+				"放置正确的物品后，将水箱放满水，点燃熔炉，游戏开始。"
+				"它持续约 45 秒，在此期间可能会发生各种事件，需要您（或您的队友）直接采取行动。"
+				"酿造过程以视听方式表示。"
+				""
+				"水箱需要水：哨声响起，水壶的水位低 - 将水壶重新装满水"
+				"水箱过度沸腾：水壶的水位高，冒泡的气泡上升 - 用空水桶将水盛出"
+				"计时器滴答作响：发出红色粒子和滴答声 - 按下计时器上的按钮"
+				"熔炉的热能不足：烟雾颗粒上升，熔炉的火焰很低 - 添加更多的煤"
+				""
+				"酿造站有不同的等级：木头、铜和下界合金"
+				"要酿造威士忌，您需要铜和下界合金材质的"
+				""
+				"注意："
+				"- 你完成啤酒小游戏的速度越快，啤酒的质量就越好。"
+				"- 什么都不干的话，有概率会刷出啤酒人"
+			]
+			id: "5451423E569A7EBA"
+			rewards: [{
+				auto: "enabled"
+				id: "518727D2AE5B6297"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6用于酿造啤酒"
+			tasks: [{
+				id: "609AC633814701DA"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "精酿先驱"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5451423E569A7EBA"]
+			id: "6F2CB045A2869CF0"
+			rewards: [{
+				auto: "enabled"
+				id: "34AFD115A6B95880"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6白雪公主：动物会被你吸引"
+			tasks: [{
+				id: "53A029D9EE63ADC8"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5451423E569A7EBA"]
+			id: "2BD2FEC394F7444E"
+			rewards: [{
+				auto: "enabled"
+				id: "3A08A06CB4017B9E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6狂欢派对:手持烟花火箭攻击生物可产生爆炸"
+			tasks: [{
+				id: "133DF65F979DAF6C"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["336A3BB4665A4A1E"]
+			id: "3C576A5A2EF889B5"
+			rewards: [{
+				auto: "enabled"
+				id: "3B76C1D9FCA184B6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可酿造全部威士忌"
+			tasks: [{
+				id: "55D02E6B7F1008DA"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5451423E569A7EBA"]
+			id: "0A4499598C336FDD"
+			rewards: [{
+				auto: "enabled"
+				id: "3ED91D9E4AB62F3A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6安抚：您可以直视末影人的眼睛，并减少敌人追击你的持续时间."
+			tasks: [{
+				id: "6F0A03FECCD33956"
+				item: "brewery:beer_nettle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5451423E569A7EBA"]
+			id: "4A9837925DA0616D"
+			rewards: [{
+				auto: "enabled"
+				id: "74524F928195F2FE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6啤酒的魅力：与村民交易享受10%的折扣"
+			tasks: [{
+				id: "64671624910D505A"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5451423E569A7EBA"]
+			id: "30963F683A2D4057"
+			rewards: [{
+				auto: "enabled"
+				id: "6270C0C0D8B04200"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6挖掘：你挖的越深，就能挖得越快。"
+			tasks: [{
+				id: "459F7B7B9E4E328C"
+				item: "brewery:beer_oat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5451423E569A7EBA"]
+			id: "310CACD10579C885"
+			rewards: [{
+				auto: "enabled"
+				id: "37A5978F4560D2E6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6爱意滑翔：飞起来"
+			tasks: [{
+				id: "63F8EC948BCC8AAF"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5451423E569A7EBA"]
+			description: [""]
+			id: "336A3BB4665A4A1E"
+			rewards: [{
+				auto: "enabled"
+				id: "1C116100255F43A3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可酿造部分威士忌"
+			tasks: [{
+				id: "7C54FEFD650562AC"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "4E8977E2988365D3"
+			rewards: [{
+				auto: "enabled"
+				id: "76DDD007D7FBDA0F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6中毒之触:将中毒效果给于所有被命中实体"
+			tasks: [{
+				id: "4C6EA713BF770C32"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "0C8632B2311101DF"
+			rewards: [{
+				auto: "enabled"
+				id: "7951CA99E51DCBCC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6狂欢派对:手持烟花火箭攻击生物可产生爆炸"
+			tasks: [{
+				id: "4E26773F592F810D"
+				item: "brewery:whiskey_lilitusinglemalt"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "5E8DCDDBB662D716"
+			rewards: [{
+				auto: "enabled"
+				id: "05AB47710A2C4607"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6保护之触：攻击生物后给予它伤害吸收效果"
+			tasks: [{
+				id: "529843CE2E4972EC"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "14DB105E52D8B539"
+			rewards: [{
+				auto: "enabled"
+				id: "2F170FE845DF3527"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6治疗之触：攻击生物恢复它的血量"
+			tasks: [{
+				id: "143963CFDE5C5D0A"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "6903677AD78F20FA"
+			rewards: [{
+				auto: "enabled"
+				id: "628AC03CE79E598F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6焕新之触：攻击生物后给予它生命恢复效果"
+			tasks: [{
+				id: "799E0B98117D13D1"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "3B4CBBEDAFC775EC"
+			rewards: [{
+				auto: "enabled"
+				id: "21795D30E37AF8AD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6闪电打击：被攻击的生物有小概率被雷劈"
+			tasks: [{
+				id: "6C0E430A5EEB4AB2"
+				item: "brewery:whiskey_ak"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "4E10501FD2B2AC7E"
+			rewards: [{
+				auto: "enabled"
+				id: "68CB3DA3ECFDF5D9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6斥力：敌人每隔一段时间就会被推开"
+			tasks: [{
+				id: "610E13BD91DCD1CC"
+				item: "brewery:whiskey_highland_hearth"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "3ACAF88797F450DD"
+			rewards: [{
+				auto: "enabled"
+				id: "3D0C238BDFBFA471"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6燃烧：点燃附近的敌人几秒"
+			tasks: [{
+				id: "62C21E9988A17892"
+				item: "brewery:whiskey_smokey_reverie"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "5FE7B0EA21CDDFC7"
+			rewards: [{
+				auto: "enabled"
+				id: "7F8B7F32E93AFE37"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6爆炸：攻击小概率发射火球"
+			tasks: [{
+				id: "4E6E44C93A32EE51"
+				item: "brewery:whiskey_jamesons_malt"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"14DB105E52D8B539"
+				"0C8632B2311101DF"
+				"4E8977E2988365D3"
+			]
+			description: ["使用 &6陈年麦高艾伦 乔雅尼克精选 莉莉图单一麦芽&r 酿造"]
+			id: "37405CFB91B3F444"
+			rewards: [{
+				auto: "enabled"
+				id: "0AD11CAECC2C4155"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6啤酒人刷怪damn~"
+			tasks: [{
+				id: "10F03139FED5ED6B"
+				item: "brewery:dark_brew"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"- 绳索可以连接到栅栏柱和绊线钩上。绳索也可以对角拉伸。"
+				"- 在超过 3 个方块的高度上，垂直绳索会自动在有效位置创建"
+				"- 如果不需要这些，可以用剪刀轻松移除它们。"
+			]
+			id: "2684910082D20761"
+			rewards: [{
+				auto: "enabled"
+				id: "22E96F3911B05794"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可以让啤酒花和番茄的种植变得更节省空间"
+			tasks: [{
+				id: "544A5A94A2ACD871"
+				item: "brewery:rope"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["酒吧柜台为村民职业方块"]
+			icon: "brewery:table"
+			id: "7DBF5F452078B562"
+			rewards: [{
+				auto: "enabled"
+				id: "21DA148C5EFF3471"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6盛节精酿家具套装"
+			tasks: [
+				{
+					id: "609B55B815447302"
+					item: "brewery:cabinet"
+					type: "item"
+				}
+				{
+					id: "544E795EB2D7F4B5"
+					item: "brewery:drawer"
+					type: "item"
+				}
+				{
+					id: "6F0B5D4261ABFFA6"
+					item: "brewery:bar_counter"
+					type: "item"
+				}
+				{
+					id: "22BADA0DCEE29794"
+					item: "brewery:sideboard"
+					type: "item"
+				}
+				{
+					id: "5C8FD94EF7F67D12"
+					item: "brewery:wall_cabinet"
+					type: "item"
+				}
+				{
+					id: "56509604E09D10BC"
+					item: "brewery:table"
+					type: "item"
+				}
+				{
+					id: "5AC388E951F5336C"
+					item: "brewery:bench"
+					type: "item"
+				}
+				{
+					id: "581C6F9126EBDC69"
+					item: "brewery:barrel_main"
+					type: "item"
+				}
+			]
+			title: "家具"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"-[昏迷] 显示红色"
+				"-[醉酒] 显示金色"
+				"-[无碍] 显示绿色"
+			]
+			id: "37FABA851570613F"
+			rewards: [{
+				auto: "enabled"
+				id: "1E5DEB0BD3C76249"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6手持长按右键吹起"
+			tasks: [{
+				id: "27ED182F5599CB70"
+				item: "brewery:breathalyzer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["使用烹饪锅制作：&61谷物+1糖+1水=12酵母&r"]
+			id: "4DA06C7EE0D55BF1"
+			rewards: [{
+				auto: "enabled"
+				id: "3EE82444B048BEFF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6制作酒的必需品"
+			tasks: [{
+				id: "162028724724EAFE"
+				item: "farm_and_charm:yeast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "009E66CA1A1AE0EC"
+			rewards: [{
+				auto: "enabled"
+				id: "3589A0EDA657D65D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6完成所有成就的奖励"
+			tasks: [{
+				id: "446CB4A5D65C571B"
+				item: "brewery:brewery_banner"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "brewery:brewfest_regalia"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10042021A20B028E"
+			rewards: [{
+				auto: "enabled"
+				id: "16AAAC98972DB3F1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "5A24823962396917"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03479E8D49A20D5A"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_regalia"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE144BEE9504E0B"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_trousers"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A5F50A425163569"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "啤酒节男士服装"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "brewery:brewfest_dress"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E84CEE673CEFC8E"
+			rewards: [{
+				auto: "enabled"
+				id: "57A2F57A305D5ADA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "399C2423CCDD3403"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_hat_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "241841104FB7D167"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_dress"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FC3FDEE53FA087F"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_blouse"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "147AD4BFDA433506"
+					item: {
+						Count: 1
+						id: "brewery:brewfest_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "啤酒节女士服装"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			icon: "brewery:patterned_wool"
+			id: "6406945EC38BDAD9"
+			rewards: [{
+				auto: "enabled"
+				id: "6CDF4BE9FD8C012A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "3018E61440B2AC33"
+					item: "brewery:patterned_wool"
+					type: "item"
+				}
+				{
+					id: "20AC4566BFD73071"
+					item: "brewery:patterned_carpet"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			id: "76BEA6599690B4D8"
+			tasks: [{
+				id: "63DD2FE05554B5D1"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "51C0A1EBE2A1516C"
+			tasks: [{
+				id: "6A8A2421FE03F70F"
+				item: "farm_and_charm:mincer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "4EAFD78B11EC4B29"
+			tasks: [{
+				id: "1B1ECAC136BC4EA9"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "5D989DFD6AC5CB15"
+			tasks: [{
+				id: "6FB64936915207B3"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51C0A1EBE2A1516C"]
+			id: "40E060A5F0C49F32"
+			rewards: [{
+				auto: "enabled"
+				id: "5F7D37F138BC8615"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4C138CE5E2A63AE1"
+				item: "brewery:mashed_potatoes"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51C0A1EBE2A1516C"]
+			id: "398DC188D9B4BC4A"
+			rewards: [{
+				auto: "enabled"
+				id: "03F9D743A6AE8BFD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "11B51481B4948620"
+				item: "brewery:half_chicken"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D989DFD6AC5CB15"]
+			id: "58E9A6F4D3528520"
+			rewards: [{
+				auto: "enabled"
+				id: "077F7A22D1F18E8E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "78F20AA4EB9ABFE6"
+				item: "brewery:pork_knuckle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76BEA6599690B4D8"]
+			id: "5EE75D5924C984F1"
+			rewards: [{
+				auto: "enabled"
+				id: "62DA879A02D2332A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C3737834271D6EF"
+				item: "brewery:potato_salad"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14D4491B0DA8F2BF"]
+			id: "3C3D578FD16EC02A"
+			rewards: [{
+				auto: "enabled"
+				id: "79E7729FD4AFA40D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "667E19798F2181CA"
+				item: "brewery:fried_chicken"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EAFD78B11EC4B29"]
+			id: "5B153A19F231F0FD"
+			rewards: [{
+				auto: "enabled"
+				id: "74FB610FA1CAD6D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "53B627E50673EBD0"
+				item: "brewery:dumplings"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EAFD78B11EC4B29"]
+			id: "5E5405349A2E47B6"
+			rewards: [{
+				auto: "enabled"
+				id: "52DE63B887388406"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "01AC4F1D08411F81"
+				item: "brewery:sausage"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D989DFD6AC5CB15"]
+			id: "4AB31E5F6980752A"
+			rewards: [{
+				auto: "enabled"
+				id: "2ED8D0AD655A4B93"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2164BCF8F67E4386"
+				item: "brewery:pretzel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D989DFD6AC5CB15"]
+			id: "4C57A648E12A245D"
+			rewards: [{
+				auto: "enabled"
+				id: "57AC293CE121BEB7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C97926AADFED905"
+				item: "brewery:gingerbread"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "14D4491B0DA8F2BF"
+			tasks: [{
+				id: "332C88924DE02333"
+				item: "farm_and_charm:roaster"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "create:schematic"
+				tag: {
+					Anchor: {
+						X: 0
+						Y: 0
+						Z: 0
+					}
+					Bounds: [
+						6
+						5
+						6
+					]
+					Deployed: 0b
+					File: "半自动酿酒机.nbt"
+					Mirror: "NONE"
+					Owner: "SU_MMAMA"
+					Rotation: "NONE"
+				}
+			}
+			id: "3095BB63C58E8F5E"
+			rewards: [{
+				id: "192063BF350CD7D3"
+				item: {
+					Count: 1
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							7
+							6
+							7
+						]
+						Deployed: 0b
+						File: "沼气半自动酿酒机.nbt"
+						Mirror: "NONE"
+						Owner: "SU_MMAMA"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "632044A7ACA56FCF"
+				type: "checkmark"
+			}]
+			title: "机械动力联动"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"310CACD10579C885"
+				"5E8DCDDBB662D716"
+				"4E10501FD2B2AC7E"
+				"30963F683A2D4057"
+				"3ACAF88797F450DD"
+				"14DB105E52D8B539"
+				"4A9837925DA0616D"
+				"5FE7B0EA21CDDFC7"
+				"2BD2FEC394F7444E"
+				"3B4CBBEDAFC775EC"
+				"6903677AD78F20FA"
+				"0A4499598C336FDD"
+				"0C8632B2311101DF"
+				"4E8977E2988365D3"
+				"6F2CB045A2869CF0"
+				"37405CFB91B3F444"
+				"5B153A19F231F0FD"
+				"40E060A5F0C49F32"
+				"5EE75D5924C984F1"
+				"3C3D578FD16EC02A"
+				"4AB31E5F6980752A"
+				"4C57A648E12A245D"
+				"5E5405349A2E47B6"
+				"398DC188D9B4BC4A"
+				"6301B95AEA603A87"
+				"58E9A6F4D3528520"
+			]
+			hide_dependency_lines: true
+			icon: "brewery:brewery_banner"
+			id: "507799C84521006F"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:beer1 set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "05F911BFD3CC05E3"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "2E6C156E7F419FEA"
+					item: "armamentarium:blood_whetstone"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2118CCBC02C13C42"
+					item: "armamentarium:gilded_whetstone"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "69EB550D69158B9F"
+					item: "farmingtales:house_jiuguan"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0DD36A143F9C812E"
+				type: "checkmark"
+			}]
+			title: "收集任务[盛节精酿]"
+			x: 9.0d
+			y: 1.5d
+		}
+	]
+	title: "盛节精酿"
+}

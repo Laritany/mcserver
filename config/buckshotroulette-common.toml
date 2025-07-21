@@ -1,0 +1,11 @@
+#Whether or not to take life as a stake.
+#是否抽取生命作为赌注。
+have_stake = true
+#The maximum health value obtained through betting is 0, so there is no limit.
+#通过赌注获取的生命值上限，为0则无上限。
+#Range: > 0
+life_limit = 10
+#Clear the life limit obtained through betting after death.
+#死后清除通过赌注获取的生命上限。
+clear_after_death = false
+

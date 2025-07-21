@@ -1,0 +1,240 @@
+{
+  "profession": "biomeswevegone:forager",
+  "removeOtherTrades": true,
+  "maxTrades": 100,
+  "trades": [
+    {
+      "offer": {"itemKey": "farmingtales:blind_box_flower","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 58,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:coffee_beans","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 98,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:yerba_mate_leaf","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 98,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:hibiscus","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 98,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:lavender","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 98,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:tea_blossom","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 98,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:rooibos_leaf","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 98,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:cauldron","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "herbalbrews:tea_kettle","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 22,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:bamboo","amount": 32,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 30,"priceModifier": 0},
+      "tradeExp": 10,"maxUses": 20,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:bee_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 120,"priceModifier": 0},
+      "tradeExp": 10,"maxUses": 20,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farmingtales:house_kafei","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 8000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "natures_spirit:purple_wisteria_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 120,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "natures_spirit:white_wisteria_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 120,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "natures_spirit:blue_wisteria_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 120,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "natures_spirit:pink_wisteria_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 120,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "autumnity:maple_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 150,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "autumnity:yellow_maple_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 150,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "autumnity:orange_maple_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 150,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "autumnity:red_maple_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 150,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:oak_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 118,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:spruce_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 118,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:birch_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 118,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:cherry_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 118,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "meadow:pine_sapling","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 138,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:aloe_kernels","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:dragon_roots","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 59,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:currant_seedling","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:yucca_sapling","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "create:tree_fertilizer","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 29,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 5,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+
+
+    {
+      "offer": {"itemKey": "atmospheric:laurel_sapling","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:rosewood_sapling","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 270,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "atmospheric:morado_sapling","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 240,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    }
+  ]
+}

@@ -1,0 +1,1420 @@
+{
+	autofocus_id: "39B7C4AE05BC8CA9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "337AEE83C646D900"
+	group: "31CEF6E6A51D1FD7"
+	icon: "cataclysm:mechanical_fusion_anvil"
+	id: "337AEE83C646D900"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "691D9306CCE43BCB"
+			rewards: [{
+				id: "51D1EAA9CE9F225E"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "机械文明缔造的旧日余晖"
+			tasks: [{
+				icon: "cataclysm:mech_eye"
+				id: "608174AC1E6314D7"
+				observe_type: 0
+				timer: 0L
+				title: "远古工厂"
+				to_observe: "cataclysm:ancient_factory"
+				type: "observation"
+			}]
+			title: "格格不入之物"
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			id: "2C82EBCCC98DFAB4"
+			rewards: [{
+				id: "3224389B529C15EA"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "海底潜藏的恐惧吞没了辉煌的一切"
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "0D8EBE22F8997946"
+				structure: "cataclysm:sunken_city"
+				title: "沉沦之城"
+				type: "structure"
+			}]
+			title: "深渊之怖"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			id: "576F9981F510BCF9"
+			rewards: [{
+				id: "2778733049080269"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "高耸金字塔锁住不曾逝去的哀鸣"
+			tasks: [{
+				icon: "cataclysm:desert_eye"
+				id: "51A19D8039046276"
+				structure: "cataclysm:cursed_pyramid"
+				title: "被祖咒的金字塔"
+				type: "structure"
+			}]
+			title: "悸动的远古遗产"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "56B67EE4C309D685"
+			rewards: [{
+				id: "6FEE902F373D17C1"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "不死的骸骨把守这座未眠的城堡"
+			tasks: [{
+				icon: "cataclysm:cursed_eye"
+				id: "38D03A6907D0755B"
+				structure: "cataclysm:frosted_prison"
+				title: "苦寒监牢"
+				type: "structure"
+			}]
+			title: "凛冬之怒"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			id: "4FCBBFBC27C3C426"
+			rewards: [{
+				id: "7AF25466890ED90C"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "熔岩之上是未变的争端"
+			tasks: [{
+				icon: "cataclysm:monstrous_eye"
+				id: "2CB0B5963BE6F7A5"
+				structure: "cataclysm:soul_black_smith"
+				title: "灵魂锻造厂"
+				type: "structure"
+			}]
+			title: "炼狱制造"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "7F881C041F90E433"
+			rewards: [{
+				id: "42FF8EC83A7B686B"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "烈火烧不尽是愤怒"
+			tasks: [{
+				icon: "cataclysm:flame_eye"
+				id: "2DFE482EFD125CE8"
+				structure: "cataclysm:burning_arena"
+				title: "熔岩竞技场"
+				type: "structure"
+			}]
+			title: "活焰之化身"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "5FEABAB37AA93597"
+			rewards: [{
+				id: "654D8C66AFB30741"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "旅途尽头不在此处"
+			tasks: [{
+				icon: "cataclysm:void_eye"
+				id: "3A108E718DCD5139"
+				structure: "cataclysm:ruined_citadel"
+				title: "废弃堡垒"
+				type: "structure"
+			}]
+			title: "末影领域"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33B901D80E906F0F"]
+			id: "499E5FB82340FC12"
+			rewards: [{
+				id: "2EC553BA853EE15F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "277F2603B99219A5"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			title: "炎魔之巨盾"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63ED85FFC0BDFBD3"]
+			id: "0C8273D8A8DC5196"
+			tasks: [{
+				id: "707B6ED19FDEB86C"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0C8273D8A8DC5196"
+				"499E5FB82340FC12"
+			]
+			id: "09024A8EAF6C5532"
+			tasks: [{
+				id: "6F6B013D5C633745"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0730121AD8AB4C9C"]
+			id: "58D333BC68B5902F"
+			rewards: [{
+				id: "2C66CB02E97EA5E1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09FA368A78D7828B"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEABAB37AA93597"]
+			id: "5E6FC1A3D31C7546"
+			tasks: [{
+				id: "5AC3861E2B18C80C"
+				item: "cataclysm:void_jaw"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E6FC1A3D31C7546"]
+			id: "52029FDC70AC2686"
+			tasks: [{
+				id: "368D6F915B5BC76E"
+				item: "cataclysm:void_scatter_arrow"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEABAB37AA93597"]
+			id: "4244F00D28940B25"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:ender_golem_spawn_egg"
+				id: "3081CF6464AFEB27"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影傀儡"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4244F00D28940B25"]
+			id: "5C50C12D64B874DA"
+			tasks: [{
+				id: "7ADC556F9C6F54B8"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"58D333BC68B5902F"
+				"5C50C12D64B874DA"
+			]
+			id: "23E0DE7D9ECF4912"
+			tasks: [{
+				id: "6CADB01096C136C1"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["691D9306CCE43BCB"]
+			description: ["下界之星唤醒"]
+			id: "530957D3CFECAE3B"
+			rewards: [{
+				id: "4E64FC7505AA4A17"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "古人制造的机械凋灵，拥有强大的破坏力"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "59FE0ED99EBD3540"
+				type: "kill"
+				value: 1L
+			}]
+			title: "先驱者"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["530957D3CFECAE3B"]
+			id: "25F22D6C2363A258"
+			rewards: [{
+				id: "79DCB40B3F8276E5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2D016B9C5417E4C5"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"25F22D6C2363A258"
+				"5C50C12D64B874DA"
+			]
+			id: "7663D800520A0A2A"
+			tasks: [{
+				id: "5AC854AD10ECC453"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEABAB37AA93597"]
+			id: "63ED85FFC0BDFBD3"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:ender_guardian_spawn_egg"
+				id: "5348AEB6638BBA3A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影守卫"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F881C041F90E433"]
+			description: ["手持炽燃余烬在烈焰祭坛召唤"]
+			id: "33B901D80E906F0F"
+			rewards: [{
+				id: "10ECD09EFBF9B346"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "烈焰之主宰，至尊之战神"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "52CE3BF9D1687779"
+				type: "kill"
+				value: 1L
+			}]
+			title: "焰魔"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33B901D80E906F0F"]
+			id: "12BDD22902C2B664"
+			rewards: [{
+				id: "410E9904922FDE51"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6EC8FBA78A6D8274"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C82EBCCC98DFAB4"]
+			id: "460CEF7B33CAF2E8"
+			rewards: [{
+				id: "2ED33F402AD97A79"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7A8DC34134E016AA"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C82EBCCC98DFAB4"]
+			id: "72521703A30FE995"
+			rewards: [{
+				id: "14E5C0577A2A6D22"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "74A0A74135F3B88D"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_bardiche"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C82EBCCC98DFAB4"]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "3F060012D2E684C4"
+			rewards: [{
+				id: "2C7970203FA7E67A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1F686CE2168FBBE0"
+				item: {
+					Count: 1
+					id: "cataclysm:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["383CD4FE42E8DD5A"]
+			description: ["深渊祭坛召唤"]
+			id: "19FE84D8546ADED1"
+			rewards: [{
+				id: "04DCEA84EA955D4B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "掌握深渊之力，甚至能撕裂时空的掠食者"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_leviathan_spawn_egg"
+				id: "2BF63776EF2867B9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "利维坦"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3F060012D2E684C4"
+				"5193596FD49E671A"
+			]
+			id: "383CD4FE42E8DD5A"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "1E2332BA6343801D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "420653BCEE6F1C53"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C82EBCCC98DFAB4"]
+			description: ["击败利维坦后海洋生成傀儡"]
+			id: "5193596FD49E671A"
+			rewards: [{
+				id: "02741F1BE97C130F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "完全由珊瑚制造出来的强大魔法巨像"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coralssus_spawn_egg"
+				id: "076EEBA2626438C9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "珊瑚巨像 珊瑚傀儡"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19FE84D8546ADED1"]
+			id: "0C142654A36FA240"
+			rewards: [{
+				id: "62500AD4DC299CD7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "072560C2496CC9D5"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19FE84D8546ADED1"]
+			description: [
+				"放置十分钟后诞生"
+				""
+				"可用热带鱼驯服"
+			]
+			id: "1F496CAE8D406EC8"
+			rewards: [{
+				id: "136355443EF5B301"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "782A1ED612442182"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["576F9981F510BCF9"]
+			id: "5E2E662D334A07FE"
+			rewards: [{
+				id: "1F7AD348B5F2F573"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "04F1DF3D10CC0A21"
+				item: {
+					Count: 1
+					id: "cataclysm:khopesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["530957D3CFECAE3B"]
+			id: "54280E30D0DFF4F7"
+			rewards: [{
+				id: "7DCBA222D7195409"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "25373EB463D87794"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["530957D3CFECAE3B"]
+			id: "13C0765A04703D01"
+			rewards: [{
+				id: "47DA013D7C409225"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5166D0687E5AAD77"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"576F9981F510BCF9"
+				"1A2E1AD2585E5410"
+			]
+			description: ["手持项链唤醒"]
+			id: "743227DF0DF15209"
+			rewards: [{
+				id: "5E577442467F3A60"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:ancient_remnant_spawn_egg"
+				id: "34619DA2FCA4ADA4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "远古遗魂"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "1A2E1AD2585E5410"
+			rewards: [{
+				id: "68222E90F8DF749E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56D6C4A59A540D41"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["743227DF0DF15209"]
+			id: "362FBD2C17810548"
+			rewards: [{
+				id: "6935544D428C1408"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56B6D34373A51B1A"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "1F444AA66031358B"
+			rewards: [{
+				id: "126EB6359F30C02D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1337EB7A61D26BD1"
+				item: "cataclysm:black_steel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F444AA66031358B"]
+			id: "37DF079D0B99D464"
+			rewards: [{
+				id: "2FB12C7B3AF5808E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "3B8613B409718216"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61A3680ED302CD80"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69E387448D346E3E"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AB8410D0A6C3E6F"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC5A0D2774DD80E"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "030862AB41D3FB74"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_targe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "工具"
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["74EB5C193945218B"]
+			description: [
+				"怪奇之钥打开封印之门"
+				"被诅咒的墓碑处召唤"
+			]
+			id: "23137DFE36F0E5FF"
+			rewards: [{
+				id: "6A9172114B49CB4A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "苦寒之地昔日的传奇战士，后来的暴虐统领，今日的诅咒亡灵"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:maledictus_spawn_egg"
+				id: "6D93F64E80C3AD35"
+				type: "kill"
+				value: 1L
+			}]
+			title: "咒翼灵骸"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23137DFE36F0E5FF"]
+			id: "0EEF19FA9EC8143A"
+			rewards: [{
+				id: "261DAFE0F19779CB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "013485F864B641E7"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23137DFE36F0E5FF"]
+			id: "2C7C3431FEE468B6"
+			rewards: [{
+				id: "2BE4924FF9DC1513"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "36AC7FC2BF0C5275"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23137DFE36F0E5FF"]
+			id: "763FD55AF95AA967"
+			rewards: [{
+				id: "3D456DCC9B46C8C8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7D422C33B543203F"
+				item: "cataclysm:the_annihilator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["576F9981F510BCF9"]
+			id: "02A557B91BE8E342"
+			rewards: [{
+				id: "544D45FB9FC00346"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "73B5446226ABEC8D"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["56B67EE4C309D685"]
+			id: "74EB5C193945218B"
+			rewards: [{
+				id: "2B0AEC6E512FCE9B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				icon: "cataclysm:aptrgangr_head"
+				id: "046C99850AA6E13A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "冥行武弁"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["576F9981F510BCF9"]
+			id: "54E66D749D933225"
+			rewards: [{
+				id: "71F9FFA5723FE358"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				icon: "cataclysm:wadjet_spawn_egg"
+				id: "2639E64CBA1F975C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "瓦吉特"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["576F9981F510BCF9"]
+			id: "6520D2DEFF9E84F4"
+			rewards: [{
+				id: "5298E773D8BF2E72"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: "cataclysm:kobolediator_skull"
+				id: "7F8C5B1BE22AF253"
+				type: "kill"
+				value: 1L
+			}]
+			title: "骸龙斗士"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["691D9306CCE43BCB"]
+			id: "2062C0DD95F8EC45"
+			rewards: [{
+				id: "343CE02FAFD4F9AA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: "cataclysm:the_prowler_spawn_egg"
+				id: "0597FC7358333EEA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "徘徊者"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "1FF5F84DA055D43B"
+			rewards: [{
+				id: "0FC017F88481B6D7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "繁茂洞穴生成"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: "cataclysm:amethyst_crab_spawn_egg"
+				id: "2B6D0177F01F6FCB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "紫水晶巨蟹"
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7F881C041F90E433"]
+			id: "0730835D7F5E4CB3"
+			rewards: [{
+				id: "26B6177B489BBA3A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:ignited_revenant_spawn_egg"
+				id: "202B0F97A37B66EB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "炽燃遗魂"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FCBBFBC27C3C426"]
+			id: "0730121AD8AB4C9C"
+			rewards: [{
+				id: "4D066161625EA770"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "由下界材料构成的红石巨兽"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "3CD4456169F6089B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "下界合金巨兽"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0730121AD8AB4C9C"]
+			id: "004157B3973023DD"
+			rewards: [{
+				id: "704F61CB208DEE3B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5B80748672F7FB6A"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["743227DF0DF15209"]
+			id: "30549F3764D7525F"
+			tasks: [{
+				id: "71E7796A5DCBC0B1"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0730121AD8AB4C9C"]
+			id: "3E40E7B4CD7E67FB"
+			rewards: [{
+				id: "04C8EFBAD56C1E46"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "提供额外的储存空间"
+			tasks: [{
+				id: "1A07DD0AE51951A4"
+				item: "cataclysm:netherite_effigy"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "35EF686640786BA1"
+			rewards: [{
+				id: "6E643C0B6A283F6E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "11B8F6C38AA7FA7B"
+				item: "cataclysm:ignitium_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "腾炎"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F444AA66031358B"]
+			id: "19D08406504D4918"
+			rewards: [{
+				id: "2F859EB42A28AC54"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "007C88B53E2B3C2C"
+				item: "cataclysm:cursium_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "咒魂"
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33B901D80E906F0F"]
+			id: "1F549A304DFC7FFC"
+			rewards: [{
+				id: "1B6A9D68BACEBFF2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7A9DD5C5BF8B6DCB"
+				item: "cataclysm:blazing_grips"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FF5F84DA055D43B"]
+			id: "2480A5467C3A6945"
+			rewards: [{
+				id: "7CE7CDFBB21BD8E1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "紫水晶蟹肉置于紫水晶祭坛之上"
+			tasks: [{
+				id: "4D9ED830C3B3488E"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			id: "7DEBB47B679453AF"
+			rewards: [{
+				id: "4BD7D2CEA61293B4"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "风暴女皇斯库拉与其追随者所栖身的圣地"
+			tasks: [{
+				icon: "cataclysm:storm_eye"
+				id: "6EF5C93BA48F20E7"
+				structure: "cataclysm:acropolis"
+				title: "卫城"
+				type: "structure"
+			}]
+			title: "永啸飓渊"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DEBB47B679453AF"]
+			id: "4159C3853B5AE0B0"
+			rewards: [{
+				id: "4B24E8BB4F9458C1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "登临卫城之巅，面对那触及风暴，亦或就是风暴本身的女王"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:scylla_spawn_egg"
+				id: "54B72A2789412D69"
+				type: "kill"
+				value: 1L
+			}]
+			title: "斯库拉"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DEBB47B679453AF"]
+			id: "2BA8F314B35E7A71"
+			rewards: [{
+				id: "088FB9F0ED1D958B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0AB901D4290646FF"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4159C3853B5AE0B0"]
+			id: "39B7C4AE05BC8CA9"
+			rewards: [{
+				id: "561A0D9F99987D0D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "32D30E180944A1F7"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["39B7C4AE05BC8CA9"]
+			id: "4A87931197B6B200"
+			rewards: [{
+				id: "67EB997FA87BFA6F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "49CF4659777159E5"
+				item: "cataclysm:astrape"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39B7C4AE05BC8CA9"]
+			id: "7B0DAFABFE7A4611"
+			rewards: [{
+				id: "60B5A50F8B51313B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "26F3EC283A052FA3"
+				item: "cataclysm:ceraunus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BA8F314B35E7A71"]
+			id: "5E96587685AB79C4"
+			rewards: [{
+				id: "3EF2EDF036383CBD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "01BBC6829B952A99"
+				item: {
+					Count: 1
+					id: "cataclysm:azure_sea_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7DEBB47B679453AF"]
+			id: "12C92A56A5FF1384"
+			rewards: [{
+				id: "6B6B09A3EB1F3EE9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:hippocamtus"
+				icon: "cataclysm:hippocamtus_spawn_egg"
+				id: "2D9AD61AD8A6DE8C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "沧溟巡守"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7DEBB47B679453AF"]
+			id: "67377538934C4DB3"
+			rewards: [{
+				id: "6CC32F57648CE58E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:cindaria"
+				icon: "cataclysm:cindaria_spawn_egg"
+				id: "146F0FB8F4EDF603"
+				title: "水母利亚"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DEBB47B679453AF"]
+			id: "287BDEE811696281"
+			tasks: [{
+				entity: "cataclysm:clawdian"
+				icon: "cataclysm:clawdian_spawn_egg"
+				id: "6222311DD07F2EDA"
+				title: "巨钳守卫"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["287BDEE811696281"]
+			id: "05C43D55C59738D7"
+			rewards: [{
+				id: "2FDB736BF1F36D0D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "462960196F41228A"
+				item: "cataclysm:chitin_claw"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6520D2DEFF9E84F4"]
+			id: "176EC3146767FBA4"
+			rewards: [{
+				id: "04671C73468FC73E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "673DCCC5FC26E36F"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12981338193DADD3"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1FF5F84DA055D43B"]
+			id: "006231082071A773"
+			rewards: [{
+				id: "0591ADA21B95B3A1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3211AB88D5F4EBA6"
+				item: {
+					Count: 1
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"763FD55AF95AA967"
+				"33B901D80E906F0F"
+			]
+			dependency_requirement: "all_started"
+			id: "5E12FA87953E8B4E"
+			rewards: [{
+				id: "31388FE496263195"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "43EE014162EC98C5"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"362FBD2C17810548"
+				"0EEF19FA9EC8143A"
+			]
+			id: "3B3FCA6A2E4D0760"
+			rewards: [{
+				id: "1B362FFBCEF3D913"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C2352C52FA7B6E0"
+				item: "cataclysm:wrath_of_the_desert"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"362FBD2C17810548"
+				"0C8273D8A8DC5196"
+			]
+			id: "54B368E892DEF1AD"
+			rewards: [{
+				id: "20C0FAE48EBE0A36"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A5BBB4C9D5D6D29"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["本章节由[SUNCE61616161]制作"]
+	title: "灾变"
+}

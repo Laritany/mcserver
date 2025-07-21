@@ -1,0 +1,249 @@
+{
+  "profession": "vinery:winemaker",
+  "removeOtherTrades": false,
+  "maxTrades": 50,
+  "trades": [
+    {
+      "offer": {"itemKey": "farmingtales:house_niangjiuxiaowu","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 2500,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farmingtales:house_jiuguan","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 23000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:red_grape_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:white_grape_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:savanna_grape_seeds_red","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:savanne_grape_seeds_white","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:taiga_grape_seeds_red","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:taiga_grape_seeds_white","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:jungle_grape_seeds_red","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:jungle_grape_seeds_white","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:hops_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:fermentation_barrel","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 35,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:apple_press","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 25,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:grapevine_pot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 15,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:dark_cherry_sapling","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 50,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:apple_tree_sapling","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 50,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:basket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 25,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:wine_box","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 15,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:flower_pot_big","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:storage_pot","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:flower_box","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:oak_lattice","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:oak_wine_rack_small","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:oak_wine_rack_big","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:oak_wine_rack_mid","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vinery:wine_bottle","amount": 10,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+{"offer": {"itemKey": "kitchenkarrot:acorn_wine_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 42,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:mead_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 53,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:rum_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 58,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:vodka_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 58,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:ice_cubes","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:water","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 19,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:milk","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 21,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:birch_sap","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "brewinandchewin:keg","amount": 1,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 7,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "brewinandchewin:heating_cask","amount": 2,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 7,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "brewinandchewin:ice_crate","amount": 2,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 7,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+
+
+    {
+      "offer": {"itemKey": "brewery:beer_mug","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 19,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "brewinandchewin:coaster","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 29,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    }
+  ]
+}

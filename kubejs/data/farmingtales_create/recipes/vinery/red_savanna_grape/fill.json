@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vinery:wine_bottle"
+    },
+    {
+      "amount": 250,
+      "fluid": "farmingtales:red_savanna_grape_juice"
+    }
+  ],
+  "results": [
+    {
+      "item": "vinery:red_savanna_grapejuice"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "rusticpancakes:honey_pancakes",
+    "count": 1
+  },
+  "requiresLearning": false
+}

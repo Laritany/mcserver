@@ -1,0 +1,870 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "699D98C7C2298C3A"
+	group: "69AF6EA27123D833"
+	icon: "herbalbrews:copper_tea_kettle"
+	id: "699D98C7C2298C3A"
+	images: [{
+		click: "https://www.bilibili.com/video/BV1aadcYKEoH"
+		height: 3.0d
+		hover: ["查看晒茶教程"]
+		image: "herbalbrews:item/copper_tea_kettle"
+		rotation: 0.0d
+		width: 3.0d
+		x: -6.5d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["50EBEB14BE77623E"]
+			description: [
+				"&6获得方法：破坏乌龙茶叶块获得&r"
+				"&9物品作用：制作乌龙茶&r"
+				"&9物品作用：使用干燥绿茶/红茶/乌龙茶叶制作草药浸剂&r"
+			]
+			disable_toast: true
+			id: "4642BBDED38F98D2"
+			rewards: [{
+				auto: "no_toast"
+				id: "2D68F1308485A690"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4A84BE16681C0CBE"
+				item: "herbalbrews:dried_oolong_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["目前有bug 不推荐使用"]
+			disable_toast: true
+			id: "53CF8BF281BA6219"
+			rewards: [{
+				auto: "no_toast"
+				id: "657D76B3A0B06FEE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "倒酒决策"
+			tasks: [{
+				id: "3DF08553D441F831"
+				item: {
+					Count: 1
+					id: "herbalbrews:jug"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7A839260878F9C62"
+			rewards: [{
+				auto: "no_toast"
+				id: "64833997D1094A6B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "629D56EC034B7C2C"
+					item: "herbalbrews:tea_kettle"
+					type: "item"
+				}
+				{
+					id: "5F6A7E573DE6C728"
+					item: "herbalbrews:copper_tea_kettle"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22B2C83B1B430D62"]
+			description: [
+				"体验一次强力的药水效果"
+				""
+				"可将三种不同效果的药水混合"
+			]
+			disable_toast: true
+			id: "31774804F00DA51A"
+			rewards: [{
+				auto: "no_toast"
+				id: "2AD852B75A014F2C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "无限之饮"
+			tasks: [{
+				id: "237602607EC5A489"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&6获得方法：破坏野生马黛茶树获得&r"
+				"&9作物作用：成熟后采集可获得马黛茶叶&r"
+				"&2种植方式：种植在耕地上&r"
+			]
+			disable_toast: true
+			id: "31B61C4D21268F43"
+			rewards: [{
+				auto: "no_toast"
+				id: "5A3AA135D263C8CE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6129F2B127F13197"
+				item: "herbalbrews:yerba_mate_leaf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6获得方法：破坏野生红灌木树获得&r"
+				"&9作物作用：成熟后采集可获得红灌木叶&r"
+				"&2种植方式：种植在耕地上&r"
+			]
+			disable_toast: true
+			id: "7D0B660D88E17129"
+			rewards: [{
+				auto: "no_toast"
+				id: "2A7744D3F3729292"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A2C615493AFC9AE"
+				item: "herbalbrews:rooibos_leaf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6获得方法：破坏薰衣草获得&r"
+				"&9作物作用：成熟后采集可获得薰衣草&r"
+				"&2种植方式：种植在地上&r"
+			]
+			disable_toast: true
+			id: "0A1E677E7D28C8FC"
+			rewards: [{
+				auto: "no_toast"
+				id: "0367C5B1B71C3E68"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "薰衣草的发现"
+			tasks: [{
+				id: "6CCA19DC1A8E4C95"
+				item: "herbalbrews:lavender_blossom"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F2F6678DD8469A9"]
+			description: [
+				"&6获得方法：晾晒绿茶叶块获得&r"
+				"&9物品作用：破坏后掉落3个晒干的绿茶叶&r"
+			]
+			disable_toast: true
+			id: "25A54C0CD6047375"
+			rewards: [{
+				auto: "no_toast"
+				id: "2C7778AE2123066D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "干燥艺术！"
+			tasks: [{
+				id: "73E12D33D7AED8FA"
+				item: "herbalbrews:dried_green_tea_leaf_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25A54C0CD6047375"]
+			description: [
+				"&6获得方法：晾晒干燥绿茶叶块获得/红茶叶合成&r"
+				"PS:必须使用合成的干燥绿茶叶块晾晒才能获得"
+				""
+				"&9物品作用：破坏后掉落2个晒干的红茶叶&r"
+			]
+			disable_toast: true
+			id: "4F353C575107F75C"
+			rewards: [{
+				auto: "no_toast"
+				id: "7C31A769D0798D9E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "再做一次！"
+			tasks: [{
+				id: "7E7ECE2322F36172"
+				item: "herbalbrews:black_tea_leaf_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6获得方法：破坏野生咖啡树获得&r"
+				"&9作物作用：成熟后采集可获得咖啡豆&r"
+				"&2种植方式：将咖啡豆种植在耕地上&r"
+			]
+			disable_toast: true
+			id: "3DD24C12EB50F4F2"
+			rewards: [{
+				auto: "no_toast"
+				id: "32ECB4EED8B07B40"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2922A085DF27CB84"
+				item: "herbalbrews:coffee_beans"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25A54C0CD6047375"]
+			description: [
+				"&6获得方法：破坏干燥的绿茶叶块获得&r"
+				"&9物品作用：合成干燥绿茶叶块进行二次晾晒&r"
+				"&9物品作用：制作绿茶&r"
+				"&9物品作用：使用干燥绿茶/红茶叶合成混合茶叶块再次晾晒&r"
+				"&9物品作用：使用干燥绿茶/红茶/乌龙茶叶制作草药浸剂&r"
+			]
+			disable_toast: true
+			id: "7A7F213DF064089B"
+			rewards: [{
+				auto: "no_toast"
+				id: "28ECB03F81B5DAF1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "在阳光下干燥 发现绿茶的秘密"
+			tasks: [{
+				id: "626705D0F6137BD4"
+				item: "herbalbrews:dried_green_tea"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7A839260878F9C62"
+				"31B61C4D21268F43"
+			]
+			description: [""]
+			disable_toast: true
+			id: "4586EB112A789475"
+			rewards: [{
+				auto: "no_toast"
+				id: "5DE9627406C6638D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "23EF0F5232BA1FF1"
+				item: "herbalbrews:yerba_mate_tea"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7A839260878F9C62"
+				"065963519CAD8B28"
+			]
+			description: [""]
+			disable_toast: true
+			id: "1B0AF65090968352"
+			rewards: [{
+				auto: "no_toast"
+				id: "431DD1C62C401C22"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5240CC5CD2577B19"
+				item: "herbalbrews:hibiscus_tea"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7A839260878F9C62"
+				"0A1E677E7D28C8FC"
+			]
+			description: [""]
+			disable_toast: true
+			id: "3E74E528AA8BC1FA"
+			rewards: [{
+				auto: "no_toast"
+				id: "2AF21CC8FEBE8087"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "680C5ED7BDFFB498"
+				item: "herbalbrews:lavender_tea"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7A839260878F9C62"
+				"7D0B660D88E17129"
+			]
+			description: [""]
+			disable_toast: true
+			id: "5ED33F98DC9BB337"
+			rewards: [{
+				auto: "no_toast"
+				id: "2C6C9EE9A7649741"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D934FDE0B87DC59"
+				item: "herbalbrews:rooibos_tea"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6获得方法：破坏木槿花获得&r"
+				"&9作物作用：成熟后采集可获得木槿花&r"
+				"&2种植方式：种植在地上&r"
+			]
+			disable_toast: true
+			id: "065963519CAD8B28"
+			rewards: [{
+				auto: "no_toast"
+				id: "53A50CF0ABDB06C1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "47C4D319675B5303"
+				item: "herbalbrews:hibiscus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A839260878F9C62"
+				"7A7F213DF064089B"
+			]
+			description: [""]
+			disable_toast: true
+			id: "5F17DC47CE74EA22"
+			rewards: [{
+				auto: "no_toast"
+				id: "2F1EABF0ABD71E31"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C67BFEEA2618BB4"
+				item: "herbalbrews:green_tea"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F353C575107F75C"]
+			description: [
+				"&6获得方法：破坏干燥的红茶叶块获得&r"
+				"&9物品作用：制作红茶&r"
+				"&9物品作用：使用干燥绿茶/红茶叶合成混合茶叶块再次晾晒&r"
+				"&9物品作用：使用干燥绿茶/红茶/乌龙茶叶制作草药浸剂&r"
+			]
+			disable_toast: true
+			id: "3E68B89A454F9CD5"
+			rewards: [{
+				auto: "no_toast"
+				id: "373EFF3730E93485"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "红茶之约"
+			tasks: [{
+				id: "6C39AC84A958EF15"
+				item: "herbalbrews:dried_black_tea"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7A839260878F9C62"
+				"4642BBDED38F98D2"
+			]
+			description: [""]
+			disable_toast: true
+			id: "1468C0C3B2CC647E"
+			rewards: [{
+				auto: "no_toast"
+				id: "683475C141C2D750"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "762580DADDC10D54"
+				item: "herbalbrews:oolong_tea"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7A839260878F9C62"
+				"3E68B89A454F9CD5"
+			]
+			description: [""]
+			disable_toast: true
+			id: "146F79DCE2D34590"
+			rewards: [{
+				auto: "no_toast"
+				id: "42D2E84DC41EA4B3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C82E9F68696861E"
+				item: "herbalbrews:black_tea"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			icon: "herbalbrews:herbalbrews_banner"
+			id: "306D56EF125E1A06"
+			rewards: [{
+				auto: "no_toast"
+				id: "1D6AB9A64344640C"
+				item: "herbalbrews:herbalbrews_banner"
+				type: "item"
+			}]
+			subtitle: "通过制作所有茶和咖啡获得"
+			tasks: [
+				{
+					id: "041C4599C6860632"
+					item: "herbalbrews:green_tea"
+					type: "item"
+				}
+				{
+					id: "712B93D5AFDDE133"
+					item: "herbalbrews:black_tea"
+					type: "item"
+				}
+				{
+					id: "2FF56B1098AEDA75"
+					item: "herbalbrews:hibiscus_tea"
+					type: "item"
+				}
+				{
+					id: "6160632C626F7413"
+					item: "herbalbrews:lavender_tea"
+					type: "item"
+				}
+				{
+					id: "7F128D2B7C1DDC17"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+				{
+					id: "78D496DEF7D1AE48"
+					item: "herbalbrews:milk_coffee"
+					type: "item"
+				}
+				{
+					id: "32FBEC749955A2E2"
+					item: "herbalbrews:rooibos_tea"
+					type: "item"
+				}
+				{
+					id: "45B26C2D649A26A6"
+					item: "herbalbrews:oolong_tea"
+					type: "item"
+				}
+				{
+					id: "186C24EF4C74B783"
+					item: "herbalbrews:yerba_mate_tea"
+					type: "item"
+				}
+			]
+			title: "杯中的拥抱"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A7F213DF064089B"
+				"3E68B89A454F9CD5"
+				"4642BBDED38F98D2"
+			]
+			description: [
+				"&6获得方法：使用干燥绿茶/红茶/乌龙茶叶制作&r"
+				"&9物品作用：将三瓶不同的药水混合起来&r"
+			]
+			disable_toast: true
+			id: "22B2C83B1B430D62"
+			rewards: [{
+				auto: "no_toast"
+				id: "7710944DD99C7908"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "巫术时刻"
+			tasks: [{
+				id: "105B756233965055"
+				item: "herbalbrews:herbal_infusion"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5AEB8116030DDEC0"
+			rewards: [{
+				auto: "no_toast"
+				id: "7861D726448FED79"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "穿戴可免除40%的魔法伤害"
+			tasks: [{
+				id: "5C5521421B7DA1F6"
+				item: {
+					Count: 1
+					id: "herbalbrews:top_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			description: ["穿戴可免除40%的魔法伤害"]
+			disable_toast: true
+			id: "0BA8F16AF11D396D"
+			rewards: [{
+				auto: "no_toast"
+				id: "6E873D51BF509FDD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "巫术时刻"
+			tasks: [{
+				id: "33135971E10CBDF6"
+				item: {
+					Count: 1
+					id: "herbalbrews:witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"通过小心地用剪刀剪下花朵来找到茶花"
+				""
+				"&6获得方法：使用剪刀破坏原版花朵获得&r"
+				"&9作物作用：成熟后采集可获得绿茶叶&r"
+				"&2种植方式：种植在耕地上&r"
+			]
+			disable_toast: true
+			id: "5AB952BECEF67A88"
+			rewards: [{
+				auto: "no_toast"
+				id: "5E8771832F73EA01"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "绽放的发现！"
+			tasks: [{
+				id: "2CA8F775218A2677"
+				item: "herbalbrews:tea_blossom"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5AB952BECEF67A88"]
+			description: [
+				"&6获得方法：采集成熟的茶花获得&r"
+				"&9作物作用：绿茶、红茶和乌龙茶的原材料&r"
+			]
+			disable_toast: true
+			id: "404FC5BDE248A687"
+			rewards: [{
+				auto: "no_toast"
+				id: "6CF32DC4DE9C2A14"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0F5EC211CD6545F2"
+				item: "herbalbrews:green_tea_leaf"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["404FC5BDE248A687"]
+			description: [
+				"&6获得方法：通过使用九个绿茶叶合成&r"
+				"&9作物作用：晾干可获得干燥的绿茶叶&r"
+			]
+			disable_toast: true
+			id: "4F2F6678DD8469A9"
+			rewards: [{
+				auto: "no_toast"
+				id: "6C2C54A02B1D69C8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "煨茶酝露"
+			tasks: [{
+				id: "2DD586823D6F8157"
+				item: "herbalbrews:green_tea_leaf_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3E68B89A454F9CD5"
+				"7A7F213DF064089B"
+			]
+			description: [
+				"&6获得方法：使用干燥绿茶/红茶叶合成&r"
+				"&9方块作用：晒干变为乌龙茶叶块&r"
+				"&2破坏获得：破坏后掉落4个绿茶叶或晒干的红茶叶&r"
+			]
+			disable_toast: true
+			id: "3C8F68E71A6504B9"
+			rewards: [{
+				auto: "no_toast"
+				id: "321D17945AFFF0C9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "完美混合!"
+			tasks: [{
+				id: "1B535F1F410518EA"
+				item: "herbalbrews:mixed_tea_leaf_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C8F68E71A6504B9"]
+			description: [
+				"&6获得方法：晾晒混合茶叶块获得&r"
+				"&9方块作用：破坏后掉落3个晒干的乌龙茶叶&r"
+			]
+			disable_toast: true
+			id: "50EBEB14BE77623E"
+			rewards: [{
+				auto: "no_toast"
+				id: "123D461EB4DD2E44"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4856D6772D94FCD4"
+				item: "herbalbrews:oolong_tea_leaf_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3521B1563310384B"
+			rewards: [{
+				auto: "no_toast"
+				id: "4C2D4B1CC3733E22"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "芝士高炉"
+			tasks: [{
+				id: "16E7A14988652F70"
+				item: "herbalbrews:stove"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B66A25DBA983BCE"]
+			description: [""]
+			disable_toast: true
+			id: "0D4D4177FAA3D0FD"
+			rewards: [{
+				auto: "no_toast"
+				id: "6B11A02523F891C6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "摩卡时刻"
+			tasks: [{
+				id: "1174843B799D3F06"
+				item: "herbalbrews:milk_coffee"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "619EE39F77DC4BDE"
+			rewards: [{
+				auto: "no_toast"
+				id: "1464563BABEF4B08"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "55810FF5404748DD"
+				item: "herbalbrews:tea_leaf_crate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3DD24C12EB50F4F2"
+				"7A839260878F9C62"
+			]
+			description: [""]
+			disable_toast: true
+			id: "1B66A25DBA983BCE"
+			rewards: [{
+				auto: "no_toast"
+				id: "6B79A27026E8CEDF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "表达自我"
+			tasks: [{
+				id: "0F38B49AD659C7F0"
+				item: "herbalbrews:coffee"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"146F79DCE2D34590"
+				"0D4D4177FAA3D0FD"
+				"5F17DC47CE74EA22"
+				"5ED33F98DC9BB337"
+				"1468C0C3B2CC647E"
+				"4586EB112A789475"
+				"3E74E528AA8BC1FA"
+				"1B66A25DBA983BCE"
+				"1B0AF65090968352"
+			]
+			hide_dependency_lines: true
+			icon: "herbalbrews:wild_yerba_mate_plant"
+			id: "392216B0E3C0BCE2"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/titles @s justlevelingfork:tea set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "1FD74F5EA83D0EFB"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					id: "2DDD689B7EC7FEFB"
+					item: "armamentarium:emerald_whetstone"
+					type: "item"
+				}
+				{
+					id: "3F5F49B64490901B"
+					item: "farmingtales:house_kafei"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "54B86C6CC1C2E1B5"
+				type: "checkmark"
+			}]
+			title: "收集任务"
+			x: 2.0d
+			y: -5.0d
+		}
+	]
+	title: "煨茶酝露"
+}

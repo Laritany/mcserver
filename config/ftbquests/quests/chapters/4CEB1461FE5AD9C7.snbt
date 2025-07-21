@@ -1,0 +1,1093 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4CEB1461FE5AD9C7"
+	group: "69AF6EA27123D833"
+	icon: "meadow:wooly_cow_spawn_egg"
+	id: "4CEB1461FE5AD9C7"
+	images: [{
+		height: 5.0d
+		hover: ["来看看动物的养殖方法吧！"]
+		image: "minecraft:textures/gui/farm/cluck.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -3.0d
+		y: -10.5d
+	}]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"原版向日葵已经被一种新的向日葵取代，"
+				"新的向日葵现在会随着太阳旋转，还可以从中收获葵花籽。"
+				""
+				"葵花籽可以烤熟，能像干海带一样快速食用；"
+				""
+				"仓鼠可以生成为 4 种不同的变种，它们会随机地用后脚站起来以侦察危险；"
+				""
+				"仓鼠可以用葵花籽驯服，驯服后可以让它们坐下或跟随，就像其他宠物一样；"
+				""
+				"仓鼠的领地意识很强，被同一个玩家驯服的仓鼠会试图杀死对方；"
+				""
+				"仓鼠会主动捡起物品并将其塞进颊囊中，颊囊的空间塞满时，仓鼠的两颊在外观上也会变大；"
+				""
+				"玩家可以拿着物品右键打开驯服的仓鼠的颊囊，可以将其作为便携式存储空间。"
+			]
+			icon: "spawn:hamster_spawn_egg"
+			id: "659207FFFA08F57C"
+			subtitle: "仓鼠可以在平原和草甸上被找到，更常见于向日葵平原"
+			tasks: [{
+				id: "1CDE2CCC2A229151"
+				observe_type: 5
+				timer: 0L
+				to_observe: "spawn:hamster"
+				type: "observation"
+			}]
+			title: "仓鼠"
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"鸭子可以用种子繁殖。"
+				""
+				"它们会生产鸭蛋和鸭毛，就像鸡一样。"
+				""
+				"但与鸡不同的是，鸭子喜欢在水中游泳，把头浸入水中。"
+				""
+				"如果在它们附近播放唱片机，它们会像鹦鹉一样跳舞！"
+				""
+				"你可以制作一个空鸭袋，并像把鱼装进桶里一样用它来运输鸭子。"
+			]
+			icon: "untitledduckmod:duck_spawn_egg"
+			id: "1E74C4F4562C8478"
+			tasks: [{
+				id: "24663C6694DC6713"
+				observe_type: 5
+				timer: 0L
+				to_observe: "untitledduckmod:duck"
+				type: "observation"
+			}]
+			title: "鸭"
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"你可以用种子像鸭一样繁殖鹅。"
+				""
+				"它们喜欢海带和海草。你可以用这些吸引、驯服它们！"
+				""
+				"鹅类似于驯服的狼，它们会和你一起攻击，并保护你免受怪物的攻击。"
+				""
+				"鹅一旦驯服了，你可以让它坐下，并给它武器，就像驯服的狼一样。"
+				""
+				"一旦遭受攻击，鹅会记住并且成群结队地攻击敌人。"
+				""
+				"可以通过点击使用键或按投掷键扔给它们食物，当你给它们的食物的时候，它会原谅你对它们的攻击行为。"
+				""
+				"它会吓跑灾厄村民，就像猫吓跑苦力怕一样。"
+				""
+				"它们会尝试偷你手中的物品，但很罕见，当它们这么做时，它们会交还给你食物。"
+				""
+				"掉落物："
+				""
+				"生鹅肉（若被火烧死则掉落熟鹅肉）；"
+				""
+				"鹅脚；"
+				""
+				"鹅每5-10分钟会下一次鹅蛋；即使鹅处于濒死状态，它仍然有可能下蛋。"
+			]
+			icon: "untitledduckmod:goose_spawn_egg"
+			id: "24E881216B745929"
+			tasks: [{
+				id: "6AF67784BCDA7BA0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "untitledduckmod:goose"
+				type: "observation"
+			}]
+			title: "鹅"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			description: [""]
+			icon: "wildernature:deer_spawn_egg"
+			id: "629EDEEB90F33A6C"
+			subtitle: "鹿不能被驯服，但它们可以用草来繁殖"
+			tasks: [{
+				id: "2EDC8F8755B73B8B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:deer"
+				type: "observation"
+			}]
+			title: "鹿"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"松鼠不能被永久驯服。"
+				"要暂时驯服它活繁殖它们，请使用榛子。"
+			]
+			icon: "wildernature:squirrel_spawn_egg"
+			id: "19096CDBFD331237"
+			subtitle: "哦，好可爱！他们喜欢吃榛子、偷树苗和四处奔跑。"
+			tasks: [{
+				id: "4628F201914F3AA5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:squirrel"
+				type: "observation"
+			}]
+			title: "松鼠"
+			x: 9.5d
+			y: -12.0d
+		}
+		{
+			description: [""]
+			icon: "wildernature:red_wolf_spawn_egg"
+			id: "0480BFDC08B06EB8"
+			subtitle: "红狼与狼相同 可用骨头驯服"
+			tasks: [{
+				id: "5EC57EE24E02EE3D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:red_wolf"
+				type: "observation"
+			}]
+			title: "红狼"
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"你以前就那样杀死这些手无寸铁的生物吗？"
+				"现在它们可以寻找它们的动物朋友寻求帮助。"
+				""
+				"死亡后，会掉落羽毛和鹈鹕肉。"
+				""
+				"虽然它们不能被驯服，但它们可以使用鱼进行繁殖。"
+			]
+			icon: "wildernature:pelican_spawn_egg"
+			id: "61DB7768765ED96C"
+			subtitle: "啊，我记得沙滩派对的这些东西！可以在沙滩中找到"
+			tasks: [{
+				id: "6453253BF0739587"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:pelican"
+				type: "observation"
+			}]
+			title: "鹈鹕"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"企鹅喜欢船，尤其是你的船。"
+				"如果他们看到附近有船，他们就会跳上船并起飞。"
+				"然而，它们的驾驶技术并不是最好的。"
+				"他们还做什么？它们将他们所在的船的速度提高10%"
+			]
+			icon: "wildernature:penguin_spawn_egg"
+			id: "30D514FA995690A0"
+			subtitle: "一个真正的海盗。为什么？稍后会详细介绍。出现在冰雪生物群系中。"
+			tasks: [{
+				id: "5E9F3BF0561CABAD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:penguin"
+				type: "observation"
+			}]
+			title: "企鹅"
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"他们喜欢偷偷溜进村庄四处游荡。浣熊可以开门。"
+				"死亡后，他们有几率掉落一个装有食物或其他物品的战利品袋。"
+				""
+				""
+				"浣熊不能被驯服，但可以使用以下物品之一进行繁殖："
+				"苹果、胡萝卜、甜菜、土豆、熟鲑鱼、熟鳕鱼"
+			]
+			icon: "wildernature:raccoon_spawn_egg"
+			id: "74EB3BA3EC06BF04"
+			subtitle: "浣熊几乎无处不在。"
+			tasks: [{
+				id: "59A2FACD16A37533"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:raccoon"
+				type: "observation"
+			}]
+			title: "浣熊"
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"狗是中立的，不会打扰或骚扰任何人。"
+				"如果他们看到一只猫，一场疯狂的追逐就开始了！"
+				""
+				"死亡后，狗会掉落骨头。"
+				""
+				"狗与狼具有相同的战利品表和繁殖特性。"
+				""
+				"使用骨头驯服"
+			]
+			icon: "wildernature:dog_spawn_egg"
+			id: "455B786894AB0886"
+			subtitle: "这是狗吗？是的！狗可以在村庄或平原生物群系中找到"
+			tasks: [{
+				id: "315954B3B04F3A99"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:dog"
+				type: "observation"
+			}]
+			title: "狗"
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"死亡会掉落很多羽毛。"
+				""
+				"虽然它们不能被驯服，但它们可以使用鱼进行繁殖"
+			]
+			icon: "wildernature:flamingo_spawn_egg"
+			id: "054C9C107EFD9617"
+			subtitle: "芝士火烈鸟，生活在海滩生物群落中。"
+			tasks: [{
+				id: "456841F6A7515A01"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:flamingo"
+				type: "observation"
+			}]
+			title: "火烈鸟"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"请不要给它喂牛奶。"
+				""
+				"他掉落什么？你为什么要杀他？它什么都不掉。"
+				""
+				"刺猬不能被驯服，只能用腐肉繁殖。"
+			]
+			icon: "wildernature:hedgehog_spawn_egg"
+			id: "45A1ACBE524986D5"
+			subtitle: "看他多可爱啊！他可以在森林中找到"
+			tasks: [{
+				id: "455F3318B23DB9B9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:hedgehog"
+				type: "observation"
+			}]
+			title: "刺猬"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"它们主要栖息在稀树草原上"
+				"非常吵闹和好斗，而且还以更大的群体出现并一起狩猎玩家。"
+				""
+				"高伤害！他们甚至可以穿透最坚固的盔甲。"
+				"死后，它们会掉落大量的羽毛和食火鸡肉"
+				"食火鸡并不友好。因此，它们不能被驯服或繁殖。"
+			]
+			icon: "wildernature:cassowary_spawn_egg"
+			id: "246FB312A4CC1B48"
+			subtitle: "哦不！这些是令人讨厌的小野兽。"
+			tasks: [{
+				id: "2ED741ECC105A606"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:cassowary"
+				type: "observation"
+			}]
+			title: "食火鸡"
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"它可以剪羊毛。很多羊毛。"
+				"死亡时，它会掉落更多的羊毛和羊肉。"
+				""
+				"迷你羊具有与绵羊相同的战利品表和繁殖属性。"
+				""
+				"使用小麦进行繁殖"
+			]
+			icon: "wildernature:minisheep_spawn_egg"
+			id: "5FD44E72549626CD"
+			subtitle: "天哪！又一个毛茸茸的生物！可以在寒冷的地区找到。"
+			tasks: [{
+				id: "4E8811A57408C368"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:minisheep"
+				type: "observation"
+			}]
+			title: "迷你羊"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"你以前就那样杀死这些手无寸铁的生物吗？"
+				"现在它们可以寻找它们的动物朋友寻求帮助。"
+				""
+				"死后，它们会掉落羽毛和火鸡肉。"
+				""
+				"火鸡具有与鸡相同的战利品表和繁殖特性。"
+				""
+				"使用小麦种子养殖"
+			]
+			icon: "wildernature:turkey_spawn_egg"
+			id: "2D7486896F0655C4"
+			tasks: [{
+				id: "6CB773AA3BBCF10C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:turkey"
+				type: "observation"
+			}]
+			title: "火鸡"
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"他们不喜欢玩家，如果靠近，它们会成群结队地攻击。"
+				"只造成少量伤害，但具有非常强的击退。 "
+				"死亡后，会掉落 2-3 个野牛肉，偶尔还会掉落很多皮革。"
+				""
+				"野牛是中立的，因此，它们不能被驯服或繁殖。"
+			]
+			icon: "wildernature:bison_spawn_egg"
+			id: "0F25B9EF58E02E6C"
+			subtitle: "野牛在热带草原生物群系中成群生成。"
+			tasks: [{
+				id: "517DB9131FCEF358"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:bison"
+				type: "observation"
+			}]
+			title: "野牛"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"猫头鹰会以大多数其他小动物为目标并与它们战斗"
+				"可以使用腐肉驯服"
+			]
+			icon: "wildernature:owl_spawn_egg"
+			id: "3C406E90658746DD"
+			subtitle: "暗夜猎人。最好在森林中找到。白天睡觉，晚上打猎。"
+			tasks: [{
+				id: "5B27665C63433561"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:owl"
+				type: "observation"
+			}]
+			title: "猫头鹰"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"它们不时四处游荡，在地面上搜索，可以找到各种物品：树根、砂土，甚至松露！"
+				"与猪相同的战利品表和繁殖特性。"
+				"使用胡萝卜繁殖"
+			]
+			icon: "wildernature:boar_spawn_egg"
+			id: "5FB82AD3C095A477"
+			subtitle: "森林和稀树草原地区出现"
+			tasks: [{
+				id: "4A4C0BB35BEA22FC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "wildernature:boar"
+				type: "observation"
+			}]
+			title: "野猪"
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0F25B9EF58E02E6C"]
+			description: [""]
+			id: "250CDEE26BC976CF"
+			rewards: [{
+				auto: "enabled"
+				id: "5D9FEFF61ACBC1F9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2C47D96E59993BEA"
+				item: "wildernature:bison_meat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["61DB7768765ED96C"]
+			description: [""]
+			id: "11006B7BDDE61FDD"
+			rewards: [{
+				auto: "enabled"
+				id: "752162838E77FD78"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "538E4E873045E78C"
+				item: "wildernature:cooked_pelican_meat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["61DB7768765ED96C"]
+			description: [""]
+			id: "3ECEF1E04A0BB0E9"
+			rewards: [{
+				auto: "enabled"
+				id: "0A8B76CB3C476E74"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "27C36EC674F94B44"
+				item: "wildernature:pelican_meat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["19096CDBFD331237"]
+			description: [""]
+			id: "7265A39C21B7D20F"
+			rewards: [{
+				auto: "enabled"
+				id: "0FE2F9366E16E614"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1EE618FC090CFBEF"
+				item: "wildernature:hazelnut"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["74EB3BA3EC06BF04"]
+			description: [""]
+			id: "75E62EE8A2460402"
+			rewards: [{
+				auto: "enabled"
+				id: "54B70B1A727A6B46"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "可以随机获得一种食物"
+			tasks: [{
+				id: "04E81AA1EFF96250"
+				item: "wildernature:loot_bag"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["629EDEEB90F33A6C"]
+			description: [""]
+			id: "22CFD931BEF0FEF7"
+			rewards: [{
+				auto: "enabled"
+				id: "64595404D633FF3F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "39CD3E21C07D418C"
+				item: "wildernature:cooked_venison"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0F25B9EF58E02E6C"]
+			description: [""]
+			id: "062E520BEBF6DD7C"
+			rewards: [{
+				auto: "enabled"
+				id: "42F470150EC142C4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66DB1C7E2F470AE7"
+				item: "wildernature:cooked_bison_meat"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["629EDEEB90F33A6C"]
+			description: [""]
+			id: "65D779F43236481F"
+			rewards: [{
+				auto: "enabled"
+				id: "61A0B4BE47DFBC8D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "55C33B9BF64753D0"
+				item: "wildernature:venison"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["246FB312A4CC1B48"]
+			description: [""]
+			id: "3E59F501CBC29740"
+			rewards: [{
+				auto: "enabled"
+				id: "2AF52870E008E1AA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "01937D29D5CDA1C2"
+				item: "wildernature:cassowary_meat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["246FB312A4CC1B48"]
+			description: [""]
+			id: "4F09905AFE3B6E1C"
+			rewards: [{
+				auto: "enabled"
+				id: "329ADDE1AE1472BC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "354895AEF81CFC4E"
+				item: "wildernature:cooked_cassowary_meat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5FB82AD3C095A477"]
+			description: [""]
+			id: "6D92E0AF3F119DD1"
+			rewards: [{
+				auto: "enabled"
+				id: "30A30B5E3A5B5768"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1084CCA02AA136B3"
+				item: "wildernature:truffle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1E74C4F4562C8478"]
+			description: [""]
+			id: "38235EEC0FD0EE4F"
+			rewards: [{
+				auto: "enabled"
+				id: "73B9AD75926043FC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "40DB99C91CAF8DB3"
+				item: "untitledduckmod:raw_goose"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2D7486896F0655C4"]
+			description: [""]
+			id: "79FA782230828FBA"
+			rewards: [{
+				auto: "enabled"
+				id: "664F3A6CC619909C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5790903838C93930"
+				item: "wildernature:cooked_turkey_meat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2D7486896F0655C4"]
+			description: [""]
+			id: "1C301D287E933CCC"
+			rewards: [{
+				auto: "enabled"
+				id: "53BD15AC52D06409"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "70E7E6A5B3937400"
+				item: "wildernature:turkey_meat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0F25B9EF58E02E6C"]
+			description: [""]
+			id: "108C01AC35F1B425"
+			rewards: [{
+				auto: "enabled"
+				id: "599255B1D813479C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3F06B93153118863"
+				item: "wildernature:bison_horn"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["60E30F02B8867DE2"]
+			description: [""]
+			id: "51FC05CE679637FE"
+			rewards: [{
+				auto: "enabled"
+				id: "37C9D72DC93B51C2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "506B5DB1F24BA64E"
+				item: "autumnity:turkey_egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["60E30F02B8867DE2"]
+			description: [""]
+			id: "00FBF66E8DBCCE73"
+			rewards: [{
+				auto: "enabled"
+				id: "56A6930EB6672019"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C78B3A2F3C4BF6E"
+				item: "autumnity:turkey"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1E74C4F4562C8478"]
+			description: [""]
+			id: "1C35CE611C09CFCE"
+			rewards: [{
+				auto: "enabled"
+				id: "377F6C4F0EDCF9B5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0D66503945E098C0"
+				item: "untitledduckmod:duck_feather"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["24E881216B745929"]
+			description: [""]
+			id: "2692684017FBE5D3"
+			rewards: [{
+				auto: "enabled"
+				id: "7A60C98A0B7FAA96"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "22542092716A5C14"
+				item: "untitledduckmod:goose_foot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			description: [
+				"自然生成于 枫林 和 南瓜原野"
+				"生成时有 5% 的几率为幼年。"
+				"右击砸碎 火鸡蛋 时有 25% 几率生成一只幼年火鸡。"
+				""
+				"火鸡漫无目的地游荡。"
+				"幼年火鸡会尝试跟随成年火鸡。"
+				"火鸡会跟随手持秽莓的玩家。"
+				"火鸡可用拴绳牵引。"
+				""
+				"分别给两只成年火鸡喂食秽莓，"
+				"它们就会开始繁殖并生下幼年火鸡老胎生禽类了。"
+				"繁殖后5分钟内不能再被喂食。"
+			]
+			icon: "autumnity:turkey_spawn_egg"
+			id: "60E30F02B8867DE2"
+			tasks: [{
+				id: "546132BD1AD1AAF0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "autumnity:turkey"
+				type: "observation"
+			}]
+			title: "火鸡"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1E74C4F4562C8478"]
+			description: [""]
+			id: "5850161BC2E806B0"
+			rewards: [{
+				auto: "enabled"
+				id: "7DD58571D5C759FC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5C033355AA060277"
+				item: "untitledduckmod:duck_egg"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["24E881216B745929"]
+			description: [""]
+			id: "7AA873B1DAED85C4"
+			rewards: [{
+				auto: "enabled"
+				id: "07EA07AA52BD9005"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "53F8734D784F36D3"
+				item: "untitledduckmod:goose_egg"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["24E881216B745929"]
+			description: [""]
+			id: "2474AC48CD7C8A1A"
+			rewards: [{
+				auto: "enabled"
+				id: "69116A7B1C1619D3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "30238F15905FE474"
+				item: "untitledduckmod:raw_duck"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			description: [""]
+			id: "1C0939FC392D239A"
+			rewards: [{
+				auto: "enabled"
+				id: "3DF205AC36069948"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5F579991021625DF"
+				item: "wildernature:bounty_board"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "60560E572AFFC5AC"
+			rewards: [{
+				auto: "enabled"
+				id: "1B660BE46439B224"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "5D3BF266BB684F2D"
+				item: {
+					Count: 1
+					id: "wildernature:stylin_purple_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "2D98C89D8C4FBE7F"
+			rewards: [{
+				auto: "enabled"
+				id: "664ABA5893D8CE3C"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4FAAF9D16A742982"
+				item: {
+					Count: 1
+					id: "wildernature:fur_cloak"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "7F4E81DBE0C7509C"
+			rewards: [{
+				auto: "enabled"
+				id: "5F90236B2A15BB29"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2024C10937DA9F39"
+				item: "wildernature:red_wolf_trophy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "056C65B6010BD7BB"
+			rewards: [{
+				auto: "enabled"
+				id: "5529BCF1717C536C"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "085574791AAAFC94"
+				item: "wildernature:deer_trophy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "644D1B4A5BA035D2"
+			rewards: [{
+				auto: "enabled"
+				id: "1449A67503B6C5FE"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "3A6BFF0CA913A913"
+				item: "wildernature:bison_trophy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "7107BD411D7A6A8F"
+			rewards: [{
+				auto: "enabled"
+				id: "7DFD2B89015FA979"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "7358DCEA5373B120"
+				item: "wildernature:wolf_trapper_banner"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "2D478CA1335480A8"
+			rewards: [{
+				auto: "enabled"
+				id: "395EC8A3575A9A3C"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2D426BEA341740F3"
+				item: "wildernature:bunny_stalker_banner"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "16CA72AD8E333051"
+			rewards: [{
+				auto: "enabled"
+				id: "66E856CB1AF4D345"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "1FA40BAA2991E0DD"
+				item: "wildernature:cod_catcher_banner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7AF57870827CBE64"]
+			description: [""]
+			id: "2757776ADA4E7AE2"
+			rewards: [{
+				auto: "enabled"
+				id: "233D9E3B17BFBD99"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "547BD1A4B22DE34F"
+				item: "wildernature:diamond_ammunition"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7AF57870827CBE64"]
+			description: [""]
+			id: "2EB6205760AF046A"
+			rewards: [{
+				auto: "enabled"
+				id: "5E0F0B2D5C00C611"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "7E45A9351177F17B"
+				item: "wildernature:flint_ammunition"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1C0939FC392D239A"]
+			description: [""]
+			id: "7AF57870827CBE64"
+			rewards: [{
+				auto: "enabled"
+				id: "298E3460C55A6564"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "23E97CFA9A6B693D"
+				item: {
+					Count: 1
+					id: "wildernature:blunderbuss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+	]
+	title: "野性自然"
+}

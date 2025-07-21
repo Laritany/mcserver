@@ -1,0 +1,28 @@
+{
+	"credit": "Made by Satisfy",
+	"textures": {
+		"4": "farmingtales:block/bakery/cake_base_side",
+		"5": "farmingtales:block/bakery/cake_base_top",
+		"particle": "farmingtales:block/bakery/cake_base_top"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 8, 15],
+			"faces": {
+				"north": {"uv": [1, 9, 15, 16], "texture": "#4"},
+				"east": {"uv": [1, 9, 15, 16], "texture": "#4"},
+				"south": {"uv": [1, 9, 15, 16], "texture": "#4"},
+				"west": {"uv": [1, 9, 15, 16], "texture": "#4"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#5"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -7.5]
+		}
+	}
+}

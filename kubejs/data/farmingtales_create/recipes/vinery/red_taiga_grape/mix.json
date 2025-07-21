@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {"item": "vinery:taiga_grapes_red"},
+    {"item": "vinery:taiga_grapes_red"},
+    {"item": "vinery:taiga_grapes_red"}
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "farmingtales:red_taiga_grape_juice"
+    }
+  ]
+}

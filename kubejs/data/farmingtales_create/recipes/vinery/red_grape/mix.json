@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {"item": "vinery:red_grape"},
+    {"item": "vinery:red_grape"},
+    {"item": "vinery:red_grape"}
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "farmingtales:red_grape_juice"
+    }
+  ]
+}

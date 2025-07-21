@@ -1,0 +1,86 @@
+{
+  "profession": "minecraft:shepherd",
+  "removeOtherTrades": true,
+  "maxTrades": 40,
+  "trades": [
+    {
+      "offer": {"itemKey": "farmingtales:blind_box_cloth","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 400,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "farm_and_charm:feeding_trough","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 35,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "minecraft:goat_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "minecraft:sheep_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "meadow:water_buffalo_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "meadow:wooly_cow_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "meadow:wooly_sheep_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "minecraft:cow_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+    {
+      "offer": {"itemKey": "minecraft:shears","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 10,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "shepherd"
+    },
+{"offer": {"itemKey": "create:red_table_cloth","amount": 10,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 9,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "farmersdelight:canvas","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 9,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+    {
+      "offer": {"itemKey": "farmingtales:house_caodianxiaowu","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 3000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    }
+///二阶
+  ]
+}

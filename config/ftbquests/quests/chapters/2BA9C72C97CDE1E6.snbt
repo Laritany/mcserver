@@ -1,0 +1,1671 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2BA9C72C97CDE1E6"
+	group: "69AF6EA27123D833"
+	icon: "candlelight:rose"
+	id: "2BA9C72C97CDE1E6"
+	images: [{
+		click: "https://github.com/satisfyu/Candlelight/wiki/blocks#wild-crops"
+		height: 3.0d
+		hover: ["点击查看wiki"]
+		image: "candlelight:item/table_sign"
+		rotation: 0.0d
+		width: 3.0d
+		x: -9.5d
+		y: -0.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "candlelight:oak_big_table"
+			id: "47FDC86DEAF55684"
+			rewards: [{
+				auto: "enabled"
+				id: "3893D0BD187CF870"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "01626997DB30EDC7"
+					item: "candlelight:cherry_big_table"
+					type: "item"
+				}
+				{
+					id: "33CA839E810E5BCD"
+					item: "candlelight:oak_big_table"
+					type: "item"
+				}
+				{
+					id: "6715B386A218DDAE"
+					item: "candlelight:birch_big_table"
+					type: "item"
+				}
+				{
+					id: "14ABC8042AB2EC01"
+					item: "candlelight:warped_big_table"
+					type: "item"
+				}
+				{
+					id: "25ED2F9F9979F1DA"
+					item: "candlelight:mangrove_big_table"
+					type: "item"
+				}
+				{
+					id: "5FF33023C8648563"
+					item: "candlelight:jungle_big_table"
+					type: "item"
+				}
+				{
+					id: "67C0728E8A8138B2"
+					item: "candlelight:spruce_big_table"
+					type: "item"
+				}
+				{
+					id: "62F521D593E5CF1C"
+					item: "candlelight:crimson_big_table"
+					type: "item"
+				}
+				{
+					id: "74CF9A58AC7A9196"
+					item: "candlelight:acacia_big_table"
+					type: "item"
+				}
+				{
+					id: "559CF1EA855540C3"
+					item: "candlelight:dark_oak_big_table"
+					type: "item"
+				}
+				{
+					id: "386A80DC2AF0E489"
+					item: "candlelight:bamboo_big_table"
+					type: "item"
+				}
+			]
+			title: "大桌"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "0139C0A8C598A6CB"
+			rewards: [{
+				auto: "enabled"
+				id: "0B4CEC611E45CCE3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "59F8B48088F9D751"
+				item: "candlelight:cooking_pot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0139C0A8C598A6CB"]
+			description: [""]
+			id: "1A63372A4CAB040A"
+			rewards: [{
+				auto: "enabled"
+				id: "4116AE13A58B2272"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2F61447D48131658"
+				item: {
+					Count: 1
+					id: "candlelight:tomato_soup"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EB855B213D2E857"]
+			description: [""]
+			id: "45B88E87E460C7A4"
+			rewards: [{
+				auto: "enabled"
+				id: "0A68952A2E8CCAEA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C806EC8E1238D2C"
+				item: "candlelight:salad"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EB855B213D2E857"]
+			description: [""]
+			id: "296429B989393C5D"
+			rewards: [{
+				auto: "enabled"
+				id: "1B0915F94824F91B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "10129B8AB96E42C2"
+				item: "candlelight:mozzarella"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0139C0A8C598A6CB"]
+			description: [""]
+			id: "4518439F8BE0A61E"
+			rewards: [{
+				auto: "enabled"
+				id: "5831B9021E60B76D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "658DD7DCDDFA157E"
+				item: {
+					Count: 1
+					id: "candlelight:mushroom_soup"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0139C0A8C598A6CB"]
+			description: [""]
+			id: "1221C7E5C2B3BF21"
+			rewards: [{
+				auto: "enabled"
+				id: "737B38410D2081DE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "104CDF7AB5AD4193"
+				item: {
+					Count: 1
+					id: "candlelight:pasta_with_mozzarella"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7EB855B213D2E857"]
+			description: [""]
+			id: "457967175363E308"
+			rewards: [{
+				auto: "enabled"
+				id: "0274044BB2AE3431"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5DF4CB2ECF5BCC89"
+				item: "candlelight:beef_tartare"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7EB855B213D2E857"]
+			description: [""]
+			id: "50BB7053072DDC69"
+			rewards: [{
+				auto: "enabled"
+				id: "658A49FE5F1063F5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "098894502430EBEE"
+				item: "candlelight:beetroot_salad"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0139C0A8C598A6CB"]
+			description: [""]
+			id: "4ABFD865D5BA3378"
+			rewards: [{
+				auto: "enabled"
+				id: "43121808DDBC316A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6E81C181DC3CE94A"
+				item: "candlelight:chicken_teriyaki"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78CDA5966CA3CA06"]
+			description: [""]
+			id: "4F4938275EA960F1"
+			rewards: [{
+				auto: "enabled"
+				id: "61126A1DC67122AA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2961C9C5D9CF60E6"
+				item: {
+					Count: 1
+					id: "candlelight:pasta_with_bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78CDA5966CA3CA06"]
+			description: [""]
+			id: "6DE0212731D884FE"
+			rewards: [{
+				auto: "enabled"
+				id: "7CA2FEAB153930CB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "197B7D6D6AC18A66"
+				item: {
+					Count: 1
+					id: "candlelight:bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0139C0A8C598A6CB"]
+			description: [""]
+			id: "515E574AF55FAADF"
+			rewards: [{
+				auto: "enabled"
+				id: "20D86264951CD1E9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5EE55B368A26C474"
+				item: "candlelight:chocolate_mousse"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78CDA5966CA3CA06"]
+			description: [""]
+			id: "45E38480B4639E3E"
+			rewards: [{
+				auto: "enabled"
+				id: "1CECDF18997B10E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7E2448E2EF268AA6"
+				item: "candlelight:pasta_with_lettuce"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78CDA5966CA3CA06"]
+			description: [""]
+			id: "12A31D320981C131"
+			rewards: [{
+				auto: "enabled"
+				id: "2CDA26F99306A55A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5A0E77E40B1D66B7"
+				item: "candlelight:omelet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EB855B213D2E857"]
+			description: [""]
+			id: "24BE4FEB67FD503F"
+			rewards: [{
+				auto: "enabled"
+				id: "11CE4D5A8C674B4C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "75845B8DDC90F45A"
+				item: "candlelight:fresh_garden_salad"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EB855B213D2E857"]
+			description: [""]
+			id: "0C22FB3EA1287E87"
+			rewards: [{
+				auto: "enabled"
+				id: "741E6A0748D9075C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "73ACB3B11E22380A"
+				item: "candlelight:harvest_plate"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78CDA5966CA3CA06"]
+			description: [""]
+			id: "54711E9F6A5C2876"
+			rewards: [{
+				auto: "enabled"
+				id: "0BA30AFC00B43D51"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E962F5CD246D373"
+				item: {
+					Count: 1
+					id: "candlelight:beef_with_mushroom_in_wine_and_potatoes"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["549A25741D28D5D4"]
+			description: [""]
+			id: "5E226E6AFDF51BC4"
+			rewards: [{
+				auto: "enabled"
+				id: "03D028700B4E42D5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CC31FCF8E2E7700"
+				item: {
+					Count: 1
+					id: "candlelight:roastbeef_with_glazed_carrots"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0139C0A8C598A6CB"]
+			description: [""]
+			id: "5BD1D3AB1C4FE4CF"
+			rewards: [{
+				auto: "enabled"
+				id: "64CCC6F81DD1761C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "586381B688F295D6"
+				item: "candlelight:khinkali"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["549A25741D28D5D4"]
+			description: [""]
+			id: "59646D717DDB5F19"
+			rewards: [{
+				auto: "enabled"
+				id: "4F43B79AFD8C1DFD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "159D7D206F2ED30D"
+				item: {
+					Count: 1
+					id: "candlelight:pork_ribs"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EB855B213D2E857"]
+			description: [""]
+			id: "74405CE8420B41A0"
+			rewards: [{
+				auto: "enabled"
+				id: "364A4107CAAD6A4B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "735BEC28D647C934"
+				item: "candlelight:tomato_mozzarella_salad"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78CDA5966CA3CA06"]
+			description: [""]
+			id: "1E3EC000E4FF9DFB"
+			rewards: [{
+				auto: "enabled"
+				id: "307D92F35693AA17"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "47E48FA3300E6D1F"
+				item: {
+					Count: 1
+					id: "candlelight:roasted_lamb_with_lettuce"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["549A25741D28D5D4"]
+			description: [""]
+			id: "57439AA8F066A95F"
+			rewards: [{
+				auto: "enabled"
+				id: "4169B7290C6945E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "648DA2A5B661FC3B"
+				item: {
+					Count: 1
+					id: "candlelight:tropical_fish_supreme"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78CDA5966CA3CA06"]
+			description: [""]
+			id: "664F093B4C5DEF05"
+			rewards: [{
+				auto: "enabled"
+				id: "7A43BF6F7305F8FF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5F7F6DA510010A75"
+				item: {
+					Count: 1
+					id: "candlelight:fillet_steak"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0139C0A8C598A6CB"]
+			description: [""]
+			id: "6EB7B4E7DDCBBB2E"
+			rewards: [{
+				auto: "enabled"
+				id: "2CF9781DCB0A2C1C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "15D1424577C99681"
+				item: {
+					Count: 1
+					id: "candlelight:salmon_on_white_wine"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["549A25741D28D5D4"]
+			description: [""]
+			id: "0967B9D35126941C"
+			rewards: [{
+				auto: "enabled"
+				id: "55EC70CA1D469604"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71DD62877DC943DA"
+				item: {
+					Count: 1
+					id: "candlelight:beef_wellington"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["549A25741D28D5D4"]
+			description: [""]
+			id: "3C130487EF8ABB3B"
+			rewards: [{
+				auto: "enabled"
+				id: "5721064A632CC6F8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "04D66DE361F6069F"
+				item: {
+					Count: 1
+					id: "candlelight:lasagne"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["549A25741D28D5D4"]
+			description: [""]
+			id: "3BDEC035D13E6D23"
+			rewards: [{
+				auto: "enabled"
+				id: "4DA3F16B30C1307A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "751FAF7CA70E4A82"
+				item: {
+					Count: 1
+					id: "candlelight:chicken_alfredo"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["549A25741D28D5D4"]
+			description: [""]
+			id: "591F43320387FCD7"
+			rewards: [{
+				auto: "enabled"
+				id: "210195B523995E3C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "565DCC075A679B52"
+				item: {
+					Count: 1
+					id: "candlelight:chicken_with_vegetables"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			id: "78CDA5966CA3CA06"
+			rewards: [{
+				auto: "enabled"
+				id: "1B0DCCB46CDC5401"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "18332892FA6E2AAA"
+				item: {
+					Count: 1
+					id: "candlelight:cooking_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7EB855B213D2E857"
+			tasks: [{
+				id: "3E0FAFB2201AC95F"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "549A25741D28D5D4"
+			tasks: [{
+				id: "2AF987D54E0C7B08"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "51EE54A01DCC25F7"
+			rewards: [{
+				auto: "enabled"
+				id: "1E722DF744E1B39A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "65EF199C2047996A"
+				item: "candlelight:dinner_bell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "6034F3719E34780A"
+			rewards: [{
+				auto: "enabled"
+				id: "7BAF4BC8EC6BE262"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6商店处购买"
+			tasks: [{
+				id: "0D63CB923647B688"
+				item: "candlelight:painting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "0694FB327C2FA963"
+			rewards: [{
+				auto: "enabled"
+				id: "5B0991E1567EE891"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "02A32CA875F39D6B"
+				item: "candlelight:hearth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "375BD928421B69C0"
+			rewards: [{
+				auto: "enabled"
+				id: "68CFFFD044B7BC64"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "52A2979CE0581B13"
+				item: "candlelight:table_sign"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "634170D42C227F36"
+			rewards: [{
+				auto: "enabled"
+				id: "3920D29890EF2A20"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "574472CEACBC9F6B"
+				item: "candlelight:candlelight_banner"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "5C50799246C2D649"
+			rewards: [{
+				auto: "enabled"
+				id: "4B3C1AD11559FE05"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "071575B310A631CF"
+				item: "candlelight:rose"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A9C8D5EAA00A974"]
+			description: [""]
+			id: "2AF5BE5F33FCFCE0"
+			rewards: [{
+				auto: "enabled"
+				id: "7DF77ED53BCFE133"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6F126C3136086F54"
+				item: "candlelight:chocolate_box"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "2A9C8D5EAA00A974"
+			rewards: [{
+				auto: "enabled"
+				id: "0C2CDB3FCD7F3A12"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "560935DF3D3E8483"
+				item: "bakery:chocolate_truffle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			id: "612572C7B23DF44D"
+			rewards: [{
+				auto: "enabled"
+				id: "59B7272573206565"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B5CBEB07AD47F91"
+				item: {
+					Count: 1
+					id: "candlelight:gold_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["612572C7B23DF44D"]
+			description: [""]
+			id: "269D31A56AEE107A"
+			rewards: [{
+				auto: "enabled"
+				id: "10B5A9F301B3788C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "596402B787455149"
+				item: "candlelight:jewelry_box"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "5286B318FCE42C8D"
+			rewards: [{
+				auto: "enabled"
+				id: "646A5B29DBB77311"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7AC98D57E08A907B"
+				item: "candlelight:note_paper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5286B318FCE42C8D"]
+			description: [""]
+			id: "00C705142CEC7890"
+			rewards: [{
+				auto: "enabled"
+				id: "0BA269397DAAADF9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "505109AA7908FBA4"
+				item: "candlelight:note_paper_writeable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "47BAFD3C84F6B02F"
+			rewards: [{
+				auto: "enabled"
+				id: "7C243512977A3F31"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "63D40B0F67635E64"
+				item: "candlelight:typewriter_iron"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "0D49FDC91DA386CB"
+			rewards: [{
+				auto: "enabled"
+				id: "22D9CB4FEBC96E47"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "63C7A9F5D3CCCFB4"
+				item: "candlelight:typewriter_copper"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "3DF545D73C10AB18"
+			rewards: [{
+				auto: "enabled"
+				id: "67A4B31D6C6E9D42"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C1049CD0F10CACE"
+				item: "candlelight:letter_open"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "75B08871FBE58C6D"
+			rewards: [{
+				auto: "enabled"
+				id: "777ADAE08EB4C4D2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "24870FDEDD60049E"
+				item: "candlelight:love_letter_open"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			icon: "candlelight:stone_bricks_kitchen_sink"
+			id: "257ED757CD3560B7"
+			rewards: [{
+				auto: "enabled"
+				id: "2AAB22E5BE746331"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "4D17F64FF09DE84A"
+					item: "candlelight:basalt_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "56496A69D081062D"
+					item: "candlelight:bamboo_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "4CE9C0B160EBFEF4"
+					item: "candlelight:red_nether_bricks_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "701DE1378400D79E"
+					item: "candlelight:quartz_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "0B156206592CB62D"
+					item: "candlelight:mud_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "145301D4E7D2D300"
+					item: "candlelight:end_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "15F954A4EE7B8420"
+					item: "candlelight:granite_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "65556E825A94F38C"
+					item: "candlelight:deepslate_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "29F16A7F9A885C93"
+					item: "candlelight:stone_bricks_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "7A889CF0592C3B45"
+					item: "candlelight:sandstone_kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "7E459D111F15533B"
+					item: "candlelight:cobblestone_kitchen_sink"
+					type: "item"
+				}
+			]
+			title: "水槽"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "candlelight:stone_bricks_stove"
+			id: "542691DE79A5F80B"
+			rewards: [{
+				auto: "enabled"
+				id: "1D72F2F41C958FCF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "4C8F96CA780FB8C8"
+					item: "candlelight:cobblestone_stove"
+					type: "item"
+				}
+				{
+					id: "1E56975D2EDB225E"
+					item: "candlelight:sandstone_stove"
+					type: "item"
+				}
+				{
+					id: "767FF531AAD9776F"
+					item: "candlelight:stone_bricks_stove"
+					type: "item"
+				}
+				{
+					id: "69A6A44732A719F0"
+					item: "candlelight:deepslate_stove"
+					type: "item"
+				}
+				{
+					id: "40841DD805EB76B0"
+					item: "candlelight:granite_stove"
+					type: "item"
+				}
+				{
+					id: "3B0E33F1D8DFBC08"
+					item: "candlelight:end_stove"
+					type: "item"
+				}
+				{
+					id: "5222F526C9D47010"
+					item: "candlelight:mud_stove"
+					type: "item"
+				}
+				{
+					id: "43E76CD75FB96532"
+					item: "candlelight:quartz_stove"
+					type: "item"
+				}
+				{
+					id: "760B70BE11EDAE56"
+					item: "candlelight:red_nether_bricks_stove"
+					type: "item"
+				}
+				{
+					id: "5516D81A781DE82D"
+					item: "candlelight:basalt_stove"
+					type: "item"
+				}
+				{
+					id: "6467E61F4E4D8725"
+					item: "candlelight:bamboo_stove"
+					type: "item"
+				}
+			]
+			title: "炉灶"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "candlelight:oak_chair"
+			id: "680117EAB1EC9269"
+			rewards: [{
+				auto: "enabled"
+				id: "78B51F4619BA7F29"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "1439A422B09A479D"
+					item: "candlelight:crimson_chair"
+					type: "item"
+				}
+				{
+					id: "1073D09385F4594B"
+					item: "candlelight:bamboo_chair"
+					type: "item"
+				}
+				{
+					id: "522826E402EC6685"
+					item: "candlelight:dark_oak_chair"
+					type: "item"
+				}
+				{
+					id: "6BFB5DF78091BACB"
+					item: "candlelight:birch_chair"
+					type: "item"
+				}
+				{
+					id: "2F6451C4292F8809"
+					item: "candlelight:oak_chair"
+					type: "item"
+				}
+				{
+					id: "3582EAC1C534B354"
+					item: "candlelight:acacia_chair"
+					type: "item"
+				}
+				{
+					id: "153ABD76E0D8B1D9"
+					item: "candlelight:jungle_chair"
+					type: "item"
+				}
+				{
+					id: "19188DA22DDBFE12"
+					item: "candlelight:spruce_chair"
+					type: "item"
+				}
+				{
+					id: "1E87CC2C5A0B072A"
+					item: "candlelight:cherry_chair"
+					type: "item"
+				}
+				{
+					id: "533786F1E8AE4EB7"
+					item: "candlelight:warped_chair"
+					type: "item"
+				}
+				{
+					id: "185822C47D6758F0"
+					item: "candlelight:mangrove_chair"
+					type: "item"
+				}
+			]
+			title: "椅子"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			icon: "candlelight:stone_bricks_counter"
+			id: "522843510409281E"
+			rewards: [{
+				auto: "enabled"
+				id: "3D47964E9100F2A6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "0BD72176EC74B7F3"
+					item: "candlelight:bamboo_counter"
+					type: "item"
+				}
+				{
+					id: "44A107EFB54B6BB0"
+					item: "candlelight:red_nether_bricks_counter"
+					type: "item"
+				}
+				{
+					id: "31485D124246ED31"
+					item: "candlelight:deepslate_counter"
+					type: "item"
+				}
+				{
+					id: "29AA25198D0EC2F0"
+					item: "candlelight:basalt_counter"
+					type: "item"
+				}
+				{
+					id: "2713F17810AE4FC8"
+					item: "candlelight:quartz_counter"
+					type: "item"
+				}
+				{
+					id: "781B5A1B6DD37856"
+					item: "candlelight:mud_counter"
+					type: "item"
+				}
+				{
+					id: "1354B630A903D3A0"
+					item: "candlelight:end_counter"
+					type: "item"
+				}
+				{
+					id: "0AA8D96A08F15464"
+					item: "candlelight:granite_counter"
+					type: "item"
+				}
+				{
+					id: "76E7C1772CBD48E9"
+					item: "candlelight:stone_bricks_counter"
+					type: "item"
+				}
+				{
+					id: "532DF03E2D034518"
+					item: "candlelight:sandstone_counter"
+					type: "item"
+				}
+				{
+					id: "05AE846D9262CBE9"
+					item: "candlelight:cobblestone_counter"
+					type: "item"
+				}
+			]
+			title: "柜台"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "candlelight:oak_cabinet"
+			id: "4C31153843948CFC"
+			rewards: [{
+				auto: "enabled"
+				id: "41D4DCC47392DD15"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "6348E1B0E6754097"
+					item: "candlelight:cherry_cabinet"
+					type: "item"
+				}
+				{
+					id: "1B3CFDA3BB8DA847"
+					item: "candlelight:bamboo_cabinet"
+					type: "item"
+				}
+				{
+					id: "25896C42F3ABCEAA"
+					item: "candlelight:crimson_cabinet"
+					type: "item"
+				}
+				{
+					id: "2CF946BF7A94C620"
+					item: "candlelight:warped_cabinet"
+					type: "item"
+				}
+				{
+					id: "4017D6CF2D17FEC5"
+					item: "candlelight:mangrove_cabinet"
+					type: "item"
+				}
+				{
+					id: "42AEA73039D70007"
+					item: "candlelight:jungle_cabinet"
+					type: "item"
+				}
+				{
+					id: "167A3641503BAE65"
+					item: "candlelight:acacia_cabinet"
+					type: "item"
+				}
+				{
+					id: "22F81E734FA2B958"
+					item: "candlelight:dark_oak_cabinet"
+					type: "item"
+				}
+				{
+					id: "6A82EA197DFBE6E9"
+					item: "candlelight:spruce_cabinet"
+					type: "item"
+				}
+				{
+					id: "27FE687C0E71F82E"
+					item: "candlelight:birch_cabinet"
+					type: "item"
+				}
+				{
+					id: "0BA00A564D01A6B1"
+					item: "candlelight:oak_cabinet"
+					type: "item"
+				}
+			]
+			title: "橱柜"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			icon: "candlelight:oak_table"
+			id: "28EF3933516D6A9C"
+			rewards: [{
+				auto: "enabled"
+				id: "4F425147BDD52EB0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "0F2376B14C066C3C"
+					item: "candlelight:oak_table"
+					type: "item"
+				}
+				{
+					id: "5A26C60E71B49E12"
+					item: "candlelight:birch_table"
+					type: "item"
+				}
+				{
+					id: "335554D285398090"
+					item: "candlelight:spruce_table"
+					type: "item"
+				}
+				{
+					id: "47AB5CF83DCABCEB"
+					item: "candlelight:dark_oak_table"
+					type: "item"
+				}
+				{
+					id: "516BC78F3C34DDD2"
+					item: "candlelight:acacia_table"
+					type: "item"
+				}
+				{
+					id: "3BFBA485F5C1DEE1"
+					item: "candlelight:jungle_table"
+					type: "item"
+				}
+				{
+					id: "6ED7523814640D52"
+					item: "candlelight:mangrove_table"
+					type: "item"
+				}
+				{
+					id: "5E2A107941FCD8DA"
+					item: "candlelight:warped_table"
+					type: "item"
+				}
+				{
+					id: "496FCCBB74034390"
+					item: "candlelight:crimson_table"
+					type: "item"
+				}
+				{
+					id: "75E9ECFB56BF78D7"
+					item: "candlelight:cherry_table"
+					type: "item"
+				}
+				{
+					id: "185D9AF8F41165D2"
+					item: "candlelight:bamboo_table"
+					type: "item"
+				}
+			]
+			title: "木桌"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "candlelight:oak_drawer"
+			id: "41EDF629237E721D"
+			rewards: [{
+				auto: "enabled"
+				id: "52C298BD31057274"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "3B7EDFE15906F812"
+					item: "candlelight:cherry_drawer"
+					type: "item"
+				}
+				{
+					id: "66193C34A711B3D7"
+					item: "candlelight:bamboo_drawer"
+					type: "item"
+				}
+				{
+					id: "259B7E364FF0B83D"
+					item: "candlelight:crimson_drawer"
+					type: "item"
+				}
+				{
+					id: "4644C413F9D8F3CB"
+					item: "candlelight:warped_drawer"
+					type: "item"
+				}
+				{
+					id: "65849BB6D174E0AC"
+					item: "candlelight:mangrove_drawer"
+					type: "item"
+				}
+				{
+					id: "66DB59A93F81E7C4"
+					item: "candlelight:jungle_drawer"
+					type: "item"
+				}
+				{
+					id: "21C0188E25AACD14"
+					item: "candlelight:dark_oak_drawer"
+					type: "item"
+				}
+				{
+					id: "3F1CC7297A6048FC"
+					item: "candlelight:birch_drawer"
+					type: "item"
+				}
+				{
+					id: "29E000EBD6BF7E9A"
+					item: "candlelight:oak_drawer"
+					type: "item"
+				}
+				{
+					id: "324AAB77250877A5"
+					item: "candlelight:acacia_drawer"
+					type: "item"
+				}
+				{
+					id: "589FE3510918EE2F"
+					item: "candlelight:spruce_drawer"
+					type: "item"
+				}
+			]
+			title: "抽屉"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			icon: "candlelight:oak_shelf"
+			id: "0032A18645BFE4C3"
+			rewards: [{
+				auto: "enabled"
+				id: "7F10270900239447"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "47E5F1CC9A881BF0"
+					item: "candlelight:bamboo_shelf"
+					type: "item"
+				}
+				{
+					id: "217A807116D067C8"
+					item: "candlelight:spruce_shelf"
+					type: "item"
+				}
+				{
+					id: "7A5E983D4E624791"
+					item: "candlelight:cherry_shelf"
+					type: "item"
+				}
+				{
+					id: "5C7B55D39FE055AB"
+					item: "candlelight:birch_shelf"
+					type: "item"
+				}
+				{
+					id: "7035AF7B05514610"
+					item: "candlelight:crimson_shelf"
+					type: "item"
+				}
+				{
+					id: "575BD90DEF992A39"
+					item: "candlelight:warped_shelf"
+					type: "item"
+				}
+				{
+					id: "369B55BCCB5EEF16"
+					item: "candlelight:mangrove_shelf"
+					type: "item"
+				}
+				{
+					id: "3F454C1F76E13122"
+					item: "candlelight:acacia_shelf"
+					type: "item"
+				}
+				{
+					id: "644DB820B3DD0FFE"
+					item: "candlelight:jungle_shelf"
+					type: "item"
+				}
+				{
+					id: "417EBF556776F542"
+					item: "candlelight:dark_oak_shelf"
+					type: "item"
+				}
+				{
+					id: "3ACB124AE4074836"
+					item: "candlelight:oak_shelf"
+					type: "item"
+				}
+			]
+			title: "置物架"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74405CE8420B41A0"
+				"54711E9F6A5C2876"
+				"457967175363E308"
+				"0967B9D35126941C"
+				"57439AA8F066A95F"
+				"515E574AF55FAADF"
+				"1221C7E5C2B3BF21"
+				"24BE4FEB67FD503F"
+				"59646D717DDB5F19"
+				"4ABFD865D5BA3378"
+				"6DE0212731D884FE"
+				"12A31D320981C131"
+				"3C130487EF8ABB3B"
+				"1A63372A4CAB040A"
+				"50BB7053072DDC69"
+				"664F093B4C5DEF05"
+				"0C22FB3EA1287E87"
+				"6EB7B4E7DDCBBB2E"
+				"3BDEC035D13E6D23"
+				"4F4938275EA960F1"
+				"2A9C8D5EAA00A974"
+				"2AF5BE5F33FCFCE0"
+				"4518439F8BE0A61E"
+				"296429B989393C5D"
+				"5E226E6AFDF51BC4"
+				"5BD1D3AB1C4FE4CF"
+				"1E3EC000E4FF9DFB"
+				"45B88E87E460C7A4"
+				"591F43320387FCD7"
+				"45E38480B4639E3E"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "candlelight:note_paper_writeable"
+			id: "0B96D31A03DB5763"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:cand set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "7FFDE65D59DDA099"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "6F47D5DBE3CC9516"
+					item: "armamentarium:vine_whetstone"
+					team_reward: false
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "63B2BB9C8768A6E5"
+				type: "checkmark"
+			}]
+			title: "收集任务[烛火晚宴]"
+			x: 6.0d
+			y: 0.5d
+		}
+	]
+	title: "烛火晚宴"
+}

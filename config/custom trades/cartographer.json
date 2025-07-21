@@ -1,0 +1,331 @@
+{
+  "profession": "minecraft:cartographer",
+  "removeOtherTrades": true,
+  "maxTrades": 40,
+  "trades": [
+    {
+      "offer": {"itemKey": "farmingtales:blind_box_banner_pattern","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:paper","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 10,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:map","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 8,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farmingtales:house_juminxiaowu","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 1000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farmingtales:house_kafei","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 8000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart5"
+    },
+    {
+      "offer": {"itemKey": "minecraft:lime_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:white_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:light_gray_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:gray_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:black_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart10"
+    },
+    {
+      "offer": {"itemKey": "minecraft:brown_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:red_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:orange_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:yellow_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:green_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 25,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:cyan_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:light_blue_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:blue_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:purple_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:magenta_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:pink_dye","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+
+    ///家具
+    {
+      "offer": {"itemKey": "furniture:sofa_white","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "furniture:lamp_white","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 46,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "furniture:pouffe_white","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 32,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "furniture:oak_mirror","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "furniture:oak_desk","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "furniture:oak_cabinet","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "furniture:canvas","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 54,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "another_furniture:oak_chair","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "another_furniture:oak_shelf","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 16,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "another_furniture:white_stool","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "another_furniture:white_sofa","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:sofa","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:table","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:chair","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:lamp","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:wooden_barrier","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:oak_open_riser_stairs","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "redeco:jar","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "redeco:oak_crate","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "redeco:white_pet_bed","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:oak_bench","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:oak_chair","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 27,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:oak_coffee_table","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 38,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "unusual_furniture:trash","amount": 2,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "mcwstairs:oak_terrace_stairs","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    }
+  ]
+}

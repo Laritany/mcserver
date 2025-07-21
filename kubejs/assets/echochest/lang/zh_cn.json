@@ -1,0 +1,5 @@
+{
+"block.echochest.echo_chest": "回响箱子",
+"block.echochest.echo_chest.description": "收集半径 8 块内附近生物掉落的物品和经验。",
+"container.echo_chest": "回响箱子"
+}

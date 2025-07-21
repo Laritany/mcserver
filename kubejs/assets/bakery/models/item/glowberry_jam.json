@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "bakery:item/glowberry_jam_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "bakery:item/glowberry_jam_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "bakery:item/glowberry_jam_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "bakery:item/glowberry_jam_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "bakery:item/glowberry_jam_gui"
+    },
+    "gui": {
+      "parent": "bakery:item/glowberry_jam_gui"
+    },
+    "ground": {
+      "parent": "bakery:item/glowberry_jam_gui"
+    }
+  }
+}

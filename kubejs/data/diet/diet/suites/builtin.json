@@ -1,0 +1,318 @@
+{
+  "replace": false,
+  "groups": [
+    "fruits",
+    "grains",
+    "proteins",
+    "sugars",
+    "vegetables"
+  ],
+  "effects": [
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "all",
+          "above": 0.2,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "all",
+          "above": 0.5,
+          "below": 2.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "all",
+          "above": 0.8,
+          "below": 3.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "all",
+          "above": 1.0,
+          "below": 4.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "add",
+          "amount": 0.01
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars"],
+          "match": "all",
+          "above": 0.3,
+          "below": 1.0
+        }
+      ]
+    }, 
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "add",
+          "amount": 0.01
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars"],
+          "match": "all",
+          "above": 0.8,
+          "below": 2.0
+        }
+      ]
+    }, 
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "all",
+          "above": 0.2,
+          "below": 1.0
+        }
+      ]
+    }, 
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "all",
+          "above": 0.5,
+          "below": 2.0
+        }
+      ]
+    }, 
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "all",
+          "above": 0.8,
+          "below": 3.0
+        }
+      ]
+    }, 
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "all",
+          "above": 1.0,
+          "below": 4.0
+        }
+      ]
+    }, 
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vegetables"],
+          "match": "all",
+          "above": 0.2,
+          "below": 1.0
+        }
+      ]
+    },   
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vegetables"],
+          "match": "all",
+          "above": 0.5,
+          "below": 2.0
+        }
+      ]
+    }, 
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vegetables"],
+          "match": "all",
+          "above": 0.8,
+          "below": 3.0
+        }
+      ]
+    },   
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vegetables"],
+          "match": "all",
+          "above": 1.0,
+          "below": 4.0
+        }
+      ]
+    },  
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 0.5
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.2,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 0.5
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.5,
+          "below": 2.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 0.5
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.8,
+          "below": 3.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 0.5
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 1.0,
+          "below": 4.0
+        }
+      ]
+    }
+  ]
+}

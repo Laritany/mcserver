@@ -1,0 +1,31 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "rusticpancakes:vegetable_pancakes",
+    "count": 1
+  },
+  "requiresLearning": false
+}

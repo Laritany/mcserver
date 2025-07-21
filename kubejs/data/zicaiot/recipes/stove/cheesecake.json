@@ -1,0 +1,17 @@
+{
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "tag": "farm_and_charm:water_bottles"
+    },
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "tag": "meadow:cheese"
+    }
+  ],
+  "item": "meadow:cheesecake",
+  "count": 4,
+  "experience": 0.35
+}

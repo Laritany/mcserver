@@ -1,0 +1,248 @@
+{
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 50,
+  "trades": [
+    {
+      "offer": {"itemKey": "minecraft:fishing_rod","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 27,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 16,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "meadow:wooden_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 6,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:oak_boat","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "boatload:oak_furnace_boat","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 30,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:oak_chest_boat","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "boatload:large_oak_boat","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 32,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:redstone_coil","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 5000,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 3,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:dynamite","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 260,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 5,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:spear","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 3,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:fish_trophy_frame","amount": 5,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 64,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 3,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:hanging_frame","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 79,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 3,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:fish_trap","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 300,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 3,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:fish_net","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 10,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "lilis_lucky_lures:anglers_hat","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 600,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 1,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+
+
+    {
+      "offer": {"itemKey": "selfexpression:straw_hat_helmet","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+//二阶
+    {
+      "offer": {"itemKey": "minecraft:cod_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:salmon_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:tropical_fish_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:pufferfish_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:axolotl_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 320,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:tadpole_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "quark:crab_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "biomeswevegone:man_o_war_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 108,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:longhorn_cowfish_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:harlequin_shrimp_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:yeti_crab_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:chocolate_chip_starfish_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:shame_faced_crab_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:napoleon_wrasse_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:blue_spotted_stingray_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "spawn:angler_fish_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "spawn:tuna_egg_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    },
+    {
+      "offer": {"itemKey": "spawn:seahorse_bucket","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fish1"
+    }
+  ]
+}

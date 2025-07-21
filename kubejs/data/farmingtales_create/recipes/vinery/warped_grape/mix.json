@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {"item": "nethervinery:warped_grape"},
+    {"item": "nethervinery:warped_grape"},
+    {"item": "nethervinery:warped_grape"}
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "farmingtales:warped_grape_juice"
+    }
+  ]
+}

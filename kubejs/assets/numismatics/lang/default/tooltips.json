@@ -1,0 +1,39 @@
+{
+  "item.numismatics.coin.tooltip.value": "价值：%s %s（%s¤）",
+  "item.numismatics.coin.tooltip.value.basic": "价值：%s¤",
+  "block.numismatics.andesite_depositor.tooltip.price": "价格：%s %s（%s¤）",
+  "item.numismatics.coin.tooltip.count": "数量：%s %s",
+  "item.numismatics.card.tooltip.bound": "已绑定",
+  "item.numismatics.card.tooltip.bound.to": "绑定至：%s",
+  "item.numismatics.card.tooltip.blank": "空白",
+  "block.numismatics.brass_depositor.tooltip.price": "价格：%s %s，%s¤",
+  "item.numismatics.id_card.tooltip.already_bound": "已绑定，潜行+使用以解绑",
+  "item.numismatics.id_card.tooltip.cleared": "已清空",
+  "item.numismatics.id_card.tooltip.bound": "绑定至自身",
+  "block.numismatics.vendor.tooltip.price": "售价：%s %s，%s¤",
+  "block.numismatics.vendor.tooltip.mode": "模式",
+  "block.numismatics.vendor.tooltip.trade_item": "交易物品",
+  "block.numismatics.vendor.tooltip.stock": "库存",
+
+  "item.numismatics.banking_guide.tooltip": "银行指南",
+  "item.numismatics.banking_guide.tooltip.summary": "在烈焰燃烧器上使用，可将其转换为烈焰银行家。",
+
+  "item.numismatics.bank_card.tooltip": "银行卡",
+  "item.numismatics.bank_card.tooltip.summary": "右键点击以绑定，Shift+点击以清空。在银行终端使用时，可访问绑定的银行账户；也可放入售货机/存款机中，自动收集硬币并添加至绑定账户。",
+
+  "item.numismatics.id_card.tooltip": "身份证",
+  "item.numismatics.id_card.tooltip.summary": "右键点击以绑定，Shift+点击以清空。可放入众多钱币学方块的“信任菜单”中，给予绑定玩家访问该方块的权限。",
+
+  "block.numismatics.vendor.tooltip": "售货机",
+  "block.numismatics.vendor.tooltip.summary": "允许通过玩家开设的商店进行物品交易。右键点击以交易，Shift+点击以配置。",
+  "block.numismatics.creative_vendor.tooltip": "创造模式售货机",
+  "block.numismatics.creative_vendor.tooltip.summary": "售货机的“创造模式”版本，配置完成后永不填满或售罄。",
+  "block.numismatics.bank_terminal.tooltip": "银行终端",
+  "block.numismatics.bank_terminal.tooltip.summary": "允许访问您自己的银行账户或任何您被“信任”的账户。",
+  "block.numismatics.andesite_depositor.tooltip": "安山岩存款机",
+  "block.numismatics.andesite_depositor.tooltip.summary": "Shift+点击顶部以配置，右键点击以支付指定金额（可使用手中的卡片或硬币），支付后会发出红石脉冲。",
+  "block.numismatics.brass_depositor.tooltip": "黄铜存款机",
+  "block.numismatics.brass_depositor.tooltip.summary": "Shift+点击顶部以配置，右键点击以支付指定金额（可使用手中的卡片或背包中的硬币），支付后会发出红石脉冲。",
+  "block.numismatics.blaze_banker.tooltip": "烈焰银行家",
+  "block.numismatics.blaze_banker.tooltip.summary": "以银行家的名义创建银行账户，便于多人共享账户。可将“银行卡”放入相应插槽中，分配给银行家。"
+}

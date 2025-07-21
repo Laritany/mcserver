@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "bakery:strawberry_seeds", "required": false },
+    { "id": "candlelight:lettuce_seeds", "required": false },
+    { "id": "vinery:savanna_grape_seeds_red", "required": false },
+    { "id": "vinery:savanna_grape_seeds_white", "required": false },
+    { "id": "vinery:dark_cherry_sapling", "required": false },
+    { "id": "vinery:apple_tree_sapling", "required": false },
+    { "id": "bloomingnature:larch_sapling", "required": false },
+    { "id": "bloomingnature:baobab_sapling", "required": false },
+    { "id": "bloomingnature:aspen_sapling", "required": false },
+    { "id": "bloomingnature:swamp_oak_sapling", "required": false },
+    { "id": "bloomingnature:swamp_cypress_sapling", "required": false },
+    { "id": "bloomingnature:ebony_sapling", "required": false },
+    { "id": "bloomingnature:chestnut_sapling", "required": false },
+    { "id": "farm_and_charm:strawberry_seeds", "required": false },
+    { "id": "farm_and_charm:onion", "required": false },
+    { "id": "farm_and_charm:lettuce_seeds", "required": false },
+    { "id": "atmospheric:aloe_kernels", "required": false },
+    { "id": "atmospheric:aloe_kernels", "required": false }
+  ]
+}

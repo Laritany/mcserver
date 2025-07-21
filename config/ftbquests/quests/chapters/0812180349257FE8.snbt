@@ -1,0 +1,1659 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0812180349257FE8"
+	group: "69AF6EA27123D833"
+	icon: "farm_and_charm:horse_fodder"
+	id: "0812180349257FE8"
+	images: [{
+		click: "https://www.bilibili.com/video/BV1AtnoeCE9n/"
+		height: 3.0d
+		hover: ["点击查看介绍"]
+		image: "farm_and_charm:item/horse_fodder"
+		rotation: 0.0d
+		width: 3.0d
+		x: -9.0d
+		y: 1.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37D0F30995E7A5F1"]
+			id: "14EADE1E1B19535A"
+			rewards: [{
+				auto: "enabled"
+				id: "665FFA750E5F6DB1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B97B2DA6A0215F0"
+				item: "farm_and_charm:bacon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "2331EF8A0DC9FFFD"
+			rewards: [{
+				auto: "enabled"
+				id: "13FF6619A211A7BC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6半径8格灌溉范围[商店处购买]"
+			tasks: [{
+				id: "43759D2EB4DF364E"
+				item: "farm_and_charm:water_sprinkler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [""]
+			id: "251B9C0388DD2EB5"
+			rewards: [{
+				auto: "enabled"
+				id: "6B6A33D07A6D4691"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在平原、向日葵平原、热带草原与河流群系"
+			tasks: [{
+				id: "59E4886E1E2C0D93"
+				item: "farm_and_charm:oat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "151B57F23F5CE612"
+			rewards: [{
+				auto: "enabled"
+				id: "17A90A49E81CF964"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在平原、热带草原与恶地群系"
+			tasks: [{
+				id: "1570713F8A15BBA6"
+				item: "farm_and_charm:corn"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "655E0CDB3B441632"
+			rewards: [{
+				auto: "enabled"
+				id: "28E46A4D008FFE3D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在平原、向日葵平原、热带草原与河流群系"
+			tasks: [{
+				id: "41F6D80B9FDC4C6E"
+				item: "farm_and_charm:barley"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "4185385A9DA8F448"
+			rewards: [{
+				auto: "enabled"
+				id: "16DC9329B276FC44"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在平原、沼泽、草甸与森林群系"
+			tasks: [{
+				id: "7470B7C0D506D69B"
+				item: "farm_and_charm:lettuce"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "1013167F21FCD8B7"
+			rewards: [{
+				auto: "enabled"
+				id: "13DCA5D6E37F3A24"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在平原、沼泽、草甸与森林群系"
+			tasks: [{
+				id: "7EA1845704506054"
+				item: "farm_and_charm:onion"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "28C823C20D078669"
+			rewards: [{
+				auto: "enabled"
+				id: "7574AA38402F1311"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在平原、热带草原与恶地群系"
+			tasks: [{
+				id: "21F869D006622871"
+				item: "farm_and_charm:tomato"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "03250ED75FB9AB6D"
+			rewards: [{
+				auto: "enabled"
+				id: "2973A08BCE14E0F5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在平原、沼泽、草甸与森林群系"
+			tasks: [{
+				id: "68AFEB140074A192"
+				item: "farm_and_charm:strawberry"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "37D0F30995E7A5F1"
+			subtitle: "需向村民购买"
+			tasks: [{
+				id: "2064C28B902ADD45"
+				item: "farm_and_charm:mincer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37D0F30995E7A5F1"]
+			description: [""]
+			id: "16E75C2B314EB187"
+			rewards: [{
+				auto: "enabled"
+				id: "12456917BDC58EAE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "72990E9E3E42A896"
+				item: "farm_and_charm:minced_beef"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["37D0F30995E7A5F1"]
+			description: [""]
+			id: "08B7D2DE265E7AC5"
+			rewards: [{
+				auto: "enabled"
+				id: "11B278C320D1686A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0F87CAF7E0D7384F"
+				item: "farm_and_charm:raw_pasta"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37D0F30995E7A5F1"]
+			description: [""]
+			id: "3F3CA7938078D046"
+			rewards: [{
+				auto: "enabled"
+				id: "6D822566D887573C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5825B43B06E4D762"
+				item: "farm_and_charm:lamb_ham"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37D0F30995E7A5F1"]
+			description: [""]
+			id: "4C70ECD619A34DBD"
+			rewards: [{
+				auto: "enabled"
+				id: "53415F31F5F3C9B7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0E65853A864AD3AF"
+				item: "farm_and_charm:chicken_parts"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37D0F30995E7A5F1"]
+			description: [""]
+			id: "5C7D22F30F3DEECB"
+			rewards: [{
+				auto: "enabled"
+				id: "70FBDF7D23B0A9FD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6催熟面积更大的强化版骨粉"
+			tasks: [{
+				id: "3C82D82CAF2D6C1E"
+				item: {
+					Count: 1
+					id: "farm_and_charm:fertilizer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37D0F30995E7A5F1"]
+			id: "5ED0166BE45C805F"
+			rewards: [{
+				auto: "enabled"
+				id: "3FF7105F8A96D0A2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3CB6315B953B1DB7"
+				item: "farm_and_charm:flour"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			id: "6A1FD3358F8E9351"
+			rewards: [{
+				auto: "enabled"
+				id: "4632FEDA39229A4F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6用来锄地"
+			tasks: [{
+				id: "1DF1CC4620E07FA9"
+				item: "farm_and_charm:plow"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "382AF82C4C454DEE"
+			rewards: [{
+				auto: "enabled"
+				id: "34143614F658C296"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可用于耕地和铲起肥沃泥土"
+			tasks: [{
+				id: "56624761ACFDA4A1"
+				item: {
+					Count: 1
+					id: "farm_and_charm:pitchfork"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "30A2D51752D4F80B"
+			rewards: [{
+				auto: "enabled"
+				id: "7387500AA24E8340"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6右键可以将工具挂在上面"
+			tasks: [{
+				id: "039A241A51F53CCC"
+				item: "farm_and_charm:tool_rack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "7D4896C6C166D00A"
+			rewards: [{
+				auto: "enabled"
+				id: "555BE482050CB1CE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6装饰你的农舍！最多可容纳两朵小花"
+			tasks: [{
+				id: "7EA0F30C6C6B25F3"
+				item: "farm_and_charm:window_sill"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: [""]
+			id: "78EFC467B672A4CF"
+			rewards: [{
+				auto: "enabled"
+				id: "3FA28A255F908D0C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6完成所有成就的奖励"
+			tasks: [{
+				id: "0850CD615C9F1582"
+				item: "farm_and_charm:scarecrow"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "640CABF5791C4B96"
+			rewards: [{
+				auto: "enabled"
+				id: "76CA9DD60DB0535F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6用于自动喂食牲畜[商店处购买]"
+			tasks: [{
+				id: "711A0AF72F36B8BC"
+				item: "farm_and_charm:feeding_trough"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [""]
+			id: "5F166699DB7DC5DC"
+			rewards: [{
+				auto: "enabled"
+				id: "45585B75D28FBBFB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可用来拉货"
+			tasks: [{
+				id: "04CF29A58B47D589"
+				item: "farm_and_charm:supply_cart"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "39210A71834982F6"
+			tasks: [{
+				id: "700405F68B4A1987"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "56AB410E6B54E317"
+			rewards: [{
+				auto: "no_toast"
+				id: "23EEADEBB0AD96FD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3D5ED179B3030C85"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1F95C73AE16D1BB3"
+				"3BC6797D9575DC7D"
+				"6D0B5A6CE22ED44C"
+				"033FE5B9C9572F5D"
+				"31F5A792DC61C6EB"
+				"5839011FFA00DF7B"
+			]
+			id: "3D5122009AD83684"
+			tasks: [{
+				id: "1E43DA98E84D560E"
+				item: "farm_and_charm:roaster"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "7C1474CD7BA89103"
+			tasks: [{
+				id: "6A252DBC0DC06C8F"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "35E130FBC880D439"
+			rewards: [{
+				auto: "enabled"
+				id: "63A668A31DF9418B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5A4F67B3DB0DD0CA"
+				item: "farm_and_charm:barley_patties_with_potatoes"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "4864C4697A1F284C"
+			rewards: [{
+				auto: "enabled"
+				id: "79794C8C51F2619C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66E87B4638E46A13"
+				item: "farm_and_charm:lamb_with_corn"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "54C5CF7A144279A1"
+			rewards: [{
+				auto: "enabled"
+				id: "55A545E8468BD508"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "369B134744C4DB1F"
+				item: "farm_and_charm:corn_grits"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "470D4F9BBE8DBA36"
+			rewards: [{
+				auto: "enabled"
+				id: "0C1580C7B8865048"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1A36346B26C49A9A"
+				item: "farm_and_charm:pasta_with_onion_sauce"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "3064D200C89438C5"
+			rewards: [{
+				auto: "enabled"
+				id: "7A019667020090F7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "34EE5E86251FC581"
+				item: "farm_and_charm:goulash"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56AB410E6B54E317"]
+			description: [""]
+			id: "1E7CAD0DA2A8F02B"
+			rewards: [{
+				auto: "enabled"
+				id: "6743158C3E5516B5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "16BF05733842E2B9"
+				item: "farm_and_charm:oatmeal_with_strawberries"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56AB410E6B54E317"]
+			description: [""]
+			id: "22BC2F86AFAAAD97"
+			rewards: [{
+				auto: "enabled"
+				id: "6A145AC84C68964E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "58EB6A4FB3D3AB2D"
+				item: "farm_and_charm:farmer_salad"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "792E43014E9F8C6A"
+			rewards: [{
+				auto: "enabled"
+				id: "0BAF8AEA152A5DD0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7BF6FC10F5D4DAFC"
+				item: "farm_and_charm:potato_soup"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "742209D131F760B3"
+			rewards: [{
+				auto: "enabled"
+				id: "570688C5156D7C98"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0A77DBB1521B09AB"
+				item: "farm_and_charm:onion_soup"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "3A34F49442004656"
+			rewards: [{
+				auto: "enabled"
+				id: "3BF9E89EB9BCEA39"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A74BB5B23C633DE"
+				item: "farm_and_charm:barley_soup"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "5D29F238A0B6A2B0"
+			rewards: [{
+				auto: "enabled"
+				id: "4AD450656A8C2CA6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4D8F7E74ED4D62C8"
+				item: "farm_and_charm:beef_patty_with_vegetables"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "24E9561772D02F48"
+			rewards: [{
+				auto: "enabled"
+				id: "7CB7F3B8DF35675A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B9717DBB5754B22"
+				item: "farm_and_charm:simple_tomato_soup"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "4D8B425E11370C33"
+			rewards: [{
+				auto: "enabled"
+				id: "44E91F4C62230EDE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6224DD96FAADECE5"
+				item: "farm_and_charm:oat_pancake"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "22643D69B1E50729"
+			rewards: [{
+				auto: "enabled"
+				id: "1F6CF07CC16B6D41"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7E91EEC03D8EB701"
+				item: "farm_and_charm:bacon_with_eggs"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "7544A60C75ED29C0"
+			rewards: [{
+				auto: "enabled"
+				id: "030070C3E0480FE3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4700CA27EFCC9CF8"
+				item: "farm_and_charm:chicken_wrapped_in_bacon"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "3C71E78B27DA159E"
+			rewards: [{
+				auto: "enabled"
+				id: "04B1D138C88C19F0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6345D27D354982DE"
+				item: "farm_and_charm:potato_with_roast_meat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "3A7A89DD2A78C943"
+			rewards: [{
+				auto: "enabled"
+				id: "466EF0DE65F67C31"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "527C88C7C9E07DF7"
+				item: "farm_and_charm:cooked_cod"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D5122009AD83684"]
+			description: [""]
+			id: "2F0C429D8F9A9860"
+			rewards: [{
+				auto: "enabled"
+				id: "37CB0F520CD896BC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7192F5FB8F21C9D8"
+				item: "farm_and_charm:cooked_salmon"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "438ED54692C3EA0C"
+			rewards: [{
+				auto: "enabled"
+				id: "11FAF6CF3ADEA981"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6E09454D92DDFE95"
+				item: "farm_and_charm:baked_lamb_ham"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "698D6A2EA89D2559"
+			rewards: [{
+				auto: "enabled"
+				id: "0683EC6C4B95E5A4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "33D92FF54C8C9A66"
+				item: "farm_and_charm:stuffed_chicken"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "22EEA76B2376CF15"
+			rewards: [{
+				auto: "enabled"
+				id: "37872BF0F8A7D22E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2EE250273FB6FFD4"
+				item: "farm_and_charm:roasted_corn"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "3C9F52541F17221C"
+			rewards: [{
+				auto: "enabled"
+				id: "3A743A81D648308C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3AF610D5D295CEB5"
+				item: "farm_and_charm:roasted_chicken"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "29F5D06012623767"
+			rewards: [{
+				auto: "enabled"
+				id: "3DF338D9C06DE547"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "13359B8E82F1A520"
+				item: "farm_and_charm:sausage_with_oat_patty"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "6B7FF3249CF1EF79"
+			rewards: [{
+				auto: "enabled"
+				id: "51D11563F4BF3820"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "482B89B71FE9574F"
+				item: "farm_and_charm:stuffed_rabbit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "4DE8447CF768E479"
+			rewards: [{
+				auto: "enabled"
+				id: "1A6DB10416BC4076"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7351F8E5F9CAC81B"
+				item: "farm_and_charm:grandmothers_strawberry_cake"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39210A71834982F6"]
+			description: [""]
+			id: "1EA9CD46818CD841"
+			rewards: [{
+				auto: "enabled"
+				id: "73FF6676595BDF0D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "384377AF0AEA4609"
+				item: "farm_and_charm:farmers_bread"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["429DCECFDD8502EB"]
+			description: [""]
+			id: "41AEDB64FC1ACEAA"
+			rewards: [{
+				auto: "enabled"
+				id: "2557A4C4CE09FFC1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4F471C4263AECE81"
+				item: "farm_and_charm:farmers_breakfast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["429DCECFDD8502EB"]
+			description: [""]
+			id: "2DFA00303F0F1F8E"
+			rewards: [{
+				auto: "enabled"
+				id: "6896DD123334563D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7FB298F862710F6B"
+				item: "farm_and_charm:horse_fodder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["429DCECFDD8502EB"]
+			description: [""]
+			id: "0682219903309E3B"
+			rewards: [{
+				auto: "enabled"
+				id: "7160DB51B1CC70E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B53B329135DD118"
+				item: "farm_and_charm:chicken_feed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "429DCECFDD8502EB"
+			tasks: [{
+				id: "51DCBB4C28EBD54B"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"可以用干草叉右键当做大号肥料使用"
+				"用锄头可将它变为肥沃耕地"
+				"肥沃耕地会加快作物的生长"
+			]
+			id: "6CFBB16828804599"
+			rewards: [{
+				auto: "enabled"
+				id: "4F16510E9270C540"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6通过烘干灰化土或用肥料合成获得"
+			tasks: [{
+				id: "7E6F844E27376330"
+				item: "farm_and_charm:fertilized_soil"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "007C8510F1F0D46B"
+			rewards: [{
+				auto: "enabled"
+				id: "449B4AC6E8406C3F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在沼泽、森林群系"
+			tasks: [{
+				id: "637AB979CD49AD8B"
+				item: "farm_and_charm:wild_nettle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "2BEC6B49D7DEECB5"
+			rewards: [{
+				auto: "enabled"
+				id: "40E0173E4FCFAC2E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6生成在沼泽、森林群系"
+			tasks: [{
+				id: "570916FB26A7497F"
+				item: "farm_and_charm:wild_ribwort"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "3E03DEB829AB9F36"
+			rewards: [{
+				auto: "enabled"
+				id: "3C27BEA4730F76D9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6对比木质筒仓它的烘干速度快一些"
+			tasks: [{
+				id: "4BF002B8EFD837D9"
+				item: "farm_and_charm:silo_copper"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"拿着谷物右键可将谷物放进去进行烘干"
+				"如果正面出口是敞开的，烘干完成的谷物就会跑出来。"
+				"如果正面出口是关闭的，则会储存起来。"
+				""
+				"可以将多个筒仓放置在一起来增加它的容量"
+				"可组成 &62×2&r 或 &63×3&r 的方形结构"
+				"最高可达 &69&r 格高。"
+			]
+			id: "2F2CC4F0BECD069A"
+			rewards: [{
+				auto: "enabled"
+				id: "5727D776B8338A2C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6用于干燥谷物&r"
+			tasks: [{
+				id: "2A25E871E5A0F878"
+				item: "farm_and_charm:silo_wood"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			icon: "farm_and_charm:strawberry_bag"
+			id: "2CD7B409C7141A8E"
+			rewards: [{
+				auto: "enabled"
+				id: "25C0469489B73B69"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "&6装饰块"
+			tasks: [
+				{
+					id: "16457EA4EE34A1EE"
+					item: "farm_and_charm:lettuce_bag"
+					type: "item"
+				}
+				{
+					id: "04674C55311118FC"
+					item: "farm_and_charm:tomato_bag"
+					type: "item"
+				}
+				{
+					id: "22D44D2BF7AD9A01"
+					item: "farm_and_charm:carrot_bag"
+					type: "item"
+				}
+				{
+					id: "285691BA6F81E331"
+					item: "farm_and_charm:potato_bag"
+					type: "item"
+				}
+				{
+					id: "71B2B931721B9E48"
+					item: "farm_and_charm:onion_bag"
+					type: "item"
+				}
+				{
+					id: "4F0D8D161610222C"
+					item: "farm_and_charm:beetroot_bag"
+					type: "item"
+				}
+				{
+					id: "4B42843F59647EF4"
+					item: "farm_and_charm:corn_bag"
+					type: "item"
+				}
+				{
+					id: "222C9D6FA0523F85"
+					item: "farm_and_charm:strawberry_bag"
+					type: "item"
+				}
+				{
+					id: "2A597C287286DCCF"
+					item: "farm_and_charm:flour_bag"
+					type: "item"
+				}
+				{
+					id: "2EEA1F45BA9A0E4B"
+					item: "farm_and_charm:oat_ball"
+					type: "item"
+				}
+				{
+					id: "7011D132E13FC436"
+					item: "farm_and_charm:barley_ball"
+					type: "item"
+				}
+			]
+			title: "袋装作物"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "086FC8238E8E65F0"
+			rewards: [{
+				auto: "enabled"
+				id: "2738EADBC817A4C7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "62C8E35682E14583"
+				item: "farm_and_charm:yeast"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56AB410E6B54E317"]
+			description: [""]
+			id: "1CF705C8917E0AAF"
+			rewards: [{
+				auto: "enabled"
+				id: "76601B9E94A9099D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "67DA1F721252490F"
+				item: "farm_and_charm:butter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56AB410E6B54E317"]
+			description: [""]
+			id: "0D82FEC4ED80462A"
+			rewards: [{
+				auto: "enabled"
+				id: "3D4ABC0521990159"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "671804ACDC9A85FB"
+				item: "farm_and_charm:dough"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "7B80A9F9F93891AC"
+			rewards: [{
+				auto: "no_toast"
+				id: "4BCF0CB99E21C07C"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "1E7C6E0812FAFB95"
+				item: "farm_and_charm:strawberry_tea"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "594294071AA672CD"
+			rewards: [{
+				auto: "no_toast"
+				id: "1441D45F5537D0D7"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "566B5EF46551425A"
+				item: "farm_and_charm:nettle_tea"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			description: [""]
+			id: "734892B9ABACBDE0"
+			rewards: [{
+				auto: "no_toast"
+				id: "6DE3C6467FC1CCFA"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "246F2022BC74EB22"
+				item: "farm_and_charm:ribwort_tea"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "7360D67637FA232E"
+			rewards: [{
+				auto: "enabled"
+				id: "73B3ABE9BF4AD3E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "43A61ADB87C12118"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7360D67637FA232E"]
+			description: [""]
+			id: "67FC9841599C4FA6"
+			rewards: [{
+				auto: "enabled"
+				id: "0B8CEBDCE0CDF0CD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "20476496B3A25B6A"
+				item: "kubejs:poop"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7360D67637FA232E"]
+			description: [""]
+			id: "57EB76D9007739B9"
+			rewards: [{
+				auto: "enabled"
+				id: "3914AF4CF6CB3596"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5ED7B761AB0B9C09"
+				item: "kubejs:fish_bones"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C1474CD7BA89103"]
+			id: "701AA1E2ED9DEC8B"
+			tasks: [{
+				id: "6F6ECA60E6F4DB0F"
+				item: "kubejs:phf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"251B9C0388DD2EB5"
+				"655E0CDB3B441632"
+				"28C823C20D078669"
+				"03250ED75FB9AB6D"
+				"1013167F21FCD8B7"
+				"151B57F23F5CE612"
+				"007C8510F1F0D46B"
+				"2BEC6B49D7DEECB5"
+				"4185385A9DA8F448"
+				"640CABF5791C4B96"
+				"6A1FD3358F8E9351"
+				"6CFBB16828804599"
+				"2331EF8A0DC9FFFD"
+				"3E03DEB829AB9F36"
+				"5C7D22F30F3DEECB"
+				"2F2CC4F0BECD069A"
+				"382AF82C4C454DEE"
+				"0682219903309E3B"
+				"2DFA00303F0F1F8E"
+				"5F166699DB7DC5DC"
+			]
+			hide_dependency_lines: true
+			icon: "farm_and_charm:onion"
+			id: "54AE623ED109AB94"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:farm1 set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "33B66E8005120AB7"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					count: 100
+					id: "23EF8E8288574119"
+					item: "kubejs:coin"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "68313B3963B59E60"
+					item: "quark:seed_pouch"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "16A6FF60F7AC1894"
+					item: "armamentarium:purpur_whetstone"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "6B3B1FF023B734CF"
+					item: {
+						Count: 1
+						id: "farmingtales:kd"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "15C3EE631B8FB556"
+				type: "checkmark"
+			}]
+			title: "收集任务[作物道具]"
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"3C9F52541F17221C"
+				"22643D69B1E50729"
+				"4DE8447CF768E479"
+				"16E75C2B314EB187"
+				"438ED54692C3EA0C"
+				"22BC2F86AFAAAD97"
+				"29F5D06012623767"
+				"4D8B425E11370C33"
+				"3F3CA7938078D046"
+				"6B7FF3249CF1EF79"
+				"5D29F238A0B6A2B0"
+				"792E43014E9F8C6A"
+				"3A7A89DD2A78C943"
+				"54C5CF7A144279A1"
+				"4864C4697A1F284C"
+				"1EA9CD46818CD841"
+				"35E130FBC880D439"
+				"7544A60C75ED29C0"
+				"22EEA76B2376CF15"
+				"24E9561772D02F48"
+				"698D6A2EA89D2559"
+				"2F0C429D8F9A9860"
+				"0D82FEC4ED80462A"
+				"470D4F9BBE8DBA36"
+				"7B80A9F9F93891AC"
+				"1CF705C8917E0AAF"
+				"701AA1E2ED9DEC8B"
+				"594294071AA672CD"
+				"1E7CAD0DA2A8F02B"
+				"08B7D2DE265E7AC5"
+				"086FC8238E8E65F0"
+				"3064D200C89438C5"
+				"3A34F49442004656"
+				"14EADE1E1B19535A"
+				"742209D131F760B3"
+				"4C70ECD619A34DBD"
+				"5ED0166BE45C805F"
+				"41AEDB64FC1ACEAA"
+				"734892B9ABACBDE0"
+				"3C71E78B27DA159E"
+				"1F95C73AE16D1BB3"
+				"3BC6797D9575DC7D"
+				"6D0B5A6CE22ED44C"
+				"033FE5B9C9572F5D"
+				"5839011FFA00DF7B"
+				"31F5A792DC61C6EB"
+			]
+			hide_dependency_lines: true
+			icon: "farm_and_charm:farmers_bread"
+			id: "6222B56D834B3D7D"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:farm2 set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "781292E2B495FFF7"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "257E9E019AA64AD4"
+					team_reward: false
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 10000
+					id: "03CF31FC5165FB26"
+					item: "kubejs:coin"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0A7978D396DFE911"
+					item: {
+						Count: 1
+						id: "rajswordmod:sentinel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2CF6F4547229D8FD"
+					item: "armamentarium:flesh_whetstone"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1AE3D66ED77EEC45"
+				type: "checkmark"
+			}]
+			title: "收集任务[菜肴]"
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			description: [""]
+			id: "6D0B5A6CE22ED44C"
+			rewards: [{
+				auto: "enabled"
+				id: "68B285F1CBF3BD92"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "159F808DFAD5E647"
+				item: "rusticpancakes:vegetable_pancakes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: [""]
+			id: "5839011FFA00DF7B"
+			rewards: [{
+				auto: "enabled"
+				id: "40B4BBC985BA58F2"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "74B8D42EF288ADD6"
+				item: "rusticpancakes:cherry_blossom_pancakes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			id: "31F5A792DC61C6EB"
+			rewards: [{
+				auto: "enabled"
+				id: "29704DE9E49ADC92"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "3484FE2D029FC000"
+				item: "rusticpancakes:chocolate_pancakes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "033FE5B9C9572F5D"
+			rewards: [{
+				auto: "enabled"
+				id: "5FFE462BFCD9690F"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "521D1755763EA8A4"
+				item: "rusticpancakes:honey_pancakes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			id: "1F95C73AE16D1BB3"
+			rewards: [{
+				auto: "enabled"
+				id: "467F9735F1577FB7"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "18AC1F06D20E36DD"
+				item: "rusticpancakes:pumpkin_pancakes"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "3BC6797D9575DC7D"
+			rewards: [{
+				auto: "enabled"
+				id: "2B8B6298A8389CF3"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "47F324A4573FEC82"
+				item: "rusticpancakes:pancakes"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+	]
+	title: "沉浸农艺"
+}

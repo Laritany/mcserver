@@ -1,0 +1,445 @@
+{
+  "profession": "minecraft:farmer",
+  "removeOtherTrades": true,
+  "maxTrades": 8,
+  "trades": [
+    {
+      "offer": {"itemKey": "kubejs:beetroot_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:wheat_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:carrot_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 58,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler3"
+    },
+    {
+      "offer": {"itemKey": "kubejs:melon_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:pumpkin_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler5"
+    },
+    {
+      "offer": {"itemKey": "kubejs:potato_bag","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 60,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:kernels","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:oat_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler13"
+    },
+    {
+      "offer": {"itemKey": "kubejs:barley_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:lettuce_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:tomato_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:onion","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 62,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:strawberry_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:carrot","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:potato","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:rice","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:tomato","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:onion","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 260,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:beetroot","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 260,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:oat","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 260,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:corn","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 260,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:barley","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 260,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:lettuce","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 260,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:wheat","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 69,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:melon_slice","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 40,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:pumpkin_slice","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "vintagedelight:ghost_pepper","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "vintagedelight:peanut","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "vintagedelight:cucumber","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:cabbage","amount":64,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "farm"
+    },
+//////二级//////////////////////////////////////////
+    {
+      "offer": {"itemKey": "kubejs:flax_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler7"
+    },
+    {
+      "offer": {"itemKey": "kubejs:sweet_berries","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:cocoa_beans","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler9"
+    },
+    {
+      "offer": {"itemKey": "kubejs:sugar_cane","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:glow_berries","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 54,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler11"
+    },
+    {
+      "offer": {"itemKey": "kubejs:cabbage_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:cucumber_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:ghost_pepper_seeds","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:peanut","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 60,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "cler1"
+    },
+/////三级/////////////////////////////////////////
+    {
+      "offer": {"itemKey": "kubejs:poop","amount": 64,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":500,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "minecraft:iron_hoe","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":60,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "minecraft:iron_hoe","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":60,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "farmersdelight:straw","amount": 32,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 35,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "biomeswevegone:cattail_thatch","amount": 64,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 150,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "minecraft:shears","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":15,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "supplementaries:sack","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":80,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "cler1"
+    },
+//////四级//////////////////////////////////////////
+    {
+      "offer": {"itemKey": "farm_and_charm:supply_cart","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "farm_and_charm:plow","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "farm_and_charm:pitchfork","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 150,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:medieval_farmer_chestplate","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 210,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "farmersdelight:canvas","amount": 8,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:medieval_farmer_leggings","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "farmersdelight:canvas","amount": 7,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:medieval_farmer_boots","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 150,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "farmersdelight:canvas","amount": 4,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "cler1"
+    },
+/////////////////五级/////////////////////////////////////
+    {
+      "offer": {"itemKey": "farmingtales:house_zc","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 400,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 5,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "kubejs:you_gotta_move","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":1000,"priceModifier": 0},
+
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 5,
+      "UTID": "farm"
+    },
+    {
+      "offer": {"itemKey": "farm_and_charm:water_sprinkler","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 300,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 5,
+      "UTID": "cler1"
+    },
+        {
+      "offer": {"itemKey": "farmingtales:house_cesuo","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 1145,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 5,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "mowziesmobs:sand_rake","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 50,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 5,
+      "UTID": "cart1"
+    },
+        {
+      "offer": {"itemKey": "farmingtales:house_gaibancangku","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 500,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 5,
+      "UTID": "cart1"
+    }
+  ]
+}

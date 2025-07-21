@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "brewery:item/beer_barley_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "brewery:item/beer_barley_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "brewery:item/beer_barley_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "brewery:item/beer_barley_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "brewery:item/beer_barley_gui"
+    },
+    "gui": {
+      "parent": "brewery:item/beer_barley_gui"
+    },
+    "ground": {
+      "parent": "brewery:item/beer_barley_gui"
+    }
+  }
+}

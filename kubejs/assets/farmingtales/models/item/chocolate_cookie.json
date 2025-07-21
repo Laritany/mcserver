@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "farmingtales:item/chocolate_cookie_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "farmingtales:item/chocolate_cookie_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "farmingtales:item/chocolate_cookie_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "farmingtales:item/chocolate_cookie_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "farmingtales:item/chocolate_cookie_gui"
+    },
+    "gui": {
+      "parent": "farmingtales:item/chocolate_cookie_gui"
+    },
+    "ground": {
+      "parent": "farmingtales:item/chocolate_cookie_gui"
+    }
+  }
+}

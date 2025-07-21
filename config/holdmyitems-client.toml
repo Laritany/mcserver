@@ -1,0 +1,41 @@
+
+[animations]
+	#Choose your preferred animation speed (0.5-1.5)
+	#Range: 0.5 ~ 1.5
+	animationSpeed = 0.7
+	#Switch speed (0-10)
+	#Range: 0.0 ~ 10.0
+	switchSpeed = 0.018
+	#Enable or disable swimming animation
+	enableSwimmingAnimation = true
+	#Swing animation speed (6-12)
+	#Range: 6 ~ 12
+	swingSpeed = 9
+	#Enable or disable climb and crawl animation
+	enableClimbAndCrawlAnimation = false
+	#Enable or disable punching animation
+	enablePunchingAnimation = true
+
+[positions]
+	#Viewmodel X Offset
+	#Range: -10.0 ~ 10.0
+	viewmodelXOffset = 0.0
+	#Viewmodel Y Offset
+	#Range: -10.0 ~ 10.0
+	viewmodelYOffset = 0.0
+	#Viewmodel Z Offset
+	#Range: -10.0 ~ 10.0
+	viewmodelZOffset = 0.0
+
+[misc]
+	#Enable MB3D compatibility mode
+	mb3DCompat = false
+
+[modRenderExclusions]
+	#Mod IDs that should be excluded from custom rendering (entire mod).
+	excludedModIds = ["mowziesmobs", "pointblank", "jeg", "cataclysm", "supplementaries", "constructionwand"]
+	#Specific item IDs to exclude from custom rendering (e.g. 'modid:itemname').
+	excludedItemIds = ["lilis_lucky_lures:fish_trophy_frame", "lilis_lucky_lures:fishing_net", "lilis_lucky_lures:spear", "weapon_class:automatic_crossbow", "weapon_class:curving_bow", "weapon_class:blast_crossbow", "vinery:glowing_wine", "brewinandchewin:coaster", "rajswordmod:deflect_sword", "rajswordmod:knockback_sword", "rajswordmod:sentinel_sword", "rajswordmod:anti_armor_sword", "brewery:wooden_brewingstation", "brewery:copper_brewingstation", "brewery:netherite_brewingstation", "wildernature:bounty_board", "exposure:camera", "bakery:bread_knife", "bakery:small_cooking_pot", "vinery:basket", "quark:grate", "minecraft:crossbow", "supplementaries:jar", "supplementaries:globe", "supplementaries:globe_sepia", "candlelight:dinner_bell", "candlelight:painting", "candlelight:hearth", "brewery:barrel_main", "brewery:beer_wheat", "brewery:beer_barley", "brewery:beer_hops", "brewery:beer_nettle", "brewery:beer_oat", "brewery:beer_haley", "brewery:whiskey_jojannik", "brewery:whiskey_lilitusinglemalt", "brewery:whiskey_cristelwalker", "brewery:whiskey_maggoallan", "brewery:whiskey_carrasconlabel", "brewery:whiskey_ak", "brewery:whiskey_highland_hearth", "brewery:whiskey_smokey_reverie", "brewery:whiskey_jamesons_malt", "nethervinery:netherite_nectar", "nethervinery:blazewine_pinot", "nethervinery:ghastly_grenache", "nethervinery:lava_fizz", "nethervinery:nether_fizz", "nethervinery:improved_lava_fizz", "nethervinery:improved_nether_fizz", "vinery:mead", "vinery:apple_cider", "vinery:apple_wine", "vinery:mellohi_wine", "vinery:lilitu_wine", "vinery:solaris_wine", "vinery:noir_wine", "vinery:red_wine", "vinery:strad_wine", "vinery:cherry_wine", "vinery:cristel_wine", "vinery:creepers_crush", "vinery:kelp_cider", "vinery:lilitu_wine", "vinery:jo_special_mixture", "vinery:eiswein", "vinery:aegis_wine", "vinery:bolvar_wine", "vinery:chorus_wine", "vinery:villagers_fright", "vinery:clark_wine", "vinery:magnetic_wine", "vinery:stal_wine", "vinery:chenet_wine", "vinery:bottle_mojang_noir", "vinery:jellie_wine", "farm_and_charm:mincer", "farm_and_charm:water_sprinkler", "farm_and_charm:crafting_bowl", "farm_and_charm:tool_rack", "farm_and_charm:scarecrow", "farm_and_charm:compost", "vinery:vinery_standard", "meadow:meadow_banner", "herbalbrews:herbalbrews_banner", "brewery:brewery_banner", "bloomingnature:bloomingnature_banner", "candlelight:candlelight_banner", "bakery:bakery_banner", "beachparty:beachparty_banner"]
+	#Skips the blockItem renderer which is useful especially for create items cause their already 3d
+	renderBlockAsItem = ["woodworks:spruce_chest", "woodworks:birch_chest", "woodworks:jungle_chest", "woodworks:acacia_chest", "woodworks:dark_oak_chest", "woodworks:mangrove_chest", "woodworks:crimson_chest", "woodworks:warped_chest", "endergetic:poise_chest", "autumnity:maple_chest", "woodworks:oak_chest", "create:cogwheel", "create:large_cogwheel", "create:shaft", "create:gearbox", "create:vertical_gearbox", "create:clutch", "create:gearshift", "create:encased_chain_drive", "create:adjustable_chain_gearshift", "create:belt_connector", "create:chain_conveyor", "create:creative_motor", "create:water_wheel", "create:large_water_wheel", "create:nozzle", "create:turntable", "create:hand_crank", "create:millstone", "create:crushing_wheel", "create:mechanical_press", "create:mechanical_mixer", "create:empty_blaze_burner", "create:blaze_burner", "create:depot", "create:weighted_ejector", "create:speedometer", "create:stressometer", "create:wooden_bracket", "create:metal_bracket", "create:schematicannon", "create:fluid_pipe", "create:mechanical_pump", "create:smart_fluid_pipe", "create:fluid_valve", "create:copper_valve_handle", "create:hose_pulley", "create:portable_fluid_interface", "create:steam_engine", "create:gantry_carriage", "create:gantry_shaft", "create:windmill_bearing", "create:mechanical_bearing", "create:clockwork_bearing", "create:rope_pulley", "create:elevator_pulley", "create:cart_assembler", "create:sticker", "create:contraption_controls", "create:mechanical_drill", "create:mechanical_saw", "create:deployer", "create:portable_storage_interface", "create:mechanical_harvester", "create:mechanical_plough", "create:mechanical_roller", "create:mechanical_crafter", "create:sequenced_gearshift", "create:flywheel", "create:rotation_speed_controller", "create:mechanical_arm", "create:controls", "create:andesite_funnel", "create:brass_funnel", "create:andesite_tunnel", "create:brass_tunnel", "create:package_frogport", "create:factory_gauge", "create:display_board", "create:peculiar_bell", "create:haunted_bell", "create:brown_toolbox", "create:clipboard"]
+

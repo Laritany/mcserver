@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "gofish:golden_crate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "gofish:fiery_crate"
+        },
+                {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "gofish:soul_crate"
+        },
+                {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "gofish:gilded_blackstone_crate"
+        }
+      ]
+    }
+  ]
+}

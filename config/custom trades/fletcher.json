@@ -1,0 +1,70 @@
+{
+  "profession": "minecraft:fletcher",
+  "removeOtherTrades": true,
+  "maxTrades": 20,
+  "trades": [
+    {
+      "offer": {"itemKey": "minecraft:bow","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":30,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "minecraft:crossbow","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":40,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "minecraft:shield","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":45,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:blowgun","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":50,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "supplementaries:quiver","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "minecraft:spectral_arrow","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":160,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "minecraft:arrow","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":32,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "ambientadditions:dart","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":35,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    },
+    {
+      "offer": {"itemKey": "supplementaries:rope_arrow","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount":20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "arrow"
+    }
+  ]
+}

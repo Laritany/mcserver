@@ -1,0 +1,31 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "tag": "rusticpancakes:cherry_blossom_ingredients"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "tag": "rusticpancakes:cherry_blossom_ingredients"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "rusticpancakes:cherry_blossom_pancakes",
+    "count": 1
+  },
+  "requiresLearning": false
+}

@@ -1,0 +1,595 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzie"
+	group: "31CEF6E6A51D1FD7"
+	icon: "mowzies_cataclysm:wrought_eye"
+	id: "079DC58C9413EBD5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A4B5D188F9F5AC7"
+			rewards: [{
+				id: "0E663B308D3E1DF2"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "钢铁与力量糅合的不朽巨人"
+			tasks: [{
+				id: "197C04DC76CBF1FA"
+				item: "mowzies_cataclysm:wrought_eye"
+				type: "item"
+			}]
+			title: "往日的王者"
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			id: "5BBC223D3E73C80A"
+			rewards: [{
+				id: "0C463AEE1BEE2383"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "炽热的君主"
+			tasks: [{
+				id: "7928BAF5CDD32227"
+				item: "mowzies_cataclysm:sun_eye"
+				type: "item"
+			}]
+			title: "沙漠与太阳的祝福"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			id: "3C65FF78561C1B30"
+			rewards: [{
+				id: "4D22C3C7E6A94361"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "一副有资格的躯壳"
+			tasks: [{
+				id: "13BCA55FB6309A19"
+				item: "mowzies_cataclysm:tongbi_eye"
+				type: "item"
+			}]
+			title: "大师中的大师"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "4D01611FDBCCC058"
+			rewards: [{
+				id: "0ED56F630C613B61"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "饥寒的霸主"
+			tasks: [{
+				id: "0B3AB0A8E8ED3599"
+				item: "mowzies_cataclysm:frostmaw_eye"
+				type: "item"
+			}]
+			title: "冰原上的可怖之物"
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4FB287E833190EB2"
+				"052F912C681CB8B4"
+			]
+			id: "3DCB5F6B7BEB1D67"
+			rewards: [{
+				id: "70BB7D420D991CBE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "冰！"
+			tasks: [{
+				id: "3DFDF116C9004C9F"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23B87747D7890213"]
+			id: "7B18A15954C89492"
+			rewards: [{
+				id: "268006A4AD910295"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02BB53D816B65FCA"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"726CD1EB1E0A627D"
+				"105227689F48ABA7"
+				"3C45EFC053DA26B9"
+				"49A909CFCF70504D"
+				"3B64F174A361F05C"
+				"06701DADDCBA0B69"
+				"04E73FB7683268F4"
+			]
+			id: "3399EBC8E6546304"
+			rewards: [{
+				id: "7181D50420843C98"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "307C0B28BBDCB233"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "726CD1EB1E0A627D"
+			rewards: [{
+				id: "6051828D4EB20678"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BE7B87C7036ECFD"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "49A909CFCF70504D"
+			rewards: [{
+				id: "356544803FA22B36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3258E924041E8433"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "105227689F48ABA7"
+			rewards: [{
+				id: "56A717030D110BA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6BEADDD78BCBCD85"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "06701DADDCBA0B69"
+			rewards: [{
+				id: "0A067136B361C886"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D9BB84D3512AC3A"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_bliss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "3B64F174A361F05C"
+			rewards: [{
+				id: "032DE16F62ABAF01"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79A9E81390E64BDD"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_misery"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "3C45EFC053DA26B9"
+			rewards: [{
+				id: "0DC5B6E3303E33C3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04FC0E8404D510C9"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_faith"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["541BF216D0735272"]
+			id: "1537CEFAB7257922"
+			rewards: [{
+				id: "3D334461CB53F5E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FC4815C12D8D8D3"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["541BF216D0735272"]
+			id: "0924CCA17F73B85C"
+			rewards: [{
+				id: "4607A4501C86577E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "240921B06595F496"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23B87747D7890213"]
+			id: "7B1F2FA8B7537927"
+			tasks: [{
+				id: "55F776D277270872"
+				item: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23B87747D7890213"]
+			id: "20DDCC7A0D305664"
+			tasks: [{
+				id: "5DCA4C11A610A6AD"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_beads"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23B87747D7890213"]
+			id: "23871BD399ADC337"
+			tasks: [{
+				id: "24F5788749AF153D"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_robe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23B87747D7890213"]
+			id: "0708686389D83339"
+			tasks: [{
+				id: "1495D71EC47A2820"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23B87747D7890213"]
+			id: "0331843CD9B265C3"
+			tasks: [{
+				id: "75B40D6C6599323A"
+				item: {
+					Count: 1
+					id: "mowziesmobs:geomancer_sandals"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D01611FDBCCC058"]
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "4FB287E833190EB2"
+			rewards: [{
+				id: "59F0294B91A21D76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "0B9FBBDA654CE5A8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5BBC223D3E73C80A"]
+			icon: "mowziesmobs:umvuthi_spawn_egg"
+			id: "04E73FB7683268F4"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "719F1BBE6C37C1DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3C65FF78561C1B30"
+				"108893092EEDA892"
+			]
+			icon: "mowziesmobs:sculptor_spawn_egg"
+			id: "23B87747D7890213"
+			rewards: [{
+				id: "3786795AB1B8EAC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "651CDA20C37ED366"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A4B5D188F9F5AC7"]
+			icon: "mowziesmobs:wroughtnaut_spawn_egg"
+			id: "541BF216D0735272"
+			rewards: [{
+				id: "218229DEF11BD8B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "5D1599BD47A452F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5BBC223D3E73C80A"]
+			icon: "mowziesmobs:umvuthana_spawn_egg"
+			id: "51EDF31121937E7A"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana"
+				id: "4E57F6A4F608C4A0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5BBC223D3E73C80A"]
+			icon: "mowziesmobs:umvuthana_crane_spawn_egg"
+			id: "65AE6454CFD2BF83"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_crane"
+				id: "4699343CBE807A61"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5BBC223D3E73C80A"]
+			icon: "mowziesmobs:umvuthana_crane_spawn_egg"
+			id: "6E6A3CBAAED9C372"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_crane_player"
+				id: "1F4A4C26A0D76500"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5BBC223D3E73C80A"]
+			icon: "mowziesmobs:umvuthana_spawn_egg"
+			id: "4500C064A468D89D"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_follower_player"
+				id: "1958AFBD722CBF7F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5BBC223D3E73C80A"]
+			icon: "mowziesmobs:umvuthana_raptor_spawn_egg"
+			id: "63E3FD5D2D9E9BC5"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_follower_raptor"
+				id: "6E80855390CD78AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5BBC223D3E73C80A"]
+			icon: "mowziesmobs:umvuthana_raptor_spawn_egg"
+			id: "1BC1CC33D00F7724"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_raptor"
+				id: "7AEC66C9CDC6D75C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D01611FDBCCC058"]
+			id: "052F912C681CB8B4"
+			rewards: [{
+				id: "51372420942D3CEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73177F214391F8E9"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				type: "item"
+			}]
+			title: "我有个点子"
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			icon: "mowziesmobs:bluff_spawn_egg"
+			id: "2BD345E8F41DB497"
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "406965054DB372E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BD345E8F41DB497"]
+			id: "108893092EEDA892"
+			tasks: [{
+				id: "2E784A9DB662F8F7"
+				item: "mowziesmobs:bluff_rod"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["本章节由[青衣]制作"]
+	title: "Mowzie"
+}

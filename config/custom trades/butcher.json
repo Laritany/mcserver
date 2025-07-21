@@ -1,0 +1,446 @@
+{
+  "profession": "minecraft:butcher",
+  "removeOtherTrades": true,
+  "maxTrades": 12,
+  "trades": [
+///////////////////////////////
+////////////二级目录////////////
+///////////////////////////////
+//猪肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 130,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:porkchop","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food1"
+    },
+//牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:beef","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food2"
+    },
+//羊肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:mutton","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food3"
+    },
+//鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:chicken","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food4"
+    },
+//火鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "autumnity:turkey","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food5"
+    },
+//兔肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 267,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:rabbit","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food6"
+    },
+//鸭肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "untitledduckmod:raw_duck","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food7"
+    },
+//鹅肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "untitledduckmod:raw_goose","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food8"
+    },
+//水牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "meadow:raw_buffalo_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food9"
+    },
+//野牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:bison_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food10"
+    },
+//鹿肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:venison","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food11"
+    },
+//火鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:cassowary_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food12"
+    },
+//火鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:turkey_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food13"
+    },
+//鹈鹕肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 168,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:pelican_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food14"
+    },
+
+
+//猪肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 170,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:cooked_porkchop","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food1"
+    },
+//牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:cooked_beef","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food2"
+    },
+//羊肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:cooked_mutton","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food3"
+    },
+//鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 135,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:cooked_chicken","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food4"
+    },
+//火鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "autumnity:cooked_turkey","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food5"
+    },
+//兔肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 300,"priceModifier": 0},
+
+      "request": {"itemKey": "minecraft:cooked_rabbit","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food6"
+    },
+//鸭肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "untitledduckmod:cooked_duck","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food7"
+    },
+//鹅肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "untitledduckmod:cooked_goose","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food8"
+    },
+//水牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "meadow:cooked_buffalo_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food9"
+    },
+//野牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:cooked_bison_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food10"
+    },
+//鹿肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:cooked_venison","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food11"
+    },
+//火鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:cooked_cassowary_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food12"
+    },
+//火鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:cooked_turkey_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food13"
+    },
+//鹈鹕肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 220,"priceModifier": 0},
+
+      "request": {"itemKey": "wildernature:cooked_pelican_meat","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "food14"
+    },
+//////////三级
+//火鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 36,"priceModifier": 0},
+
+      "request": {"itemKey": "autumnity:turkey_piece","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 190,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:minced_beef","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//羊火腿肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 184,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:lamb_ham","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//鸡肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 39,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:chicken_parts","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//培根肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 80,"priceModifier": 0},
+
+      "request": {"itemKey": "farm_and_charm:bacon","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//牛肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:minced_beef","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//鸡肉碎
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:chicken_cuts","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//火腿肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:ham","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//羊排肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:mutton_chops","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 68,"priceModifier": 0},
+
+      "request": {"itemKey": "autumnity:cooked_turkey_piece","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 130,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:beef_patty","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:cooked_chicken_cuts","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 100,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:cooked_bacon","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 142,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:cooked_mutton_chops","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+//肉
+    {
+      "offer": {"itemKey": "kubejs:coin","amount": 132,"priceModifier": 0},
+
+      "request": {"itemKey": "farmersdelight:smoked_ham","amount": 32,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 2,
+      "UTID": "food14"
+    },
+  
+
+///////////////////////////////
+////////////四级目录////////////
+///////////////////////////////
+    {
+      "offer": {"itemKey": "minecraft:chicken_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+    {
+      "offer": {"itemKey": "minecraft:cow_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+    {
+      "offer": {"itemKey": "minecraft:pig_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+    {
+      "offer": {"itemKey": "minecraft:sheep_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+    {
+      "offer": {"itemKey": "untitledduckmod:goose_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+    {
+      "offer": {"itemKey": "untitledduckmod:goose_spawn_egg","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+//皮
+    {
+      "offer": {"itemKey": "minecraft:leather","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 10,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+//皮
+    {
+      "offer": {"itemKey": "minecraft:rabbit_hide","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 6,"priceModifier": 0},
+      "tradeExp": 2,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 3,
+      "UTID": "food14"
+    },
+///////////////////////////////
+////////////五级目录////////////
+///////////////////////////////
+//斩首屠刀
+    {
+      "offer": {"itemKey": "savage_and_ravage:cleaver_of_beheading","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 500,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "farm_and_charm:grandmothers_strawberry_cake","amount": 5,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "food14"
+    },
+//烈焰斧头
+    {
+      "offer": {"itemKey": "minecraft:netherite_axe","amount": 1,"enchantments": [
+      {
+        "enchantmentKey": "minecraft:fire_aspect",
+        "enchantmentLevel": 2
+      }
+    ]
+    },
+
+      "request": {"itemKey": "kubejs:coin","amount": 500,"priceModifier": 0},
+      "additionalRequest": {"itemKey": "minecraft:netherite_axe","amount": 1,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 4,
+      "UTID": "food14"
+    }
+]}

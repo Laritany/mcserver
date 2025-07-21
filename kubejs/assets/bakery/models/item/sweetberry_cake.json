@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "bakery:item/sweetberry_cake_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "bakery:item/sweetberry_cake_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "bakery:item/sweetberry_cake_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "bakery:item/sweetberry_cake_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "bakery:item/sweetberry_cake_gui"
+    },
+    "gui": {
+      "parent": "bakery:item/sweetberry_cake_gui"
+    },
+    "ground": {
+      "parent": "bakery:item/sweetberry_cake_gui"
+    }
+  }
+}

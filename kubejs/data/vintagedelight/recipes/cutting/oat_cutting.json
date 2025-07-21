@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:oat"
+    }
+  ],
+  "result": [
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "farmersdelight:straw"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

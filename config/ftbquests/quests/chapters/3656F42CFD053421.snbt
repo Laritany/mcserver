@@ -1,0 +1,1332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3656F42CFD053421"
+	group: "69AF6EA27123D833"
+	icon: "bakery:bread_crate"
+	id: "3656F42CFD053421"
+	images: [
+		{
+			height: 9.4d
+			image: "minecraft:textures/gui/ftb/bj.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: -3.5d
+			y: 0.8d
+		}
+		{
+			click: "https://www.bilibili.com/video/BV11SpKeVESz"
+			height: 3.0d
+			hover: ["点击查看烘焙教程"]
+			image: "bakery:item/breadcrate"
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.0d
+			y: -0.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "17A8CED78D784E45"
+			rewards: [{
+				auto: "enabled"
+				id: "73A55BBF34D2EAE2"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6制作蛋糕的核心方块"
+			tasks: [{
+				id: "48B9B8C6C0F22021"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			icon: "bakery:brick_counter"
+			id: "3F3A213A5CA96D6A"
+			rewards: [{
+				auto: "enabled"
+				id: "15CD274052B4D525"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "498FA5A7200032AB"
+					item: "bakery:kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "587E7BEB993FA82D"
+					item: "bakery:brick_counter"
+					type: "item"
+				}
+				{
+					id: "0DBBD0D24B0A799C"
+					item: "bakery:cabinet"
+					type: "item"
+				}
+				{
+					id: "53C2B84B7F5D856E"
+					item: "bakery:drawer"
+					type: "item"
+				}
+				{
+					id: "1B1CA47BB3DD8C82"
+					item: "bakery:wall_cabinet"
+					type: "item"
+				}
+				{
+					id: "5C0820AB48828DDF"
+					item: "bakery:street_sign"
+					type: "item"
+				}
+			]
+			title: "家具套件"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61919914EC33B971"]
+			description: [""]
+			id: "377BBFE8DA9B4CFB"
+			rewards: [{
+				auto: "enabled"
+				id: "7E0422C16F25CE02"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "275BBE141EA7CEB5"
+				item: "bakery:sweetberry_jam"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "33C607C208EFA35F"
+			rewards: [{
+				auto: "enabled"
+				id: "4C2CE2903B361334"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7109CD596EF358AD"
+				item: "bakery:chocolate_tart"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61919914EC33B971"]
+			description: [""]
+			id: "4F12852991C5F869"
+			rewards: [{
+				auto: "enabled"
+				id: "20DC6DAD5E2373C4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4156E72022123DF6"
+				item: "bakery:apple_jam"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A8CED78D784E45"]
+			description: [""]
+			id: "78EE92FAF7CD7CF4"
+			rewards: [{
+				auto: "enabled"
+				id: "1D1277188D46A6C5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "055C6066574AB51D"
+				item: "bakery:strawberry_cake"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61919914EC33B971"]
+			description: [""]
+			id: "792E03333E9AEFB2"
+			rewards: [{
+				auto: "enabled"
+				id: "3D785055716C71F4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "039489DF96399E56"
+				item: "bakery:strawberry_jam"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61919914EC33B971"]
+			description: [""]
+			id: "7920B6EF89F2FE7F"
+			rewards: [{
+				auto: "enabled"
+				id: "354AD0DD3E453778"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6068358CAC1C9C0F"
+				item: "bakery:chocolate_jam"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17A8CED78D784E45"]
+			description: [""]
+			id: "76DE9A25C166D75A"
+			rewards: [{
+				auto: "enabled"
+				id: "1778EFB3E5E3071E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2EC4FF341EAF0357"
+				item: "bakery:sweetberry_cake"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61919914EC33B971"]
+			description: [""]
+			id: "206660DEE349D5BB"
+			rewards: [{
+				auto: "enabled"
+				id: "6822863BE3BB5220"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6DFC95F915AC0445"
+				item: "bakery:glowberry_jam"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A8CED78D784E45"]
+			description: [""]
+			id: "455AD5BF72E5B2C7"
+			rewards: [{
+				auto: "enabled"
+				id: "1D2444F4B956CE8F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "390D73664DDF4475"
+				item: "bakery:chocolate_cake"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			id: "61919914EC33B971"
+			subtitle: "&6果酱烹饪"
+			tasks: [{
+				id: "3C436430C56FA7E2"
+				item: {
+					Count: 1
+					id: "bakery:small_cooking_pot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "6A178BE5EEA44BC6"
+			rewards: [{
+				auto: "enabled"
+				id: "2CD323983DC9BD60"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6使用它来压扁蛋糕胚"
+			tasks: [{
+				id: "621F7F4E684F9B76"
+				item: {
+					Count: 1
+					id: "bakery:rolling_pin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "2D0D17022A4064EC"
+			rewards: [{
+				auto: "enabled"
+				id: "2A1DBFEF040BF00C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6用于切蛋糕和分离蛋糕胚"
+			tasks: [{
+				id: "7ECDD8E7060D0217"
+				item: {
+					Count: 1
+					id: "bakery:bread_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "01500ED9A7CB4A36"
+			rewards: [{
+				auto: "enabled"
+				id: "6E2F8ACCE4BA50D3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "22CCCE0AB6134CC3"
+				item: "bakery:apple_pie"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17A8CED78D784E45"]
+			description: [""]
+			id: "154A36079276C8DE"
+			rewards: [{
+				auto: "enabled"
+				id: "4274D83C373D6C0C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71B653C70845C278"
+				item: "bakery:chocolate_gateau"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "3F370031BFBF1FA2"
+			rewards: [{
+				auto: "enabled"
+				id: "32B9D6165CF1ECB7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3FA8F259646DBC0B"
+				item: "bakery:bundt_cake"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23B57F63351B6C0F"]
+			description: [""]
+			id: "5B54EC8FBB8858F3"
+			rewards: [{
+				auto: "enabled"
+				id: "682424F51BA18CBD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "07D2E20B8B97AE9F"
+				item: "bakery:pudding"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "1A01E4AA32453FC9"
+			rewards: [{
+				auto: "enabled"
+				id: "3A7E4D4A15E81030"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0683A3EA47887628"
+				item: "bakery:glowberry_tart"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "6060DAEA98DA9C4E"
+			rewards: [{
+				auto: "enabled"
+				id: "46C1C086198988CC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "21CD5CB68078EDC1"
+				item: "bakery:linzer_tart"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "7C301386585FCD1A"
+			rewards: [{
+				auto: "enabled"
+				id: "7D2195B3CFCE01D5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "05CA782767CD3FCA"
+				item: "bakery:apple_pie_slice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CA58637552E8F34"]
+			description: [""]
+			id: "0C8747BBE22FB751"
+			rewards: [{
+				auto: "enabled"
+				id: "389109181717AC42"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4A43B4F146362989"
+				item: "bakery:sweet_dough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7CA58637552E8F34"
+			tasks: [{
+				id: "2AB98897904A4FAD"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "6DAEC0BC53EFC7C0"
+			rewards: [{
+				auto: "enabled"
+				id: "3A4D3195FF552771"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4AE0978461BC1F93"
+				item: "bakery:chocolate_cake_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "370F90AD49910FF4"
+			rewards: [{
+				auto: "enabled"
+				id: "529240F270604FCE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5FF9860D446C60F9"
+				item: "bakery:sweetberry_cake_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "52B00473BFE8616F"
+			rewards: [{
+				auto: "enabled"
+				id: "77B9DF65AD261B35"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E2463B4F51C0533"
+				item: "bakery:strawberry_cake_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "08C7FD1F811B7DAB"
+			rewards: [{
+				auto: "enabled"
+				id: "140436661F2AA8D1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "024769642DEDEF74"
+				item: "bakery:chocolate_gateau_slice"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "28F716F6F8443B09"
+			rewards: [{
+				auto: "enabled"
+				id: "437B33D8E26D86DD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "74021B7974609289"
+				item: "bakery:bundt_cake_slice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A178BE5EEA44BC6"]
+			description: [""]
+			id: "13AB89B4D044CD7B"
+			rewards: [{
+				auto: "enabled"
+				id: "098485AB935E8EA0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1097743EF36396E0"
+				item: "bakery:strawberry_glazed_cookie"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A178BE5EEA44BC6"]
+			description: [""]
+			id: "5121F8DDC5952C26"
+			rewards: [{
+				auto: "enabled"
+				id: "6CAFBB367F32645D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "41F06BD46FAFCC78"
+				item: "bakery:sweetberry_glazed_cookie"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A178BE5EEA44BC6"]
+			description: [""]
+			id: "41DCDC845C37343B"
+			rewards: [{
+				auto: "enabled"
+				id: "53082C1FDFE5478C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7A8F845B7C7F8625"
+				item: "bakery:chocolate_glazed_cookie"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CA58637552E8F34"]
+			description: [""]
+			id: "517F514FB1969342"
+			rewards: [{
+				auto: "enabled"
+				id: "12A527D17C2B95BB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6F171696489300DC"
+				item: "farm_and_charm:dough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "00925D48E88B94B3"
+			rewards: [{
+				auto: "enabled"
+				id: "41175A664C2A4480"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "08FF9B18FF4A2F6B"
+				item: "bakery:strawberry_cupcake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "57B149D20F66A3B4"
+			rewards: [{
+				auto: "enabled"
+				id: "1AADD76774A0EEDE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "31BB934DD5A10EE6"
+				item: "bakery:sweetberry_cupcake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "54B03F015AA9ACD9"
+			rewards: [{
+				auto: "enabled"
+				id: "492F6EEF8B276673"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7CB70B74D6118707"
+				item: "bakery:apple_cupcake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "7555BCC60C491981"
+			rewards: [{
+				auto: "enabled"
+				id: "1AC6320D32B58844"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "63CC2906F81C7678"
+				item: "bakery:chocolate_tart_slice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "1143075FDCC40E1D"
+			rewards: [{
+				auto: "enabled"
+				id: "032F12475A984A36"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6007455E08591FA4"
+				item: "bakery:linzer_tart_slice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "7CDC6A2C98D99375"
+			rewards: [{
+				auto: "enabled"
+				id: "027839746BD32F4F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "717CFE3AFB67EC78"
+				item: "bakery:pudding_slice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D0D17022A4064EC"]
+			description: [""]
+			id: "186DACF483EABC85"
+			rewards: [{
+				auto: "enabled"
+				id: "139F78869D7CDD3C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "394F811FA50F00D6"
+				item: "bakery:glowberry_pie_slice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5D812A7EC89F1BD4"
+			tasks: [{
+				id: "6E5DAF5C38257F12"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CA58637552E8F34"]
+			description: [""]
+			id: "4B32FC2AF36E8354"
+			rewards: [{
+				auto: "enabled"
+				id: "24DE9E2F844B83AA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1294A08C9831EEBF"
+				item: "bakery:cake_dough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "6EA3A9A13CEE82F4"
+			rewards: [{
+				auto: "enabled"
+				id: "45D5548109670BC4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7F5911D8E55DF2A9"
+				item: "bakery:cornet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "5A41BAAF157FE530"
+			rewards: [{
+				auto: "enabled"
+				id: "5C1CBBCDA47918F7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4EC5487B9F1B5621"
+				item: "bakery:waffle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "5A9701D7E2D78D3C"
+			rewards: [{
+				auto: "enabled"
+				id: "0AD253BBC8DC12FC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "75F6B9C1AF4A4AA1"
+				item: "bakery:misslilitu_biscuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23B57F63351B6C0F"]
+			description: [""]
+			id: "716D0CEB2C9CD906"
+			rewards: [{
+				auto: "enabled"
+				id: "2C5D08B015287392"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "51DDE0E9E596BA1B"
+				item: "bakery:chocolate_truffle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "21343F17E3A803C1"
+			rewards: [{
+				auto: "enabled"
+				id: "41216B4DFAA77735"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6DB97950028D30B4"
+				item: "bakery:grilled_salmon_sandwich"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "7BC5F3B931820154"
+			rewards: [{
+				auto: "enabled"
+				id: "4DDEF58798822A70"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2FC75A43E9441B77"
+				item: "bakery:grilled_bacon_sandwich"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "76666CBAC5680898"
+			rewards: [{
+				auto: "enabled"
+				id: "2A92EFD73A4C93F4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "718F4D77474E6CB5"
+				item: "bakery:jam_roll"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "1605A49769C2F937"
+			rewards: [{
+				auto: "enabled"
+				id: "5E9BF7337A0CAC05"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3CF36C3E9C1C2738"
+				item: "bakery:bun"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "07607DD6A872BA47"
+			rewards: [{
+				auto: "enabled"
+				id: "4641DF0B0E198351"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3DB2BCF12018ED5E"
+				item: "bakery:braided_bread"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "4938B7A946EDEF2E"
+			rewards: [{
+				auto: "enabled"
+				id: "168E8F81D0CA548B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D0C44C6753F71BD"
+				item: "bakery:toast"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "3483C2440C03A3E6"
+			rewards: [{
+				auto: "enabled"
+				id: "35EE67EA50FE4C46"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3F974C843722B08A"
+				item: "bakery:baguette"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "2E5A5D6DD7BD63B7"
+			rewards: [{
+				auto: "enabled"
+				id: "2B0BDD8DD1948729"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71C8A30F2AFCD7B1"
+				item: "bakery:bread"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "098DE976210D3608"
+			rewards: [{
+				auto: "enabled"
+				id: "22877007A9A77FC2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7F3B4910B4200F7C"
+				item: "bakery:crusty_bread"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D812A7EC89F1BD4"]
+			description: [""]
+			id: "6E4AEC5E2E39285C"
+			rewards: [{
+				auto: "enabled"
+				id: "187EEB665FB7B766"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0ECBE9B4B73EA256"
+				item: "bakery:croissant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "23B57F63351B6C0F"
+			tasks: [{
+				id: "4224D4AB71666A7B"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "54CB4210F5B022F0"
+			tasks: [{
+				id: "413C1EDC1DD4F2BC"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54CB4210F5B022F0"]
+			description: [""]
+			id: "007F4BD8A6584E2A"
+			rewards: [{
+				auto: "enabled"
+				id: "3F28AA7452C770AD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5B5FB03AC8E3F8F3"
+				item: "bakery:bread_with_jam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54CB4210F5B022F0"]
+			description: [""]
+			id: "0B13E34E79520A15"
+			rewards: [{
+				auto: "enabled"
+				id: "621174C35D63812F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "665E74A645E37448"
+				item: "bakery:sandwich"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54CB4210F5B022F0"]
+			description: [""]
+			id: "0E85F3BBAB45DAE9"
+			rewards: [{
+				auto: "enabled"
+				id: "05D3791D64B248CE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "020CBB2E57796202"
+				item: "bakery:vegetable_sandwich"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["716D0CEB2C9CD906"]
+			description: [""]
+			id: "43FA2CD26A261DBB"
+			rewards: [{
+				auto: "enabled"
+				id: "0F00E7A4B932B6D5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "325C63EDA618C568"
+				item: "bakery:chocolate_box"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			icon: "bakery:tray"
+			id: "61B98A8BC7DB6698"
+			rewards: [{
+				auto: "enabled"
+				id: "14C18EB5B1EC38AE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "49C29F82EA72C522"
+					item: "bakery:cake_display"
+					type: "item"
+				}
+				{
+					id: "22C160D6955E5926"
+					item: "bakery:cupcake_display"
+					type: "item"
+				}
+				{
+					id: "03E919B889266DA6"
+					item: "bakery:cake_stand"
+					type: "item"
+				}
+				{
+					id: "6D96CD2680DA0632"
+					item: "bakery:tray"
+					type: "item"
+				}
+				{
+					id: "5F0FDEB8DC1A32D8"
+					item: "bakery:breadbox"
+					type: "item"
+				}
+			]
+			title: "面包装饰盒"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			id: "54EC3111C2AB2240"
+			rewards: [{
+				auto: "enabled"
+				id: "2D8AB2F7FBD07F0B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09DCAA579378DCC2"
+				item: "bakery:bread_crate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			id: "678615DDD0B80922"
+			rewards: [{
+				auto: "enabled"
+				id: "40ACB8342209F40D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6CE505B0AF21990E"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "1495BFC07DD80DF7"
+			tasks: [{
+				id: "5F515F13E6041D4F"
+				item: "bakery:bakery_banner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07607DD6A872BA47"
+				"0E85F3BBAB45DAE9"
+				"54EC3111C2AB2240"
+				"4F12852991C5F869"
+				"6EA3A9A13CEE82F4"
+				"0B13E34E79520A15"
+				"3F370031BFBF1FA2"
+				"716D0CEB2C9CD906"
+				"6060DAEA98DA9C4E"
+				"13AB89B4D044CD7B"
+				"5B54EC8FBB8858F3"
+				"5A41BAAF157FE530"
+				"3483C2440C03A3E6"
+				"1A01E4AA32453FC9"
+				"7BC5F3B931820154"
+				"5A9701D7E2D78D3C"
+				"76666CBAC5680898"
+				"78EE92FAF7CD7CF4"
+				"57B149D20F66A3B4"
+				"33C607C208EFA35F"
+				"792E03333E9AEFB2"
+				"43FA2CD26A261DBB"
+				"2E5A5D6DD7BD63B7"
+				"6DAEC0BC53EFC7C0"
+				"678615DDD0B80922"
+				"54B03F015AA9ACD9"
+				"7920B6EF89F2FE7F"
+				"52B00473BFE8616F"
+				"1143075FDCC40E1D"
+				"455AD5BF72E5B2C7"
+				"370F90AD49910FF4"
+				"76DE9A25C166D75A"
+				"21343F17E3A803C1"
+				"206660DEE349D5BB"
+				"28F716F6F8443B09"
+				"5121F8DDC5952C26"
+				"4938B7A946EDEF2E"
+				"41DCDC845C37343B"
+				"007F4BD8A6584E2A"
+				"7555BCC60C491981"
+				"7CDC6A2C98D99375"
+				"00925D48E88B94B3"
+				"154A36079276C8DE"
+				"1605A49769C2F937"
+				"08C7FD1F811B7DAB"
+				"6E4AEC5E2E39285C"
+				"377BBFE8DA9B4CFB"
+				"7C301386585FCD1A"
+				"01500ED9A7CB4A36"
+				"186DACF483EABC85"
+				"098DE976210D3608"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_baking_set_a"
+			id: "7BA9AA902FFA4759"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:break set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "7B24C5D8E72A4514"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "09C6A97155280A2D"
+					item: {
+						Count: 1
+						id: "rajswordmod:anti_armor_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "06CD2B0F85D86218"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "68EF9E86AD0DD490"
+					item: "farmingtales:house_dangaodian"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "69896BFB29226AB5"
+				type: "checkmark"
+			}]
+			title: "收集任务[馥郁烘焙]"
+			x: -10.0d
+			y: 2.0d
+		}
+	]
+	title: "馥郁烘焙"
+}

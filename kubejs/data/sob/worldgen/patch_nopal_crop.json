@@ -1,0 +1,9 @@
+{
+  "feature": "sob:patch_nopal_crop",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 0
+    }
+  ]
+}

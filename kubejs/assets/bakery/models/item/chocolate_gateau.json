@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "bakery:item/chocolate_gateau_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "bakery:item/chocolate_gateau_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "bakery:item/chocolate_gateau_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "bakery:item/chocolate_gateau_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "bakery:item/chocolate_gateau_gui"
+    },
+    "gui": {
+      "parent": "bakery:item/chocolate_gateau_gui"
+    },
+    "ground": {
+      "parent": "bakery:item/chocolate_gateau_gui"
+    }
+  }
+}

@@ -1,0 +1,850 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5461396BC5C7141F"
+	group: "69AF6EA27123D833"
+	icon: "kitchenkarrot:sirloin_steak"
+	id: "5461396BC5C7141F"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "64B43C1B45DBD586"
+			rewards: [{
+				auto: "enabled"
+				id: "44A1E3F4E6DC3293"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "7DC09C7BD5F9EE57"
+				item: "kitchenkarrot:leafy_fresh_chocolate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1AC46D589D448D49"]
+			id: "2CF80ED6F08A6358"
+			rewards: [{
+				auto: "enabled"
+				id: "6B596048A042F30B"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "39F278678A170666"
+				item: "kitchenkarrot:dungeon_pizza_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "1AC46D589D448D49"
+			rewards: [{
+				auto: "enabled"
+				id: "67D7565708A76B8E"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "073F99D3FC69A4FB"
+				item: "kitchenkarrot:dungeon_pizza"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "209E5F7C29892198"
+			rewards: [{
+				auto: "enabled"
+				id: "053CC6D5CA348F71"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "3023DEDC9F04651F"
+				item: "kitchenkarrot:rice_cake"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["701AAC9E43916ED1"]
+			id: "389FF49CFC443FA8"
+			rewards: [{
+				auto: "enabled"
+				id: "202F8FBDF852D5A4"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "52D2741C2E269B21"
+				item: "kitchenkarrot:shiny_pizza_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6343FC0B77D5A006"]
+			id: "6250E0E90321188D"
+			rewards: [{
+				auto: "enabled"
+				id: "55B77F47AA7F0E94"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2AF56B59D6B76AC3"
+				item: "kitchenkarrot:beef_grains"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "6343FC0B77D5A006"
+			rewards: [{
+				auto: "enabled"
+				id: "7DAC24A48D7C1BFB"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "0EE1E5FA17CDCC39"
+				item: "kitchenkarrot:sirloin_steak"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			id: "701AAC9E43916ED1"
+			rewards: [{
+				auto: "enabled"
+				id: "66BC0B3C4AF96F28"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6F1DAAB7D673B05F"
+				item: "kitchenkarrot:shiny_pizza"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6EA206169678B2E6"]
+			id: "10616BECBFB4FB8D"
+			rewards: [{
+				auto: "enabled"
+				id: "502077AA660DCC83"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "11F13E35B6ACEC0D"
+				item: "kitchenkarrot:feast_pizza_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["11847FE7777CF875"]
+			id: "31DD2F5F6F247EBB"
+			rewards: [{
+				auto: "enabled"
+				id: "1F8C2F4487B47D60"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "57FA22C27B03B769"
+				item: "kitchenkarrot:sweet_loaf_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "11847FE7777CF875"
+			rewards: [{
+				auto: "enabled"
+				id: "2DFAAA8C168FD888"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4BEFA3EE5AEBF3CD"
+				item: "kitchenkarrot:sweet_loaf"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "6EA206169678B2E6"
+			rewards: [{
+				auto: "enabled"
+				id: "0822792B5CA0709E"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "20EA3E72F14508AE"
+				item: "kitchenkarrot:feast_pizza"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "6C1CB6007D78087C"
+			rewards: [{
+				auto: "enabled"
+				id: "29FFFD62B69265D4"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "56C27ECDEA6C76C9"
+				item: "kitchenkarrot:monster_lasagna"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C1CB6007D78087C"]
+			id: "621B2571BEE8638C"
+			rewards: [{
+				auto: "enabled"
+				id: "6C6F7F32750D2F92"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2255E90B8FD398D1"
+				item: "kitchenkarrot:small_monster_lasagna"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			id: "28716896DE96F78C"
+			rewards: [{
+				auto: "enabled"
+				id: "6EEFB1A3E8900850"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4BFD4DCCB9F5EAD8"
+				item: "kitchenkarrot:chorus_mousse"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28716896DE96F78C"]
+			id: "0CF298D3F4E0E204"
+			rewards: [{
+				auto: "enabled"
+				id: "56683642E7327287"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4A1AEDE10776F44F"
+				item: "kitchenkarrot:small_chorus_mousse"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "25718DD4207B3C92"
+			rewards: [{
+				auto: "enabled"
+				id: "6492B125D1717582"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6D247B26AB5DEE98"
+				item: "kitchenkarrot:slime_mousse"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25718DD4207B3C92"]
+			id: "4BB6EC379DA0D7E3"
+			rewards: [{
+				auto: "enabled"
+				id: "349CD5FE553625F1"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "0DC91C6C01E2AC17"
+				item: "kitchenkarrot:small_slime_mousse"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C93ED111131D50E"]
+			id: "354562030E5E257E"
+			rewards: [{
+				auto: "enabled"
+				id: "2A14ACA512506933"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "534B7A2A9F0BE077"
+				item: "kitchenkarrot:small_beef_in_dripleaf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "6C93ED111131D50E"
+			rewards: [{
+				auto: "enabled"
+				id: "6719F21E103699AA"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4A353C0A85052CF4"
+				item: "kitchenkarrot:beef_in_dripleaf"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E793D3734EE55B8"]
+			id: "075D135E2AF11DFA"
+			rewards: [{
+				auto: "enabled"
+				id: "3675BA6B15CFEBD8"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "7969D68637D62ED9"
+				item: "kitchenkarrot:cheese_slice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "1E793D3734EE55B8"
+			rewards: [{
+				auto: "enabled"
+				id: "46690494EFBE2C57"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "66DD1D657A480B58"
+				item: "kitchenkarrot:cheese_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			id: "312E1BAB3C3C7E3E"
+			rewards: [{
+				auto: "enabled"
+				id: "18FC57C6001B79F5"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4E59B3F820B4DA81"
+				item: "kitchenkarrot:seed_pie"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			id: "031234883154EDC8"
+			rewards: [{
+				auto: "enabled"
+				id: "65CA61287DFA803C"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "4DAFADAA03C9EC63"
+				item: "kitchenkarrot:fried_pumpkin_cake"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "6C267DA7F9426A3F"
+			rewards: [{
+				auto: "enabled"
+				id: "12CB22C802C0F1A0"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "可以将一些装在盘子中的大份食物切割成小份。"
+			tasks: [{
+				id: "1D0B42747D9534E5"
+				item: "kitchenkarrot:knife"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "0C193DB25FA534DF"
+			rewards: [{
+				auto: "enabled"
+				id: "26EA8CC3FD2BFE54"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "43009CE3973ED79E"
+				item: "kitchenkarrot:plate_pieces"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				""
+				"空手右键即可拿起盘中食物"
+				"Shift+右键可端起盘子（装有食物的盘子也能被端起）"
+				"对着盛有食物的盘子右击可收回食物。"
+				""
+				"放置盘子时，玩家的视角朝向也会影响盘子的摆放朝向。"
+			]
+			id: "27982D3BF902DB47"
+			rewards: [{
+				auto: "enabled"
+				id: "02D3E978AB517B1E"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "可放置，手持食物时对着盘子右键可将食物放置在盘子上。"
+			tasks: [{
+				id: "32A2B1D8764E7354"
+				item: "kitchenkarrot:plate_item"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4AF74F7C7BAFBCE3"
+				"110BED91220EE6F8"
+			]
+			id: "35208E91EFA58251"
+			rewards: [{
+				auto: "enabled"
+				id: "6117D22635C2A948"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "3DA0463A36AAD037"
+				item: "kitchenkarrot:fried_chicken_combo"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "110BED91220EE6F8"
+			rewards: [{
+				auto: "enabled"
+				id: "67B1320DA440F923"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2FEE9B24D11B35F9"
+				item: "kitchenkarrot:drumstick"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "4AF74F7C7BAFBCE3"
+			rewards: [{
+				auto: "enabled"
+				id: "3D8C439D46FE9D6A"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "787A65F8A011BF5A"
+				item: "kitchenkarrot:fries"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "3290661A7010460C"
+			rewards: [{
+				auto: "enabled"
+				id: "5D8A5340157C3EB2"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "359E5F246EDC3EF1"
+				item: "kitchenkarrot:acorn_wine_base"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "43B3254C503B1FB3"
+			rewards: [{
+				auto: "enabled"
+				id: "3DCF4B1E7C21FA74"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "1E0CC223A48921C4"
+				item: "kitchenkarrot:mead_base"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			id: "30A64437B8F34857"
+			rewards: [{
+				auto: "enabled"
+				id: "6D56612CE30D454F"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "315B9696C104FDAE"
+				item: "kitchenkarrot:rum_base"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			id: "35DD479FC9A81D63"
+			rewards: [{
+				auto: "enabled"
+				id: "32C9556683930913"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "5E6BF552DA4AB734"
+				item: "kitchenkarrot:vodka_base"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			id: "602B37B11FC656B2"
+			rewards: [{
+				auto: "enabled"
+				id: "11C403F7EDB2E274"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "743A74BC61DE0F7F"
+				item: "kitchenkarrot:sea_salt"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			id: "7B8CAEB1E4AEC44B"
+			rewards: [{
+				auto: "enabled"
+				id: "65A06C2BC58C7778"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "71EE08DAC486B566"
+				item: "kitchenkarrot:rock_salt"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			id: "0EA7DF65F91E4C8F"
+			rewards: [{
+				auto: "enabled"
+				id: "6D4AFE6C33F66B86"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "7E03C12DCBCAB7D9"
+				item: "kitchenkarrot:fine_salt"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			id: "640DAB1DCCDE215B"
+			rewards: [{
+				auto: "enabled"
+				id: "4BDFFC14BA1397F4"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "31A7012B8FEA8F2A"
+				item: "kitchenkarrot:ice_cubes"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			id: "5718E597A8291540"
+			rewards: [{
+				auto: "enabled"
+				id: "3A229130A38651B6"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "1C5335418BEC2A7F"
+				item: "kitchenkarrot:water"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			id: "3DF9BF2A4A6EF123"
+			rewards: [{
+				auto: "enabled"
+				id: "327AD5F5E2B57467"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "08F8376B4018A36C"
+				item: "kitchenkarrot:chorus_oil"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			id: "26678E76A5179745"
+			rewards: [{
+				auto: "enabled"
+				id: "0FBEC7AD9AD5EC88"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2B333E53D851EF01"
+				item: "kitchenkarrot:sunflower_oil"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			id: "3C85244614C2B06C"
+			rewards: [{
+				auto: "enabled"
+				id: "63679D217E7D35A6"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "77FD878BDC918539"
+				item: "kitchenkarrot:acorn_oil"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			id: "0735988556DD272E"
+			rewards: [{
+				auto: "enabled"
+				id: "55C8E4A89FAE5941"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "5E7F82793CB4FC99"
+				item: "kitchenkarrot:milk"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			id: "2D95E272E6AF830C"
+			rewards: [{
+				auto: "enabled"
+				id: "2DADDD130FAE8792"
+				team_reward: false
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "36983281B37DD12D"
+				item: "kitchenkarrot:birch_sap"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4BB6EC379DA0D7E3"
+				"701AAC9E43916ED1"
+				"35208E91EFA58251"
+				"0CF298D3F4E0E204"
+				"031234883154EDC8"
+				"312E1BAB3C3C7E3E"
+				"4AF74F7C7BAFBCE3"
+				"075D135E2AF11DFA"
+				"25718DD4207B3C92"
+				"621B2571BEE8638C"
+				"1AC46D589D448D49"
+				"6250E0E90321188D"
+				"6C1CB6007D78087C"
+				"1E793D3734EE55B8"
+				"6343FC0B77D5A006"
+				"31DD2F5F6F247EBB"
+				"354562030E5E257E"
+				"6EA206169678B2E6"
+				"11847FE7777CF875"
+				"110BED91220EE6F8"
+				"389FF49CFC443FA8"
+				"64B43C1B45DBD586"
+				"209E5F7C29892198"
+				"10616BECBFB4FB8D"
+				"2CF80ED6F08A6358"
+				"6C93ED111131D50E"
+				"28716896DE96F78C"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "rusticdelight:item/coffee_braised_beef"
+				}
+			}
+			id: "373D25F8DFD20C24"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:hlb set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "5C9232F1A53E7686"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "0AC06C960DC4C877"
+					item: "armamentarium:blaze_whetstone"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1A6974FA2CD22100"
+				type: "checkmark"
+			}]
+			title: "收集任务[胡萝卜厨房]"
+			x: -9.0d
+			y: 0.0d
+		}
+	]
+	title: "甘荀厨房"
+}

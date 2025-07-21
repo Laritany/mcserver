@@ -1,0 +1,6 @@
+{
+  "ambientadditions:siamang_gibbon": {"banned": true,"mod_loaded": [{"value": "ambientadditions"}]},
+  "ambientadditions:ring_tailed_lemur": {"banned": true,"mod_loaded": [{"value": "ambientadditions"}]},
+  "ambientadditions:giant_land_snail": {"banned": true,"mod_loaded": [{"value": "ambientadditions"}]},
+  "spawn:snail": {"banned": true,"mod_loaded": [{"value": "spawn"}]}
+}

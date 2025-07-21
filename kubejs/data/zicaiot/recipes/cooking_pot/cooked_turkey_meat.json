@@ -1,0 +1,15 @@
+{
+  "type": "meadow:cooking",
+  "ingredients": [
+    {
+      "item": "wildernature:turkey_meat"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    }
+  ],
+  "result": {
+    "item": "wildernature:cooked_turkey_meat",
+    "count": 4
+  }
+}

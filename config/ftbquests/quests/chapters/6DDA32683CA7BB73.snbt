@@ -1,0 +1,853 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6DDA32683CA7BB73"
+	group: "69AF6EA27123D833"
+	icon: "minecraft:cod"
+	id: "6DDA32683CA7BB73"
+	images: [{
+		height: 11.0d
+		image: "minecraft:textures/gui/ftb/fish.png"
+		rotation: 0.0d
+		width: 22.5d
+		x: -3.7d
+		y: 3.5d
+	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F91EECC46CFF5BE"
+			subtitle: "在下界钓鱼，若钓上来的是盒子，有13%几率可获得。"
+			tasks: [{
+				id: "382D520BE88CCB22"
+				item: "gofish:fiery_crate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "6D7CE8731021E6D4"
+			subtitle: "在主世界满月时钓鱼，若钓到盒子则有13%几率获得。"
+			tasks: [{
+				id: "605DA635A35E3C4D"
+				item: "gofish:astral_crate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "2DA7839E27485BB3"
+			subtitle: "在主世界钓鱼，获得盒子则有13%几率获得。"
+			tasks: [{
+				id: "22F41816E9FCC52E"
+				item: "gofish:wooden_crate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			id: "30FA3FE94AE80E2A"
+			subtitle: "在主世界钓鱼，若钓上来的是盒子，有10%几率可获得。"
+			tasks: [{
+				id: "6D12D12A8496FC96"
+				item: "gofish:iron_crate"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			id: "0747F236913798C3"
+			subtitle: "在主世界或下界钓鱼，若钓上来的是盒子，有6%几率可获得。"
+			tasks: [{
+				id: "237238284B1D2E27"
+				item: "gofish:golden_crate"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			id: "69B32A67BDACC3D4"
+			subtitle: "在主世界钓鱼，若钓上来的是盒子，有3%几率可获得。"
+			tasks: [{
+				id: "168C6FC65ADDFE61"
+				item: "gofish:diamond_crate"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "1E365D431ACDD826"
+			subtitle: "在主世界钓鱼，若钓上来的是盒子，有3%几率可获得。"
+			tasks: [{
+				id: "2007F66CABB5FE77"
+				item: "gofish:frosted_crate"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "7F2EF385115E5DE4"
+			subtitle: "在主世界钓鱼，若钓上来的是盒子，有3%几率可获得。"
+			tasks: [{
+				id: "72158DD2DEFB3CB9"
+				item: "gofish:slimey_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "03F26ADDA37306DB"
+			subtitle: "在主世界钓鱼，若钓上来的是盒子，有3%几率可获得。"
+			tasks: [{
+				id: "2E49B63F7EC503E2"
+				item: "gofish:supply_crate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "2B66304C4FD7FFEC"
+			subtitle: "在下界钓鱼，若钓上来的是盒子，有13%几率可获得。"
+			tasks: [{
+				id: "7DD96C7C0D7A4592"
+				item: "gofish:soul_crate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "2255F3151826915B"
+			subtitle: "在下界钓鱼，若钓上来的是盒子，有13%几率可获得。"
+			tasks: [{
+				id: "19CA95F183D4C5F5"
+				item: "gofish:gilded_blackstone_crate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0A31643FC15ADAB2"
+			subtitle: "在末地钓鱼，若钓上来的是盒子，有13%几率会获得。"
+			tasks: [{
+				id: "31591A557BB9058D"
+				item: "gofish:end_crate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["此钓竿可在岩浆里钓鱼，钓上来的鱼会自然带有深度烧烤的效果。"]
+			id: "75D48106679604C8"
+			subtitle: "使用烈焰棒和线合成，或开启炎盒获得。"
+			tasks: [{
+				id: "2AADBA90D5565837"
+				item: {
+					Count: 1
+					id: "gofish:blaze_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: ["抛竿时会有骷髅的音效，此钓竿可在岩浆里钓鱼。"]
+			id: "35F3E272883E284D"
+			subtitle: "仅能开启炎盒获得。"
+			tasks: [{
+				id: "285E7299E106D7DB"
+				item: {
+					Count: 1
+					id: "gofish:skeletal_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "2CC3EDB9157F8913"
+			subtitle: "此钓竿相比于其他钓竿耐久更高；可在岩浆里钓鱼。"
+			tasks: [{
+				id: "4F7D844A45DEAA71"
+				item: {
+					Count: 1
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "5856672F76E89D05"
+			subtitle: "只能打开末影箱获得。"
+			tasks: [{
+				id: "62C21E9C0CC0D330"
+				item: {
+					Count: 1
+					id: "gofish:ender_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "300914994AE8873F"
+			subtitle: "只能打开寒霜盒获得。"
+			tasks: [{
+				id: "4AAC92025C458C06"
+				item: {
+					Count: 1
+					id: "gofish:frosted_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			description: ["抛竿时会有史莱姆跳动的声音，除此之外没有特别的效果。"]
+			id: "3F34FB993AAF2FF4"
+			subtitle: "只能打开黏液盒获得。"
+			tasks: [{
+				id: "05EDD6E69A00C070"
+				item: {
+					Count: 1
+					id: "gofish:slime_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			description: ["此钓竿可在岩浆里钓鱼，使用此钓竿钓鱼时最低也会获得5点经验值。"]
+			id: "25A9326E2E7A1B74"
+			subtitle: "只能打开灵魂盒获得。"
+			tasks: [{
+				id: "5749B23F9930D4D0"
+				item: {
+					Count: 1
+					id: "gofish:soul_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			description: ["只有这个钓竿能钓起能量矩阵鱼（需要在末地垂钓）。"]
+			id: "103B3C5728DB1C63"
+			subtitle: "只能打开末影箱获得。"
+			tasks: [{
+				id: "3250BEAB1AD1EED5"
+				item: {
+					Count: 1
+					id: "gofish:matrix_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "535E2ABF91B1FDE4"
+			subtitle: "仅能开启星体盒获得，夜间钓鱼幸运值+1。"
+			tasks: [{
+				id: "113B136ADDDA68B4"
+				item: {
+					Count: 1
+					id: "gofish:celestial_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "387D40C37FB0FE01"
+			subtitle: "在末地钓鱼或开启末影箱获得。"
+			tasks: [{
+				id: "7E23395290A8D907"
+				item: "gofish:ender_eel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "3A8B470794860696"
+			subtitle: "在主世界寒冷的群系钓鱼或打开寒霜盒获得。"
+			tasks: [{
+				id: "6E73C3FD248A1D77"
+				item: "gofish:icicle_fish"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			id: "4CDD02580CCE2CFB"
+			subtitle: "在主世界沼泽群系钓鱼和打开黏液盒获得。"
+			tasks: [{
+				id: "1BB4DBDEF0B1698A"
+				item: "gofish:lilyfish"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			id: "6C3A3A483014C175"
+			subtitle: "在末地使用矩阵钓竿垂钓获得。"
+			tasks: [{
+				id: "71E77A17F887C943"
+				item: "gofish:matrix_fish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "639279409F077890"
+			subtitle: "在主世界钓鱼可获得。"
+			tasks: [{
+				id: "72D9F68187440132"
+				item: "gofish:seaweed_eel"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			id: "7B5450BE3C584EF7"
+			subtitle: "在主世界沼泽群系钓鱼或打开黏液盒获得。"
+			tasks: [{
+				id: "4424D4CC5DFC4E0A"
+				item: "gofish:slimefish"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			id: "288455793058CBFA"
+			subtitle: "在主世界寒冷的群系中钓鱼和打开寒霜盒获得。"
+			tasks: [{
+				id: "4FBB3F5AB1C3B9CB"
+				item: "gofish:snowball_fish"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			id: "6787A4268B7F42EA"
+			subtitle: "在主世界钓鱼获得。"
+			tasks: [{
+				id: "20A36B79C2999379"
+				item: "gofish:terrafish"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			id: "0D3DE00871EC1624"
+			subtitle: "在平原群系或森林群系钓鱼，或打开补给盒获得。"
+			tasks: [{
+				id: "405C28F01B4AD472"
+				item: "gofish:carrot_carp"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			id: "59CF880B272E5137"
+			subtitle: "在平原群系或森林群系钓鱼或打开补给盒可获得。"
+			tasks: [{
+				id: "0688100C54DD32AA"
+				item: "gofish:oakfish"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			id: "4C8FA8DAAA812675"
+			subtitle: "在下界钓鱼时或打开镶金黑石盒获得。"
+			tasks: [{
+				id: "2EA049A6E9B996F8"
+				item: "gofish:blackstone_trout"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "1D65B016829B909A"
+			subtitle: "在下界钓鱼或打开镶金黑石盒获得。"
+			tasks: [{
+				id: "08BAEDAB07BE4A73"
+				item: "gofish:gilded_blackstone_carp"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "315A8F4F07549295"
+			subtitle: "在下界钓鱼，或打开炎盒和镶金黑石盒获得。"
+			tasks: [{
+				id: "5B9334898B84B31D"
+				item: "gofish:smokey_salmon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "12D641256F54C015"
+			subtitle: "在下界钓鱼可获得。"
+			tasks: [{
+				id: "15EFF54850744075"
+				item: "gofish:soul_salmon"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			description: [""]
+			id: "2C75D37A6BFE532E"
+			subtitle: "在下界钓鱼时或打开炎盒获得。"
+			tasks: [{
+				id: "79B0E066F7893C65"
+				item: "gofish:magma_cod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "4D01BB5BE31C469E"
+			subtitle: "在下界钓鱼时或打开镶金黑石盒和炎盒可获得。"
+			tasks: [{
+				id: "060E6C149A3E6362"
+				item: "gofish:basalt_bass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "7F4A88FA309E9059"
+			subtitle: "在下界钓鱼或打开炎盒获得。"
+			tasks: [{
+				id: "107A9037ED6934EA"
+				item: "gofish:obsidian_halibut"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "5AB9113718A46EB4"
+			subtitle: "在末地钓鱼或打开末影箱获得。"
+			tasks: [{
+				id: "7A4ED6669E922FDD"
+				item: "gofish:endfish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "2273FCBA9477C165"
+			subtitle: "在末地钓鱼或打开末影箱获得。"
+			tasks: [{
+				id: "72C8888D77CB1974"
+				item: "gofish:chorus_cod"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "2A34E1059D637180"
+			subtitle: "在末地钓鱼或开启末影箱获得。"
+			tasks: [{
+				id: "28D8747D1FB5CED7"
+				item: "gofish:dragonfish"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "0D84E0A3D364597C"
+			subtitle: "在末地钓鱼或打开末影箱获得。"
+			tasks: [{
+				id: "527802F054633C85"
+				item: "gofish:omega_floater"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "4FD2763AEA57BAD9"
+			subtitle: "在末地钓鱼或打开末影箱获得。"
+			tasks: [{
+				id: "46EF19238FF2225F"
+				item: "gofish:portal_puffer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "49ED9354B4FC28F6"
+			subtitle: "在主世界满月时钓鱼或打开星体盒获得。"
+			tasks: [{
+				id: "4B9B373C20207771"
+				item: "gofish:lunarfish"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "3C4709D86C37552E"
+			subtitle: "在主世界满月时钓鱼或打开星体盒获得。"
+			tasks: [{
+				id: "68CDB4654987C960"
+				item: "gofish:galaxy_starfish"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			id: "230FB0919C3D9C5A"
+			subtitle: "在主世界满月时钓鱼或开启星体盒获得。"
+			tasks: [{
+				id: "02255BEBC03453B3"
+				item: "gofish:starry_salmon"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			id: "0D6AA2D445EED872"
+			subtitle: "在主世界满月时钓鱼或打开星体盒获得。"
+			tasks: [{
+				id: "1767345847949E0D"
+				item: "gofish:nebula_swordfish"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "65E21D7A3D6BCFB3"
+			subtitle: "在主世界下雨时钓鱼可获得。"
+			tasks: [{
+				id: "78F301EC9270B64A"
+				item: "gofish:rainy_bass"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			id: "2990F4C1D76365FE"
+			subtitle: "在主世界天上钓鱼时可获得。"
+			tasks: [{
+				id: "60D459AEAA9DFF7C"
+				item: "gofish:cloudy_crab"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "02354FDDEE43DFDD"
+			subtitle: "在主世界雷暴天气时钓鱼获得。"
+			tasks: [{
+				id: "22A830441D04B10C"
+				item: "gofish:thundering_bass"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "68C2FA0B8AC8C6CD"
+			subtitle: "在主世界下雪时钓鱼获得。"
+			tasks: [{
+				id: "24C1A29478B14237"
+				item: "gofish:blizzard_bass"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"在玩家背包里时，饵钓+1。"
+				"多个鱼饵的效果无法堆叠。"
+			]
+			id: "6F24736DC56C59B2"
+			subtitle: "由羽毛和铁粒合成获得。"
+			tasks: [{
+				id: "3CDC50902BDC584B"
+				item: "gofish:simple_lure"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["在玩家背包里且玩家在灵魂沙峡谷钓鱼时，幸运+1，多个鱼饵的效果不会叠加。"]
+			id: "35DF1DEC8D3A93EB"
+			subtitle: "使用灵魂鲑和简单鱼饵合成获得。"
+			tasks: [{
+				id: "340E324B3B074154"
+				item: "gofish:soul_lure"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "333655140F83D7A9"
+			subtitle: "只能通过打开金盒和镶金黑石盒获得。"
+			tasks: [{
+				id: "0B98626EEA6C3606"
+				item: "gofish:golden_fish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "3691D798E78541E8"
+			subtitle: "在下界钓鱼时或打开镶金黑石盒获得。"
+			tasks: [{
+				id: "5569C591988461A9"
+				item: "gofish:spikerfish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "5D8B74E3DB8FAD91"
+			subtitle: "在下界钓鱼或打开炎盒获得。"
+			tasks: [{
+				id: "3FD71F138E97AFEA"
+				item: "gofish:bonefish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"65E21D7A3D6BCFB3"
+				"639279409F077890"
+				"7B5450BE3C584EF7"
+				"3C4709D86C37552E"
+				"68C2FA0B8AC8C6CD"
+				"2990F4C1D76365FE"
+				"387D40C37FB0FE01"
+				"2A34E1059D637180"
+				"6C3A3A483014C175"
+				"315A8F4F07549295"
+				"4D01BB5BE31C469E"
+				"2273FCBA9477C165"
+				"3A8B470794860696"
+				"59CF880B272E5137"
+				"5AB9113718A46EB4"
+				"288455793058CBFA"
+				"2C75D37A6BFE532E"
+				"4C8FA8DAAA812675"
+				"0D6AA2D445EED872"
+				"3691D798E78541E8"
+				"4FD2763AEA57BAD9"
+				"4CDD02580CCE2CFB"
+				"12D641256F54C015"
+				"1D65B016829B909A"
+				"49ED9354B4FC28F6"
+				"6787A4268B7F42EA"
+				"02354FDDEE43DFDD"
+				"5D8B74E3DB8FAD91"
+				"7F4A88FA309E9059"
+				"230FB0919C3D9C5A"
+				"0D3DE00871EC1624"
+				"0D84E0A3D364597C"
+				"5BB1F2BD3F6435C8"
+				"59464E86BE093ADA"
+				"6FE1415AD221ABED"
+				"15F51F519B07C28F"
+				"35F3E272883E284D"
+				"35DF1DEC8D3A93EB"
+				"5856672F76E89D05"
+				"103B3C5728DB1C63"
+				"535E2ABF91B1FDE4"
+				"3F34FB993AAF2FF4"
+				"2CC3EDB9157F8913"
+				"300914994AE8873F"
+				"6F24736DC56C59B2"
+				"333655140F83D7A9"
+				"25A9326E2E7A1B74"
+				"75D48106679604C8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "rajswordmod:gaia_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4834480664343EC5"
+			rewards: [
+				{
+					id: "3D59CE87624105F6"
+					item: {
+						Count: 1
+						id: "rajswordmod:gaia_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6F5A8EF647B6FE9A"
+					item: "farmingtales:gold_pufferfish"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "67596AA3F125CA08"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "2892EE15311C0A7A"
+					item: {
+						Count: 1
+						id: "supplementaries:bomb_blue"
+						tag: {
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"来炸鱼吧！\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"yellow\",\"text\":\"鱼群毁灭者\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2E8046F23CF6D3BB"
+				title: "收集所有鱼和钓竿"
+				type: "checkmark"
+			}]
+			title: "鳕鱼之刃"
+			x: -3.75d
+			y: 5.25d
+		}
+		{
+			id: "15F51F519B07C28F"
+			tasks: [{
+				id: "16B4840DBFD77BB2"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "59464E86BE093ADA"
+			tasks: [{
+				id: "295C9246893218BE"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			icon: "minecraft:tropical_fish"
+			id: "6FE1415AD221ABED"
+			tasks: [{
+				id: "7A9FA53D846093DA"
+				item: "spawn:angler_fish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			id: "5BB1F2BD3F6435C8"
+			tasks: [{
+				id: "419102BC62DB2E79"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+	]
+	title: "野外垂钓"
+}

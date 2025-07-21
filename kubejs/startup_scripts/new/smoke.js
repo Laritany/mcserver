@@ -1,0 +1,15 @@
+StartupEvents.registry("item",event=>{
+    event.create("farmingtales:gold_pufferfish")
+    .texture(`farmingtales:item/smoke/gold_pufferfish`)
+    .glow(true)
+    .food(foodbuilder=>{
+        foodbuilder.hunger(20)//饱食度
+        foodbuilder.saturation(1.0)//饱和度
+        foodbuilder.meat()//可以喂给宠物
+        foodbuilder.effect("minecraft:absorption",20*480,2,1)
+        foodbuilder.effect("minecraft:health_boost",20*480,2,1)
+        foodbuilder.effect("minecraft:regeneration",20*3,2,1)
+        foodbuilder.alwaysEdible(true)
+        foodbuilder.fastToEat(true)
+})
+})

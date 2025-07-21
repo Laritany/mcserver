@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  C",
+    " C ",
+    "S  "
+  ],
+  "key": {
+    "C": {"tag": "minecraft:logs"},
+    "S": {"item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "kubejs:mubang",
+    "count":1
+  }
+}

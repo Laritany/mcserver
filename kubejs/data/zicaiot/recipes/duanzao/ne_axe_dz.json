@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "kubejs:ne_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "kubejs:ne_axe"
+  },
+  "template": {
+    "item": "farmingtales:ne_upgrade_smithing_template"
+  }
+}

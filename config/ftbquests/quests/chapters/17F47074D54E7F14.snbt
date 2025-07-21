@@ -1,0 +1,524 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "17F47074D54E7F14"
+	group: ""
+	icon: "supplementaries:present"
+	id: "17F47074D54E7F14"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0CDA585EEF87C37E"
+			subtitle: "赚取15,000金币"
+			tasks: [{
+				count: 15000L
+				id: "2928D0BF1379657A"
+				item: {
+					BigCount: 15000
+					Count: 15000
+					id: "kubejs:coin"
+				}
+				type: "item"
+			}]
+			title: "新手"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0CDA585EEF87C37E"]
+			id: "165A9185EF37DC8A"
+			rewards: [{
+				id: "10CD4838FB331122"
+				item: "farmingtales:car_key"
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "赚取50,000金币"
+			tasks: [{
+				count: 50000L
+				id: "66E0A1A3DF963326"
+				item: {
+					BigCount: 50000
+					Count: 50000
+					id: "kubejs:coin"
+				}
+				type: "item"
+			}]
+			title: "牛仔"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["165A9185EF37DC8A"]
+			id: "17FD370354F524FC"
+			rewards: [{
+				id: "5A1E173FE85F340E"
+				item: "armamentarium:venomous_whetstone"
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "赚取250,000金币"
+			tasks: [{
+				count: 250000L
+				id: "0F9D49B9FD697FFD"
+				item: {
+					BigCount: 250000
+					Count: 250000
+					id: "kubejs:coin"
+				}
+				type: "item"
+			}]
+			title: "农场主"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["17FD370354F524FC"]
+			id: "67F593666ED8088A"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:baiwanfuweng set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "5D528022CFCC4A64"
+					silent: true
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "273D4BB11303CCB5"
+					item: "armamentarium:end_whetstone"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "赚取1,000,000金币"
+			tasks: [{
+				count: 1000000L
+				id: "1FD12394ABF9B237"
+				item: {
+					BigCount: 1000000
+					Count: 1000000
+					id: "kubejs:coin"
+				}
+				type: "item"
+			}]
+			title: "百万富翁"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["67F593666ED8088A"]
+			id: "24C5A73D7EDE9B7D"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:qianwanfuweng set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "499A7EF6F0C1E213"
+					silent: true
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "7E5EAB6F0659FFE1"
+					item: "armamentarium:thunder_whetstone"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "赚取10,000,000金币"
+			tasks: [{
+				count: 10000000L
+				id: "03B056D9833F0793"
+				item: {
+					BigCount: 10000000
+					Count: 10000000
+					id: "kubejs:coin"
+				}
+				type: "item"
+			}]
+			title: "千万富翁"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farm_and_charm:textures/mob_effect/cluck.png"
+				}
+			}
+			id: "3B535CF794540079"
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "0B7F64C0F4C040E7"
+				type: "kill"
+				value: 100L
+			}]
+			title: "你干嘛！"
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B535CF794540079"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farm_and_charm:textures/mob_effect/cluck.png"
+				}
+			}
+			id: "25E1A0E8215B4D34"
+			rewards: [{
+				command: "/titles @s justlevelingfork:ji set true"
+				elevate_perms: true
+				icon: "exposure:developed_black_and_white_film"
+				id: "7418B7C3CEFD51C2"
+				silent: true
+				team_reward: false
+				title: "称号"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "19B758DBFB4F6ABA"
+				type: "kill"
+				value: 1000L
+			}]
+			title: "致命打鸡"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			icon: "mowziesmobs:sol_visage"
+			id: "16C3BED31BCAD68D"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "78E3C93DDDACC5A3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			icon: "mowziesmobs:wrought_axe"
+			id: "2B0CE8299113C53F"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "6D99ACE408801BCD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "650118CD41DD663F"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "11F7019DF252212F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mowziesmobs:geomancer_beads"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48CAA25F1580A25F"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "2A6EB7A3A101F811"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"16C3BED31BCAD68D"
+				"2B0CE8299113C53F"
+				"48CAA25F1580A25F"
+				"650118CD41DD663F"
+			]
+			hide_dependency_lines: false
+			icon: "supplementaries:present"
+			id: "618E881EC4E32F15"
+			rewards: [
+				{
+					id: "496FE5123A5D15F2"
+					item: {
+						Count: 1
+						id: "rajswordmod:knockback_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles @s justlevelingfork:mowziezfz set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "69CAD76FD7676106"
+					silent: true
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+			]
+			subtitle: "击败所有Mowzie's 的BOSS"
+			tasks: [{
+				id: "43DBD5E7AAFCA1C4"
+				type: "checkmark"
+			}]
+			title: " Mowzie's  征服者！"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "63E8F8FA0039CAD5"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "64EB1BB331C56482"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "231C401BF72327C1"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "533BBE246C71405A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1EF19D1F8CDA3865"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "3784306E9FA5E79D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:laser_gatling"
+				tag: {
+					Charged: 0b
+					Damage: 0
+				}
+			}
+			id: "657946F4E426C1F1"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "0FF0A504C872DB76"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			icon: "cataclysm:tidal_claws"
+			id: "79211AB032348CDF"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "30EC3424C688B0AC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:cursed_bow"
+				tag: { }
+			}
+			id: "6529619F4A3F4DE1"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "6A7EEC4AA3C1D75E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			icon: "cataclysm:the_annihilator"
+			id: "78D250FF937A6115"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "749F422277EAF0AC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			icon: "cataclysm:ceraunus"
+			id: "2AA7DC9B4D1F9335"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "45B940766229AA0B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1EF19D1F8CDA3865"
+				"78D250FF937A6115"
+				"231C401BF72327C1"
+				"2AA7DC9B4D1F9335"
+				"6529619F4A3F4DE1"
+				"657946F4E426C1F1"
+				"79211AB032348CDF"
+				"63E8F8FA0039CAD5"
+			]
+			icon: "supplementaries:present"
+			id: "0E3A4C4AD6E0021F"
+			rewards: [
+				{
+					id: "79C51782AA140C27"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								data: 0
+								upgraded: 0b
+							}
+						}
+						id: "rajswordmod:deflect_sword"
+						tag: {
+							Damage: 0
+							isUpgraded: 0b
+							upgrade_data: {
+								data: 0
+								upgraded: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles @s justlevelingfork:zaibianzfz set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "070353B3ED14B4D1"
+					silent: true
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+			]
+			subtitle: "击败所有灾变的终极BOSS"
+			tasks: [{
+				id: "5BCDFE6EAB50F8A2"
+				type: "checkmark"
+			}]
+			title: "灾变 征服者！"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:atmospheric_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "244BE6C54CAF0D8C"
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "3DE0367C3580DB0C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["244BE6C54CAF0D8C"]
+			icon: "supplementaries:present"
+			id: "453555B63861F5EA"
+			rewards: [
+				{
+					id: "1F914A3DED5C0F50"
+					item: {
+						Count: 1
+						id: "rajswordmod:shadow_clone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles @s justlevelingfork:chuanqizfz set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "3562AB09921A908B"
+					silent: true
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+			]
+			subtitle: "击败传奇生物的终极BOSS"
+			tasks: [{
+				id: "7EA19B195FDD97A5"
+				type: "checkmark"
+			}]
+			title: "传奇 征服者！"
+			x: 0.0d
+			y: 14.5d
+		}
+	]
+	title: "成就"
+}

@@ -1,0 +1,1222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4472C8460D5AC938"
+	group: "69AF6EA27123D833"
+	icon: "meadow:wooden_sheep_milk_bucket"
+	id: "4472C8460D5AC938"
+	images: [{
+		click: "https://github.com/satisfyu/Meadow/wiki"
+		height: 3.0d
+		hover: ["点击查看wiki"]
+		image: "meadow:item/wooden_sheep_milk_bucket"
+		rotation: 0.0d
+		width: 3.0d
+		x: -16.0d
+		y: -1.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "39FFC956B32BD8F7"
+			rewards: [{
+				auto: "enabled"
+				id: "30AE7D8F9A0FA424"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "41FACFF6F3DF2D9D"
+				item: "meadow:wooden_goat_milk_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "4DFBBA5BF47745AB"
+			rewards: [{
+				auto: "enabled"
+				id: "3DBFA933653E84A8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "62905F0A0299603E"
+				item: "meadow:wooden_buffalo_milk_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "59A5FDDD6AFDF412"
+			rewards: [{
+				auto: "enabled"
+				id: "388E35B16E132658"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "76CD5633D86C6AA2"
+				item: "meadow:wooden_sheep_milk_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "0DD48FF2A227FD4A"
+			rewards: [{
+				auto: "enabled"
+				id: "2F11032E538282EB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "790158EFBE0E8419"
+				item: "meadow:wooden_milk_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			id: "2C1FE962AD3BE1CB"
+			rewards: [{
+				auto: "enabled"
+				id: "73786E7D4DBCDE55"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3B9C79223D011DA2"
+				item: "meadow:wooden_warped_milk_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "0689C64FED773ED2"
+			rewards: [{
+				auto: "enabled"
+				id: "2D9A5054A93238A6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4AB8BECC0C76A19B"
+				item: "meadow:wooden_grain_milk_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			id: "461DF32205E306E6"
+			rewards: [{
+				auto: "enabled"
+				id: "19D712DFFA68B734"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7128BB16E33F7416"
+				item: "meadow:wooden_amethyst_milk_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DD48FF2A227FD4A"]
+			description: [""]
+			id: "6851EFF9218FB584"
+			rewards: [{
+				auto: "enabled"
+				id: "324B2A46D9437B7F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C6F5FB88CDB0954"
+				item: "meadow:cheese_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59A5FDDD6AFDF412"]
+			description: [""]
+			id: "22E0DF6F5CDE50ED"
+			rewards: [{
+				auto: "enabled"
+				id: "18EE8D7A437897DA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7596127346B8128C"
+				item: "meadow:sheep_cheese_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0689C64FED773ED2"]
+			description: [""]
+			id: "4B92628239BB6DE8"
+			rewards: [{
+				auto: "enabled"
+				id: "40C8F92E4CBEB2BF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "49348E42825D303F"
+				item: "meadow:grain_cheese_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["461DF32205E306E6"]
+			description: [""]
+			id: "72F8F49D3BF9CE83"
+			rewards: [{
+				auto: "enabled"
+				id: "218C55EDA611A951"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "338CF5F4234EC84C"
+				item: "meadow:amethyst_cheese_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["39FFC956B32BD8F7"]
+			description: [""]
+			id: "11151C23065363CF"
+			rewards: [{
+				auto: "enabled"
+				id: "1B39CD8510054FB2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "65EC4D16CAB11ADC"
+				item: "meadow:goat_cheese_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C1FE962AD3BE1CB"]
+			description: [""]
+			id: "2455FFE939209091"
+			rewards: [{
+				auto: "enabled"
+				id: "46CFBB52676A3AA8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0CC1DDC6F84192F1"
+				item: "meadow:warped_cheese_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DFBBA5BF47745AB"]
+			description: [""]
+			id: "498BDE2D10AA866A"
+			rewards: [{
+				auto: "enabled"
+				id: "2090A2A22093592B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3A0DC80D6D9B4F49"
+				item: "meadow:buffalo_cheese_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "6B3D4A69172C8C9C"
+			rewards: [{
+				auto: "enabled"
+				id: "573D3F539DFC77D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E6A40F7D4514AFF"
+				item: "meadow:piece_of_sheep_cheese"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "139C670C36DB6E07"
+			rewards: [{
+				auto: "enabled"
+				id: "4A131F39C8415D06"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A236BF7B2DF16DF"
+				item: "meadow:piece_of_goat_cheese"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "79C979B8BA3BA758"
+			rewards: [{
+				auto: "enabled"
+				id: "765E108324F5EAE5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6529825213996B64"
+				item: "meadow:piece_of_warped_cheese"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "7575E584461BF3A5"
+			rewards: [{
+				auto: "enabled"
+				id: "10D649D2F193E090"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "404A1D9C887896CF"
+				item: "meadow:piece_of_cheese"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			id: "267D1A98DFC05A99"
+			rewards: [{
+				auto: "enabled"
+				id: "4CD5911AFA7AF01C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4517CBA7B996A608"
+				item: "meadow:piece_of_amethyst_cheese"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			id: "4636C576155B0E92"
+			rewards: [{
+				auto: "enabled"
+				id: "69655F8B04431417"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6烹饪食物的锅"
+			tasks: [{
+				id: "4949053B890F8AEC"
+				item: "meadow:cooking_cauldron"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4636C576155B0E92"]
+			description: [""]
+			id: "0EC9BF11E1A90F0F"
+			rewards: [{
+				auto: "enabled"
+				id: "6D1D4360F44E6BB5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "609DDE7833C93065"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			description: ["奶酪压制机有两个槽位：一个放凝乳酶，另一个放牛奶。"]
+			id: "55F7FFD1B218E2B5"
+			rewards: [{
+				auto: "enabled"
+				id: "1BD4D68F883CA0C4"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6制作奶酪的工具"
+			tasks: [{
+				id: "427EA4A3C00B41F5"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "43AF7A7F83160CC7"
+			rewards: [{
+				auto: "enabled"
+				id: "11BCAA9C04A94D8A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6热源"
+			tasks: [{
+				id: "7E56A7A304255BBB"
+				item: "meadow:frame"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "0DBF2210ACF5BBD9"
+			rewards: [{
+				auto: "enabled"
+				id: "36983F68F32EE51D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7E7FFA4211B31CA1"
+				item: "meadow:piece_of_buffalo_cheese"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "2446F52A35A40ECD"
+			rewards: [{
+				auto: "enabled"
+				id: "1EFAE972515C24E4"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6和切石机差不多，但它是用来切木头的"
+			tasks: [{
+				id: "1B4ECC918024053A"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			id: "5BE31F1FFF30C0D2"
+			rewards: [{
+				auto: "enabled"
+				id: "164778F55A94C13D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "01D9B6A52A42C48C"
+				item: "meadow:piece_of_grain_cheese"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EEB7EB600C4F7D7"]
+			description: [""]
+			id: "0823DFDA925B1019"
+			rewards: [{
+				auto: "enabled"
+				id: "5628E6A13B3D71C8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6FC7105A13D3E616"
+				item: "meadow:cheesecake"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EEB7EB600C4F7D7"]
+			description: [""]
+			id: "3FC54667288FADE0"
+			rewards: [{
+				auto: "enabled"
+				id: "28304DF4C4814D6F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1F2A49DBFA393B33"
+				item: "meadow:cheese_tart"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0823DFDA925B1019"]
+			description: [""]
+			id: "7D732567FF0F2965"
+			rewards: [{
+				auto: "enabled"
+				id: "3832167D8F0BBEB3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2EAC8525E1AB58F1"
+				item: "meadow:cheesecake_slice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FC54667288FADE0"]
+			description: [""]
+			id: "1FCA397A1C22675A"
+			rewards: [{
+				auto: "enabled"
+				id: "6E2C1BA69DDB4EF2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5A2A8E8663B6502F"
+				item: "meadow:cheese_tart_slice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6EEB7EB600C4F7D7"
+			rewards: [{
+				auto: "enabled"
+				id: "58D70A527B9C8312"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2582F4DD7BA9326C"
+				item: "farm_and_charm:stove"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4636C576155B0E92"]
+			description: [""]
+			id: "52D812C12EE5AD11"
+			rewards: [{
+				auto: "enabled"
+				id: "60BD075F231847A0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6EA98BE483B80AF2"
+				item: "meadow:alpine_salt"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4636C576155B0E92"]
+			description: [""]
+			id: "63ECA9164AB56705"
+			rewards: [{
+				auto: "enabled"
+				id: "0A9A4D58DDA5FD89"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "153D3DADF2A1C633"
+				item: "meadow:sausage_with_cheese"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4636C576155B0E92"]
+			description: [""]
+			id: "0959A025F5147C09"
+			rewards: [{
+				auto: "enabled"
+				id: "58EF9D14C6A7DFA0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "768FDABAAC3C1490"
+				item: "meadow:cooked_buffalo_meat"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4636C576155B0E92"]
+			description: [""]
+			id: "5D18E64288331DA2"
+			rewards: [{
+				auto: "enabled"
+				id: "03C973816B67E800"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "661EF4D80BD445BA"
+				item: "meadow:wooden_amethyst_milk_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4636C576155B0E92"]
+			description: [""]
+			id: "02E450094293A25F"
+			rewards: [{
+				auto: "enabled"
+				id: "0A49E27D91CF4BC2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D744FE05281620B"
+				item: "meadow:wooden_grain_milk_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "24A510FBB8E4D08E"
+			rewards: [{
+				auto: "enabled"
+				id: "2118CE2929135FE1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "79B347368122DDD3"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24A510FBB8E4D08E"]
+			description: [""]
+			id: "006792F17F983313"
+			rewards: [{
+				auto: "enabled"
+				id: "4EDBE9350304AAB4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "056F42437ACE0018"
+				item: "meadow:cheese_stick"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "24961C831B3893C8"
+			rewards: [{
+				auto: "enabled"
+				id: "5315CA4AB33DCBD1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CB9CFF8E39C08C2"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24961C831B3893C8"]
+			description: [""]
+			id: "3A6DABA4C1D3B83C"
+			rewards: [{
+				auto: "enabled"
+				id: "7A24F7D4238265FB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4D002A3DB515A3B7"
+				item: "meadow:cheese_sandwich"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24961C831B3893C8"]
+			description: [""]
+			id: "6951F3094DEDD53F"
+			rewards: [{
+				auto: "enabled"
+				id: "525A052797CB6DE5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "38A043BEE2371945"
+				item: "meadow:cheese_roll"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			icon: "meadow:rocky_wool"
+			id: "3BEA9813EEEB4F6C"
+			rewards: [{
+				auto: "enabled"
+				id: "29A305E5097AE8DE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "长毛牛也可以用剪刀剪毛"
+			tasks: [
+				{
+					id: "3EF288D6ADB7021D"
+					item: "meadow:flecked_wool"
+					type: "item"
+				}
+				{
+					id: "11DA060F500E2E5B"
+					item: "meadow:rocky_wool"
+					type: "item"
+				}
+				{
+					id: "284D234C00596BD6"
+					item: "meadow:warped_wool"
+					type: "item"
+				}
+				{
+					id: "438301DE8422E59F"
+					item: "meadow:highland_wool"
+					type: "item"
+				}
+				{
+					id: "5A9824A07170A5F3"
+					item: "meadow:umbra_wool"
+					type: "item"
+				}
+				{
+					id: "73D0E2D49A27BFFC"
+					item: "meadow:patched_wool"
+					type: "item"
+				}
+				{
+					id: "1EB1D609F983CAC9"
+					item: "meadow:inky_wool"
+					type: "item"
+				}
+			]
+			title: "花纹羊毛"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			icon: "meadow:pine_window"
+			id: "235740AC6F63A298"
+			rewards: [{
+				auto: "enabled"
+				id: "3A78EC0FCBD3B5A2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "7EAD226486B7D4D3"
+					item: "meadow:heart_patterned_window"
+					type: "item"
+				}
+				{
+					id: "5F4E3E2EC46A7C0D"
+					item: "meadow:sun_patterned_window"
+					type: "item"
+				}
+				{
+					id: "751E7B9A8271BAEF"
+					item: "meadow:pine_window"
+					type: "item"
+				}
+			]
+			title: "窗户"
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			icon: "meadow:straw_bed"
+			id: "0E825376ABB1A04C"
+			rewards: [{
+				auto: "enabled"
+				id: "6E1B89C030B1079A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "0A0E9AE7110ECEBE"
+					item: "meadow:flecked_bed"
+					type: "item"
+				}
+				{
+					id: "33D0143FC4321820"
+					item: "meadow:highland_bed"
+					type: "item"
+				}
+				{
+					id: "5A1770B8E47ADD97"
+					item: "meadow:patched_bed"
+					type: "item"
+				}
+				{
+					id: "5C3593718DCDC765"
+					item: "meadow:inky_bed"
+					type: "item"
+				}
+				{
+					id: "0CAF90E041FF777A"
+					item: "meadow:umbra_bed"
+					type: "item"
+				}
+				{
+					id: "190A5E286F7EB19D"
+					item: "meadow:rocky_bed"
+					type: "item"
+				}
+				{
+					id: "168EBEA0028D2EB8"
+					item: "meadow:warped_bed"
+					type: "item"
+				}
+				{
+					id: "0F1BEA0E388CB5E9"
+					item: "meadow:straw_bed"
+					type: "item"
+				}
+			]
+			title: "床"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			id: "7309091794073F46"
+			rewards: [{
+				auto: "enabled"
+				id: "133637883758A5FB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5D1FD05315658DC8"
+				item: "meadow:meadow_banner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			icon: "meadow:wooden_flower_pot_big"
+			id: "5E74D4A744B4556E"
+			rewards: [{
+				auto: "enabled"
+				id: "2AABAD8E0641557F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "7B6C3D4915E196B2"
+					item: "meadow:wooden_flower_box"
+					type: "item"
+				}
+				{
+					id: "37B324C7EE0EA04E"
+					item: "meadow:wooden_flower_pot_big"
+					type: "item"
+				}
+				{
+					id: "63AF30362E01333F"
+					item: "meadow:wooden_flower_pot_small"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "1523FF77EBF1C90A"
+			rewards: [{
+				auto: "enabled"
+				id: "72784C416FCBE51C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "384DD56DFD81CD19"
+				item: "meadow:wheelbarrow"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "3E4B9EA13DA04E58"
+			rewards: [{
+				auto: "enabled"
+				id: "2C1F731B5CA755EE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可以存放水"
+			tasks: [{
+				id: "2A89B3C94734947E"
+				item: "meadow:wooden_cauldron"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "0C525FBD8E7C9112"
+			rewards: [{
+				auto: "enabled"
+				id: "4F2BDA4999BA4FB7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4C2E34E45B7354DD"
+				item: "meadow:fire_log"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			id: "7E1B407343DA4BB6"
+			rewards: [{
+				auto: "enabled"
+				id: "40DEBE73B65EA256"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可以储存一桶水"
+			tasks: [{
+				id: "67F7A85EABEB17C3"
+				item: "meadow:can"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			id: "69B02CC52DE775A3"
+			rewards: [{
+				auto: "enabled"
+				id: "1D23DF98A3A17A39"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6装上水可以当骨粉用"
+			tasks: [{
+				id: "090D328037B9CAB8"
+				item: {
+					Count: 1
+					id: "meadow:watering_can"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			id: "38C72824F963FBF6"
+			rewards: [{
+				auto: "enabled"
+				id: "1E023CEC2F0C1F54"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可以向下延伸10格方块的梯子"
+			tasks: [{
+				id: "214A761EC2FAF7E4"
+				item: "meadow:climbing_rope_topmount"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			description: [""]
+			id: "3BE8965CC091B612"
+			rewards: [{
+				auto: "enabled"
+				id: "067D66B10B708B1D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E634DD611AA2F5B"
+				item: "meadow:oil_lantern"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			id: "49CACC5A91F9B6E8"
+			rewards: [{
+				auto: "enabled"
+				id: "1D3843491CE229C5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6装饰"
+			tasks: [{
+				id: "162A661D08312393"
+				item: "meadow:camera"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "7A703D42DF7E0F83"
+			rewards: [{
+				auto: "enabled"
+				id: "1A2022596086C28A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6B1FB70A8465B113"
+				item: "meadow:doormat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"羊毛牛剪毛可以获得独特图案的羊毛，也可以挤奶获得新鲜牛奶。"
+				"它们自然生成为各种变体"
+				""
+				"诡异的长毛牛，有着独特的外表，出现在下界诡异森林中被照亮的下界传送门附近"
+				""
+				"使用小麦养殖"
+			]
+			icon: "meadow:wooly_cow_spawn_egg"
+			id: "41A04695EAFA4208"
+			subtitle: "哪里都有它的身影"
+			tasks: [{
+				id: "5ACDF794F4A340B8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "meadow:wooly_cow"
+				type: "observation"
+			}]
+			title: "羊毛牛"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"毛茸茸的羊主要可以在黑暗森林或白桦林群系中找到。"
+				"它们喜欢寒冷的生物群落：如果有雪，找到它的几率会更高。"
+				"岩石羊可以在崎岖的地形生物群落中找到"
+				"墨水羊和长鼻羊都能在草甸生物群系中找到"
+				""
+				"使用小麦养殖"
+			]
+			icon: "meadow:wooly_sheep_spawn_egg"
+			id: "2F338745B255FA70"
+			subtitle: "几乎可以在任何普通绵羊生成的地方找到"
+			tasks: [{
+				id: "68BDDB528CF5D3B5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "meadow:wooly_sheep"
+				type: "observation"
+			}]
+			title: "毛茸茸的羊"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			icon: "meadow:water_buffalo_spawn_egg"
+			id: "0CCEFDB472F15749"
+			subtitle: "使用小麦驯服"
+			tasks: [{
+				id: "4816C98E14FF316F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "meadow:water_buffalo"
+				type: "observation"
+			}]
+			title: "水牛"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4B92628239BB6DE8"
+				"0DBF2210ACF5BBD9"
+				"1FCA397A1C22675A"
+				"63ECA9164AB56705"
+				"6951F3094DEDD53F"
+				"5D18E64288331DA2"
+				"139C670C36DB6E07"
+				"2455FFE939209091"
+				"3FC54667288FADE0"
+				"7575E584461BF3A5"
+				"79C979B8BA3BA758"
+				"006792F17F983313"
+				"5BE31F1FFF30C0D2"
+				"72F8F49D3BF9CE83"
+				"02E450094293A25F"
+				"0959A025F5147C09"
+				"6851EFF9218FB584"
+				"6B3D4A69172C8C9C"
+				"498BDE2D10AA866A"
+				"3A6DABA4C1D3B83C"
+				"11151C23065363CF"
+				"52D812C12EE5AD11"
+				"0823DFDA925B1019"
+				"22E0DF6F5CDE50ED"
+				"267D1A98DFC05A99"
+				"0EC9BF11E1A90F0F"
+				"7D732567FF0F2965"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "meadow:wooden_buffalo_milk_bucket"
+			id: "66819BDF1FFA3B71"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:meadow set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "69070C6ED762C758"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "16ECEE7236E20B00"
+					item: "armamentarium:lazulian_whetstone"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "57BAEE43100A4B4C"
+					item: "farmingtales:house_caodianxiaowu"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "12F9A8A2BFCDBDC3"
+				type: "checkmark"
+			}]
+			title: "收集任务[青青草甸]"
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "青青草甸"
+}

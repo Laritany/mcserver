@@ -1,0 +1,31 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "vintagedelight:raw_oats"
+    },
+    {
+      "item": "bakery:chocolate_truffle"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "item": "bakery:chocolate_truffle"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "rusticpancakes:chocolate_pancakes",
+    "count": 1
+  },
+  "requiresLearning": false
+}

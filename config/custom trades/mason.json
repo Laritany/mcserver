@@ -1,0 +1,295 @@
+{
+  "profession": "minecraft:mason",
+  "removeOtherTrades": false,
+  "maxTrades": 20,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:stone",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_stone_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:deepslate",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_deepslate_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:calcite",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_calcite_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:andesite",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_andesite_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:granite",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_granite_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diorite",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_diorite_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:sandstone",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_sandstone_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:end_stone",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_end_stone_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:netherrack",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_netherrack_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_clay_ball_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "supplementaries:wrench",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_wrench_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "quark:trowel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_trowel_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "constructionwand:stone_wand",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_stone_wand_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "constructionwand:iron_wand",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_iron_wand_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "constructionwand:diamond_wand",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 95,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_diamond_wand_for_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "quark:abacus",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_abacus_for_coin"
+    }
+  ]
+}

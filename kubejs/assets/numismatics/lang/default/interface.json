@@ -1,0 +1,32 @@
+{
+  "numismatics.andesite_depositor.price": "价格",
+  "item.numismatics.spur": "尖齿",
+  "item.numismatics.bevel": "斜角规",
+  "item.numismatics.sprocket": "链轮",
+  "item.numismatics.cog": "齿轮",
+  "item.numismatics.crown": "皇冠",
+  "item.numismatics.sun": "太阳",
+  "gui.numismatics.bank_terminal.balance": "余额：%s %s，%s¤",
+  "command.numismatics.arguments.enum.invalid": "错误：无效的枚举值“%s”。有效取值为：%s",
+  "itemGroup.numismatics": "创造：钱币学",
+  "gui.numismatics.trust_list": "信任列表",
+  "numismatics.trust_list.configure": "配置信任列表",
+
+  "gui.numismatics.vendor.count": "（%sx）",
+  "gui.numismatics.vendor.out_of_stock": "库存不足",
+  "gui.numismatics.vendor.out_of_stock.named": "库存不足，请联系%s补充",
+  "gui.numismatics.vendor.insufficient_funds": "资金不足",
+  "gui.numismatics.vendor.insufficient_funds.named": "资金不足，请联系%s补充",
+  "gui.numismatics.vendor.generic_named": "联系%s",
+  "gui.numismatics.vendor.mode.sell": "出售",
+  "gui.numismatics.vendor.mode.buy": "购买",
+  "gui.numismatics.vendor.mode.sell.action": "使用以出售",
+  "gui.numismatics.vendor.mode.buy.action": "使用以购买",
+  "gui.numismatics.vendor.incorrect_item": "物品不符",
+  "gui.numismatics.vendor.too_few_items": "物品数量过少",
+  "gui.numismatics.vendor.full": "售货机已满",
+  "gui.numismatics.vendor.full.named": "售货机已满，请联系%s清空",
+  "gui.numismatics.vendor.no_item_in_hand": "手持你想要出售的物品堆叠",
+
+  "block.numismatics.trusted_block.attempt_break": "按住潜行键以破坏此方块"
+}

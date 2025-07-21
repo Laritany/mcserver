@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "bakery:oat_crop", "required": false },
+    { "id": "brewery:barley_crop", "required": false },
+    { "id": "brewery:hops_crop", "required": false },
+    { "id": "vinery:red_grape_bush", "required": false },
+    { "id": "vinery:white_grape_bush", "required": false },
+    { "id": "vinery:taiga_grape_bush_red", "required": false },
+    { "id": "vinery:taiga_grape_bush_white", "required": false },
+    { "id": "bloomingnature:larch_sapling", "required": false },
+    { "id": "bloomingnature:aspen_sapling", "required": false },
+    { "id": "bloomingnature:swamp_cypress_sapling", "required": false },
+    { "id": "bloomingnature:ebony_sapling", "required": false },
+    { "id": "bloomingnature:chestnut_sapling", "required": false },
+    { "id": "farm_and_charm:oat_crop", "required": false },
+    { "id": "farm_and_charm:barley_crop", "required": false },
+    { "id": "farm_and_charm:onion_crop", "required": false },
+    { "id": "nethervinery:warped_grape_bush", "required": false }
+  ]
+}

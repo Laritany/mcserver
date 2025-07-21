@@ -1,0 +1,5804 @@
+{
+  "settings": {
+    "WOOD": {
+      "updateDelayTicks": 600,
+      "inventoryRows": 1
+    },
+    "REDSTONE": {
+      "updateDelayTicks": 600,
+      "inventoryRows": 2
+    },
+    "IRON": {
+      "updateDelayTicks": 600,
+      "inventoryRows": 2
+    },
+    "DIAMOND": {
+      "updateDelayTicks": 600,
+      "inventoryRows": 3
+    },
+    "NETHERITE": {
+      "updateDelayTicks": 600,
+      "inventoryRows": 6
+    }
+  },
+  "trades": [
+
+{
+  "input": {"filter": "kitchenkarrot:fried_pumpkin_cake","count": 1},
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "kitchenkarrot:seed_pie","count": 1},
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "kitchenkarrot:cheese_wheel","count": 1},
+  "output": {"item": "kubejs:coin","count": 16}
+},
+{
+  "input": {"filter": "kitchenkarrot:cheese_slice","count": 1},
+  "output": {"item": "kubejs:coin","count": 2}
+},
+{
+  "input": {"filter": "kitchenkarrot:beef_in_dripleaf","count": 1},
+  "output": {"item": "kubejs:coin","count": 24}
+},
+{
+  "input": {"filter": "kitchenkarrot:small_beef_in_dripleaf","count": 1},
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "kitchenkarrot:monster_lasagna","count": 1},
+  "output": {"item": "kubejs:coin","count": 24}
+},
+{
+  "input": {"filter": "kitchenkarrot:small_monster_lasagna","count": 1},
+  "output": {"item": "kubejs:coin","count": 6}
+},
+
+{
+  "input": {"filter": "kitchenkarrot:chorus_mousse","count": 1},
+  "output": {"item": "kubejs:coin","count": 20}
+},
+{
+  "input": {"filter": "kitchenkarrot:small_chorus_mousse","count": 1},
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "kitchenkarrot:slime_mousse","count": 1},
+  "output": {"item": "kubejs:coin","count": 28}
+},
+{
+  "input": {"filter": "kitchenkarrot:small_slime_mousse","count": 1},
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "kitchenkarrot:feast_pizza","count": 1},
+  "output": {"item": "kubejs:coin","count": 32}
+},
+{
+  "input": {"filter": "kitchenkarrot:feast_pizza_slice","count": 1},
+  "output": {"item": "kubejs:coin","count": 8}
+},
+{
+  "input": {"filter": "kitchenkarrot:shiny_pizza","count": 1},
+  "output": {"item": "kubejs:coin","count": 32}
+},
+{
+  "input": {"filter": "kitchenkarrot:shiny_pizza_slice","count": 1},
+  "output": {"item": "kubejs:coin","count": 8}
+},
+{
+  "input": {"filter": "kitchenkarrot:dungeon_pizza","count": 1},
+  "output": {"item": "kubejs:coin","count": 40}
+},
+{
+  "input": {"filter": "kitchenkarrot:dungeon_pizza_slice","count": 1},
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "kitchenkarrot:dungeon_pizza","count": 1},
+  "output": {"item": "kubejs:coin","count": 40}
+},
+{
+  "input": {"filter": "kitchenkarrot:dungeon_pizza_slice","count": 1},
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "kitchenkarrot:sweet_loaf","count": 1},
+  "output": {"item": "kubejs:coin","count": 18}
+},
+{
+  "input": {"filter": "kitchenkarrot:sweet_loaf_slice","count": 1},
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "kitchenkarrot:sirloin_steak","count": 1},
+  "output": {"item": "kubejs:coin","count": 24}
+},
+{
+  "input": {"filter": "kitchenkarrot:beef_grains","count": 1},
+  "output": {"item": "kubejs:coin","count": 4}
+},
+
+{
+  "input": {"filter": "kitchenkarrot:fries","count": 1},
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "kitchenkarrot:drumstick","count": 1},
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "kitchenkarrot:fried_chicken_combo","count": 1},
+  "output": {"item": "kubejs:coin","count": 30}
+},
+{
+  "input": {"filter": "kitchenkarrot:rice_cake","count": 1},
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "kitchenkarrot:leafy_fresh_chocolate","count": 1},
+  "output": {"item": "kubejs:coin","count": 3}
+},
+//水果
+{
+  "input": {"filter": "atmospheric:orange_sorbet","count": 1},
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "atmospheric:passion_fruit_sorbet","count": 1},
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "atmospheric:orange_pudding","count": 1},
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "atmospheric:orange_pudding","count": 1},
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "atmospheric:candied_orange_slices","count": 1},
+  "output": {"item": "kubejs:coin","count":2}
+},
+{
+  "input": {"filter": "atmospheric:passion_fruit_tart","count": 1},
+  "output": {"item": "kubejs:coin","count": 2}
+},
+{
+  "input": {"filter": "atmospheric:yucca_gateau","count": 1},
+  "output": {"item": "kubejs:coin","count": 19}
+},
+///
+{
+  "input": {"filter": "autumnity:foul_berries","count": 1},
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "atmospheric:passion_fruit","count": 1},
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "atmospheric:dragon_fruit","count": 1},
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "atmospheric:yucca_fruit","count": 1},
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "atmospheric:currant","count": 1},
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "atmospheric:aloe_leaves","count": 1},
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "atmospheric:roasted_yucca_fruit","count": 1},
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "autumnity:syrup_bottle","count": 1},
+  "output": {"item": "kubejs:coin","count": 6}
+},
+//新增
+{
+  "input": {"filter": "brewinandchewin:beer","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 17}
+},
+{
+  "input": {"filter": "brewinandchewin:vodka","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 23}
+},
+{
+  "input": {"filter": "brewinandchewin:mead","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 31}
+},
+{
+  "input": {"filter": "brewinandchewin:rice_wine","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 19}
+},
+{
+  "input": {"filter": "brewinandchewin:pale_jane","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 25}
+},
+{
+  "input": {"filter": "brewinandchewin:egg_grog","count": 1},//酒
+  "output": {"item": "kubejs:coin","count":19}
+},
+{
+  "input": {"filter": "brewinandchewin:glittering_grenadine","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 28}
+},
+{
+  "input": {"filter": "brewinandchewin:saccharine_rum","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 23}
+},
+{
+  "input": {"filter": "brewinandchewin:salty_folly","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 16}
+},
+{
+  "input": {"filter": "brewinandchewin:bloody_mary","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 22}
+},
+{
+  "input": {"filter": "brewinandchewin:red_rum","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 22}
+},
+{
+  "input": {"filter": "brewinandchewin:strongroot_ale","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "brewinandchewin:steel_toe_stout","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "brewinandchewin:dread_nog","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 18}
+},
+{
+  "input": {"filter": "brewinandchewin:withering_dross","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 16}
+},
+{
+  "input": {"filter": "sob:hard_cider","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 22}
+},
+{
+  "input": {"filter": "sob:tequila","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 23}
+},
+{
+  "input": {"filter": "sob:creeper_drink","count": 1},//酒
+  "output": {"item": "kubejs:coin","count": 23}
+},
+{
+  "input": {"filter": "sob:bitter_tea","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 18}
+},
+{
+  "input": {"filter": "sob:aloe_tea","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 24}
+},
+{
+  "input": {"filter": "sob:pale_daiquiri","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 20}
+},
+{
+  "input": {"filter": "sob:birch_beer","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 17}
+},
+{
+  "input": {"filter": "sob:glittering_gloop","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 24}
+},
+{
+  "input": {"filter": "sob:cactus_juice","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 17}
+},
+{
+  "input": {"filter": "sob:builder_smoothie","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "sob:orange_juice","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "sob:sunrise_seltzer","count": 1},//茶
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "sob:gravy","count": 1},
+  "output": {"item": "kubejs:coin","count": 37}
+},
+{
+  "input": {"filter": "sob:ink_soup","count": 1},
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "sob:asparagus_soup","count": 1},
+  "output": {"item": "kubejs:coin","count": 13}
+},
+{
+  "input": {"filter": "sob:foul_salad","count": 1},
+  "output": {"item": "kubejs:coin","count": 9}
+},
+{
+  "input": {"filter": "sob:big_soup_block","count": 1},
+  "output": {"item": "kubejs:coin","count": 18}
+},
+{
+  "input": {"filter": "sob:big_soup","count": 1},
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "sob:cinder_bread","count": 1},
+  "output": {"item": "kubejs:coin","count": 4}
+},
+
+
+{
+  "input": {"filter": "sob:spiky_salad","count": 1},//菜
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "sob:poutine","count": 1},//菜
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "sob:exquisite_mushroom_soup","count": 1},//菜
+  "output": {"item": "kubejs:coin","count": 13}
+},
+{
+  "input": {"filter": "sob:maple_donut","count": 1},//菜
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "sob:donut_box_block","count": 1},//菜
+  "output": {"item": "kubejs:coin","count": 20}
+},
+{
+  "input": {"filter": "sob:roast_turkey_block","count": 1},//菜
+  "output": {"item": "kubejs:coin","count": 21}
+},
+{
+  "input": {"filter": "sob:roast_turkey","count": 1},//菜
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "brewinandchewin:sweet_berry_jam","count": 1},//食物
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "brewinandchewin:glow_berry_marmalade","count": 1},//食物
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "brewinandchewin:apple_jelly","count": 1},//食物
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "brewinandchewin:fiery_fondue_pot","count": 1},//食物
+  "output": {"item": "kubejs:coin","count": 94}
+},
+{
+  "input": {"filter": "brewinandchewin:fiery_fondue","count": 1},//食物
+  "output": {"item": "kubejs:coin","count": 27}
+},
+//原材料
+{
+  "input": {"filter": "gofish:baked_carrot_carp","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "gofish:charfish","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "gofish:grilled_blackstone_trout","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "gofish:baked_endfish","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "gofish:steamed_bass","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "gofish:smoked_cloudy_crab","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "gofish:baked_seaweed","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "gofish:aquatic_astral_stew","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 45}
+},
+{
+  "input": {"filter": "gofish:endfish_and_chorus","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 8}
+},
+{
+  "input": {"filter": "gofish:grilled_blackstone_deluxe","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 22}
+},
+
+
+
+
+
+
+{
+  "input": {"filter": "#kubejs:fish","count": 1},//鱼
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {
+    "filter": "vintagedelight:peanut",//花生
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "netherexp:hogham",//猪火腿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "netherexp:cooked_hogham",//猪火腿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:cooked_mutton_chops",//羊排
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "autumnity:cooked_turkey_piece",//火鸡腿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:mutton_chops",//羊肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "autumnity:turkey",//火鸡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "autumnity:turkey_piece",//火鸡腿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "spawn:tuna_chunk",//金枪鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "spawn:cooked_tuna_chunk",//金枪鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "spawn:tuna_sandwich",//金枪鱼三明治
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "spawn:roasted_sunflower_seeds",//瓜子
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "spawn:escargot",//蜗牛
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "spawn:angler_fish",//蜗牛
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "untitledduckmod:raw_goose",//鹅
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "untitledduckmod:raw_duck",//鸭
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "natures_spirit:coconut_half",//椰子
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "natures_spirit:desert_turnip",//w
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:potato",//土豆
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:onion",//洋葱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:strawberry",//草莓
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:tomato",//西红柿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "brewery:hops",//啤酒花
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:melon_slice",//西瓜片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:sweet_berries",//浆果
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:jungle_grapes_white",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:red_grape",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:white_grape",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:savanna_grapes_red",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:jungle_grapes_red",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:taiga_grapes_white",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:taiga_grapes_red",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "vinery:savanna_grapes_white",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:crimson_grape",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:warped_grape",//葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:beetroot",//甜菜
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:wheat",//小麦
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:oat",//大麦
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:barley",//燕麦
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:lettuce",//生菜
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:corn",//玉米
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:apple",//苹果
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "vinery:cherry",//樱桃
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cod",//鳕鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:salmon",//鲑鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:tropical_fish",//热带鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count":7
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:pufferfish",//河豚
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "#c:foods/raw_fish",//鱼大合集
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "#c:foods/cooked_fish",//熟鱼大合集
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:rabbit",//兔肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:chicken",//鸡肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:mutton",//羊肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:beef",//牛肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "meadow:raw_buffalo_meat",//水牛肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:chicken_parts",//鸡肉碎
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:porkchop",//猪肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:lamb_ham",//羔羊火腿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:minced_beef",//牛肉碎
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:bacon",//猪里脊
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:bison_meat",//野牛肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:venison",//鹿肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:cassowary_meat",//食火鸡肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:turkey_meat",//火鸡肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:pelican_meat",//鹈鹕肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:hazelnut",//栗子
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:truffle",//松露
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:coconut_open",//椰子
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:chorus_fruit",//紫颂果
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:raw_mussel_meat",//贻贝
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:honey_bottle",//蜂蜜
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+//酒
+{
+  "input": {
+    "filter": "nethervinery:blazewine_pinot",//炽热葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 33
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:ghastly_grenache",//海纳歌
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 44
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:lava_fizz",//熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 42
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:nether_fizz",//下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 35
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:improved_lava_fizz",//改良熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:improved_nether_fizz",//改良下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 39
+  }
+},
+{
+  "input": {
+    "filter": "vinery:chorus_wine",//紫颂果酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "vinery:cherry_wine",//樱桃酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "vinery:apple_wine",//苹果葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 51
+  }
+},
+{
+  "input": {
+    "filter": "vinery:apple_cider",//苹果西打酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "vinery:glowing_wine",//阳光白葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 33
+  }
+},
+{
+  "input": {
+    "filter": "vinery:solaris_wine",//阳光白葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 38
+  }
+},
+{
+  "input": {
+    "filter": "vinery:strad_wine",//白葡萄唱片酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 33
+  }
+},
+{
+  "input": {
+    "filter": "vinery:stal_wine",//红葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 33
+  }
+},
+{
+  "input": {
+    "filter": "vinery:mellohi_wine",//特制白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 38
+  }
+},
+{
+  "input": {
+    "filter": "vinery:lilitu_wine",//图丽丽白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 51
+  }
+},
+{
+  "input": {
+    "filter": "vinery:noir_wine",//椰诺葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "vinery:magnetic_wine",//磁石葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "nethervinery:netherite_nectar",//合金花蜜酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 67
+  }
+},
+{
+  "input": {
+    "filter": "vinery:red_wine",//红葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+
+{
+  "input": {
+    "filter": "vinery:knulp_wine",//游魂葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "vinery:kelp_cider",//苹果海带酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 33
+  }
+},
+{
+  "input": {
+    "filter": "vinery:chenet_wine",//香奈酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 40
+  }
+},
+{
+  "input": {
+    "filter": "vinery:clark_wine",//克拉克酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 33
+  }
+},
+{
+  "input": {
+    "filter": "vinery:aegis_wine",//神盾酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "vinery:bolvar_wine",//伯瓦尔酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 40
+  }
+},
+{
+  "input": {
+    "filter": "vinery:jellie_wine",//猫咪酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 94
+  }
+},
+{
+  "input": {
+    "filter": "vinery:lamroc_wine",//珍藏酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 35
+  }
+},
+{
+  "input": {
+    "filter": "vinery:jo_special_mixture",//特调 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "vinery:cristel_wine",//信徒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "vinery:creepers_crush",//苦力怕 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "vinery:creepers_crush",//苦力怕 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "vinery:villagers_fright",//村民 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:glow_berries",//发光 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "vinery:mead",//蜂蜜 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 38
+  }
+},
+{
+  "input": {
+    "filter": "vinery:bottle_mojang_noir",//改良诺椰 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 35
+  }
+},
+{
+  "input": {
+    "filter": "vinery:eiswein",//冰酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+//烘焙
+{
+  "input": {
+    "filter": "bakery:cake_dough",//蛋糕面团
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "bakery:sweet_dough",//甜面团
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_jam",//巧克力酱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "bakery:strawberry_jam",//草莓果酱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "bakery:sweetberry_jam",//浆果果酱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "bakery:glowberry_jam",//发光浆果果酱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "bakery:apple_jam",//苹果果酱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_truffle",//巧克力
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_truffle",//巧克力
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "brewery:dried_barley",//风干大麦
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "brewery:dried_wheat",//风干小麦
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "brewery:dried_corn",//风干玉米
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "brewery:dried_oat",//风干燕麦
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:cornmeal",//玉米面
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:corn_flour",//玉米粉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:flour",//面粉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:butter",//黄油
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:yeast",//酵母
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:dough",//面团
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:corn_dough",//玉米面团
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:corn_syrup",//玉米糖浆
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:corn_syrup_cookie",//玉米曲奇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:polenta",//玉米糊
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:sweet_polenta",//甜玉米糊
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:buttery_polenta",//黄油玉米糊
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:buttery_polenta",//黄油玉米糊
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:grandmas_cornbread",//玉米面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "bakery:bun",//小圆面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "bakery:braided_bread",//辫子面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "bakery:toast",//吐司面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "bakery:baguette",//法棍面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "bakery:bread",//烘焙师面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "bakery:crusty_bread",//脆皮面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "bakery:croissant",//牛角面包 默认3
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_tart",//巧克力蛋挞
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 24
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_tart_slice",//巧克力蛋挞切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "bakery:apple_pie",//苹果派
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 40
+  }
+},
+{
+  "input": {
+    "filter": "bakery:apple_pie_slice",//苹果派切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "bakery:apple_cupcake",//苹果纸杯蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "bakery:glowberry_tart",//发光浆果派
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "bakery:glowberry_pie_slice",//发光浆果派切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "bakery:linzer_tart",//林茨派
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "bakery:linzer_tart_slice",//林茨派切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "bakery:strawberry_cake",//草莓蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 48
+  }
+},
+{
+  "input": {
+    "filter": "bakery:strawberry_cake_slice",//草莓蛋糕切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "bakery:sweetberry_glazed_cookie",//甜浆果曲奇切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "bakery:strawberry_glazed_cookie",//草莓曲奇切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "bakery:strawberry_cupcake",//草莓纸杯蛋糕切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "bakery:sweetberry_cake",//甜浆果蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "bakery:sweetberry_cupcake",//甜浆果蛋糕切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "bakery:sweetberry_cake_slice",//甜浆果纸杯蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_cake",//巧克力蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_cake_slice",//巧克力蛋糕切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_glazed_cookie",//巧克力曲奇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_gateau",//法式巧克力蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "bakery:chocolate_gateau_slice",//法式巧克力蛋糕切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "bakery:bundt_cake",//圆环蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 24
+  }
+},
+{
+  "input": {
+    "filter": "bakery:bundt_cake_slice",//圆环蛋糕切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "bakery:waffle",//松饼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "bakery:pudding",//布丁
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 36
+  }
+},
+{
+  "input": {
+    "filter": "bakery:pudding_slice",//布丁切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "bakery:cornet",//号角蛋糕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "bakery:jam_roll",//果酱卷
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "bakery:bread_with_jam",//果酱面包
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "bakery:grilled_salmon_sandwich",//三文鱼面包
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 33
+  }
+},
+{
+  "input": {
+    "filter": "bakery:grilled_bacon_sandwich",//培根面包
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "bakery:vegetable_sandwich",//三明治
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 21
+  }
+},
+{
+  "input": {
+    "filter": "bakery:sandwich",//汉堡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 24
+  }
+},
+{
+  "input": {
+    "filter": "bakery:misslilitu_biscuit",//姜饼人
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+//提基酒吧
+{
+  "input": {
+    "filter": "beachparty:coconut_cocktail",//椰子酒 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:icecream_melon",//西瓜冰棍 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:icecream_sweetberries",//浆果冰淇淋 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:icecream_chocolate",//巧克力冰淇淋 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:icecream_cactus",//仙人掌冰棍 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:icecream_coconut",//椰子冰棍 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:refreshing_drink",//果汁 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:coconut_icecream",//椰子圣代 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:sweetberry_icecream",//浆果圣代 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:chocolate_icecream",//巧克力圣代 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:coconut_milkshake",//椰子奶昔 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:sweetberry_milkshake",//浆果奶昔 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:chocolate_milkshake",//巧克力奶昔 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:melon_cocktail",//西瓜酒 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:cocoa_cocktail",//巧克力酒 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 9
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:pumpkin_cocktail",//南瓜酒 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:honey_cocktail",//蜂蜜酒 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 14
+  }
+},
+{
+  "input": {
+    "filter": "beachparty:sweetberries_cocktail",//浆果酒 默认1
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+//农场
+{
+  "input": {
+    "filter": "farm_and_charm:corn_grits",//玉米碎 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 30
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:pasta_with_onion_sauce",//洋葱意面 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 22
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:simple_tomato_soup",//番茄浓汤 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:onion_soup",//洋葱汤 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:potato_soup",//土豆汤 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:potato_soup",//土豆汤 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:barley_soup",//大麦汤 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 22
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:farmer_salad",//农夫沙拉 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:oatmeal_with_strawberries",//草莓沙拉 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:horse_fodder",//马饲料 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 52
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:cat_food",//猫粮 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:dog_food",//狗粮 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:chicken_feed",//鸡饲料 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:stuffed_chicken",//鸡 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 22
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:bacon_with_eggs",//培根鸡蛋 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:potato_with_roast_meat",//土豆烤肉 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:farmers_bread",//农夫面包 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:grandmothers_strawberry_cake",//草莓面包 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:oat_pancake",//燕麦饼 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 21
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:baked_lamb_ham",//烤羊腿 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 35
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:stuffed_rabbit",//烤兔子 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 30
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:barley_patties_with_potatoes",//大麦土豆饼 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:roasted_corn",//烤玉米 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 42
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:roasted_chicken",//烤鸡 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:lamb_with_corn",//羽毛配烤羊 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 41
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:cooked_cod",//鳕鱼 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 37
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:chicken_wrapped_in_bacon",//培根鸡肉卷 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:cooked_salmon",//煎三文鱼 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 45
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:beef_patty_with_vegetables",//蔬菜牛肉饼 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 34
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:goulash",//匈牙利汤 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 98
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:farmers_breakfast",//农夫早餐 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 110
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:sausage_with_oat_patty",//香肠配菜 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 45
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:strawberry_tea",//草莓果茶 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 28
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:strawberry_tea_cup",//草莓果茶分 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:ribwort_tea",//车前草果茶 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 28
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:ribwort_tea_cup",//车前草茶分 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:nettle_tea",//荨麻草果茶 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 28
+  }
+},
+{
+  "input": {
+    "filter": "farm_and_charm:nettle_tea_cup",//荨麻草茶分 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "brewery:half_chicken",//烤半鸡 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "brewery:mashed_potatoes",//土豆泥 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "brewery:sausage",//大香肠 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 30
+  }
+},
+{
+  "input": {
+    "filter": "brewery:potato_salad",//土豆沙拉 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "brewery:pretzel",//扭结面包 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "brewery:dumplings",//土豆饺子 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 14
+  }
+},
+{
+  "input": {
+    "filter": "brewery:fried_chicken",//炸鸡肉 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:pork_knuckle",//猪肘 默认2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+//啤酒
+{
+  "input": {
+    "filter": "brewery:beer_haley",//海利啤酒 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "brewery:beer_nettle",//荨麻啤酒 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "brewery:beer_oat",//燕麦啤酒 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "brewery:beer_hops",//酒花啤酒 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "brewery:beer_barley",//大麦啤酒 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "brewery:beer_wheat",//小麦啤酒 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_jojannik",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_maggoallan",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_carrasconlabel",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_ak",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_highland_hearth",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_smokey_reverie",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_jamesons_malt",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_lilitusinglemalt",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_cristelwalker",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "brewery:whiskey_jojannikt",//威士忌 默认-2
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+//牧场
+{
+  "input": {
+    "filter": "meadow:cheese_block",//芝士
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "meadow:grain_cheese_block",//芝士
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "meadow:sheep_cheese_block",//芝士
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "meadow:amethyst_cheese_block",//芝士
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "meadow:buffalo_cheese_block",//芝士
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "meadow:warped_cheese_block",//芝士
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "meadow:goat_cheese_block",//芝士
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "meadow:piece_of_cheese",//芝士切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "meadow:piece_of_sheep_cheese",//芝士切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "meadow:piece_of_grain_cheese",//芝士切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "meadow:piece_of_amethyst_cheese",//芝士切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "meadow:piece_of_buffalo_cheese",//芝士切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "meadow:piece_of_goat_cheese",//芝士切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "meadow:piece_of_warped_cheese",//芝士切片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "meadow:sausage_with_cheese",//芝士配牛腿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 15
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cheese_stick",//芝士棒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cheese_sandwich",//芝士面包
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cheese_roll",//瑞士卷
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:cheesy_polenta",//芝士玉米糊
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 14
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cheese_tart",//芝士派
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cheese_tart_slice",//芝士派
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cheesecake",//芝士派
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cheesecake_slice",//芝士派
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+//晚宴
+{
+  "input": {
+    "filter": "candlelight:tomato_soup",//番茄汤
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 15
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:mushroom_soup",//蘑菇汤
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 30
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:beetroot_salad",//甜菜汤
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 13
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:pasta_with_mozzarella",//意面汤
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:bolognese",//肉酱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:mozzarella",//干酪
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:chocolate_mousse",//慕斯
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:harvest_plate",//蔬菜拼盘
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:fillet_steak",//烹牛肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 35
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:beef_tartare",//大胆牛肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:tropical_fish_supreme",//热带鱼片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 17
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:roasted_lamb_with_lettuce",//牛肉片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:roastbeef_with_glazed_carrots",//胡萝卜烤牛肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:salmon_on_white_wine",//白葡萄酱鲑鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 17
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:chicken_alfredo",//鸡肉白酱意面
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:chicken_with_vegetables",//鸡肉菜肴
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 18
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:pork_ribs",//猪肋排
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:chicken_teriyaki",//照烧鸡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:salad",//生菜沙拉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:tomato_mozzarella_salad",//生菜沙拉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:tomato_mozzarella_salad",//干酪沙拉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:lasagne",//千层面
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 19
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:beef_wellington",//惠灵顿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 40
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:beef_with_mushroom_in_wine_and_potatoes",//白汁马铃薯
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:pasta_with_bolognese",//肉酱意面
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 32
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:pasta_with_lettuce",//生菜意面
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:khinkali",//饺子
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:omelet",//饼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "candlelight:fresh_garden_salad",//群英杂烩
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+//
+{
+  "input": {
+    "filter": "kubejs:phf",//拼好饭
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "kubejs:seed_porridge",//谷物粥
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "biomeswevegone:green_apple",//青苹果
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "biomeswevegone:blueberries",//蓝莓
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "biomeswevegone:oddion_bulb",//洋葱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "biomeswevegone:white_puffball_cap",//蘑菇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "biomeswevegone:yucca_fruit",//司岚
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "vinery:apple_mash",//苹果泥
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 7
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cave_vines",//发光浆果
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:carrot",//胡萝卜
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:coffee_beans",//咖啡豆
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:crimson_fungus",//蘑菇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:warped_fungus",//蘑菇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "natures_spirit:shiitake_mushroom",//蘑菇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:red_mushroom",//蘑菇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:brown_mushroom",//蘑菇
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+//
+{
+  "input": {
+    "filter": "minecraft:cooked_cod",//烤鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cooked_salmon",//烤鱼
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cooked_beef",//烤牛
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cooked_porkchop",//烤猪
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 5
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cooked_mutton",//烤羊
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cooked_chicken",//烤鸡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:cooked_rabbit",//烤兔
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 10
+  }
+},
+{
+  "input": {
+    "filter": "untitledduckmod:cooked_duck",//烤鸭
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "untitledduckmod:cooked_goose",//烤鹅
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "meadow:cooked_buffalo_meat",//烤牛
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:honeycomb",//蜂蜡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:cooked_bison_meat",//烤野牛
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:cooked_turkey_meat",//烤火鸡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:cooked_venison",//烤鹿
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:cooked_cassowary_meat",//烤火鸡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "wildernature:cooked_pelican_meat",//烤鹈鹕
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:corn_on_the_cob",//玉米棒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:grilled_corn",//玉米棒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:candied_popcorn",//爆米花
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:cheesy_popcorn",//爆米花
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:buttery_popcorn",//爆米花
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:sweet_popcorn",//爆米花
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:popcorn",//爆米花
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:candied_popcorn_tin",//爆米花罐
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:cheesy_popcorn_tin",//爆米花罐
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:buttery_popcorn_tin",//爆米花罐
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:sweet_popcorn_tin",//爆米花罐
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "cornexpansion:popcorn_tin",//爆米花罐
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:milk_coffee",//牛奶咖啡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 29
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:coffee",//咖啡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 27
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:rooibos_leaf",//茶叶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:yerba_mate_leaf",//茶叶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:green_tea_leaf",//茶叶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:dried_oolong_tea",//茶叶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 24
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:dried_black_tea",//茶叶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 16
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:dried_green_tea",//茶叶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 8
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:lavender_tea",//薰衣草茶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:hibiscus_tea",//木槿茶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:green_tea",//绿茶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 12
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:black_tea",//红茶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 20
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:oolong_tea",//乌龙茶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 30
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:yerba_mate_tea",//马die茶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+{
+  "input": {
+    "filter": "herbalbrews:rooibos_tea",//红灌木
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 6
+  }
+},
+//农夫乐事
+{
+  "input": {
+    "filter": "farmersdelight:wheat_dough",//面团
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:tomato",//番茄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:cabbage",//卷心菜
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:onion",//洋葱
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:rice",//大米
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:raw_pasta",//面团
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:pumpkin_slice",//南瓜片
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 1
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:cabbage_leaf",//卷心菜叶
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:minced_beef",//牛肉
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:chicken_cuts",//鸡肉碎
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 2
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:beef_patty",//烤牛
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 4
+  }
+},
+{
+  "input": {
+    "filter": "farmersdelight:cooked_chicken_cuts",//烤鸡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 3
+  }
+},
+{
+  "input": {"filter": "farmersdelight:bacon","count": 1},//培根
+  "output": {"item": "kubejs:coin","count": 2}
+},
+{
+  "input": {"filter": "farmersdelight:cooked_bacon","count": 1},//烤培根
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "farmersdelight:cod_slice","count": 1},//鱼肉
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "farmersdelight:cooked_cod_slice","count": 1},//烤鱼
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:salmon_slice","count": 1},//鱼肉
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "farmersdelight:cooked_salmon_slice","count": 1},//烤鱼
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:ham","count": 1},//火腿
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "farmersdelight:smoked_ham","count": 1},//烟熏火腿
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "farmersdelight:pie_crust","count": 1},//蛋挞皮
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "farmersdelight:apple_pie","count": 1},//苹果派
+  "output": {"item": "kubejs:coin","count": 40}
+},
+{
+  "input": {"filter": "farmersdelight:cake_slice","count": 1},//蛋糕切片
+  "output": {"item": "kubejs:coin","count": 2}
+},
+{
+  "input": {"filter": "farmersdelight:apple_pie_slice","count": 1},//苹果切片
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "farmersdelight:sweet_berry_cheesecake_slice","count": 1},//切片
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:chocolate_pie_slice","count": 1},//切片
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:sweet_berry_cookie","count": 1},//
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "farmersdelight:honey_cookie","count": 1},//切片
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "farmersdelight:melon_popsicle","count": 1},//冰西瓜
+  "output": {"item": "kubejs:coin","count": 5}
+},
+
+
+
+
+{
+  "input": {"filter": "farmersdelight:glow_berry_custard","count": 1},//发光浆果蛋沙拉
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:fruit_salad","count": 1},//水果沙拉
+  "output": {"item": "kubejs:coin","count": 13}
+},
+{
+  "input": {"filter": "farmersdelight:mixed_salad","count": 1},//混合沙拉
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "farmersdelight:nether_salad","count": 1},//下界沙拉
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:barbecue_stick","count": 1},//烧烤串
+  "output": {"item": "kubejs:coin","count": 9}
+},
+{
+  "input": {"filter": "farmersdelight:egg_sandwich","count": 1},//鸡蛋三明治
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:fried_egg","count": 1},//鸡蛋
+  "output": {"item": "kubejs:coin","count": 2}
+},
+{
+  "input": {"filter": "farmersdelight:hot_cocoa","count": 1},//热可可
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:apple_cider","count": 1},//苹果酒
+  "output": {"item": "kubejs:coin","count": 13}
+},
+{
+  "input": {"filter": "farmersdelight:melon_juice","count": 1},//西瓜汁
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "farmersdelight:tomato_sauce","count": 1},//番茄汤
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "farmersdelight:cooked_rice","count": 1},//米饭
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "farmersdelight:kelp_roll","count": 1},//寿司
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "farmersdelight:kelp_roll_slice","count": 1},//寿司
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:bone_broth","count": 1},//大骨汤
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "farmersdelight:beef_stew","count": 1},//牛肉炖
+  "output": {"item": "kubejs:coin","count": 14}
+},
+{
+  "input": {"filter": "farmersdelight:chicken_soup","count": 1},//鸡汤
+  "output": {"item": "kubejs:coin","count": 17}
+},
+{
+  "input": {"filter": "farmersdelight:vegetable_soup","count": 1},//蔬菜汤
+  "output": {"item": "kubejs:coin","count": 17}
+},
+{
+  "input": {"filter": "farmersdelight:fish_stew","count": 1},//鱼肉汤
+  "output": {"item": "kubejs:coin","count": 18}
+},
+{
+  "input": {"filter": "farmersdelight:fried_rice","count": 1},//炒饭
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "farmersdelight:chicken_sandwich","count": 1},//三明治
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "farmersdelight:hamburger","count": 1},//汉堡
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "farmersdelight:bacon_sandwich","count": 1},//培根三明治
+  "output": {"item": "kubejs:coin","count": 13}
+},
+{
+  "input": {"filter": "farmersdelight:mutton_wrap","count": 1},//羊肉卷饼
+  "output": {"item": "kubejs:coin","count": 13}
+},
+{
+  "input": {"filter": "farmersdelight:dumplings","count": 1},//饺子
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "farmersdelight:stuffed_potato","count": 1},//填馅马铃薯
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "farmersdelight:cabbage_rolls","count": 1},//卷心菜
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "farmersdelight:salmon_roll","count": 1},//寿司
+  "output": {"item": "kubejs:coin","count": 8}
+},
+{
+  "input": {"filter": "farmersdelight:cod_roll","count": 1},//鳕鱼寿司
+  "output": {"item": "kubejs:coin","count": 8}
+},
+
+
+
+{
+  "input": {"filter": "farmersdelight:pumpkin_soup","count": 1},//南瓜汤
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "farmersdelight:baked_cod_stew","count": 1},//鳕鱼炖
+  "output": {"item": "kubejs:coin","count": 17}
+},
+{
+  "input": {"filter": "farmersdelight:noodle_soup","count": 1},//面条汤
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "farmersdelight:bacon_and_eggs","count": 1},//培根鸡蛋
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "farmersdelight:pasta_with_meatballs","count": 1},//肉丸意面
+  "output": {"item": "kubejs:coin","count": 11}
+},
+{
+  "input": {"filter": "farmersdelight:pasta_with_mutton_chop","count": 1},//意面羊排
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "farmersdelight:mushroom_rice","count": 1},//蘑菇饭
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "farmersdelight:roasted_mutton_chops","count": 1},//烤羊排
+  "output": {"item": "kubejs:coin","count": 16}
+},
+{
+  "input": {"filter": "farmersdelight:vegetable_noodles","count": 1},//蔬菜面
+  "output": {"item": "kubejs:coin","count": 12}
+},
+
+
+
+
+{
+  "input": {"filter": "farmersdelight:steak_and_potatoes","count": 1},//牛排土豆
+  "output": {"item": "kubejs:coin","count": 16}
+},
+{
+  "input": {"filter": "farmersdelight:ratatouille","count": 1},//蔬菜杂烩
+  "output": {"item": "kubejs:coin","count": 14}
+},
+{
+  "input": {"filter": "farmersdelight:squid_ink_pasta","count": 1},//墨鱼意面
+  "output": {"item": "kubejs:coin","count": 9}
+},
+{
+  "input": {"filter": "farmersdelight:grilled_salmon","count": 1},//香烤鲑鱼
+  "output": {"item": "kubejs:coin","count": 12}
+},
+{
+  "input": {"filter": "farmersdelight:roast_chicken_block","count": 1},//烤鸡
+  "output": {"item": "kubejs:coin","count": 24}
+},
+{
+  "input": {"filter": "farmersdelight:roast_chicken","count": 1},//盘装烤鸡
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "farmersdelight:stuffed_pumpkin_block","count": 1},//填馅南瓜
+  "output": {"item": "kubejs:coin","count": 20}
+},
+{
+  "input": {"filter": "farmersdelight:stuffed_pumpkin","count": 1},//盘装填馅南瓜
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "farmersdelight:honey_glazed_ham_block","count": 1},//酱汁火腿
+  "output": {"item": "kubejs:coin","count": 24}
+},
+{
+  "input": {"filter": "farmersdelight:honey_glazed_ham","count": 1},//酱汁火腿
+  "output": {"item": "kubejs:coin","count": 6}
+},
+
+{
+  "input": {"filter": "farmersdelight:shepherds_pie_block","count": 1},//牧羊人
+  "output": {"item": "kubejs:coin","count": 32}
+},
+{
+  "input": {"filter": "farmersdelight:shepherds_pie","count": 1},//牧羊人
+  "output": {"item": "kubejs:coin","count": 8}
+},
+{
+  "input": {"filter": "farmersdelight:rice_roll_medley_block","count": 1},//寿司
+  "output": {"item": "kubejs:coin","count": 58}
+},
+{
+  "input": {"filter": "farmersdelight:dog_food","count": 1},//狗粮
+  "output": {"item": "kubejs:coin","count": 9}
+},
+{
+  "input": {"filter": "farmersdelight:horse_feed","count": 1},//马粮
+  "output": {"item": "kubejs:coin","count": 41}
+},
+
+{
+  "input": {"filter": "vintagedelight:oat","count": 1},//燕麦
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "vintagedelight:raw_oats","count": 1},//燕麦
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "vintagedelight:peanut_crop","count": 1},//花生
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:ghost_pepper","count": 1},//辣椒
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:cucumber","count": 1},//黄瓜
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:gearo_berry","count": 1},//浆果
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "vintagedelight:roasted_peanut","count": 1},//烤花生
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "vintagedelight:honey_roasted_peanut","count": 1},//烤花生
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "vintagedelight:pickled_pepper","count": 1},//腌辣椒
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "vintagedelight:ghost_charcoal","count": 1},//辣椒
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "vintagedelight:pickle","count": 1},//腌黄瓜
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "vintagedelight:cucumber_noodles","count": 1},//黄瓜丝
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:pickled_onion","count": 1},//腌洋葱
+  "output": {"item": "kubejs:coin","count":5}
+},
+{
+  "input": {"filter": "vintagedelight:kimchi","count": 1},//腌卷心菜
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "vintagedelight:pickled_beetroot","count": 1},//腌甜菜
+  "output": {"item": "kubejs:coin","count": 5}
+},
+
+{
+  "input": {"filter": "vintagedelight:pickled_egg","count": 1},//腌蛋
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:pickled_pitcher_pod","count": 1},//腌灯笼果
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:century_egg","count": 1},//松花蛋
+  "output": {"item": "kubejs:coin","count": 20}
+},
+{
+  "input": {"filter": "vintagedelight:salted_cod","count": 1},//腌鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "vintagedelight:salted_salmon","count": 1},//腌鱼
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "vintagedelight:surstromming","count": 1},//腌鱼
+  "output": {"item": "kubejs:coin","count": 9}
+},
+{
+  "input": {"filter": "vintagedelight:oatmeal_cookie","count": 1},//曲奇
+  "output": {"item": "kubejs:coin","count": 1}
+},
+{
+  "input": {"filter": "vintagedelight:oat_dough","count": 1},//面团
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:oatmeal","count": 1},//燕麦粥
+  "output": {"item": "kubejs:coin","count": 5}
+},
+
+{
+  "input": {"filter": "vintagedelight:overnight_oats","count": 1},//燕麦粥
+  "output": {"item": "kubejs:coin","count": 16}
+},
+{
+  "input": {"filter": "vintagedelight:chocolate_nut_granola_bar","count": 1},//饼干
+  "output": {"item": "kubejs:coin","count": 6}
+},
+{
+  "input": {"filter": "vintagedelight:fruity_granola_bar","count": 1},//饼干
+  "output": {"item": "kubejs:coin","count": 4}
+},
+{
+  "input": {"filter": "vintagedelight:deluxe_granola_bar","count": 1},//饼干
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "vintagedelight:stuffed_burrito","count": 1},//墨西哥卷饼
+  "output": {"item": "kubejs:coin","count": 25}
+},
+
+{
+  "input": {"filter": "vintagedelight:pickle_soup","count": 1},//泡菜汤
+  "output": {"item": "kubejs:coin","count": 18}
+},
+{
+  "input": {"filter": "vintagedelight:ghostly_chili","count": 1},//辣牛肉
+  "output": {"item": "kubejs:coin","count": 17}
+},
+{
+  "input": {"filter": "vintagedelight:pad_thai","count": 1},//泰式炒饭
+  "output": {"item": "kubejs:coin","count": 15}
+},
+{
+  "input": {"filter": "vintagedelight:cheese_pasta","count": 1},//芝士意面
+  "output": {"item": "kubejs:coin","count": 19}
+},
+{
+  "input": {"filter": "vintagedelight:cucumber_salad","count": 1},//黄瓜沙拉
+  "output": {"item": "kubejs:coin","count": 18}
+},
+{
+  "input": {"filter": "vintagedelight:pb_j","count": 1},//花生酱面包
+  "output": {"item": "kubejs:coin","count": 10}
+},
+{
+  "input": {"filter": "vintagedelight:cheese_burger","count": 1},//芝士汉堡
+  "output": {"item": "kubejs:coin","count": 25}
+},
+{
+  "input": {"filter": "vintagedelight:deluxe_burger","count": 1},//巨无霸
+  "output": {"item": "kubejs:coin","count": 29}
+},
+{
+  "input": {"filter": "vintagedelight:cheese_curds","count": 1},//奶酪
+  "output": {"item": "kubejs:coin","count": 3}
+},
+{
+  "input": {"filter": "vintagedelight:cheese_wheel","count": 1},//奶酪
+  "output": {"item": "kubejs:coin","count": 20}
+},
+{
+  "input": {"filter": "vintagedelight:cheese_slice","count": 1},//奶酪
+  "output": {"item": "kubejs:coin","count": 5}
+},
+{
+  "input": {"filter": "vintagedelight:cheese_pizza","count": 1},//奶酪披萨
+  "output": {"item": "kubejs:coin","count": 28}
+},
+{
+  "input": {"filter": "vintagedelight:cheese_pizza_slice","count": 1},//奶酪披萨
+  "output": {"item": "kubejs:coin","count": 7}
+},
+{
+  "input": {"filter": "vintagedelight:meat_pizza","count": 1},//奶酪披萨
+  "output": {"item": "kubejs:coin","count": 32}
+},
+{
+  "input": {"filter": "vintagedelight:meat_pizza_slice","count": 1},//奶酪披萨
+  "output": {"item": "kubejs:coin","count": 8}
+},
+//酒
+{
+  "input": {
+    "filter": "farmingtales:blazewine_pinot_i",//炽热葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 133
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:ghastly_grenache_i",//海纳歌
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 144
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lava_fizz_i",//熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 142
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:nether_fizz_i",//下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 135
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:improved_lava_fizz_i",//改良熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 136
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:improved_nether_fizz_i",//改良下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 139
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:chorus_wine_i",//紫颂果酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 132
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:cherry_wine_i",//樱桃酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 136
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:apple_wine_i",//苹果葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 151
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:apple_cider_i",//苹果西打酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 136
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:glowing_wine_i",//阳光白葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 133
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:solaris_wine_i",//阳光白葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 138
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:strad_wine_i",//白葡萄唱片酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 133
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:stal_wine_i",//红葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 133
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:mellohi_wine_i",//特制白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 138
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lilitu_wine_i",//图丽丽白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 151
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:noir_wine_i",//椰诺葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 132
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:magnetic_wine_i",//磁石葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 134
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:netherite_nectar_i",//合金花蜜酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 167
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:red_wine_i",//红葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 132
+  }
+},
+
+{
+  "input": {
+    "filter": "farmingtales:knulp_wine_i",//游魂葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 134
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:kelp_cider_i",//苹果海带酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 133
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:chenet_wine_i",//香奈酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 140
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:clark_wine_i",//克拉克酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 133
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:aegis_wine_i",//神盾酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 136
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bolvar_wine_i",//伯瓦尔酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 140
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:jellie_wine_i",//猫咪酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 194
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lamroc_wine_i",//珍藏酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 135
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:jo_special_mixture_i",//特调 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 134
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:cristel_wine_i",//信徒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 136
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:creeper_wine_i",//苦力怕 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 134
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bad_omen_wine_i",//村民 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 134
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:glow_berries_i",//发光 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 120
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:mead_i",//蜂蜜 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 138
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bottle_mojang_noir_i",//改良诺椰 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 135
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:eiswein_i",//冰酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 132
+  }
+},
+//酒
+{
+  "input": {
+    "filter": "farmingtales:blazewine_pinot_g",//炽热葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 233
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:ghastly_grenache_g",//海纳歌
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 244
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lava_fizz_g",//熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 242
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:nether_fizz_g",//下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 235
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:improved_lava_fizz_g",//改良熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 236
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:improved_nether_fizz_g",//改良下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 239
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:chorus_wine_g",//紫颂果酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 232
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:cherry_wine_g",//樱桃酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 236
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:apple_wine_g",//苹果葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 251
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:apple_cider_g",//苹果西打酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 236
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:glowing_wine_g",//阳光白葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 233
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:solaris_wine_g",//阳光白葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 238
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:strad_wine_g",//白葡萄唱片酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 233
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:stal_wine_g",//红葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 233
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:mellohi_wine_g",//特制白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 238
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lilitu_wine_g",//图丽丽白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 251
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:noir_wine_g",//椰诺葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 232
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:magnetic_wine_g",//磁石葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 234
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:netherite_nectar_g",//合金花蜜酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 267
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:red_wine_g",//红葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 232
+  }
+},
+
+{
+  "input": {
+    "filter": "farmingtales:knulp_wine_g",//游魂葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 234
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:kelp_cider_g",//苹果海带酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 233
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:chenet_wine_g",//香奈酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 240
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:clark_wine_g",//克拉克酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 233
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:aegis_wine_g",//神盾酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 236
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bolvar_wine_g",//伯瓦尔酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 240
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:jellie_wine_g",//猫咪酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 294
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lamroc_wine_g",//珍藏酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 235
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:jo_special_mixture_g",//特调 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 234
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:cristel_wine_g",//信徒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 236
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:creeper_wine_g",//苦力怕 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 234
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bad_omen_wine_g",//村民 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 234
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:glow_berries_g",//发光 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 220
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:mead_g",//蜂蜜 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 238
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bottle_mojang_noir_g",//改良诺椰 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 235
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:eiswein_g",//冰酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 232
+  }
+},
+//酒
+{
+  "input": {
+    "filter": "farmingtales:blazewine_pinot_d",//炽热葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 333
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:ghastly_grenache_d",//海纳歌
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 344
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lava_fizz_d",//熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 342
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:nether_fizz_d",//下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 335
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:improved_lava_fizz_d",//改良熔岩气泡
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 336
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:improved_nether_fizz_d",//改良下界酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 339
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:chorus_wine_d",//紫颂果酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 332
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:cherry_wine_d",//樱桃酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 336
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:apple_wine_d",//苹果葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 351
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:apple_cider_d",//苹果西打酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 336
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:glowing_wine_d",//阳光白葡萄
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 333
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:solaris_wine_d",//阳光白葡萄酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 338
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:strad_wine_d",//白葡萄唱片酒
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 333
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:stal_wine_d",//红葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 333
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:mellohi_wine_d",//特制白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 338
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lilitu_wine_d",//图丽丽白葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 351
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:noir_wine_d",//椰诺葡萄唱片酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 332
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:magnetic_wine_d",//磁石葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 334
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:netherite_nectar_d",//合金花蜜酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 367
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:red_wine_d",//红葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 332
+  }
+},
+
+{
+  "input": {
+    "filter": "farmingtales:knulp_wine_d",//游魂葡萄酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 334
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:kelp_cider_d",//苹果海带酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 333
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:chenet_wine_d",//香奈酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 340
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:clark_wine_d",//克拉克酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 333
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:aegis_wine_d",//神盾酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 336
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bolvar_wine_d",//伯瓦尔酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 340
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:jellie_wine_d",//猫咪酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 394
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:lamroc_wine_d",//珍藏酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 335
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:jo_special_mixture_d",//特调 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 334
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:cristel_wine_d",//信徒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 336
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:creeper_wine_d",//苦力怕 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 334
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bad_omen_wine_d",//村民 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 334
+  }
+},
+{
+  "input": {
+    "filter": "minecraft:glow_berries_d",//发光 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 320
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:mead_d",//蜂蜜 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 338
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:bottle_mojang_noir_d",//改良诺椰 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 335
+  }
+},
+{
+  "input": {
+    "filter": "farmingtales:eiswein_d",//冰酒 默认5
+    "count": 1
+  },
+  "output": {
+    "item": "kubejs:coin",
+    "count": 332
+  }
+}
+  ]
+}

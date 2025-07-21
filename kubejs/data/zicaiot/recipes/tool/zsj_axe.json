@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CC ",
+        "CS ",
+        " S "
+    ],
+    "key": {
+      "C": {"item": "kubejs:zsj_ingot"},
+      "S": {"item": "minecraft:stick"}
+    },
+    "result": {
+      "item": "kubejs:zsj_axe",
+      "count":1
+    }
+  } 

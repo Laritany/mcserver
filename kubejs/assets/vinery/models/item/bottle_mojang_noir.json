@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "vinery:item/bottle_mojang_noir_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "vinery:item/bottle_mojang_noir_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "vinery:item/bottle_mojang_noir_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "vinery:item/bottle_mojang_noir_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "vinery:item/bottle_mojang_noir_gui"
+    },
+    "gui": {
+      "parent": "vinery:item/bottle_mojang_noir_gui"
+    },
+    "ground": {
+      "parent": "vinery:item/bottle_mojang_noir_gui"
+    }
+  }
+}

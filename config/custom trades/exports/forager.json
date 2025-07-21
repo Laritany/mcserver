@@ -1,0 +1,194 @@
+{
+  "profession": "biomeswevegone:forager",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:red_mushroom",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:brown_mushroom",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "biomeswevegone:green_mushroom",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "biomeswevegone:wood_blewit",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "biomeswevegone:white_puffball_cap",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "biomeswevegone:white_puffball_spores",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "biomeswevegone:witch_hazel_branch",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "biomeswevegone:witch_hazel_blossom",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "biomeswevegone:shelf_fungi",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:sweet_berries",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "biomeswevegone:blueberries",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

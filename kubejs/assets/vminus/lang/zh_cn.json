@@ -1,0 +1,13 @@
+{
+  "attribute.vminus.fire_protection": "防火",
+  "attribute.vminus.health_lost_stat_boost": "每损失生命值的属性加成",
+  "attribute.vminus.magic_protection": "魔法抗性",
+  "attribute.vminus.protection": "护甲值",
+  "attribute.vminus.fall_protection": "摔落保护",
+  "attribute.vminus.blast_protection": "爆炸保护",
+  "attribute.vminus.critical_damage": "暴击伤害",
+  "attribute.vminus.mining_speed": "挖掘速度",
+  "attribute.vminus.projectile_damage": "弹射物伤害",
+  "attribute.vminus.blunt_protection": "钝器抗性",
+  "attribute.vminus.mob_detection_range": "生物探测范围"
+}

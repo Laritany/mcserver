@@ -1,0 +1,487 @@
+{
+  "profession": "minecraft:librarian",
+  "removeOtherTrades": true,
+  "maxTrades": 5,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:writable_book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bookshelf",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:paper",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "librarian"
+    },
+//一阶
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 1
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 50
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 1
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 45
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 1
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 38
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+//二阶
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 2
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 300
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 300
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 300
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:writable_book",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:name_tag",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 28,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "librarian"
+    },
+    {
+      "offer": {
+        "itemKey": "travelersbackpack:villager",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 150,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "cler1"
+    },
+//三阶
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 4
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 1000
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 4
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 1200
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 4
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 1050
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "handcrafted:stackable_book",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian"
+    },
+    {
+      "offer": {
+        "itemKey": "candlelight:note_paper_writeable",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 14,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "librarian"
+    },
+//四阶
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 4,
+            "maxEnchantmentLevel": 4
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 5000
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 4,
+            "maxEnchantmentLevel": 4
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 5150
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 4,
+            "maxEnchantmentLevel": 4
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 5400
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+//五阶
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 5,
+            "maxEnchantmentLevel": 5
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 7100
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {"enchantmentKey": "random",
+            "enchantmentLevel": 6,
+            "maxEnchantmentLevel": 6
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "kubejs:coin",
+        "amount": 10000
+      },
+      "tradeExp": 3,
+      "maxUses": 14,
+      "priceMultiplier": 0.5,
+      "demand": 10,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
+    }
+  ]
+}

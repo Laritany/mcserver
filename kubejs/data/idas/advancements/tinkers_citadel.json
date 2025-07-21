@@ -1,0 +1,44 @@
+{
+  "parent": "idas:idas_root",
+  "display": {
+    "icon": {
+      "item": "create:wrench"
+    },
+    "title": {
+      "translate": "修补匠的堡垒"
+    },
+    "description": {
+      "translate": "所有齿轮和机壳的修补匠的安全避风港"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "in_tinkers_citadel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "idas:tinkers_citadel"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_tinkers_citadel"
+    ]
+  ]
+}

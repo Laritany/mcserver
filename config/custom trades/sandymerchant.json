@@ -1,0 +1,152 @@
+{
+  "profession": "beachparty:sandymerchant",
+  "removeOtherTrades": true,
+  "maxTrades": 35,
+  "trades": [
+    {
+      "offer": {"itemKey": "beachparty:coconut","amount": 12,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 35,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "beachparty:palm_sprout","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 25,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "beachparty:cooked_mussel_meat","amount": 10,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 48,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "beachparty:beach_parasol","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "beachparty:rubber_ring_axolotl","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "beachparty:rubber_ring_pelican","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:beach_boots","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 200,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:beach_chestplate","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 400,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:beach_helmet","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 300,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:hawaii_helmet","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 270,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:hawaii_chestplate","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 300,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "selfexpression:hawaii_leggings","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 120,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+    {
+      "offer": {"itemKey": "beachparty:radio","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 300,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cler1"
+    },
+{"offer": {"itemKey": "kitchenkarrot:acorn_wine_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 42,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:mead_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 53,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:rum_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 58,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:vodka_base","amount": 6,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 58,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:ice_cubes","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:water","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 19,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:milk","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 21,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:birch_sap","amount": 16,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "brewinandchewin:tankard","amount": 4,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 18,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 9,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+{"offer": {"itemKey": "kitchenkarrot:brewing_barrel","amount": 1,"priceModifier": 0},
+"request": {"itemKey": "kubejs:coin","amount": 23,"priceModifier": 0},
+"tradeExp": 20,"maxUses": 9,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+"UTID": "cart1"},
+    {
+      "offer": {"itemKey": "kitchenkarrot:sea_salt","amount": 10,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 53,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "brewinandchewin:coaster","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 29,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    }
+  ]
+}

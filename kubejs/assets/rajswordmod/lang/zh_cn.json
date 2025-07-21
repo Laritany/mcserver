@@ -1,0 +1,35 @@
+{
+  "item.rajswordmod.deflect_sword": "熔断之刃",
+  "item.rajswordmod.deflect_sword_upgraded": "惩戒之刃",
+
+  "item.rajswordmod.sentinel_sword": "古代仪式剑",
+  "item.rajswordmod.knockback_sword": "强袭之刃",
+  "item.rajswordmod.holy_sword": "圣光使者",
+  "item.rajswordmod.gaia_sword": "鳕鱼之刃",
+  "item.rajswordmod.blood_sword": "嗜血之刃",
+  "item.rajswordmod.anti_armor_sword": "迅捷快剑",
+  "item.rajswordmod.shadow_clone_sword": "逃脱镰刀",
+
+  "effect.rajswordmod.anti_armor_effect": "破甲状态",
+
+  "creativetab.sword_tab": "成就奖励",
+
+  "rajswordmod.hovertext.anti_armor_sword": "§o按住右键可蓄力向前冲锋，速度逐渐提升。攻击结束时会命中敌人并叠加护甲削弱效果",
+
+  "rajswordmod.hovertext.deflect_sword_awakened": "这把武器已完全觉醒\n§l格挡§r按住右键进入防御姿态，将附近所有投射物反弹回去。\n§l突进§r使用后会自动向前冲刺，按住Shift可取消冲刺。",
+  "rajswordmod.hovertext.deflect_sword_unawakened": "§l斩击§r按住右键进入防御姿态，切割附近所有投射物。\n§l突进§r使用后会自动向前冲刺，按住Shift可取消冲刺。",
+  "rajswordmod.tooltip.projectiles_count_no": "§l未觉醒§r已摧毁投射物：%d/%d",
+  "rajswordmod.tooltip.projectiles_count_yes": "§l已觉醒§r",
+  "rajswordmod.tooltip.awakened": "§l不朽§r处于真形态时，此刃不可摧毁。",
+
+
+  "rajswordmod.hovertext.sentinel_sword": "§c§o按住右键进入防御姿态，短时间内获得无敌状态且无法移动",
+  "rajswordmod.hovertext.knockback_sword": "§9§o按住右键蓄力攻击，释放时将前方敌人击退，击退效果随击退附魔等级提升",
+  "rajswordmod.hovertext.holy_sword": "§e§o攻击亡灵生物时有概率触发神圣爆炸，对亡灵造成伤害。击杀必定触发爆炸",
+  "rajswordmod.hovertext.gaia_sword": "§7§o完整挥砍会发射一道穿透生物的光刃",
+  "rajswordmod.hovertext.blood_sword": "§4§o击中敌人会将生命值储存于刃中，按住右键可吸收偷取的生命",
+  "rajswordmod.hovertext.shadow_clone_sword": "§8§o右键召唤自身分身吸引敌人仇恨，并获得隐身效果",
+
+  "key.categories.rajswordmod": "成就奖励",
+  "key.swordmod.upgrade_sword": "觉醒之刃"
+}

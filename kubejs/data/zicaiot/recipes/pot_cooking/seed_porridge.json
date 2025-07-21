@@ -1,0 +1,24 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:barley_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "farm_and_charm:oat_seeds"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "kubejs:seed_porridge",
+    "count": 1
+  }
+}

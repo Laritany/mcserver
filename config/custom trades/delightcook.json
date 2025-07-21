@@ -1,0 +1,211 @@
+{
+  "profession": "chefsdelight:delightcook",
+  "removeOtherTrades": true,
+  "maxTrades": 25,
+  "trades": [
+    {
+      "offer": {"itemKey": "displaydelight:food_plate","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 6,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "displaydelight:small_food_plate","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 4,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vintagedelight:fermenting_jar","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "vintagedelight:cheese_mold","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 15,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farmersdelight:skillet","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 25,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farmersdelight:cooking_pot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 35,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farm_and_charm:cooking_pot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 35,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "farm_and_charm:roaster","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 30,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:glass","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 34,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:wine_glass","amount": 3,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 34,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:napkin","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 9,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:cooking_pot","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:cooking_pan","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 17,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:bowl","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+    {
+      "offer": {"itemKey": "candlelight:plate","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 19,"priceModifier": 0},
+      "tradeExp": 20,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "cart1"
+    },
+//刀
+    {
+      "offer": {"itemKey": "farmersdelight:iron_knife","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 30,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:plate_item","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 26,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:knife","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 30,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:plate_item","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 28,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:fine_salt","amount": 10,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 60,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:rock_salt","amount": 10,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 53,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "farmersdelight:cutting_board","amount": 1,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 10,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "candlelight:table_sign","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 35,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "candlelight:cloche","amount": 6,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 20,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "candlelight:dinner_bell","amount": 4,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 24,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:acorn_oil","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 49,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:sunflower_oil","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 67,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "kitchenkarrot:chorus_oil","amount": 16,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 47,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    },
+    {
+      "offer": {"itemKey": "brewinandchewin:coaster","amount": 8,"priceModifier": 0},
+
+      "request": {"itemKey": "kubejs:coin","amount": 29,"priceModifier": 0},
+      "tradeExp": 7,"maxUses": 14,"priceMultiplier": 0.05,"demand": 0,"tradeLevel": 1,
+      "UTID": "fo"
+    }
+  ]
+}

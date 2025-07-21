@@ -1,0 +1,15 @@
+{
+  "type": "meadow:cooking",
+  "ingredients": [
+    {
+      "item": "untitledduckmod:raw_duck"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    }
+  ],
+  "result": {
+    "item": "untitledduckmod:cooked_duck",
+    "count": 4
+  }
+}

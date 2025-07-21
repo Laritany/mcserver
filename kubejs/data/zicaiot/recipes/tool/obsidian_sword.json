@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " C ",
+      " C ",
+      " S "
+    ],
+    "key": {
+      "C": {"item": "kubejs:obsidian_ingot"},
+      "S": {"item": "minecraft:stick"}
+    },
+    "result": {
+      "item": "kubejs:obsidian_sword",
+      "count":1
+    }
+  } 

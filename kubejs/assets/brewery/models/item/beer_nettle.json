@@ -1,0 +1,27 @@
+{
+	"parent": "item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+    "parent": "brewery:item/beer_nettle_handled"
+  },
+  "perspectives": {
+    "thirdperson_righthand": {
+      "parent": "brewery:item/beer_nettle_gui"
+    },
+    "thirdperson_lefthand": {
+      "parent": "brewery:item/beer_nettle_gui"
+    },
+    "firstperson_righthand": {
+      "parent": "brewery:item/beer_nettle_gui"
+    },
+    "firstperson_lefthand": {
+      "parent": "brewery:item/beer_nettle_gui"
+    },
+    "gui": {
+      "parent": "brewery:item/beer_nettle_gui"
+    },
+    "ground": {
+      "parent": "brewery:item/beer_nettle_gui"
+    }
+  }
+}

@@ -1,0 +1,1650 @@
+{
+	icon: "incubation:fried_egg"
+	id: "1ACFE3E8181FE239"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"陶艺家需要黏土\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 6
+							id: "kubejs:money"
+						}
+						{
+							Count: 3
+							id: "handcrafted:terracotta_thick_pot"
+						}
+						{
+							Count: 3
+							id: "handcrafted:terracotta_wide_pot"
+						}
+						{
+							Count: 1
+							id: "handcrafted:terracotta_medium_pot"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "minecraft:clay_ball"
+						}
+						{
+							Count: 64
+							id: "minecraft:clay_ball"
+						}
+						{
+							Count: 64
+							id: "minecraft:clay_ball"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"甜品店需要一些糖浆\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 4
+							id: "kubejs:money"
+						}
+						{
+							Count: 5
+							id: "autumnity:pancake"
+						}
+					]
+					requested: [
+						{
+							Count: 6
+							id: "autumnity:syrup_bottle"
+						}
+						{
+							Count: 6
+							id: "minecraft:honey_bottle"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"炼金术士需要一些材料来制作混合物\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 5
+							id: "kubejs:money"
+						}
+						{
+							Count: 3
+							id: "minecraft:sticky_piston"
+						}
+					]
+					requested: [
+						{
+							Count: 12
+							id: "minecraft:slime_ball"
+						}
+						{
+							Count: 3
+							id: "autumnity:snail_goo"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"炼金术士需要一些材料进行炼金\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 3
+							id: "kubejs:money"
+						}
+						{
+							Count: 2
+							id: "minecraft:shulker_shell"
+						}
+					]
+					requested: [
+						{
+							Count: 12
+							id: "minecraft:blaze_powder"
+						}
+						{
+							Count: 3
+							id: "minecraft:rabbit_foot"
+						}
+						{
+							Count: 40
+							id: "minecraft:redstone"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"珠宝商需要一些石英\"}"
+					ordered: 2
+					payment: [{
+						Count: 3
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 64
+							id: "minecraft:quartz"
+						}
+						{
+							Count: 64
+							id: "minecraft:quartz"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"珠宝商需要一些绿宝石\"}"
+					ordered: 2
+					payment: [{
+						Count: 4
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 12
+						id: "minecraft:emerald"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 2
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"铁匠需要一些铜\"}"
+					ordered: 1
+					payment: [{
+						Count: 10
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 64
+							id: "minecraft:raw_copper"
+						}
+						{
+							Count: 64
+							id: "minecraft:raw_copper"
+						}
+						{
+							Count: 64
+							id: "minecraft:raw_copper"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 2
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"珠宝商需要一些金子\"}"
+					ordered: 1
+					payment: [{
+						Count: 20
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 64
+						id: "minecraft:gold_ingot"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"珠宝商需要一些钻石\"}"
+					ordered: 1
+					payment: [{
+						Count: 8
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 10
+						id: "minecraft:diamond"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"现在给我三组食人鱼我封你做小弟呀！\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 7
+							id: "kubejs:money"
+						}
+						{
+							Count: 64
+							id: "kubejs:fish_bones"
+						}
+						{
+							Count: 64
+							id: "kubejs:fish_bones"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "sullysmod:piranha"
+						}
+						{
+							Count: 64
+							id: "sullysmod:piranha"
+						}
+						{
+							Count: 64
+							id: "sullysmod:piranha"
+						}
+					]
+					title: "{\"text\":\"我食食人鱼\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"需要一些树莓康斯\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 7
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "minecraft:ocelot_spawn_egg"
+						}
+					]
+					requested: [{
+						Count: 32
+						id: "neapolitan:strawberry_scones"
+					}]
+					title: "{\"text\":\"甜品需求\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"可以给猪喂食金胡萝卜。之后猪会开始走动以寻找埋藏的松露\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 5
+							id: "kubejs:money"
+						}
+						{
+							Count: 2
+							id: "minecraft:pig_spawn_egg"
+						}
+					]
+					requested: [{
+						Count: 8
+						id: "environmental:truffle"
+					}]
+					title: "{\"text\":\"松露松露\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"需要几条锦鲤\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 2
+							id: "kubejs:money"
+						}
+						{
+							Count: 2
+							id: "minecraft:nautilus_shell"
+						}
+					]
+					requested: [{
+						Count: 13
+						id: "environmental:koi"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"需要一个巧克力礼盒\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 2
+							id: "kubejs:money"
+						}
+						{
+							Count: 2
+							id: "minecraft:honeycomb"
+						}
+					]
+					requested: [{
+						Count: 2
+						id: "bakery:chocolate_box"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"需要一些酿酒材料\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 1
+							id: "brewery:wooden_brewingstation"
+						}
+						{
+							Count: 5
+							id: "redeco:oak_crate"
+						}
+					]
+					requested: [
+						{
+							Count: 40
+							id: "brewery:hops"
+						}
+						{
+							Count: 30
+							id: "brewery:dried_barley"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"需要一些材料制作饼干\"}"
+					ordered: 1
+					payment: [{
+						Count: 3
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 4
+							id: "brewery:dried_wheat"
+						}
+						{
+							Count: 4
+							id: "farm_and_charm:butter"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"想喝点威士忌\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 3
+							id: "exposure:color_film"
+						}
+						{
+							Count: 1
+							id: "exposure:camera"
+						}
+					]
+					requested: [{
+						Count: 1
+						id: "brewery:whiskey_jamesons_malt"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"画家需要一些画布\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 3
+							id: "kubejs:money"
+						}
+						{
+							Count: 4
+							id: "minecraft:painting"
+						}
+					]
+					requested: [{
+						Count: 4
+						id: "zetter:canvas"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"机械师需要一些红石组件\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 2
+							id: "kubejs:money"
+						}
+						{
+							Count: 6
+							id: "quark:crafter"
+						}
+					]
+					requested: [
+						{
+							Count: 4
+							id: "minecraft:repeater"
+						}
+						{
+							Count: 20
+							id: "minecraft:redstone"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 1
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"铁匠需要一些粗铁\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 3
+							id: "kubejs:money"
+						}
+						{
+							Count: 2
+							id: "supplementaries:cannon"
+						}
+					]
+					requested: [{
+						Count: 20
+						id: "minecraft:raw_iron"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"菜菜水果店需要收购一些高品质水果\"}"
+					ordered: 1
+					payment: [{
+						Count: 12
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 24
+							id: "minecraft:apple"
+						}
+						{
+							Count: 7
+							id: "minecraft:melon_slice"
+						}
+						{
+							Count: 12
+							id: "neapolitan:banana"
+						}
+					]
+					title: "{\"text\":\"水果收购订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"木匠留言：给我一些木头我能给你制作一个木护腿和木靴子\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 1
+							id: "kubejs:wood_boots"
+						}
+						{
+							Count: 1
+							id: "kubejs:wood_leggings"
+						}
+					]
+					requested: [{
+						Count: 64
+						id: "#minecraft:logs"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"木匠留言：给我一些木头我能给你制作一个木胸甲\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 8
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "kubejs:wood_chestplate"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "#minecraft:logs"
+						}
+						{
+							Count: 64
+							id: "#minecraft:logs"
+						}
+						{
+							Count: 64
+							id: "#minecraft:logs"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"木匠留言：给我一些木头我能给你制作一个木头盔\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 8
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "kubejs:wood_helmet"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "#minecraft:logs"
+						}
+						{
+							Count: 64
+							id: "#minecraft:logs"
+						}
+						{
+							Count: 64
+							id: "#minecraft:logs"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"以物易物\"}"
+					ordered: 1
+					payment: [{
+						Count: 10
+						id: "kubejs:kernels"
+					}]
+					requested: [{
+						Count: 12
+						id: "farm_and_charm:stuffed_chicken"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"以物易物\"}"
+					ordered: 1
+					payment: [{
+						Count: 10
+						id: "kubejs:kernels"
+					}]
+					requested: [{
+						Count: 12
+						id: "farm_and_charm:stuffed_chicken"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"农场需要一些肥料\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 6
+							id: "kubejs:money"
+						}
+						{
+							Count: 12
+							id: "farm_and_charm:water_sprinkler"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "farm_and_charm:fertilizer"
+						}
+						{
+							Count: 64
+							id: "farm_and_charm:fertilizer"
+						}
+						{
+							Count: 64
+							id: "farm_and_charm:fertilizer"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"铁匠铺需要37个铁锭和56个煤炭\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 4
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "sullysmod:small_dented_helmet"
+						}
+					]
+					requested: [
+						{
+							Count: 37
+							id: "minecraft:iron_ingot"
+						}
+						{
+							Count: 56
+							id: "'minecraft:coal"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"甜品爱好者需要1巧克力蛋糕、16巧克力饼干和10巧克力草莓\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 4
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "minecraft:cat_spawn_egg"
+						}
+					]
+					requested: [
+						{
+							Count: 1
+							id: "bakery:chocolate_cake"
+						}
+						{
+							Count: 16
+							id: "bakery:chocolate_glazed_cookie"
+						}
+						{
+							Count: 10
+							id: "neapolitan:chocolate_strawberries"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"园艺店需要4樱花树苗、2橡木树苗和10云杉树苗\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 2
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "redeco:pink_petals_terrarium"
+						}
+					]
+					requested: [
+						{
+							Count: 4
+							id: "minecraft:cherry_sapling"
+						}
+						{
+							Count: 2
+							id: "minecraft:oak_sapling"
+						}
+						{
+							Count: 10
+							id: "minecraft:spruce_sapling"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"鱼摊需要一些鱼\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 8
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "furniture:iron_fish_tank"
+						}
+					]
+					requested: [
+						{
+							Count: 24
+							id: "minecraft:cod"
+						}
+						{
+							Count: 6
+							id: "minecraft:pufferfish"
+						}
+						{
+							Count: 20
+							id: "minecraft:salmon"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"炼金术士需要24个地狱疣和1个兔子脚酿造药水\"}"
+					ordered: 1
+					payment: [{
+						Count: 3
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 24
+							id: "minecraft:nether_wart"
+						}
+						{
+							Count: 1
+							id: "minecraft:rabbit_foot"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"农场主留言：暴风雨损坏了仓库，急需192个土豆重建\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 14
+							id: "kubejs:money"
+						}
+						{
+							Count: 2
+							id: "kubejs:pepper_seeds"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "minecraft:potato"
+						}
+						{
+							Count: 64
+							id: "minecraft:potato"
+						}
+						{
+							Count: 64
+							id: "minecraft:potato"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"水果店老板留言：进口车厘子销量火爆，急需补货！需求：50个车厘子\"}"
+					ordered: 1
+					payment: [{
+						Count: 6
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 50
+						id: "vinery:cherry"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"我需要进口车厘子！\"}"
+					ordered: 1
+					payment: [{
+						Count: 1
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 4
+						id: "vinery:cherry"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"本地烘焙坊需要4个干香草荚\"}"
+					ordered: 1
+					payment: [{
+						Count: 2
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 4
+						id: "neapolitan:dried_vanilla_pods"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"@#$给^&%!$# 沃……*&%香￥&@34%#浇!\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 5
+							id: "kubejs:money"
+						}
+						{
+							Count: 3
+							id: "waystones:warp_stone"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "neapolitan:banana"
+						}
+						{
+							Count: 64
+							id: "neapolitan:banana"
+						}
+						{
+							Count: 64
+							id: "neapolitan:banana"
+						}
+						{
+							Count: 64
+							id: "neapolitan:banana"
+						}
+						{
+							Count: 64
+							id: "neapolitan:banana"
+						}
+					]
+					title: "{\"text\":\"×&%￥#@……\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"一个苹果谢谢！\"}"
+					ordered: 1
+					payment: [{
+						Count: 1
+						id: "minecraft:egg"
+					}]
+					requested: [{
+						Count: 1
+						id: "minecraft:apple"
+					}]
+					title: "{\"text\":\"你的大客户来喽！尊贵的VIP客户已抵达！他指定要购买1个苹果，请优先处理！\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"我需要制作一份蔬菜沙拉，现急需一些蔬菜！如果你有存货的话可以送我一些吗？我会送你一个好东西！\"}"
+					ordered: 1
+					payment: [{
+						Count: 12
+						id: "legendary_monsters:withered_bone"
+					}]
+					requested: [
+						{
+							Count: 50
+							id: "minecraft:carrot"
+						}
+						{
+							Count: 50
+							id: "minecraft:potato"
+						}
+						{
+							Count: 50
+							id: "minecraft:beetroot"
+						}
+						{
+							Count: 3
+							id: "farm_and_charm:tomato"
+						}
+					]
+					title: "{\"text\":\"饿死了！饿死了！\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"菜菜水果店需要收购一些高品质水果\"}"
+					ordered: 1
+					payment: [{
+						Count: 12
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 24
+							id: "minecraft:apple"
+						}
+						{
+							Count: 7
+							id: "minecraft:melon_slice"
+						}
+						{
+							Count: 12
+							id: "neapolitan:banana"
+						}
+					]
+					title: "{\"text\":\"水果收购订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"巧克力工坊需要54个可可豆和10份糖\"}"
+					ordered: 1
+					payment: [{
+						Count: 5
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 54
+							id: "minecraft:cocoa_beans"
+						}
+						{
+							Count: 10
+							id: "minecraft:sugar"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"日料店需要24个干海带制作味增汤\"}"
+					ordered: 1
+					payment: [{
+						Count: 3
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 24
+						id: "minecraft:dried_kelp"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"餐厅需要25个大蒜和57个辣椒制作蒜蓉辣酱\"}"
+					ordered: 1
+					payment: [{
+						Count: 3
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 25
+							id: "crockpot:garlic"
+						}
+						{
+							Count: 57
+							id: "crockpot:pepper"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"7块黄油交换1只烤火鸡\"}"
+					ordered: 1
+					payment: [{
+						Count: 37
+						id: "farm_and_charm:butter"
+					}]
+					requested: [{
+						Count: 1
+						id: "autumnity:cooked_turkey"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"酒庄需要64个葡萄酿造葡萄酒\"}"
+					ordered: 1
+					payment: [{
+						Count: 4
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 64
+						id: "#forge:grapes"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"图书管理员需要2瓶墨水和1本书制作教学笔记\"}"
+					ordered: 1
+					payment: [{
+						Count: 1
+						id: "supplementaries:globe"
+					}]
+					requested: [
+						{
+							Count: 2
+							id: "minecraft:ink_sac"
+						}
+						{
+							Count: 1
+							id: "minecraft:writable_book"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"餐厅需要12个洋葱和2份牛肉碎\"}"
+					ordered: 1
+					payment: [{
+						Count: 5
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 12
+							id: "farm_and_charm:onion"
+						}
+						{
+							Count: 2
+							id: "farm_and_charm:minced_beef"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"酿酒厂需要54个大麦\"}"
+					ordered: 1
+					payment: [{
+						Count: 7
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 54
+						id: "farm_and_charm:barley"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"客户留言：需要一些燕麦\"}"
+					ordered: 1
+					payment: [{
+						Count: 5
+						id: "kubejs:money"
+					}]
+					requested: [{
+						Count: 28
+						id: "farm_and_charm:oat"
+					}]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"甜品店需要64个土豆和5块黄油\"}"
+					ordered: 1
+					payment: [
+						{
+							Count: 10
+							id: "kubejs:money"
+						}
+						{
+							Count: 1
+							id: "brewery:mashed_potatoes"
+						}
+					]
+					requested: [
+						{
+							Count: 64
+							id: "minecraft:potato"
+						}
+						{
+							Count: 5
+							id: "farm_and_charm:butter"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"糖果店需要3份糖和2片薄荷叶制作薄荷糖\"}"
+					ordered: 1
+					payment: [{
+						Count: 3
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 3
+							id: "minecraft:sugar"
+						}
+						{
+							Count: 2
+							id: "neapolitan:mint_leaves"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"甜品店需要35个红豆和2份蛋糕面团制作红豆蛋糕\"}"
+					ordered: 1
+					payment: [{
+						Count: 8
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 35
+							id: "neapolitan:adzuki_beans"
+						}
+						{
+							Count: 2
+							id: "bakery:cake_dough"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"甜品店需要20个草莓和2块巧克力\"}"
+					ordered: 1
+					payment: [{
+						Count: 5
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 20
+							id: "farm_and_charm:strawberry"
+						}
+						{
+							Count: 2
+							id: "bakery:chocolate_truffle"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"猎人需要2份高山盐和8块鹿肉制作鹿肉烧烤\"}"
+					ordered: 1
+					payment: [{
+						Count: 3
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 2
+							id: "meadow:alpine_salt"
+						}
+						{
+							Count: 8
+							id: "environmental:venison"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"果酱工坊需要64个树莓和20个玻璃瓶\"}"
+					ordered: 1
+					payment: [{
+						Count: 8
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 64
+							id: "neapolitan:strawberries"
+						}
+						{
+							Count: 20
+							id: "minecraft:glass_bottle"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"面包店需要20块鸡肉和12份面粉制作鸡肉派\"}"
+					ordered: 1
+					payment: [{
+						Count: 8
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 20
+							id: "minecraft:chicken"
+						}
+						{
+							Count: 12
+							id: "farm_and_charm:flour"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wares:sealed_delivery_agreement"
+				tag: {
+					experience: 5
+					expiresInSeconds: 1850L
+					message: "{\"text\":\"客户留言：想吃点浆果了 需求：14甜浆果+5发光浆果\"}"
+					ordered: 1
+					payment: [{
+						Count: 5
+						id: "kubejs:money"
+					}]
+					requested: [
+						{
+							Count: 14
+							id: "minecraft:sweet_berries"
+						}
+						{
+							Count: 5
+							id: "minecraft:glow_berries"
+						}
+					]
+					title: "{\"text\":\"普通订单\"}"
+				}
+			}
+		}
+	]
+	title: "随机小任务"
+}

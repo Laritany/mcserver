@@ -1,0 +1,667 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65B133126DC3B001"
+	group: "69AF6EA27123D833"
+	icon: "beachparty:beach_ball"
+	id: "65B133126DC3B001"
+	images: [{
+		click: "https://www.mcmod.cn/class/10300.html"
+		height: 3.0d
+		hover: ["点击查看MC百科"]
+		image: "beachparty:item/coconut_cocktail"
+		rotation: 0.0d
+		width: 3.0d
+		x: -6.5d
+		y: 0.5d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "63F3F2A821EDF9D0"
+			rewards: [{
+				auto: "enabled"
+				id: "1C9098E4527A026E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6右击可打开频道,Shift+右击可关闭.打开状态下,可利用鼠标滚轮上下调节频道来收听不同音乐."
+			tasks: [{
+				id: "4DD270E80EA2A9F1"
+				item: "beachparty:radio"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "332D34B57370B0F4"
+			rewards: [{
+				auto: "enabled"
+				id: "281795ABC19BF22F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "可染成不同颜色.攻击可造成击退"
+			tasks: [{
+				id: "693E8DB3E4EC3D83"
+				item: {
+					Count: 1
+					id: "beachparty:pool_noodle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			id: "15D25859C14FB27A"
+			rewards: [{
+				auto: "enabled"
+				id: "5B3AD1C18E5FF684"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6对着地面右击放置.Shift+右击可打开和关闭"
+			tasks: [{
+				id: "136E112E676DD473"
+				item: "beachparty:beach_parasol"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "66BDB5566B61A46C"
+			rewards: [{
+				auto: "enabled"
+				id: "4E26E8B7C5597A74"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6可以坐在上面的毛巾"
+			tasks: [{
+				id: "094EA5F07D6C32D8"
+				item: "beachparty:beach_towel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["&6打开可以获得纸和玻璃瓶（有概率获得探险地图）"]
+			id: "6D0050F8F3CF111C"
+			rewards: [{
+				auto: "enabled"
+				id: "2D5ABF4ABDE4D61C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6钓鱼有概率获得"
+			tasks: [{
+				id: "4D1E9B26F640EE75"
+				item: "beachparty:message_in_a_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "4FBC27EBD50B21AB"
+			rewards: [{
+				auto: "enabled"
+				id: "54D59175CCA81C45"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6手持右键打开获得一个生贻贝肉和若干随机矿石"
+			tasks: [{
+				id: "0BF69714F98797EB"
+				item: "beachparty:seashell"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A6927A5C118A1BA"]
+			description: [""]
+			id: "3C24339F94FE7DB2"
+			rewards: [{
+				auto: "enabled"
+				id: "15102283821449F4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5F015D90153C0E4A"
+				item: "beachparty:cooked_mussel_meat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FBC27EBD50B21AB"]
+			description: [""]
+			id: "0A6927A5C118A1BA"
+			rewards: [{
+				auto: "enabled"
+				id: "0AC6A94A993E119A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "24318727EAA50F34"
+				item: "beachparty:raw_mussel_meat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"对着地面右击可放置，一共可堆叠三个。"
+				""
+				"右键可投掷，击中生物可造成2点伤害后获得打开的椰子。"
+			]
+			id: "752EDCE4D45A5D42"
+			rewards: [{
+				auto: "enabled"
+				id: "1559F9279436614F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6自然生成于椰树树冠上"
+			tasks: [{
+				id: "7B33AF81DDD11E7B"
+				item: "beachparty:coconut"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["752EDCE4D45A5D42"]
+			description: [""]
+			id: "3602318545494C03"
+			rewards: [{
+				auto: "enabled"
+				id: "721D653C7F95B65B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6右键可投掷椰子获得"
+			tasks: [{
+				id: "4759F6BA1DD0CA2F"
+				item: "beachparty:coconut_open"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "3F0E8CAB22F2B855"
+			subtitle: "通过藏宝箱收集到所有沙滩主题唱片"
+			tasks: [
+				{
+					id: "04BD7D5F1E2D1411"
+					item: "beachparty:overgrown_disc"
+					type: "item"
+				}
+				{
+					id: "2CDF0255257F7B48"
+					item: "beachparty:music_disc_beachparty"
+					type: "item"
+				}
+				{
+					id: "3AC6942E0DCD818A"
+					item: "beachparty:music_disc_caribbean_beach"
+					type: "item"
+				}
+				{
+					id: "7F84F1CA47AEDA90"
+					item: "beachparty:music_disc_vocalista"
+					type: "item"
+				}
+				{
+					id: "16F3C95CC2F62962"
+					item: "beachparty:music_disc_wild_veins"
+					type: "item"
+				}
+			]
+			title: "沙滩唱片"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			icon: "beachparty:beach_chair"
+			id: "526CE42048DC7498"
+			tasks: [
+				{
+					id: "3409624931A4E019"
+					item: "beachparty:palm_bar_stool"
+					type: "item"
+				}
+				{
+					id: "489E2159D6DF7660"
+					item: "beachparty:beach_chair"
+					type: "item"
+				}
+				{
+					id: "014296FB0271418F"
+					item: "beachparty:palm_chair"
+					type: "item"
+				}
+				{
+					id: "7446DF1DFB14FDB4"
+					item: "beachparty:palm_table"
+					type: "item"
+				}
+				{
+					id: "0495BCFAE3B6D8B2"
+					item: "beachparty:hooded_beach_chair"
+					type: "item"
+				}
+				{
+					id: "02F9E6173DF7F691"
+					item: "beachparty:beach_sun_lounger"
+					type: "item"
+				}
+			]
+			title: "沙滩家具"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "1656EFA1908D51DB"
+			subtitle: "酒保村民的职业方块"
+			tasks: [{
+				id: "04DF1D9A91E4AA98"
+				item: "beachparty:palm_bar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1656EFA1908D51DB"]
+			id: "287E579527FFF0D9"
+			tasks: [{
+				id: "7690CD5FE0A870B4"
+				item: "beachparty:coconut_cocktail"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1656EFA1908D51DB"]
+			id: "431479DB7E7A9CA9"
+			tasks: [{
+				id: "543E95C3B582EAC7"
+				item: "beachparty:sweetberries_cocktail"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1656EFA1908D51DB"]
+			id: "2B3013957E3ECEA4"
+			tasks: [{
+				id: "4BE20A8E0EE24A9F"
+				item: "beachparty:cocoa_cocktail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1656EFA1908D51DB"]
+			id: "4BCEBAD98A3AD7CD"
+			tasks: [{
+				id: "099E6A1E3648C352"
+				item: "beachparty:pumpkin_cocktail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1656EFA1908D51DB"]
+			id: "24690103182ABC5C"
+			tasks: [{
+				id: "7FB54D124BC7C179"
+				item: "beachparty:melon_cocktail"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1656EFA1908D51DB"]
+			id: "284250FF5DF862C3"
+			tasks: [{
+				id: "474C261B1E29A0D4"
+				item: "beachparty:honey_cocktail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "1046B14735629E57"
+			subtitle: "可将水变成细雪"
+			tasks: [{
+				id: "6B0A14445C1D3742"
+				item: "beachparty:mini_fridge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "4934D20486564D81"
+			subtitle: "来一场游戏吧！"
+			tasks: [
+				{
+					id: "58FA2DBC4286412C"
+					item: "beachparty:beach_goal"
+					type: "item"
+				}
+				{
+					id: "520DF69DCB708444"
+					item: "beachparty:beach_ball"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "0AA905956056A998"
+			tasks: [{
+				id: "3C81AABBD2DE2C11"
+				item: "beachparty:floaty_boat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "7F67191EA81BD266"
+			tasks: [{
+				id: "10A5E332C22BDDE9"
+				item: {
+					Count: 1
+					id: "beachparty:beach_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "52BFB4508CBFA13A"
+			tasks: [{
+				id: "131F9294B2E150CE"
+				item: {
+					Count: 1
+					id: "beachparty:swim_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "45F7255F24844F16"
+			tasks: [{
+				id: "7435946B0AA23D13"
+				item: {
+					Count: 1
+					id: "beachparty:bikini"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "60770D9F51CF0EFC"
+			tasks: [{
+				id: "63CCED1BD4124988"
+				item: {
+					Count: 1
+					id: "beachparty:sunglasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "16F127225BFBA352"
+			tasks: [{
+				id: "2E3B942C9E99B3A5"
+				item: {
+					Count: 1
+					id: "beachparty:trunks"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "3DD4A6C7D7A43420"
+			tasks: [{
+				id: "203FCF792CFC6B78"
+				item: {
+					Count: 1
+					id: "beachparty:crocs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "5D29C28797BD6CEE"
+			subtitle: "用这个桶右键沙子可获得满沙桶"
+			tasks: [{
+				id: "62E510C0BA698291"
+				item: "beachparty:sand_bucket_empty"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "36F6B792CC823B0A"
+			tasks: [{
+				id: "5AF817EEA294D4C5"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_stripped"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "1B6223C436D9CFC2"
+			tasks: [{
+				id: "388A53F3987CEDDD"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_axolotl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "4000D1892D9BA086"
+			tasks: [{
+				id: "296CF55F275A1E01"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_pelican"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "3A227BAB65EFA17C"
+			tasks: [{
+				id: "16150EC1B1A2E8E3"
+				item: {
+					Count: 1
+					id: "beachparty:rubber_ring_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D29C28797BD6CEE"]
+			id: "5190033A14C2F6F0"
+			subtitle: "右键地面可堆砌沙堡"
+			tasks: [{
+				id: "589BDFF8CEED6A5A"
+				item: "beachparty:sand_bucket_filled"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "7218C58B5B7C65EB"
+			subtitle: "完成沙滩派对所有成就的奖励"
+			tasks: [{
+				id: "54810547BE55F052"
+				item: "beachparty:beachparty_banner"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3F0E8CAB22F2B855"
+				"7F67191EA81BD266"
+				"284250FF5DF862C3"
+				"526CE42048DC7498"
+				"287E579527FFF0D9"
+				"3602318545494C03"
+				"752EDCE4D45A5D42"
+				"4000D1892D9BA086"
+				"3DD4A6C7D7A43420"
+				"3A227BAB65EFA17C"
+				"60770D9F51CF0EFC"
+				"431479DB7E7A9CA9"
+				"24690103182ABC5C"
+				"332D34B57370B0F4"
+				"4BCEBAD98A3AD7CD"
+				"63F3F2A821EDF9D0"
+				"66BDB5566B61A46C"
+				"4934D20486564D81"
+				"52BFB4508CBFA13A"
+				"6D0050F8F3CF111C"
+				"36F6B792CC823B0A"
+				"0A6927A5C118A1BA"
+				"0AA905956056A998"
+				"1046B14735629E57"
+				"4FBC27EBD50B21AB"
+				"3C24339F94FE7DB2"
+				"45F7255F24844F16"
+				"16F127225BFBA352"
+				"1B6223C436D9CFC2"
+				"5D29C28797BD6CEE"
+				"15D25859C14FB27A"
+				"2B3013957E3ECEA4"
+			]
+			hide_dependency_lines: true
+			icon: "beachparty:radio"
+			id: "1A73DB1694E7D37E"
+			rewards: [
+				{
+					command: "/titles @s justlevelingfork:beach set true"
+					elevate_perms: true
+					icon: "exposure:developed_black_and_white_film"
+					id: "33369F84B2FB6F20"
+					team_reward: false
+					title: "称号"
+					type: "command"
+				}
+				{
+					id: "02EB3F8896CC660A"
+					item: "armamentarium:guardian_whetstone"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "533A92BEC29C9E7A"
+					item: "farmingtales:gold_pufferfish"
+					team_reward: false
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "78E6AC4894E6F568"
+				type: "checkmark"
+			}]
+			title: "收集任务[沙滩派对]"
+			x: 5.5d
+			y: 2.0d
+		}
+	]
+	title: "沙滩派对"
+}
